@@ -1,7 +1,7 @@
 ---
 description: The encyclopedia of KLYNTAR digital ecosystem
 cover: .gitbook/assets/Venom.jpg
-coverY: 0
+coverY: 279.01554404145077
 ---
 
 # 👽 MasteringKlyntar
