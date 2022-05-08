@@ -1,5 +1,7 @@
 ---
 description: Why we've decided to create Klyntar
+cover: .gitbook/assets/Knull.jpg
+coverY: 204.559585492228
 ---
 
 # 🎯 Motivation
