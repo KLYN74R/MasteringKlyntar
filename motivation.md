@@ -17,7 +17,7 @@ In development process we have been using the newest and best available technolo
 Let's start our journey!\
 \
 \
-[_**VladArtem**_](https://app.gitbook.com/u/PDGFjLOQOzVeSCp2z465cFbzObz1)_****_
+[_<mark style="color:purple;">**VladArtem**</mark>_](https://app.gitbook.com/u/PDGFjLOQOzVeSCp2z465cFbzObz1)_<mark style="color:purple;">****</mark>_
 
 
 
