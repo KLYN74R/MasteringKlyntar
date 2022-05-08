@@ -6,7 +6,7 @@ coverY: 204.559585492228
 
 # 🎯 Motivation
 
-![](.gitbook/assets/KLY\_LOGO.png)
+![Become the part of better world!](.gitbook/assets/KLY\_LOGO.png)
 
 Since early ages I'm in love with crypto industry. Among tons of hustlers who are here only because of money & gambling, I(and our _**@KlyntarTeam**_) really appreciate impact of valuable projects which brings improvements to our world. Instead of being 26899_th_ scam NFT or 5684_th we also want to be useful by creating our project. We've started Klyntar with **@ushkoff**_ at 16 as NewNews, but during development process everyone has been proposing a lot of improvements, so very soon we've decided to replan our initial intentions and create more general propose project.\
 \
