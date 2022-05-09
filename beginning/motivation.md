@@ -1,12 +1,12 @@
 ---
 description: Why we've decided to create Klyntar
-cover: .gitbook/assets/Anti.jpg
+cover: ../.gitbook/assets/Anti.jpg
 coverY: 0
 ---
 
 # 🎯 Motivation
 
-![Become the part of better world!](.gitbook/assets/KLY\_LOGO.png)
+![Become the part of better world!](../.gitbook/assets/KLY\_LOGO.png)
 
 Since early ages I'm in love with crypto industry. Among tons of hustlers who are here only because of money & gambling, I(and our <mark style="color:purple;"></mark> [_<mark style="color:purple;">**@KlyntarTeam**</mark>_](https://github.com/klyntarteam)) really appreciate impact of valuable projects which brings improvements to our world. Instead of being 26899_th_ scam NFT or 5684_th we also want to be useful by creating our project. We've started Klyntar with_ [_<mark style="color:purple;">**@ushkoff**</mark>_](https://github.com/ushkoff) at 16 as NewNews, but during development process everyone has been proposing a lot of improvements, so very soon we've decided to replan our initial intentions and create more general propose project.\
 \
