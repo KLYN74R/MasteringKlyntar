@@ -3,7 +3,7 @@
 * [👽 MasteringKlyntar](README.md)
   * [📃 The MIT License](readme/license.md)
 
-## Beginning
+## 🛰 Beginning
 
 * [🎯 Motivation](beginning/motivation.md)
 * [👁 Overview](beginning/overview.md)

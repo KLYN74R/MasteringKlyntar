@@ -1,3 +1,8 @@
+---
+cover: ../.gitbook/assets/MOSHED-2022-1-1-22-31-2.gif
+coverY: 0
+---
+
 # 📃 The MIT License
 
 Copyright © 2022, [<mark style="color:purple;">Vlad Chernenko@KLYNTAR</mark>](https://klyntar.org)<mark style="color:purple;"></mark>
