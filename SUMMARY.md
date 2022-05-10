@@ -16,3 +16,4 @@
   * [🤫 Secret sharing](beginning/cryptography/secret-sharing.md)
   * [⚡ Post quantum cryptography](beginning/cryptography/post-quantum-cryptography.md)
   * [😵 Homomorphic schemes](beginning/cryptography/homomorphic-schemes.md)
+  * [🤔 Zero Knowledge Proofs](beginning/cryptography/zero-knowledge-proofs.md)
