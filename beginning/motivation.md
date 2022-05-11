@@ -1,7 +1,7 @@
 ---
 description: Why we've decided to create Klyntar
-cover: ../.gitbook/assets/Anti.jpg
-coverY: 0
+cover: ../.gitbook/assets/7750c6e98043f76fca0a058711397aac.jpg
+coverY: 378.03108808290153
 ---
 
 # 🎯 Motivation
