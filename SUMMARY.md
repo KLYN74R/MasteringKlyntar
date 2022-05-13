@@ -22,6 +22,7 @@
   * [🧬 Symbiotes](beginning/architecture/page-2.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows.md)
+* [🤖 Services](beginning/services.md)
 * [👾 Antivenom(testnet)](beginning/antivenom-testnet/README.md)
   * [Intro](beginning/antivenom-testnet/intro.md)
   * [Page 4](beginning/antivenom-testnet/page-4.md)
