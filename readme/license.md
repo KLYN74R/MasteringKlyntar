@@ -1,6 +1,6 @@
 ---
-cover: ../.gitbook/assets/MOSHED-2022-1-1-22-31-2.gif
-coverY: 0
+cover: ../.gitbook/assets/Venom.jpg
+coverY: -0.7772020725388601
 ---
 
 # 📃 The MIT License
