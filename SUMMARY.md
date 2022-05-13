@@ -40,5 +40,6 @@
 * [🏅 Best practices](beginning/best-practices.md)
 * [👍 Other amazing projects(coming soon)](beginning/other-amazing-projects-coming-soon.md)
 * [🪙 Pseudo ICO](beginning/pseudo-ico.md)
+* [🆕 Releases](beginning/releases.md)
 * [⚛ Quantum stuff](beginning/quantum-stuff.md)
 * [🇸🇴 Social media](beginning/social-media.md)
