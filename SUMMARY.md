@@ -36,4 +36,5 @@
 * [👓 Monitors](beginning/monitors.md)
 * [🤝 Adapters](beginning/adapters.md)
 * [🖖 Connectors](beginning/connectors.md)
-* [🏅 Best practises](beginning/best-practises.md)
+* [🏅 Best practices](beginning/best-practices.md)
+* [👍 Other amazing projects(coming soon)](beginning/other-amazing-projects-coming-soon.md)
