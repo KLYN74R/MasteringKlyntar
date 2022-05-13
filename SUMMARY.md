@@ -32,3 +32,4 @@
 * [🌚 Apollo](beginning/apollo.md)
 * [⚙ Runners](beginning/runners.md)
 * [🔌 Plugins](beginning/plugins.md)
+* [🛑 Filters](beginning/filters.md)
