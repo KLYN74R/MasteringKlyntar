@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/tumblr_nen2gf7fAf1ssby0io1_1280.gif
+cover: ../../.gitbook/assets/DeterminedEssentialHoki-size_restricted.gif
 coverY: 0
 ---
 
