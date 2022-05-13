@@ -29,6 +29,7 @@
   * [KLY\_Essences](beginning/codereview/kly\_essences.md)
   * [KLY\_Hostchains](beginning/codereview/kly\_hostchains.md)
   * [KLY\_Workflow](beginning/codereview/kly\_workflow.md)
+* [🛸 Unobtanium](beginning/unobtanium.md)
 * [🌚 Apollo](beginning/apollo.md)
 * [⚙ Runners](beginning/runners.md)
 * [🔌 Plugins](beginning/plugins.md)
@@ -39,3 +40,5 @@
 * [🏅 Best practices](beginning/best-practices.md)
 * [👍 Other amazing projects(coming soon)](beginning/other-amazing-projects-coming-soon.md)
 * [🪙 Pseudo ICO](beginning/pseudo-ico.md)
+* [⚛ Quantum stuff](beginning/quantum-stuff.md)
+* [🇸🇴 Social media](beginning/social-media.md)
