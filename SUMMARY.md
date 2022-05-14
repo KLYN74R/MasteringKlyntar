@@ -58,4 +58,5 @@
   * [🌐 Web23](beginning/releases/web23.md)
 * [📈 CIIPs](beginning/ciips.md)
 * [⚛ Quantum stuff](beginning/quantum-stuff.md)
+* [👮 Basic Security](beginning/basic-security.md)
 * [🇸🇴 Social media](beginning/social-media.md)
