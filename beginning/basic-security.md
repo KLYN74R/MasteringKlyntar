@@ -2,6 +2,9 @@
 description: >-
   How we'll keep our accounts & infrastructure & your quiet life and assets
   secured(on non chain level)
+cover: >-
+  ../.gitbook/assets/asus-rog-republic-of-gamers-cyberpunk-asus-zephyrus-wallpaper-2400x1350_50.jpg
+coverY: 400
 ---
 
 # 👮 Basic Security
