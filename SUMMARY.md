@@ -25,7 +25,7 @@
 * [🤖 Services](beginning/services.md)
 * [👾 Antivenom(testnet)](beginning/antivenom-testnet/README.md)
   * [Intro](beginning/antivenom-testnet/intro.md)
-  * [2 Alternatives](beginning/antivenom-testnet/alternatives.md)
+  * [2 Alternatives](beginning/antivenom-testnet/page-4.md)
 * [🧑💻 CodeReview](beginning/codereview/README.md)
   * [KLY\_Addons](beginning/codereview/kly\_addons.md)
   * [KLY\_Blocks](beginning/codereview/kly\_blocks.md)
