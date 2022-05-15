@@ -12,7 +12,7 @@
   * [🛡 Symmetric ciphers](beginning/cryptography/symmetric-ciphers.md)
   * [#⃣ Hash functions](beginning/cryptography/hash-functions.md)
   * [🔐 Keypairs](beginning/cryptography/keypairs.md)
-  * [🔏 Multisignatures](beginning/cryptography/multisignatures.md)
+  * [🔏 Multi/Threshold/Aggregated signatures](beginning/cryptography/multi-threshold-aggregated-signatures.md)
   * [🤫 Secret sharing](beginning/cryptography/secret-sharing.md)
   * [⚡ Post quantum cryptography](beginning/cryptography/post-quantum-cryptography.md)
   * [😵 Homomorphic schemes](beginning/cryptography/homomorphic-schemes.md)
