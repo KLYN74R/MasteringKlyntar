@@ -4,7 +4,7 @@ cover: .gitbook/assets/MOSHED-2022-1-1-22-31-2.gif
 coverY: 0
 ---
 
-# 👽 MasteringKlyntar
+# 👁🗨 MasteringKlyntar
 
 ![](.gitbook/assets/MOSHED-2022-1-1-22-31-2.gif)
 

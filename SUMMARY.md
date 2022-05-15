@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👽 MasteringKlyntar](README.md)
+* [👁🗨 MasteringKlyntar](README.md)
   * [📃 The MIT License](readme/license.md)
 
 ## 🛰 Beginning
@@ -19,10 +19,11 @@
   * [🤔 Zero Knowledge Proofs](beginning/cryptography/zero-knowledge-proofs.md)
 * [🏗 Architecture](beginning/architecture/README.md)
   * [☕ General](beginning/architecture/page-1.md)
-  * [🧬 Symbiotes](beginning/architecture/page-2.md)
+  * [👽 Symbiotes](beginning/architecture/page-2.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows.md)
 * [🤖 Services](beginning/services.md)
+* [🧬 Mutation](beginning/mutation.md)
 * [👾 Antivenom(testnet)](beginning/antivenom-testnet/README.md)
   * [✴ Intro](beginning/antivenom-testnet/intro.md)
   * [2 Alternatives](beginning/antivenom-testnet/page-4.md)
