@@ -17,3 +17,7 @@ It's a collection of useful explainations of code snippets,patterns,mechanisms o
 
 platforms to find out more!
 {% endhint %}
+
+{% hint style="warning" %}
+It's still non release version
+{% endhint %}
