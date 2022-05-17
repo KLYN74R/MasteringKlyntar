@@ -28,6 +28,7 @@
   * [⁉ Rules](beginning/services/rules.md)
   * [💾 Milestones](beginning/services/milestones.md)
   * [✈ Intentions](beginning/services/intentions.md)
+  * [🔎 Audits](beginning/services/audits.md)
 * [🧬 Mutations](beginning/mutations.md)
 * [👾 Antivenom(testnet)](beginning/antivenom-testnet/README.md)
   * [✴ Intro](beginning/antivenom-testnet/intro.md)
