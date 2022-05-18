@@ -7,7 +7,7 @@
 
 * [🎯 Motivation](beginning/motivation.md)
 * [👁 Overview](beginning/overview.md)
-* [🧠 Distress from Cleverness](beginning/distress-from-cleverness.md)
+* [🧠 Woe from Wit](beginning/woe-from-wit.md)
 * [🔑 Cryptography](beginning/cryptography/README.md)
   * [🛡 Symmetric ciphers](beginning/cryptography/symmetric-ciphers.md)
   * [#⃣ Hash functions](beginning/cryptography/hash-functions.md)
