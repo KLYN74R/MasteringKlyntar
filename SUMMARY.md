@@ -17,6 +17,7 @@
   * [⚡ Post quantum cryptography](beginning/cryptography/post-quantum-cryptography.md)
   * [😵 Homomorphic schemes](beginning/cryptography/homomorphic-schemes.md)
   * [🤔 Zero Knowledge Proofs](beginning/cryptography/zero-knowledge-proofs.md)
+  * [🌀 Ring Signatures](beginning/cryptography/ring-signatures.md)
 * [🏗 Architecture](beginning/architecture/README.md)
   * [☕ General](beginning/architecture/page-1.md)
   * [👽 Symbiotes](beginning/architecture/page-2.md)

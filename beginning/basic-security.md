@@ -16,3 +16,9 @@ This is some kind of report+maybe you can use this tips in your practise.But we 
 Here's how it looks like
 
 ![](../.gitbook/assets/photo\_2022-05-18\_07-59-31.jpg)
+
+{% file src="../.gitbook/assets/VladChernenko.pubgpg" %}
+
+{% hint style="info" %}
+Go to [https://www.gnupg.org/gph/en/manual/x56.html](https://www.gnupg.org/gph/en/manual/x56.html) to get the help if you need
+{% endhint %}
