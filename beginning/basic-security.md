@@ -15,7 +15,7 @@ This is some kind of report+maybe you can use this tips in your practise.But we 
 
 Here's how it looks like
 
-![](../.gitbook/assets/photo\_2022-05-18\_07-59-31.jpg)
+![](../.gitbook/assets/photo\_2022-05-18\_07-59-31.jpg) ![](../.gitbook/assets/photo\_2022-05-20\_05-44-30.jpg)
 
 {% file src="../.gitbook/assets/VladChernenko.pubgpg" %}
 
