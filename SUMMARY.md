@@ -67,5 +67,6 @@
 * [📈 CIIPs](beginning/ciips.md)
 * [💱 Information for exchanges](beginning/information-for-exchanges.md)
 * [⚛ Quantum stuff](beginning/quantum-stuff.md)
+* [🍕 Contributions](beginning/contributions.md)
 * [👮 Basic Security](beginning/basic-security.md)
 * [🇸🇴 Social media](beginning/social-media.md)
