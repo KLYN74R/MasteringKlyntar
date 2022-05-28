@@ -35,5 +35,28 @@ Reading the previous section, you might have wondered: “Well, ok, what if one 
 
 ### Git and hashes
 
+Currently, Git uses SHA-1 hashes by default, but since version 2.29, [_<mark style="color:purple;">experimental support</mark>_](https://www.infoq.com/news/2020/10/git-2-29-sha-256/) for switching to SHA-256 has begun. This is very important because the same link contains implementation and PoC attacks when [_<mark style="color:purple;">two different files will generate the same hash</mark>_](https://shattered.it/).
 
+&#x20;                                                 ![](<../.gitbook/assets/image (1).png>)
 
+Although this is not critically scary, as some publications shout about it, nevertheless, questions about the reliability of SHA-1 have been of interest to people in our industry for several years now. Therefore, although GitHub is still giving an error about accepting repositories with SHA-256 hashes, repositories of plugins, services, and so on that will be distributed outside hosting platforms (and therefore, regardless of whether this platform supports innovations or not) can use SHA- 256 as a hash function of the commits. We have already tested and no problems have arisen
+
+![](<../.gitbook/assets/image (3).png>)
+
+At the same time, you can still sign the repository hash with third-party keys and create your own acceptance rules. For example, a service repository can only be accepted by the nodes if it is signed by the Ed25519 key pair of the service creator and the largest service token hodler, or if the acceptance of the repository supports more than 2/3 of the service validator signatures and other rules that you can create yourself.
+
+### Accounts
+
+### Access to accounts for 3rd party apps & bots
+
+### What about contributors?
+
+### Self-sustaining security with symbiotes
+
+### How the Continental release will help here?
+
+###
+
+###
+
+###
