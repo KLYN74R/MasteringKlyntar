@@ -66,7 +66,7 @@ Since the data will come from different sources, it is advisable to convert them
 
 As you can see, Klyntar is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Workflows typical for blockchain projects are based on them: transactions and their non-rollback are fixed, stakes are burned and frozen, and other on-chain events are held. Soon you will learn how it all works, but for now it is important to know that the interaction between these two components works thanks to connectors that determine the logic of the blockchain events - somewhere you have to wait for 2 Bitcoin blocks and finalization on Solana, somewhere one Litecoin block and several ledgers are enough on XRP. I hope you are interested, so run to read)
 
@@ -80,18 +80,36 @@ Find out more about other upcoming projects and projects already in development
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Pseudo ICO</mark>](pseudo-ico.md)<mark style="color:red;"></mark>
 
-
+Learn more about how we decided to do the initial giveaway. No, this is not just a pre-sale in several stages. We guarantee a real decentralized distribution with the participation of other chains, Bitcoin & Ethereum miners, stakers of various projects, and so on, and the distribution itself will take place according to some quantum paradox - we will literally be able to influence the past. Recommended for reading at least for general acquaintance + understanding of who will become the first holders of our resources
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Releases</mark>](releases.md)<mark style="color:red;"></mark>
 
+As part of the roadmap, of course, important updates are planned. We decided to give some information about the nearest of them. Each of the releases represents an important milestone in the development of the capabilities of Klyntar and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
+
 ### <mark style="color:red;"></mark>[<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](ciips.md)<mark style="color:red;"></mark>
+
+Klyntar is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving Klyntar. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges.md)<mark style="color:red;"></mark>
 
+In this section, exchanges and other large providers can get all the necessary information regarding setting up their infrastructures
+
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Quantum stuff</mark>](quantum-stuff.md)<mark style="color:red;"></mark>
+
+One of my hobbies and passions is the wonderful world of quantum mechanics. In this section, the team will share their thoughts on the era of quantum computing and the role of cryptocurrencies in it
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Info for contributors</mark>](contributions.md)<mark style="color:red;"></mark>
 
+A little guidance and information for those who are going to become a Klyntar contributor
+
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Basic security</mark>](basic-security.md)<mark style="color:red;"></mark>
 
+Network security is one thing, quite another is when attacks occur through other channels. In the best case, the security guards find out about the oversight and promptly correct it, in the worst case, a post about the <mark style="color:purple;">TOP DROP appears on the pages in social networks, SO SEND ME COINS, AND I WILL RESPOND TO YOU x2</mark>. It seems ridiculous they say "who are the suckers who are being conducted", but that's just the accounts / sites of even large projects are amenable to attacks. As an example, the latest [_<mark style="color:red;">attacks on Bored Ape accounts on Instagram</mark>_](https://www.theverge.com/2022/4/25/23041415/bored-ape-yacht-club-nft-hack-instagram) are recalled, or, for example, the [_<mark style="color:red;">case when the following appeared on the Twitter accounts of Gates, Musk and other famous people</mark>_](https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html)_<mark style="color:red;"></mark>_
+
+![It's funny, of course, but not for those who actually sent something](<../.gitbook/assets/image (3).png>)
+
+Since we do not need this, we recommend that you read this chapter to understand how KlyntarTeam will deal with this. In the end, they were not going to attack those)
+
 ### [<mark style="color:red;">Social media</mark>](social-media.md)<mark style="color:red;"></mark>
+
+Our social media links & other content
