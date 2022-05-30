@@ -5,4 +5,4 @@ coverY: 15.975820379965459
 
 # 🌚 Apollo
 
-![](../.gitbook/assets/image.png)
+![Make sure build was successful if you see this in console](<../.gitbook/assets/image (1).png>)
