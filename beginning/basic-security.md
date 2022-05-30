@@ -37,7 +37,7 @@ Reading the previous section, you might have wondered: “Well, ok, what if one 
 
 Currently, Git uses SHA-1 hashes by default, but since version 2.29, [_<mark style="color:purple;">experimental support</mark>_](https://www.infoq.com/news/2020/10/git-2-29-sha-256/) for switching to SHA-256 has begun. This is very important because the same link contains implementation and PoC attacks when [_<mark style="color:purple;">two different files will generate the same hash</mark>_](https://shattered.it/).
 
-&#x20;                                                 ![](<../.gitbook/assets/image (1).png>)
+&#x20;                                                 ![](<../.gitbook/assets/image (1) (1).png>)
 
 Although this is not critically scary, as some publications shout about it, nevertheless, questions about the reliability of SHA-1 have been of interest to people in our industry for several years now. Therefore, although GitHub is still giving an error about accepting repositories with SHA-256 hashes, repositories of plugins, services, and so on that will be distributed outside hosting platforms (and therefore, regardless of whether this platform supports innovations or not) can use SHA- 256 as a hash function of the commits. We have already tested and no problems have arisen
 
