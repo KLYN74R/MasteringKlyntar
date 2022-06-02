@@ -65,6 +65,7 @@
   * [🌪 Ragnarök](beginning/releases/ragnaroek.md)
   * [🌐 Web23](beginning/releases/web23.md)
 * [📈 CIIPs](beginning/ciips.md)
+* [🚀 Running your infrastructure](beginning/running-your-infrastructure.md)
 * [💱 Information for exchanges](beginning/information-for-exchanges.md)
 * [⚛ Quantum stuff](beginning/quantum-stuff.md)
 * [🍕 Contributions](beginning/contributions.md)
