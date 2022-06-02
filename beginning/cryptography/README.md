@@ -21,5 +21,5 @@ _<mark style="color:purple;">****</mark>_All crypto algorithms on Klyntar are:
 
 * Open source(obviously)
 * Taken from official builds(e.g. native modules,libs and so on)
-* Written by well known companies(e.g. this [_<mark style="color:red;">repo</mark>_](https://github.com/cloudflare/circl) by CloudFlare experts)
+* Written by well known companies(e.g. this [_<mark style="color:red;">repo</mark>_](https://github.com/cloudflare/circl) by CloudFlare experts or [_<mark style="color:red;">this</mark>_](https://github.com/coinbase/kryptology) by Coinbase)
 * Tested following Diverse Double-Compiling scheme(like placebo against Thompson attack**.**[_<mark style="color:red;">Read more</mark>_](https://www.awelm.com/posts/evil-compiler/)). We've found at least several implementations of the same algorithm and tested them to compare that results will be the same and different authors haven't bugs.&#x20;
