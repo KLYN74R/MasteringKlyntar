@@ -6,4 +6,4 @@ coverY: 60.2615518744551
 
 # 🌚 Apollo
 
-![Make sure build was successful if you see this in console](<../.gitbook/assets/image (1).png>)
+![Make sure build was successful if you see this in console](<../.gitbook/assets/image (1).png>) ![...and after building addons](../.gitbook/assets/photo\_2022-06-04\_11-55-04.jpg)
