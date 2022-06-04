@@ -13,6 +13,7 @@
   * [👽 Symbiotes](beginning/architecture/page-2.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows.md)
+  * [🏛 Social consensus](beginning/architecture/social-consensus.md)
 * [🔑 Cryptography](beginning/cryptography/README.md)
   * [🛡 Symmetric ciphers](beginning/cryptography/symmetric-ciphers.md)
   * [#⃣ Hash functions](beginning/cryptography/hash-functions.md)
