@@ -1,7 +1,7 @@
 # Table of contents
 
 * [👁🗨 MasteringKlyntar](README.md)
-  * [📃 The MIT License](readme/license.md)
+  * [📃 The Apache-2.0 license](readme/license.md)
 
 ## 🛰 Beginning
 
