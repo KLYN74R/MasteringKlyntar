@@ -10,6 +10,7 @@ The next important component are hash functions. For Klyntar we'll use set of fu
 
 * BLAKE3 (256 bits with further potential extending to 512 bits)
 * SHA-256
+* SHA3
 
 ### BLAKE3
 
@@ -20,5 +21,7 @@ BLAKE3 was choosen as main candidate to be used as lead hash function for gettin
 Insofar as BLAKE3 supports XOF mode i.e. output length of hash might be variable(like in SHAKE hashing scheme). This is important in case of using them as quantum secure alternative to 128 or 256 bits schemes which can be abused by Grover or BHT algorithms in case of collision found what will be dangerous to cross-symbiotes quantum swaps(read more at [quantum-stuff.md](../quantum-stuff.md "mention")).
 
 BLAKE3 will be used on kNULL symbiote by [<mark style="color:red;">dev@controller</mark>](../architecture/workflows.md) workflow. However, thanksfully to [<mark style="color:red;">Mutation mechanisms</mark>](../mutations.md) <mark style="color:red;"></mark> developers of other workflows,operators of nodes in other symbiotes will have ability to use any function they want which will be presented in official repository or developed/distributed by 3rd parties via alternative channels.
+
+\*SHA3 in LRS
 
 ### Ripped hashes concept
