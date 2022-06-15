@@ -25,6 +25,7 @@
   * [🤔 Zero Knowledge Proofs](beginning/cryptography/zero-knowledge-proofs.md)
   * [🌀 Ring Signatures](beginning/cryptography/ring-signatures.md)
   * [🕵 VRF](beginning/cryptography/vrf.md)
+  * [🎁 Other](beginning/cryptography/other.md)
 * [🤖 Services](beginning/services/README.md)
   * [🤩 Intro](beginning/services/intro.md)
   * [🏭 Architecture](beginning/services/architecture.md)
