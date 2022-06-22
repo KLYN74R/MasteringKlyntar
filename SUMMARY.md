@@ -45,7 +45,6 @@
   * [🎆 Workflow](beginning/codereview/workflow.md)
 * [🛸 Unobtanium](beginning/unobtanium.md)
 * [🌚 Apollo](beginning/apollo.md)
-* [🌚 Apollo](<beginning/apollo (1).md>)
 * [⚙ Runners](beginning/runners.md)
 * [🔌 Plugins](beginning/plugins.md)
 * [🛑 Filters](beginning/filters.md)
