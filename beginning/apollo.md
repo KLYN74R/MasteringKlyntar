@@ -22,19 +22,12 @@ description: The detailed overview of our CLI & UI tool to control your KLY empi
 
 ### ⚡ Short intro
 
-\
-
-
 We're happy to present you Apollo - our powerful CLI & UI tool to control your KLYNTAR infrastructure. With this tool you can do everything - use it as wallet, interact with decentralized services, control your Unobtanium sources, deep dive into Cryptoland-our amazing collection of crypto algorithms available on KLYNTAR.
 
-\
 \
 
 
 ### 🏗️ How to build
-
-\
-
 
 As you've seen, KLYNTAR is in symbiotic relationship with other blockchains. By running different nodes of other projects, working with tools required by them, the most auful & irritating problem was problem with initial setup - misconfigs, old docs, semver mistakes, nightly versions and so on. That's why, we've prepared docker images to allow you to be sure that you'll have 100% succesful setup. So,let's start 🚀
 
@@ -48,10 +41,6 @@ klyntar@apollo:~# docker -v
 Docker version 20.10.14, build a224086
 ```
 
-\
-\
-
-
 #### **Download the image**
 
 We present you our first image [klyntar/all\_in\_one](https://hub.docker.com/repository/docker/klyntar/all\_in\_one). This is universal image with preinstalled Node.js, Go , Python and some tools like `pnpm` , `node-gyp`, `git` and so on. We've created it to save your time and nervous system. This is the base layer for all our Dockerfiles(at least for core and Apollo). The aproximate compressed size is 606M. Also, in our repository [KlyntarBaseImages](https://github.com/KLYN74R/KlyntarBaseImage) you can find the sources of all base-layer Dockerfiles, so you can clone and build it yourself or find the bash build script and so through the process to install requirements to your host machine. But anyway,we recomend you to use containers.
@@ -63,8 +52,6 @@ We present you our first image [klyntar/all\_in\_one](https://hub.docker.com/rep
 docker pull klyntar/all_in_one@sha256:dff001a9cd3da6328c504b52ed8a5748c47d23219feae220930dac1c1981cfe7
 ```
 
-\
-\
 
 
 #### **Run container**
@@ -78,10 +65,6 @@ This is the most default & simple way. If you need,you can manually do this with
 ```shell
 docker run -dtp 9691:9691 --name test_kly klyntar/all_in_one@sha256:dff001a9cd3da6328c504b52ed8a5748c47d23219feae220930dac1c1981cfe7
 ```
-
-\
-\
-
 
 #### **Final**
 
@@ -118,27 +101,15 @@ pnpm run build
 
 ![](https://i.pinimg.com/originals/d0/63/09/d063096ba4e07795c1bdf98572cb79a8.gif)
 
-#### The signs that build was succesful are messages to console like this
-
-\
-\
-
+#### &#x20;The signs that build was succesful are messages to console like this
 
 ![](https://2131090630-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FdewG1SQftz0ndvmG4fNa%2Fimage.png?alt=media\&token=ad2710a7-0fd1-43cb-ad80-62e78badb989)
 
 #### ...and this
 
-\
-\
-
-
 ![](https://2131090630-files.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FL3RavrjoA7nktQKFfV3i%2Fphoto\_2022-06-04\_11-55-04.jpg?alt=media\&token=6363785e-a243-4f98-80ca-5ee83b97da87)
 
 #### Now try to run. You should see the following
-
-\
-\
-
 
 ![](https://user-images.githubusercontent.com/53381472/174460136-49cbf58b-fe08-4952-81b2-3b6e13d96444.jpg)
 
