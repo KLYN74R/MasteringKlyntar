@@ -36,7 +36,7 @@ Services are your separate projects that will run in parallel with symbiotes and
 
 You build and deploy your service to the network following certain rules. For example, Apollo has a service command that provides functionality for building service metadata, searching for services over the network (to download them locally and also become a node that supports the service), for scanning services for malware (encryptors, loaders, stagers for exploits, etc. .d.)
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 So, after you create your service, you can deploy it to the network. The nodes accept an archive or links, and then a _<mark style="color:red;">**runner**</mark>_ comes into play - a service handler that decides whether it is worth launching the service in principle, whether you trust the author or whether he is included in your trust tree, whether enough anti-virus centers have checked this repository, what is the subject of this service (maybe you want to support only services that are aimed at privacy) and much more.
 
@@ -85,7 +85,7 @@ Here is a second example of a service. Here again you can see the possibilities 
 * Nodes scouts
 * Nodes coordinators
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 Here is an example of a service that allows you to transfer NFTs, tokens and other resources between networks and at the same time, scout nodes bring certain additional functions. For example, he can see that if someone tries to sell your service tokens on Avalanche (we just called them WKLY, but you can have your own name) to the contract address, which is also some kind of token, then the scout nodes will see this event , scan the contract, find out the information, and if, for example, this is some kind of scam project, then the tokens after your sale to the attacker’s contract will be blocked and the scammer will not receive anything.
 

@@ -126,9 +126,9 @@ Next, we skip the animations and move on to the important. Below you can see how
 
 At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 
@@ -146,7 +146,7 @@ Although this will happen in a random order, we still assume that the creation o
 
 This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 ### <mark style="color:red;">**Common components for symbiotes**</mark>
 
@@ -154,7 +154,7 @@ As mentioned earlier, there are a number of common elements for symbiotes
 
 <mark style="color:yellow;">**Server**</mark>
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 {% embed url="https://github.com/uNetworking/uWebSockets.js" %}
 

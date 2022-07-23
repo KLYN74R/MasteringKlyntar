@@ -64,7 +64,7 @@ By reading the documentation further or looking at the code on GitHub, you will 
 
 For example, the directory for interacting with hostchains looks like this:
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (1).png>)
 
 Directory with workflows:
 
