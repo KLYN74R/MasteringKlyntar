@@ -27,3 +27,7 @@ However, before starting reading serious docks further, I will still clarify
 
 ![](https://readme-typing-svg.herokuapp.com/?font=Major+Mono+Display\&size=44\&color=C20000\&vCenter=true\&width=450\&lines=Klyntar+is+...)
 
+_<mark style="color:yellow;">**A project that relies on the security of the entire crypto industry**</mark>_
+
+KLYNTAR has a symbiotic architecture consisting of parallel and perpendicular blockchains, due to which it is not a single monochain, but many different micro chains (so-called _<mark style="color:red;">**symbiotes**</mark>_) that do not rely on some central "main" chain (commonly called a beacon chain (ETH 2.0 ), relay-chain (Polkadot), master chain, and so on), but rely on the overall security of other blockchains (the so-called _<mark style="color:red;">**hostchains**</mark>_) - on the PoW power of Bitcoin and forks, Ethereum (until they switched to PoS), Zilliqa, ZCash, Monero and many others, on the total value of all assets of the crypto industry, and therefore on stakes in Polkadot, Solana, Avalanche, Algorand and others, on storage volumes of Filecoin, Arweave, Chia, Spectrum and so on.
+
