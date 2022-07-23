@@ -8,23 +8,28 @@ coverY: 468.55958549222805
 
 # 👁 Overview
 
-The encyclopedia includes many sections:
+The encyclopedia includes many sections:\
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Cryptography</mark>](cryptography/)<mark style="color:red;"></mark>
-
-Includes information about the crypto algorithms that will be used on Klyntar. Here you will learn about the reasons for the choice, about where and by whom it will be used and what their role is within the Klyntar processes
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Architecture</mark>](architecture/)<mark style="color:red;"></mark>
 
-Includes a description of the Klyntar architecture. Here we will talk about symbiotes, host chains, how sharding will be provided, cross-symbiote quantum swaps, workflows, thanks to which each symbiote will work according to its own scenario, and many other basic things
+Includes a description of the KLYNTAR architecture. Here we will talk about the main components - about symbiotes and hostchains, about how sharding will be provided (the _<mark style="color:purple;">**sharding-by-default**</mark>_ scheme mentioned in our _<mark style="color:purple;">**WhitePaper v1**</mark>_), cross-symbiote and cross-chain one-way quantum swaps, workflows, thanks to which each symbiote will work according to its own scenario , total parallelization (asynchronous flows of verification and block generation), mental transactions and many other basic things
+
+### [<mark style="color:red;">**Cryptography**</mark>](cryptography/)<mark style="color:red;">****</mark>
+
+Includes information about the crypto algorithms that will be used on KLYNTAR. Here you will learn about the reasons for the choice, about where and by whom it will be used and what their role is within the KLYNTAR processes. You will learn about use cases of various kinds of cryptographic primitives - from symmetric encryption to multi-signature aggregation, the use of ring signatures and post-quantum schemes (PKE in off-chain service processes, NIST candidate signatures of different security levels, etc.), the use of Zero- Knowledge-Proofs mechanisms and much more. No wonder we combined it all under the name _<mark style="color:purple;">**Cryptoland**</mark>_
+
+### <mark style="color:red;">**Native smart-contracts**</mark>
+
+The section is devoted to the description of the work of smart contracts on KLYNTAR. You will learn how to write typical smart contracts, how to use advanced features for your contracts such as API calls, cross-chain logic and off-chain computing, and much more. And considering that our smart contracts are WASM running in a secure sandbox and widely supported by a large community of developers, you will not have any problems since you can write _<mark style="color:purple;">**.wasm**</mark>_ modules in any language that is compiled into WASM and used within the kernel processes KLYNTAR (which is also written in Node.js)
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Services</mark>](services/)<mark style="color:red;"></mark>
 
-Contains a description of the mechanisms of services: from what it is in general, why it is better than typical smart contracts and how it will affect the industry to creating it and making it part of the network!
+It contains a description of the mechanisms of services: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn about cross-chain smart contracts, as well as how to use the capabilities of different blockchains to create new generation smart contracts. Admit it, you have long wanted to create a contract that would use the speed of Solana when necessary, and then, for example, the capabilities of zkSNARK (or in the future zkSTARK) in Polygon rollups? And so that all this is checked not only on native chains, but also has a security layer that would protect the interaction between them and some off-chain features. Or maybe it would be cool to create decentralized applications in any language that you know well (and this is not just about compiling in WASM) + use network calls, choose a storage for data among Filecoin, Arweave or similar services based on KLYNTAR. Access APIs in TOR / I2P networks, use third-party libraries, install validators and executors of your contract yourself, and much more. Well, if you are interested, then we advise you to familiarize yourself)
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Mutations</mark>](mutations.md)<mark style="color:red;"></mark>
 
-Learn about the principle of mutations at Klyntar. Just as they work in nature, at Klyntar they bring constant improvement and positive change. For example, one symbiote could work using one set of asymmetric cryptography algorithms that is fast but takes up more memory, and another set of algorithms with a smaller signature but slower. But this is a simple example. In fact, the mutation mechanism is more complex, but at the same time an extremely useful thing that will be ahead of all other platforms precisely due to its multiplicity
+Learn about the principle of mutations at KLYNTAR. Just as they work in nature, at KLYNTAR they bring constant improvement and positive change. For example, one symbiote could work using one set of asymmetric cryptography algorithms that is fast but takes up more memory, and another set of algorithms with a smaller signature but slower. But this is a simple example. In fact, the mutation mechanism is more complex, but at the same time an extremely useful thing that will be ahead of all other platforms precisely due to its multiplicity
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Antivenom</mark>](antivenom-testnet/)<mark style="color:red;"></mark>
 
@@ -36,11 +41,11 @@ The section contains some descriptions of the individual parts of the Klyntar co
 
 ### [<mark style="color:red;">Unobtanium</mark>](unobtanium.md)<mark style="color:red;"></mark>
 
-Let's start to tell what is unobtanium on Klyntar. It is important for us that hodlers of other cryptocurrencies, token holders of different projects, miners of PoW projects, stakers and other members of the crypto-loyal audience understand how they can use ALL their potential and resources on Klyntar!
+Let's start to tell what is unobtanium on KLYNTAR. It is important for us that hodlers of other cryptocurrencies, token holders of different projects, miners of PoW projects, stakers and other members of the crypto-loyal audience understand how they can use ALL their potential and resources on KLYNTAR!
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Apollo</mark>](apollo.md)<mark style="color:red;"></mark>
 
-Here we describe our CLI (_<mark style="color:purple;">Command Line Interface</mark>_) through which you can manage your entire infrastructure - nodes, clusters, services, and so on. I'm really proud of this tool, because the ecosystem of APIs, plugins, and so on maximizes the possibilities of an already flexible interface. All sorts of redefinitions, modularity, speed and versatility - you will learn about this
+Here we describe our CLI (_<mark style="color:purple;">Command Line Interface</mark>_) through which you can manage your entire infrastructure - nodes, clusters, services, and so on. For example, generating different addresses (for a threshold signature, multisig addresses, post-quantum key pairs), checking service software signatures, voting for something, and so on. I'm really proud of this tool, because the ecosystem of APIs, plugins, and so on maximizes the possibilities of an already flexible interface. All sorts of redefinitions, modularity, performance and versatility - you will learn about this
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Runners</mark>](runners.md)<mark style="color:red;"></mark>
 
@@ -48,7 +53,7 @@ Learn more about the processes from the moment your service is deployed to the n
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Plugins</mark>](plugins.md)<mark style="color:red;"></mark>
 
-Dive into the ecosystem of Klyntar plugins. We can say that the essence of plugins is one of the most useful and important components of the core. Start simple - for example, run custom event logging right at the kernel runtime when your node is running. Then move on to something more complicated - let, for example, the bot catches the most interesting services from the network, their offers, and, depending on your preferences, sends you a notification in Telegram (or your favorite messenger). And finally, high level - run a complex system of creating snapshots of the symbiotes you track in your cluster in such a way as to use memory as efficiently as possible. Interesting?) Then follow the link)
+Dive into the ecosystem of Klyntar plugins. We can say that the essence of plugins is one of the most useful and important components of the core. Start simple - for example, run custom event logging right at the kernel runtime when your node is running. Then move on to something more complicated - let, for example, the bot catches the most interesting services from the network and, depending on your preferences, sends you a notification in Telegram (or your favorite messenger). And finally, high level - run a complex system of creating snapshots of the symbiotes you track in your cluster in such a way as to use memory as efficiently as possible. Interesting?) Then follow the link)
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Filters</mark>](filters.md)<mark style="color:red;"></mark>
 
@@ -88,7 +93,7 @@ As part of the roadmap, of course, important updates are planned. We decided to 
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](ciips.md)<mark style="color:red;"></mark>
 
-Klyntar is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving Klyntar. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
+KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving Klyntar. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges.md)<mark style="color:red;"></mark>
 
@@ -104,7 +109,7 @@ A little guidance and information for those who are going to become a Klyntar co
 
 ### <mark style="color:red;"></mark>[<mark style="color:red;">Basic security</mark>](basic-security.md)<mark style="color:red;"></mark>
 
-Network security is one thing, quite another is when attacks occur through other channels. In the best case, the security guards find out about the oversight and promptly correct it, in the worst case, a post about the <mark style="color:purple;">TOP DROP appears on the pages in social networks, SO SEND ME COINS, AND I WILL RESPOND TO YOU x2</mark>. It seems ridiculous they say "who are the suckers who are being conducted", but that's just the accounts / sites of even large projects are amenable to attacks. As an example, the latest [_<mark style="color:red;">attacks on Bored Ape accounts on Instagram</mark>_](https://www.theverge.com/2022/4/25/23041415/bored-ape-yacht-club-nft-hack-instagram) are recalled, or, for example, the [_<mark style="color:red;">case when the following appeared on the Twitter accounts of Gates, Musk and other famous people</mark>_](https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html)_<mark style="color:red;"></mark>_
+Network security is one thing, quite another is when attacks occur through other channels. In the best case, the security guards find out about the oversight and promptly correct it, in the worst case, a post about the <mark style="color:purple;">**TOP DROP appears on the pages in social networks, SO SEND ME COINS, AND I WILL RESPOND TO YOU x2**</mark>. It seems ridiculous they say "who are the suckers who are being conducted", but that's just the accounts / sites of even large projects are amenable to attacks. As an example, the latest [_<mark style="color:red;">**attacks on Bored Ape accounts on Instagram**</mark>_](https://www.theverge.com/2022/4/25/23041415/bored-ape-yacht-club-nft-hack-instagram) are recalled, or, for example, the [_<mark style="color:red;">**case when the following appeared on the Twitter accounts of Gates, Musk and other famous people**</mark>_](https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html)_<mark style="color:red;">****</mark>_
 
 ![It's funny, of course, but not for those who actually sent something](<../.gitbook/assets/image (3).png>)
 
