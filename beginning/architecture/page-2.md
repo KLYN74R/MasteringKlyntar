@@ -7,7 +7,7 @@ coverY: -249.75065387968615
 
 # 👽 Symbiotes
 
-### <mark style="color:red;">**Why Abstraction matters?**</mark>
+### <mark style="color:red;">**Why abstraction matters?**</mark>
 
 We built KLYNTAR with the way the modern world works. Container shipping, USB standards, traffic routing - all this is interchangeable in the world and the same everywhere. When developing KLYNTAR, we did not try to "hardcode" a consensus there, which would then have to be changed for 8 years, we did not try to bind a fixed number of validators or impose any hard restrictions.
 
