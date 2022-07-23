@@ -32,11 +32,11 @@ What is a symbiote?
 _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its own genesis, its own history of events, its own state, works following its own workflows and interacts with its own set of hostchains
 {% endhint %}
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 A similar structure resembles a chain-link grid
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 There are no weaknesses in such a structure, because everyone is connected to each other and all this with the participation of other networks.
 
@@ -110,7 +110,7 @@ By the way, this can be considered part of our analysis of the code. Although he
 
 The first step is to determine the full path and work with environment variables. The kernel also determines in which mode the daemon is running (testnet / mainnet)
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 Next comes the definition of the main directories and the paths to them
 
@@ -128,7 +128,7 @@ At the next stage, there is a definition of services that need to be launched at
 
 ![](<../../.gitbook/assets/image (5).png>)
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 
@@ -136,7 +136,7 @@ Finally, the previously imported second symbiote workflow function is called. We
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 
