@@ -118,11 +118,11 @@ Next comes the definition of the main directories and the paths to them
 
 The core then loads the configuration into the global object and creates service links and directories
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
 
-![](<../../.gitbook/assets/image (10) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
 

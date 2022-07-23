@@ -16,7 +16,7 @@ KLYNTAR uses Ed25519 as the most default pair. Key sizes (both private and publi
 
 By the way, KLYNTAR addresses are compatible with Solana (given the fact that their default addresses are just a public key in Base58). Moreover, the commit transaction _<mark style="color:red;">**useful.txt**</mark>_ on the Solana mainnet (with a program Memo call) was made by the KLYNTAR keys
 
-![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10).png>)
+![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10) (1).png>)
 
 ![](<../../.gitbook/assets/image (8).png>)
 
