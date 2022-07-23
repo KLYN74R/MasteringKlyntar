@@ -6,22 +6,27 @@ coverY: 378.03108808290153
 
 # 🎯 Motivation
 
-![Become the part of better world!](../.gitbook/assets/KLY\_LOGO.png)
+![](../.gitbook/assets/KLY\_LOGO.png)
 
 Since early ages I'm in love with crypto industry. Among tons of hustlers who are here only because of money & gambling, I(and our <mark style="color:purple;"></mark> [_<mark style="color:purple;">**@KlyntarTeam**</mark>_](https://github.com/klyntarteam)) really appreciate impact of valuable projects which brings improvements to our world. Instead of being 26899_th_ scam NFT or 5684_th_ we want to be useful by creating our project. We've started Klyntar with __ [_<mark style="color:purple;">**@ushkoff**</mark>_](https://github.com/ushkoff) at 16 as NewNews, but during development process everyone has been proposing a lot of improvements, so very soon we've decided to replan our initial intentions and create more general propose project.\
 \
 At the beginning of our initial whitepaper, you can see some kind of disclaimer\
 \
-_<mark style="color:purple;">«...No, it’s not another DeFi shit token,10th generation of Doge clones, «amazing» cross-chain bridge or some scam NFT project»</mark>_\
+_<mark style="color:yellow;">**«...No, it’s not another DeFi shit token,10th generation of Doge clones, «amazing» cross-chain bridge or some scam NFT project»**</mark>_\
 \
-Lack of really technically original projects last years also was a motivation for us to work and present an MVP version of future Goliath. Our goals isn't to sell 10B of premined coins to morons and be 10000th project on CoinMarketCap rates. Our goals is to refresh those spirit of geeks time, like on the edge of crypto projects when literally each month was the birthday of  interesting projects.\
-\
-In development process we have been using the newest and best available technologies,algorithms and architectural features.\
-\
-Let's start our journey!\
-\
-\
-[_<mark style="color:purple;">**VladArtem**</mark>_](https://github.com/VladChernenko)_<mark style="color:purple;">****</mark>_
+The lack of really technically original projects in recent years has also served as a motivation for us to work and present an MVP version of the future goliath. Our goal is not to sell 10 billion pre-mined coins to fools and become a 10,000th project at the CoinMarketCap rate. Our goal is to refresh the spirit of the times of geeks in the best traditions of the first crypto projects, when literally every month was the birthday of something new and interesting.
 
+During the development process, we used the latest and best available technologies, algorithms and architectural features. Of course, I don’t like loud headlines, but I couldn’t resist here. Perhaps you now rolled your eyes and sighed, saying, "I've heard this before,"
 
+![This is my face when I read about another mega revolutionary 35313513315th EVM project](https://highload.today/wp-content/uploads/2021/08/TRW7.gif)
+
+but due to the peculiarity of KLYNTAR, such as _<mark style="color:red;">**symbiosis**</mark>_ with other projects, me and the team had to work a lot with other projects - go deep into the documentation, read WhitePapers, test the SDK, run nodes, and so on. Thus, we got a good experience, as we understood what most projects suffer from (both at the code level and at the architecture level), analyzed the shortcomings that the developers themselves admit and, in the end, gave the world KLYNTAR, since it is obvious that the volume ideas and suggestions goes beyond the simple _<mark style="color:red;">**improvement proposals**</mark>_ that every self-respecting project has. We hope that we will be able to interest you and remember - join us and we will do cool things together!
+
+Let's start the journey! but due to the peculiarity of KLYNTAR, such as symbiosis with other projects, me and the team had to work a lot with other projects - go deep into the documentation, read WhitePapers, test the SDK, run nodes, and so on. Thus, we got a good experience, as we understood what most projects suffer from (both at the code level and at the architecture level), analyzed the shortcomings that the developers themselves admit and, in the end, gave the world KLYNTAR, since it is obvious that the volume ideas and suggestions goes beyond the simple improvement proposals that every self-respecting project has. We hope that we will be able to interest you and remember - join us and we will do cool things together!
+
+Let's start the journey!
+
+_<mark style="color:purple;">****</mark>_[_<mark style="color:purple;">**VladArtem**</mark>_](https://github.com/VladChernenko)_<mark style="color:purple;">****</mark>_
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FJh8ECuCnYWSpugvUhFn2%2F7Lvo.gif?alt=media\&token=9e2a23ed-57a9-4945-8b4d-f6e06d65a834)
 
