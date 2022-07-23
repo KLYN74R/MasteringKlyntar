@@ -12,11 +12,11 @@ description: The detailed overview of our CLI & UI tool to control your KLY empi
 
 ### 📖 Content
 
-* <mark style="color:red;"></mark>[<mark style="color:red;">Short intro</mark>](apollo.md#short-intro)<mark style="color:red;"></mark>
-* <mark style="color:red;"></mark>[<mark style="color:red;">How to build</mark>](apollo.md#how-to-build)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Modularity</mark>](apollo.md#modularity)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Advice</mark>](apollo.md#advice)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Docs</mark>](apollo.md#docs)<mark style="color:red;"></mark>
+* <mark style="color:red;"></mark>[<mark style="color:red;">Short intro</mark>](./#short-intro)<mark style="color:red;"></mark>
+* <mark style="color:red;"></mark>[<mark style="color:red;">How to build</mark>](./#how-to-build)<mark style="color:red;"></mark>
+* [<mark style="color:red;">Modularity</mark>](./#modularity)<mark style="color:red;"></mark>
+* [<mark style="color:red;">Advice</mark>](./#advice)<mark style="color:red;"></mark>
+* [<mark style="color:red;">Docs</mark>](./#docs)<mark style="color:red;"></mark>
 
 
 

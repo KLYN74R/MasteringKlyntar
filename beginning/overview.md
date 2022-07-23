@@ -43,7 +43,7 @@ The section contains some descriptions of the individual parts of the Klyntar co
 
 Let's start to tell what is unobtanium on KLYNTAR. It is important for us that hodlers of other cryptocurrencies, token holders of different projects, miners of PoW projects, stakers and other members of the crypto-loyal audience understand how they can use ALL their potential and resources on KLYNTAR!
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Apollo</mark>](apollo.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Apollo</mark>](apollo/)<mark style="color:red;"></mark>
 
 Here we describe our CLI (_<mark style="color:purple;">Command Line Interface</mark>_) through which you can manage your entire infrastructure - nodes, clusters, services, and so on. For example, generating different addresses (for a threshold signature, multisig addresses, post-quantum key pairs), checking service software signatures, voting for something, and so on. I'm really proud of this tool, because the ecosystem of APIs, plugins, and so on maximizes the possibilities of an already flexible interface. All sorts of redefinitions, modularity, performance and versatility - you will learn about this
 
