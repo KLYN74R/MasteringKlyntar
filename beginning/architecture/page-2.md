@@ -132,7 +132,7 @@ At the next stage, there is a definition of services that need to be launched at
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
@@ -154,7 +154,7 @@ As mentioned earlier, there are a number of common elements for symbiotes
 
 <mark style="color:yellow;">**Server**</mark>
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 {% embed url="https://github.com/uNetworking/uWebSockets.js" %}
 
