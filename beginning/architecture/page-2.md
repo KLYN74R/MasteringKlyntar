@@ -32,7 +32,7 @@ What is a symbiote?
 _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its own genesis, its own history of events, its own state, works following its own workflows and interacts with its own set of hostchains
 {% endhint %}
 
-![](<../../.gitbook/assets/image (8) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 A similar structure resembles a chain-link grid
 
@@ -122,7 +122,7 @@ The core then loads the configuration into the global object and creates service
 
 Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
 
@@ -136,7 +136,7 @@ Finally, the previously imported second symbiote workflow function is called. We
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
-![](<../../.gitbook/assets/image (9) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 

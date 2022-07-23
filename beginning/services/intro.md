@@ -48,7 +48,7 @@ We'll get to know runners later in the [_<mark style="color:purple;">**Runners**
 
 Now we will present you with a picture-diagram that we stole from the page about runners, but here you can clearly see what's what
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 Here, the nodes that work in the KLYNTAR network are marked in blue(for simplicity, we will not divide them into symbiotes here), and purple is the newly launched service.
 
@@ -76,7 +76,7 @@ Services can communicate with each other, work on other chains, be an independen
 
 Below are examples of services that we took from our WhitePaper. Here is a service that analyzes exploits for some smart contract on Polygon. Such a service earns by analyzing samples and can be written by some company from this field. At the same time, services can support staking, have their own token, and so on. Unobtanium is used here as an example of staking. The bottom line is that if stakers link their unobtanium to the service, then when it is used by third-party users or smart contracts, part of the payments will go to the stakers. At the same time, if the service does not have users or its malicious behavior is noticed, then the service will not earn anything and will lose users or trust, and stakers’ stakes will simply “idle” all this time instead of receiving a percentage if they were placed on the other-honest service.
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 Here is a second example of a service. Here again you can see the possibilities of KLYNTAR. So, for example, here the roles are divided between the nodes into:
 

@@ -30,7 +30,7 @@ As for the application at the level of algorithms, we use BLAKE3 to generate add
 
 This can be seen even through Apollo
 
-![This is what a key pair and address looks like for a post-quantum Dilithium](<../../.gitbook/assets/image (14).png>)
+![This is what a key pair and address looks like for a post-quantum Dilithium](<../../.gitbook/assets/image (15).png>)
 
 _<mark style="color:yellow;">**Usage for quantum swaps**</mark>_
 
