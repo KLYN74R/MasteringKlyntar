@@ -41,7 +41,7 @@ Here is a typical example of a key pair generated via CLI or UI in Apollo
 \
 All keys of this type have a common 12 bytes that there is no need to store publicly. We cut them off and convert the remaining 32 bytes to Base58. This process can be visualized as
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 2.Private PKCS8 type. Similarly, all privates share 16 bytes, but since they are not published, there is no need to change their size. We just apply Base64 to such a key and it looks like this
 
@@ -91,7 +91,7 @@ We also decided not to follow the path of generating some checksums, certain pre
 
 Ed25519 was selected as the best candidate available to be universal for symbiotes, services, smart contracts and other projects in the ecosystem.
 
-Links
+### <mark style="color:red;">**Links**</mark>
 
 {% embed url="https://ed25519.cr.yp.to/" %}
 

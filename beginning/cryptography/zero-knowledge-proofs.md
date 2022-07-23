@@ -6,3 +6,6 @@ coverY: 380.24179620034545
 
 # 🤔 Zero Knowledge Proofs
 
+### <mark style="color:red;">**Coming soon**</mark> 👻
+
+We'll talk about this later
