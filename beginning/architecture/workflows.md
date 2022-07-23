@@ -26,11 +26,11 @@ Here, it is clear that he is the main one. Don't worry, this won't affect decent
 
 In the code, you might notice two types of blocks. This is defined at the level of this workflow and is intended for the respective roles - the main validator Controller (and ControllerBlock) and nodes that can also generate InstantGenerators (for them - InstantBlocks).
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
 During work, the controller collects all these blocks into a ControllerBlock and sends a commit to the host chains. This is what this stage looks like
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 At the connector level, a simple inclusion is defined (no additional logic). Also, the controller does not have the right to spend its stake between commits. A similar rule works for InstantGenerators - they can sign the only valid chain received from the controller and then check that it was included on the host chain.
 
@@ -56,7 +56,7 @@ So, don't be surprised if there was just a 100,000 block, and 2 seconds later an
 
 Let's do a visualization. First, consider the verification and generation flows.
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 Green ones are blocks that the node has already checked, dotted ones are those that were generated at a time, a couple of seconds after the previous batch.
 

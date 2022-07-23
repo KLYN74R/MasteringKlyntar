@@ -66,7 +66,7 @@ In our example, it turns out that those who have frozen rates will not be able t
 
 Do not rush to throw away equipment 🧙‍♂️
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (9).png>)
 
 ### <mark style="color:red;">Hivemind</mark>
 
