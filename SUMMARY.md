@@ -6,8 +6,8 @@
 ## 🛰 Beginning
 
 * [🎯 Motivation](beginning/motivation.md)
-* [👁 Overview](beginning/overview.md)
 * [🧠 Woe from Wit](beginning/woe-from-wit.md)
+* [👁 Overview](beginning/overview.md)
 * [🏗 Architecture](beginning/architecture/README.md)
   * [☕ General](beginning/architecture/page-1.md)
   * [👽 Symbiotes](beginning/architecture/page-2.md)
