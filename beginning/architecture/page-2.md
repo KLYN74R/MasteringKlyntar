@@ -36,7 +36,7 @@ _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its 
 
 A similar structure resembles a chain-link grid
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 There are no weaknesses in such a structure, because everyone is connected to each other and all this with the participation of other networks.
 
@@ -81,3 +81,89 @@ We assume there will be several workflows, however, due to the concepts of "good
 <mark style="color:orange;">**Connectors**</mark>
 
 The second important component of symbiotes are connectors - modules for working with host chains. You'll get to know them in more detail in the [_<mark style="color:yellow;">**Connectors**</mark>_](../connectors.md) section, but for now let's just say that they define how your symbiote interacts with host chains. Connector developers, for example, create an interface for you, providing functions for working with a certain type of smart contracts on the host chain that supports them, or other methods of interaction. Workflow developers then take these connectors and insert them into their code at the right places. For example, send a state commit to Ethereum and Tron where there will be a multi-signature of validators as a payload, or generate a zero-knowledge proof and send it to the EVM for some contract of your symbiote.
+
+### <mark style="color:red;">So what's new you can create?</mark>
+
+This is the power of modular workflows - you can come up with anything you want. For example, one symbiote will be launched by a group of enthusiasts where there will be BFT, and the conditional CoinBase will launch its own symbiote where it will represent the main validator.
+
+It is possible to build a hybrid scheme where there will be both a centralizing factor and conditional "votes" of the group of validators of this symbiote. You can move part of the logic to the host chain. So, for example, your symbiote can be verified through the contracts of some EVM blockchain - following the example of a Polygon-Ethereum pair or other L2 networks.
+
+Build anything)
+
+### <mark style="color:red;">Repository with workflows</mark>
+
+Our GitHub has a corresponding repository where developers can publish their workflows
+
+{% embed url="https://github.com/KLYN74R/Workflows" %}
+
+Soon after the start of the project, we will publish instructions on writing a workflow and how to publish it to the repository
+
+### <mark style="color:red;">Workflow entry point at the code level</mark>
+
+For a better understanding of the inner workings, let's talk about how the work of the demon begins when you start it.
+
+Let's go straight through the code so that you understand.
+
+{% hint style="info" %}
+By the way, this can be considered part of our analysis of the code. Although here we will consider superficially, there will be more and more detailed in the future. Demo version can also be viewed [<mark style="color:red;">**here**</mark>](../codereview/)<mark style="color:red;">****</mark>
+{% endhint %}
+
+The first step is to determine the full path and work with environment variables. The kernel also determines in which mode the daemon is running (testnet / mainnet)
+
+![](<../../.gitbook/assets/image (4).png>)
+
+Next comes the definition of the main directories and the paths to them
+
+![](<../../.gitbook/assets/image (6).png>)
+
+The core then loads the configuration into the global object and creates service links and directories
+
+![](<../../.gitbook/assets/image (11).png>)
+
+Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
+
+![](<../../.gitbook/assets/image (10).png>)
+
+At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
+
+![](<../../.gitbook/assets/image (5).png>)
+
+![](<../../.gitbook/assets/image (3).png>)
+
+Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
+
+![](<../../.gitbook/assets/image (12).png>)
+
+The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
+
+![](<../../.gitbook/assets/image (9).png>)
+
+### <mark style="color:red;">**How new symbiotes are created**</mark>
+
+We will start with a single chain - the first symbiote. The initial emission will be generated and distributed on it, and other symbiotes will be generated from it. Our initial symbiote will be called kNULL (which you will also learn about later) after the god of symbiotes in Marvel.
+
+Although this will happen in a random order, we still assume that the creation of a new symbiote will be an important event such as a halving or a difficulty bomb.
+
+This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
+
+![](<../../.gitbook/assets/image (13).png>)
+
+### <mark style="color:red;">**Common components for symbiotes**</mark>
+
+As mentioned earlier, there are a number of common elements for symbiotes
+
+<mark style="color:yellow;">**Server**</mark>
+
+![](<../../.gitbook/assets/image (7).png>)
+
+{% embed url="https://github.com/uNetworking/uWebSockets.js" %}
+
+We use this server implementation. This is a popular, low-level and fast server that has proven itself well in private projects and tests. You can do more research.
+
+<mark style="color:yellow;">**Global variables**</mark>
+
+Symbiotes can also use a number of global variables like CONFIG to get configuration data, PRIVATE\_KEYS mapping to access private keys, variables that point to directories, and so on.
+
+{% hint style="info" %}
+Full list will be available soon
+{% endhint %}
