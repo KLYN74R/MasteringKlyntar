@@ -18,7 +18,7 @@ Without the history and evidence of the "work" of this service, potential users 
 
 Let's imagine that other services use this oracle and the oracle decides to lie
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 If there is no source where the oracle "attaches" its answers, then it will not be able to accumulate reputation and other services will not be able to know about its work.
 
