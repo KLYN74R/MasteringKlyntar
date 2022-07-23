@@ -15,6 +15,7 @@
   * [📄 Workflows](beginning/architecture/workflows.md)
   * [🏛 Social consensus](beginning/architecture/social-consensus.md)
 * [🔑 Cryptography](beginning/cryptography/README.md)
+  * [🎢 Cryptoland](beginning/cryptography/cryptoland.md)
   * [🛡 Symmetric ciphers](beginning/cryptography/symmetric-ciphers.md)
   * [#⃣ Hash functions](beginning/cryptography/hash-functions.md)
   * [🔐 Keypairs](beginning/cryptography/keypairs.md)
