@@ -36,7 +36,7 @@ Services are your separate projects that will run in parallel with symbiotes and
 
 You build and deploy your service to the network following certain rules. For example, Apollo has a service command that provides functionality for building service metadata, searching for services over the network (to download them locally and also become a node that supports the service), for scanning services for malware (encryptors, loaders, stagers for exploits, etc. .d.)
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 So, after you create your service, you can deploy it to the network. The nodes accept an archive or links, and then a _<mark style="color:red;">**runner**</mark>_ comes into play - a service handler that decides whether it is worth launching the service in principle, whether you trust the author or whether he is included in your trust tree, whether enough anti-virus centers have checked this repository, what is the subject of this service (maybe you want to support only services that are aimed at privacy) and much more.
 
@@ -48,7 +48,7 @@ We'll get to know runners later in the [_<mark style="color:purple;">**Runners**
 
 Now we will present you with a picture-diagram that we stole from the page about runners, but here you can clearly see what's what
 
-![](<../../.gitbook/assets/image (8) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 Here, the nodes that work in the KLYNTAR network are marked in blue(for simplicity, we will not divide them into symbiotes here), and purple is the newly launched service.
 
@@ -76,7 +76,7 @@ Services can communicate with each other, work on other chains, be an independen
 
 Below are examples of services that we took from our WhitePaper. Here is a service that analyzes exploits for some smart contract on Polygon. Such a service earns by analyzing samples and can be written by some company from this field. At the same time, services can support staking, have their own token, and so on. Unobtanium is used here as an example of staking. The bottom line is that if stakers link their unobtanium to the service, then when it is used by third-party users or smart contracts, part of the payments will go to the stakers. At the same time, if the service does not have users or its malicious behavior is noticed, then the service will not earn anything and will lose users or trust, and stakers’ stakes will simply “idle” all this time instead of receiving a percentage if they were placed on the other-honest service.
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 Here is a second example of a service. Here again you can see the possibilities of KLYNTAR. So, for example, here the roles are divided between the nodes into:
 
@@ -89,7 +89,7 @@ Here is a second example of a service. Here again you can see the possibilities 
 
 Here is an example of a service that allows you to transfer NFTs, tokens and other resources between networks and at the same time, scout nodes bring certain additional functions. For example, he can see that if someone tries to sell your service tokens on Avalanche (we just called them WKLY, but you can have your own name) to the contract address, which is also some kind of token, then the scout nodes will see this event , scan the contract, find out the information, and if, for example, this is some kind of scam project, then the tokens after your sale to the attacker’s contract will be blocked and the scammer will not receive anything.
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 Since such events are publicly available, the scout nodes can provide proof to the rest of the token holders of this service - why did they suddenly decide to block the tokens of some address. The rest will be able to get acquainted with this evidence, and if it really turns out that the tokens were transferred to the contract of some scammer, then there is no reason to panic and sell your service token. On the contrary, it will be a signal that the scout nodes have done a good job.&#x20;
 

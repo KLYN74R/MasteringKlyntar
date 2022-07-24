@@ -20,7 +20,7 @@ Use whatever you can think of )
 
 Let's take the initial workflow [_<mark style="color:red;">**dev\_controller**</mark>_](https://github.com/KLYN74R/KlyntarCore/tree/main/KLY\_Workflows/dev\_controller) as an example. At the level of its code, it is determined that it has a main validator and at the same time, allows you to bet on other nodes that can also generate blocks. This workflow is presented in the image examples earlier. You may have seen it on the [_<mark style="color:red;">**Symbiotes**</mark>_](page-2.md) page
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 Here, it is clear that he is the main one. Don't worry, this won't affect decentralization even for this workflow in any way, although we will have other variations.
 
@@ -56,7 +56,7 @@ So, don't be surprised if there was just a 100,000 block, and 2 seconds later an
 
 Let's do a visualization. First, consider the verification and generation flows.
 
-![](<../../.gitbook/assets/image (15) (1) (1).png>)
+![](<../../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 Green ones are blocks that the node has already checked, dotted ones are those that were generated at a time, a couple of seconds after the previous batch.
 

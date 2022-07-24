@@ -6,3 +6,8 @@ coverY: 0
 
 # 🌪 Ragnarök
 
+### <mark style="color:red;">**Coming soon**</mark> 👻
+
+We'll publish more details soon
+
+![](<../../.gitbook/assets/image (7).png>)

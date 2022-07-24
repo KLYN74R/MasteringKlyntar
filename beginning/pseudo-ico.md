@@ -12,7 +12,7 @@ coverY: -181.33333333333334
 
 Each symbiote must have a name, and we want to help you with it too. First of all, we are preparing such console art for the most famous symbiotes.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 We plan to sell them on a smart contract as a bonus or make them part of a bounty program. These shortcuts will replace the default ugly addresses with such beautiful and memorable symbiote names. They work as aliases and associations with some default address format. We will also mention symbiotes by their tags, write information about them by name, and browsers will display chain data by this tag. Mapping address ⇒ alias will be in our repository in releases, so each client can have such a mapping.
 
@@ -34,7 +34,7 @@ We will be constantly updating the repository with new names, but you can create
 
 The total emission will be 8 billion KLY coins. This is symbolism, because this is an approximate number of the population of the Earth. We want everyone to be able to have at least 1 KLY coin. By the way, the distribution will be more interesting. Seeing a lot of crappy social media ads about “revolutionary new” tokens or coins with no unique features or ideas, I wonder how people even had the audacity to release something like this. And what is even more terrible, their desire is to sell you as much as possible, and then dilute and bring out the ever-mined ones. Therefore, we are not going to conduct any ICO, pre-sales or something like that. PoS-based projects are usually criticized for the fact that the premine procedure is unclear and raises questions about fair play. Hence, projects try to mitigate this in various unusual ways (such as the TON project), in any case this procedure is usually shrouded in obscurity and you can see large balances on unknown addresses with no activity. That is why we decided to pay attention to a certain quantum experiment - _<mark style="color:yellow;">**the Wheeler experiment with delayed choice**</mark>_.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 Another name for this experiment is the Galactic Interferometer. You can read about it, but in a nutshell - by installing a lens system on Earth, you close the system of potential photon paths and can influence the trajectory of light, even if these are photons produced by some star and transmitted through billions of light years to your lens. In this way, you can influence the path of the light in the past, which looks very strange to untrained people. We also want to influence the past in order to bring about change in the future.
 

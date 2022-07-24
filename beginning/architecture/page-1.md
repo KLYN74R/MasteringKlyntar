@@ -74,6 +74,6 @@ As you can see, they all include several packs. This modular structure allows on
 
 KLYNTAR will also be available for expansion with a wide ecosystem of plugins - from a websocket servers to custom logging mechanisms, from a reverse proxy server with filters to a Telegram bot. By the way, one more proof of modularity and independence (the directory with plugins contains separate repositories)
 
-![](<../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 Learn more about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)_<mark style="color:red;">****</mark>_

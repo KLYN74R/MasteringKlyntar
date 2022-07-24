@@ -6,7 +6,7 @@ coverY: 260.31088082901556
 
 # 🔌 Plugins
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 ### <mark style="color:red;">What's this?</mark>
 

@@ -18,7 +18,7 @@ By the way, KLYNTAR addresses are compatible with Solana (given the fact that th
 
 ![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 {% embed url="https://explorer.solana.com/tx/36cs4bjKZJNcTsMA8N6Bz8mm2yBUX5WvcT74oT3Pn2sD6cMGprRQvmYVdPGQJmrnHPDrypJYkT9Zg6UHw4vuPssT" %}
 
@@ -31,7 +31,7 @@ Here is a typical example of a key pair generated via CLI or UI in Apollo
 }
 ```
 
-![](<../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 <mark style="color:red;">**Node.js generates key pair in DER format**</mark>
 
@@ -41,7 +41,7 @@ Here is a typical example of a key pair generated via CLI or UI in Apollo
 \
 All keys of this type have a common 12 bytes that there is no need to store publicly. We cut them off and convert the remaining 32 bytes to Base58. This process can be visualized as
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 2.Private PKCS8 type. Similarly, all privates share 16 bytes, but since they are not published, there is no need to change their size. We just apply Base64 to such a key and it looks like this
 
@@ -83,7 +83,7 @@ Here, as they say, coming soon. We will also add HD(hierarchical deterministic) 
 UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDohaeris supports HD addresses in KLYNTAR and also generates 12 mnemo words for you. However, the functionality for generating key pair chains and importing a phrase will be implemented soon
 {% endhint %}
 
-![](<../../.gitbook/assets/image (16) (1) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**A couple more words**</mark>
 

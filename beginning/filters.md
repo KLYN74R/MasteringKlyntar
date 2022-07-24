@@ -6,7 +6,7 @@ coverY: 0
 
 # 🛑 Filters
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 ### <mark style="color:red;">Generally</mark>
 
@@ -32,7 +32,7 @@ This is an optional path because the workflow developer can change the position 
 
 As for the developers of KlyntarTeam, for simplicity, we put the filters right away. Here's what it looks like
 
-![Pretty simple hierarchy](<../.gitbook/assets/image (19).png>)
+![Pretty simple hierarchy](<../.gitbook/assets/image (19) (1).png>)
 
 ### <mark style="color:red;">What are filters on the code level</mark>
 
@@ -46,7 +46,7 @@ It is still recommended to use filters from the developers of the workflow pack.
 Developers, in turn, are encouraged to enter some configuration file at the level of the workflow pack in which it will be possible to simply assign a minimum commission level, block incoming events from addresses from black lists, and so on.
 {% endhint %}
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 ### <mark style="color:red;">Repository with filters</mark>
 

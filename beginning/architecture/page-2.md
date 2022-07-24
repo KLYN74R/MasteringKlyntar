@@ -32,11 +32,11 @@ What is a symbiote?
 _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its own genesis, its own history of events, its own state, works following its own workflows and interacts with its own set of hostchains
 {% endhint %}
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
 
 A similar structure resembles a chain-link grid
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 There are no weaknesses in such a structure, because everyone is connected to each other and all this with the participation of other networks.
 
@@ -110,11 +110,11 @@ By the way, this can be considered part of our analysis of the code. Although he
 
 The first step is to determine the full path and work with environment variables. The kernel also determines in which mode the daemon is running (testnet / mainnet)
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 Next comes the definition of the main directories and the paths to them
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 The core then loads the configuration into the global object and creates service links and directories
 
@@ -136,7 +136,7 @@ Finally, the previously imported second symbiote workflow function is called. We
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 
@@ -146,7 +146,7 @@ Although this will happen in a random order, we still assume that the creation o
 
 This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
 
-![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**Common components for symbiotes**</mark>
 
@@ -154,7 +154,7 @@ As mentioned earlier, there are a number of common elements for symbiotes
 
 <mark style="color:yellow;">**Server**</mark>
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 {% embed url="https://github.com/uNetworking/uWebSockets.js" %}
 

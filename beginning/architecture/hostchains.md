@@ -27,7 +27,7 @@ For example, in our workflow (workflows) it is planned to make sure that the val
 
 <mark style="color:yellow;">**Let's take an illustrative example**</mark>
 
-![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 Suppose that the nodes of some symbiote (here highlighted in blue) have started an interaction session with their host chains and sent the necessary data to them (using the logic of connectors). Let this data get into and be processed in future blocks of the host chain. For various reasons, everyone takes the moment of finalization for himself (somewhere it is enough for you that the commit was included in Bitcoin, and somewhere that smart contracts worked out correctly).
 
@@ -39,7 +39,7 @@ So, in our example above, the interaction happens in a new block. Let these be b
 
 Suppose that all this happened for a block with an index of _<mark style="color:orange;">**100,000**</mark>_ and a hash _<mark style="color:orange;">**adcdef...**</mark>_. In this case, the nodes sign this data and publish their signatures.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 
 We used multi-signatures here, which you will get acquainted with here, but for now let them be a kind of black box for you that will collect signatures and public keys of validators and aggregate them into a single proof.
 
@@ -66,7 +66,7 @@ In our example, it turns out that those who have frozen rates will not be able t
 
 Do not rush to throw away equipment 🧙‍♂️
 
-![](<../../.gitbook/assets/image (9) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 ### <mark style="color:red;">Hivemind</mark>
 

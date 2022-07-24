@@ -24,7 +24,7 @@ The runner decides whether to run the service on this node or send it to others,
 
 Here's how you can schematically represent the runner
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (8).png>)
 
 ### <mark style="color:red;">In a nutshell</mark>
 
@@ -259,7 +259,7 @@ All this once again emphasizes the flexible possibilities of KLYNTAR and the pos
 
 By default, the standard runner from the KLYNTAR developers will be available to you. We named it after our neighboring galaxy Andromeda. This is symbolic since we are comparing conventional smart contracts with our relatively well-known Milky Way galaxy. But the services in the form in which they will be on KLYNTAR are something new, some kind of new galaxy - not so distant, but still - opens up new opportunities for us
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (19).png>)
 
 {% hint style="info" %}
 Currently, all runners are under development and will not be available for the first time for use on the network.

@@ -18,4 +18,4 @@ If you have any difficulty understanding, do not hesitate to ask us questions. W
 It should also be warned that this version of MasteringKlyntar is introductory to the start of the project, so you will often come across sections with Coming Soon or incomplete material. We will supplement and update the book as the project develops.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
