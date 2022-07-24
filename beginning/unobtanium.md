@@ -22,7 +22,7 @@ Unobtanium is a set of different combinations of resources from different blockc
 
 Imagine that you have 1 BTC, 10 DOT and are also a validator on Binance Smart Chain. Why not combine these facts to create a bit of unobtanium? 😉 Thus, it is too difficult to influence the network in terms of a single resource when it is not only driven by hashrate power or bet size. KLYNTAR is designed to be a homogeneous space of the crypto industry and bring together features, resources, decentralization, TPS, reputation and other features from different crypto projects. We can visualize it like this
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (13).png>)
 
 Speaking of decentralization, we usually mean the impact on the network through the size of the stake, the hashrate power, the size of the delegated coins, and so on. But the reality is that the hashrates of PoW cryptocurrencies are controlled by multiple pools. Coins built on staking systems (such as various forms of PoS-PPoS, LPoS, DPoS) are also placed on a small percentage of addresses. At the same time, these projects sell their coins to some “private investors” or “on pre-sale”, and you don’t know who owns 20% of the coins that have been inactive since the launch of this cryptocurrency.
 

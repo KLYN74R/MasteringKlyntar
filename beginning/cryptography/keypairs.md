@@ -31,7 +31,7 @@ Here is a typical example of a key pair generated via CLI or UI in Apollo
 }
 ```
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 <mark style="color:red;">**Node.js generates key pair in DER format**</mark>
 
@@ -83,7 +83,7 @@ Here, as they say, coming soon. We will also add HD(hierarchical deterministic) 
 UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDohaeris supports HD addresses in KLYNTAR and also generates 12 mnemo words for you. However, the functionality for generating key pair chains and importing a phrase will be implemented soon
 {% endhint %}
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16) (1).png>)
 
 ### <mark style="color:red;">**A couple more words**</mark>
 

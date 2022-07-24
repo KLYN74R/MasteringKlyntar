@@ -10,38 +10,48 @@ description: The detailed overview of our CLI & UI tool to control your KLY empi
 
 ![](https://readme-typing-svg.herokuapp.com/?font=Major+Mono+Display\&size=48\&duration=4000\&color=C20000\&center=true\&vCenter=true\&width=300\&height=80\&lines=Apollo)
 
-### 📖 Content
+### <mark style="color:red;">**👨‍🚀 Gratitude**</mark>
 
-* <mark style="color:red;"></mark>[<mark style="color:red;">Short intro</mark>](./#short-intro)<mark style="color:red;"></mark>
-* <mark style="color:red;"></mark>[<mark style="color:red;">How to build</mark>](./#how-to-build)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Modularity</mark>](./#modularity)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Advice</mark>](./#advice)<mark style="color:red;"></mark>
-* [<mark style="color:red;">Docs</mark>](./#docs)<mark style="color:red;"></mark>
+Since KLYNTAR is a project of "cosmic" scale, the tool for interacting with it must be appropriate. Many different projects or companies name their products/protocols after famous scientists, historical figures or events. In this aspect, we will also support a public flash mob and therefore decided to name the tool for interaction with KLYNTAR in honor of an important event in the field of astronautics and space exploration - the well-known Apollo program, the very one during which humanity first set foot on an extraterrestrial body, namely - on Moon.
+
+![](https://monophy.com/media/lS7GfvzSVhWOhJKlng/monophy.gif)
+
+### ⚡<mark style="color:red;">Short intro</mark>
+
+We are pleased to introduce Apollo, our powerful command line and user interface tool for managing your KLYNTAR infrastructure. With Apollo, you can do everything - use it as a wallet, interact with decentralized services, control your Unobtanium sources, use the power of Cryptoland - our amazing collection of crypto algorithms available on KLYNTAR and much more!
+
+Here you will learn how to get started with Apollo, some basic guidelines and help to get started with KLYNTAR faster. We plan to show you how to load modules, how to write modules (if you are a developer) to extend both the CLI and UI, how to control your node clusters, and so on.
+
+Since this is a fairly powerful tool (and not just a CLI with a preliminary list of hardcoded commands), we will try to give you the most important thing - a basic understanding of how it works, how everything is interconnected. It is worth saying that Apollo differs from other similar tools like Metamask, Phantom and the like in that all kinds of service developers on KLYNTAR will be included in the work here to create personalized interfaces directly for each service, symbiote or group of services. This is equivalent to the fact that the developers of smart contracts of EVM-compatible chains that you use in the same Metamask would offer a unique interface for each smart contract.
+
+So, for example, if this is a DeFi service operating in the KLY ecosystem, then in the interface you will see the necessary data, fields, the latest news from the Twitter feed of this project, and so on, if this is the main menu of Apollo, then you will also find ads in the running line on offers of staking your unobtanium to some new services where you can decide what is more profitable for you - stake your unobtanium mined by the BTC miner and get a place as a service validator or confirm the amount of reserved storage in Filecoin and leave unobtanium for future voting for the most useful plugins for KLYNTAR as part of the social consensus procedures, and by going to [<mark style="color:purple;">wikipedia.org</mark>](https://www.wikipedia.org/) or reading some article on <mark style="color:red;"></mark> [<mark style="color:purple;">Medium</mark>](https://medium.com/), you can thank the authors and get some exclusive content from them. And all this in one black box called Apollo. I think my mouth is already flowing, so let's go 🤤
 
 
 
-### ⚡ Short intro
+### 🏗️ <mark style="color:red;"></mark> <mark style="color:red;"></mark><mark style="color:red;">**How to build**</mark>
 
-We're happy to present you Apollo - our powerful CLI & UI tool to control your KLYNTAR infrastructure. With this tool you can do everything - use it as wallet, interact with decentralized services, control your Unobtanium sources, deep dive into Cryptoland-our amazing collection of crypto algorithms available on KLYNTAR.
+It is better to show once than to say 100 times. With this attitude, we proceed to the launch. As you have probably read before, KLYNTAR is in a symbiotic relationship with other blockchains, both existing ones like Bitcoin, Avalanche, XRP, Solana, and those that will only be invented in the future.
 
-\
+### Running with Docker
 
+Starting various nodes of other projects, working with the tools they needed, the most terrible and annoying problem was the initial setup problem - incorrect configurations, old documents or bad documentation from developers, versioning errors, nightly versions and so on. That's why we prepared Docker images so you can be sure that you will have a 100% successful installation. So let's get started 🚀
 
-### 🏗️ How to build
+{% hint style="warning" %}
+**NOTE**
 
-As you've seen, KLYNTAR is in symbiotic relationship with other blockchains. By running different nodes of other projects, working with tools required by them, the most auful & irritating problem was problem with initial setup - misconfigs, old docs, semver mistakes, nightly versions and so on. That's why, we've prepared docker images to allow you to be sure that you'll have 100% succesful setup. So,let's start 🚀
+Before starting the installation, make sure you have Docker installed. If not, you can download it for Linux & Windows & Mac [_<mark style="color:purple;">here</mark>_](https://docs.docker.com/engine/install/)_<mark style="color:purple;"></mark>_
+{% endhint %}
 
-#### **NOTE**
-
-We assume that you have Docker on the board. You can install Docker for Linux & Windows & Mac [here](https://docs.docker.com/engine/install/)
+To check if Docker is installed type
 
 ```shell
-
 klyntar@apollo:~# docker -v
 Docker version 20.10.14, build a224086
 ```
 
 #### **Download the image**
+
+![](http://dockeri.co/image/klyntar/all\_in\_one)
 
 We present you our first image [klyntar/all\_in\_one](https://hub.docker.com/repository/docker/klyntar/all\_in\_one). This is universal image with preinstalled Node.js, Go , Python and some tools like `pnpm` , `node-gyp`, `git` and so on. We've created it to save your time and nervous system. This is the base layer for all our Dockerfiles(at least for core and Apollo). The aproximate compressed size is 606M. Also, in our repository [KlyntarBaseImages](https://github.com/KLYN74R/KlyntarBaseImage) you can find the sources of all base-layer Dockerfiles, so you can clone and build it yourself or find the bash build script and so through the process to install requirements to your host machine. But anyway,we recomend you to use containers.
 

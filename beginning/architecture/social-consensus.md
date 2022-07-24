@@ -31,7 +31,7 @@ In KLYNTAR, using the Apollo interface or through third-party services, you can 
 
 You can take votes directly through Apollo in the Miscellaneous section
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 ### <mark style="color:red;">Hostchain resources in the life of KLYNTAR</mark>
 

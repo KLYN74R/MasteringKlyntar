@@ -27,7 +27,7 @@ For example, in our workflow (workflows) it is planned to make sure that the val
 
 <mark style="color:yellow;">**Let's take an illustrative example**</mark>
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 Suppose that the nodes of some symbiote (here highlighted in blue) have started an interaction session with their host chains and sent the necessary data to them (using the logic of connectors). Let this data get into and be processed in future blocks of the host chain. For various reasons, everyone takes the moment of finalization for himself (somewhere it is enough for you that the commit was included in Bitcoin, and somewhere that smart contracts worked out correctly).
 
@@ -84,7 +84,7 @@ No, don't worry, everything is cooler and more interesting here. Yes, in order t
 
 Here is an example connector for EVM chains
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (1).png>)
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore/blob/main/KLY_Hostchains/connectors/dev0/evm.js" %}
 

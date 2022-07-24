@@ -59,19 +59,19 @@ Dive into the ecosystem of Klyntar plugins. We can say that the essence of plugi
 
 Required to filter incoming data from transaction events to service events. Thanks to the filters, you can set limits on calls to your infrastructure depending on your preferences, filter by IP addresses (for example, do not accept transactions if the IP belongs to TOR exit nodes). Quite a powerful thing - we recommend that you familiarize yourself
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Monitors</mark>](monitors.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Monitors</mark>](interactions-with-the-hostchains/monitors.md)<mark style="color:red;"></mark>
 
 Since we are working in a multi-space, it is necessary to monitor the situation in other symbiotes, host chains such as Ethereum, Solana, Tron, Bitcoin and so on. It's good that you will have the opportunity to visit the appropriate repository where community members and the main KlyntarTeam team will publish ready-made solutions that you will need for normal work
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Adapters</mark>](adapters.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Adapters</mark>](interactions-with-the-hostchains/adapters.md)<mark style="color:red;"></mark>
 
 Since the data will come from different sources, it is advisable to convert them to the format necessary for the nodes of your cluster: somewhere you need to cache the data or get only the desired field - adapters will do just fine with this
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Connectors</mark>](connectors.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Connectors</mark>](interactions-with-the-hostchains/connectors.md)<mark style="color:red;"></mark>
 
 As you can see, Klyntar is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
 
-![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png>)
 
 Workflows typical for blockchain projects are based on them: transactions and their non-rollback are fixed, stakes are burned and frozen, and other on-chain events are held. Soon you will learn how it all works, but for now it is important to know that the interaction between these two components works thanks to connectors that determine the logic of the blockchain events - somewhere you have to wait for 2 Bitcoin blocks and finalization on Solana, somewhere one Litecoin block and several ledgers are enough on XRP. I hope you are interested, so run to read)
 
@@ -111,7 +111,7 @@ A little guidance and information for those who are going to become a Klyntar co
 
 Network security is one thing, quite another is when attacks occur through other channels. In the best case, the security guards find out about the oversight and promptly correct it, in the worst case, a post about the <mark style="color:purple;">**TOP DROP appears on the pages in social networks, SO SEND ME COINS, AND I WILL RESPOND TO YOU x2**</mark>. It seems ridiculous they say "who are the suckers who are being conducted", but that's just the accounts / sites of even large projects are amenable to attacks. As an example, the latest [_<mark style="color:red;">**attacks on Bored Ape accounts on Instagram**</mark>_](https://www.theverge.com/2022/4/25/23041415/bored-ape-yacht-club-nft-hack-instagram) are recalled, or, for example, the [_<mark style="color:red;">**case when the following appeared on the Twitter accounts of Gates, Musk and other famous people**</mark>_](https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html)_<mark style="color:red;">****</mark>_
 
-![It's funny, of course, but not for those who actually sent something](<../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
+![It's funny, of course, but not for those who actually sent something](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png>)
 
 Since we do not need this, we recommend that you read this chapter to understand how KlyntarTeam will deal with this. In the end, they were not going to attack those)
 
