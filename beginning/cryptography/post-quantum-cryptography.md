@@ -25,7 +25,7 @@ In mathematics, it can't happen that zero suddenly becomes one if you don't like
 
 If earlier, within the framework of classical attacks on algorithms, a mathematical approach was used (not taking into account attacks through third-party channels such as signal interception, van Eyck interception, etc.), now physics and the nature of fundamental particles of the Standard Model come into play
 
-![](<../../.gitbook/assets/image (32).png>)
+![](<../../.gitbook/assets/image (41).png>)
 
 {% embed url="https://en.wikipedia.org/wiki/Standard_Model" %}
 
@@ -53,11 +53,11 @@ At the initial stages, we decided to use Dilithium and BLISS signatures. Among o
 
 _<mark style="color:purple;">**Dilithium**</mark>_
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 This algorithm is a NIST candidate and provides the ability to generate key pairs and signatures. Widely popular, studied at the highest levels. It is included in the post-quantum implementation of _<mark style="color:yellow;">**OpenSSL**</mark>_, is being studied by CloudFlare, and is included in their CIRCL repository.
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (36).png>)
 
 {% embed url="https://github.com/cloudflare/circl" %}
 
@@ -65,7 +65,7 @@ We just use this implementation from CloudFlare by providing a standard set of f
 
 There are several implementations depending on the NIST security levels. Here are their characteristics
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 The creators themselves recommend using the Dilithium3 parameter set, but we use Dilithium5 due to greater security. However, to change the security level, it is enough to simply change one line so that such changes can be made if necessary. Here is a comparison table of security levels according to NIST
 
@@ -93,7 +93,7 @@ The second and priority post-quantum signature algorithm will be BLISS. It is al
 
 You can already generate a BLISS key pair and an address. The address is the BLAKE3 hash of the public key
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 {% embed url="https://bliss.di.ens.fr/" %}
 
@@ -103,7 +103,7 @@ You can already generate a BLISS key pair and an address. The address is the BLA
 
 Some of our algorithms are missing from the table
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 It would seem strange - well, where in the blockchain can this be needed? Everything falls into place when it comes to off-chain interaction of nodes - as part of the exchange of data between services or communication with the outside world.
 
@@ -121,9 +121,9 @@ We use the CloufFlare CIRCL implementation as addons from Go to Node.js. Also, s
 
 Here are some comparison tables
 
-![s://blog.cloudflare.com/nist-post-quantum-surprise/](<../../.gitbook/assets/image (24).png>)
+![s://blog.cloudflare.com/nist-post-quantum-surprise/](<../../.gitbook/assets/image (28).png>)
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 {% embed url="https://pq-crystals.org/kyber/index.shtml" %}
 

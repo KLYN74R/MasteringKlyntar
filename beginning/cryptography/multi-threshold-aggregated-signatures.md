@@ -1,4 +1,5 @@
 ---
+description: Critical important component of KLYNTAR
 cover: ../../.gitbook/assets/lizardcover.jpg
 coverY: 50.40414507772021
 ---
@@ -69,7 +70,7 @@ $$
 
 Visualisation
 
-![/medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716](<../../.gitbook/assets/image (36).png>)
+![/medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716](<../../.gitbook/assets/image (47).png>)
 
 Signature verification
 
@@ -99,7 +100,7 @@ $$
 e((pk1+pk2+pk3)×G, H( m)) = e(P1+P2+P3, H(m)) = e(P, H(m))
 $$
 
-![https://asecuritysite.com/signatures/js\_bls](<../../.gitbook/assets/image (17).png>)
+![https://asecuritysite.com/signatures/js\_bls](<../../.gitbook/assets/image (19).png>)
 
 ### <mark style="color:red;">Threshold Signatures (TBLS)</mark>
 
@@ -113,7 +114,7 @@ Let me give you an example - let's say we have 10 people who decided to generate
 
 It's no problem for 6 people to sign something and then aggregate their 6 public keys into a 48 byte single public BLS. With a signature, it's the same - everything comes down to one thing.
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (45).png>)
 
 However, to prove to the network that the 6/10 threshold is met, you must provide 4 separate 48-byte addresses of those who disagree. This is because there is no other way for the network to find out how many of the keys are included in MasterPub1-6. This leads us to difficulties because there may be not 10, but 200 signers.
 
@@ -121,7 +122,7 @@ It would be nice if all the "magic" was performed outside the blockchain - the n
 
 This can be achieved with threshold signatures. In KLYNTAR we use the TBLS implementation using the above curve
 
-![https://asecuritysite.com/shares/](<../../.gitbook/assets/image (18).png>)
+![https://asecuritysite.com/shares/](<../../.gitbook/assets/image (20).png>)
 
 For the secure DKG (distributed key generation) procedure, Feldman's verifiable secret sharing scheme is used. It allows splitting a shared private key based on the Benalo scheme and generating a shared public key based on the verification vectors. In this case, T out of N members of the group will be able to sign messages on behalf of the group.
 
@@ -137,15 +138,15 @@ For a general understanding of the workflow, let's generate keys and test their 
 
 Go to Cryptoland
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (42).png>)
 
 Select multisig from the drop-down menu and generate in the operations section. Now generate a pair
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (39).png>)
 
 For the test, generate and save yourself a few pairs. Let's generate 3 pairs
 
-![](<../../.gitbook/assets/image (37).png>)
+![](<../../.gitbook/assets/image (48).png>)
 
 {% hint style="info" %}
 Don't forget to save your pairs. Autosave will be added in future versions of Apollo
@@ -178,7 +179,7 @@ Here's the pairs we have
 
 Now these 3 parties can sign some message. Let it be <mark style="color:purple;">**SEND 5 KLY TO BOB**</mark>
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (17).png>)
 
 You should have 3 signatures
 
@@ -192,7 +193,7 @@ koPFh4Qyu3RNDCHAUK0Jj9gvYwMSGHNydcubZee3ESET3/kwufBAF0WSDJ3hnTO6DsECG9+Z+B02xD6M
 
 You can take any of them and the corresponding public key and verify the signature
 
-![Also, check the other pairs & signatures](<../../.gitbook/assets/image (23).png>)
+![Also, check the other pairs & signatures](<../../.gitbook/assets/image (27).png>)
 
 And then the cryptographic magic begins. Aggregation. To do this, three parties or any other person can take public signatures and addresses and aggregate them together
 
@@ -202,11 +203,11 @@ And then the cryptographic magic begins. Aggregation. To do this, three parties 
 
 <mark style="color:red;">**Signatures aggregation**</mark>
 
-![Split the signatures with a colon](<../../.gitbook/assets/image (39).png>)
+![Split the signatures with a colon](<../../.gitbook/assets/image (50).png>)
 
 Now we have a pair of master signature and master public key. Let's check
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
 I think now the incredible properties have become more visible and obvious
 
@@ -214,11 +215,11 @@ I think now the incredible properties have become more visible and obvious
 
 In Cryptoland now choose _<mark style="color:purple;">**thresholdsig**</mark>_
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (26).png>)
 
 Let's simulate the situation - let you and 5 other friends want to create such an address, from which it will be possible to perform any action only by agreement of 4 friends. We have a 4/6 situation. Before you will be such fields
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (49).png>)
 
 Let's enter our threshold 4, our ID (let it be 1) and the ID of other friends. You can choose anything as an ID, but it's easier to use numeric identifiers. Since the number of sides is 6, then there should be 6 identifiers (including yours)
 
@@ -226,7 +227,7 @@ Let's enter our threshold 4, our ID (let it be 1) and the ID of other friends. Y
 
 You will get such a big output
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (31).png>)
 
 <mark style="color:orange;">**The first is verification vector**</mark>
 
@@ -254,7 +255,7 @@ Then your 5 friends repeat the same thing in their wallets. They only need to in
 
 <mark style="color:yellow;">**Friend with ID=3**</mark>
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 <mark style="color:yellow;">**Friend with ID=4**</mark>
 
@@ -262,7 +263,7 @@ Then your 5 friends repeat the same thing in their wallets. They only need to in
 
 <mark style="color:yellow;">**Friend with ID=5**</mark>
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (30).png>)
 
 <mark style="color:yellow;">**Friend with ID=6**</mark>
 
@@ -284,4 +285,108 @@ Now you need to make sure that none of your friends cheated and sent a false sha
 
 To do this, select the _<mark style="color:purple;">**verifyShare**</mark>_ mode
 
+![](<../../.gitbook/assets/image (51).png>)
+
+Enter here your ID that you received when you generated shares from yourself, the share received from some friend and the verification vector that he sent
+
+For example, we continue to play the role of a friend with ID=1. Let's check the share from a friend with ID=4. You can go up and check the verification vector and the share for a friend with ID=1, which was obtained by a friend with ID=4
+
+Verify
+
+![](<../../.gitbook/assets/image (37).png>)
+
+Great, the friend with ID=4 didn't let us down or deceive us. Also go through the rest and do a similar check.
+
+{% hint style="danger" %}
+Если где-то вы увидите false - процедура может быть остановлена. Это значит что соответствующий друг пытается вас обмануть. Чтобы убедится что вы все храните шары для одинакового верификационного вектора сравните полученные векторы с другими друзьями. У всех у вас должны быть одинаковые векторы от каждого из друзей
+{% endhint %}
+
+### <mark style="color:yellow;">Stage 4 - group key generation</mark>
+
+To the rest of the network, your behind-the-scenes affairs are hidden. However, in order to accept payments to an address, you need to obtain a general (group) address that will identify your group.
+
+To do this, select the option deriveGroupPub
+
+![](<../../.gitbook/assets/image (43).png>)
+
+Enter the verification vectors of all participants using a separator characterEnter the verification vectors of all participants using a separator character
+
+![](<../../.gitbook/assets/image (5).png>)
+
+{% hint style="info" %}
+Don't worry, in other wallets or Apollo modules the procedure will be easier and won't look so "scary"😃
+{% endhint %}
+
+The received key is your group key - distribute it and receive payments
+
+### <mark style="color:yellow;">**Stage 5 - Waste Time**</mark>
+
+It's time to manage the resources at the address. According to the scenario, we set the threshold to 4/6. Also, consent can be expressed by 5/6 and even all 6 at the same time. And yet, for simplicity, let's imagine that 4 friends agreed.
+
+Select _<mark style="color:purple;">**signaShare**</mark>_ mode. This will generate a partial signature for you
+
+![](<../../.gitbook/assets/image (32).png>)
+
+Insert the necessary and generate a signature. The same procedure is repeated by the other 3 friends (because you are the fourth in this company)
+
+Friend with ID=1
+
+![](<../../.gitbook/assets/image (16).png>)
+
+Friend with ID=2
+
+![](<../../.gitbook/assets/image (18).png>)
+
+Friend with ID=3
+
+![](<../../.gitbook/assets/image (25).png>)
+
+Friend with ID=4
+
 ![](<../../.gitbook/assets/image (40).png>)
+
+Great, now you can post your partial signatures or send them to someone who collects them and create a group signature. It will be verified by the group's public key that you created earlier.
+
+To do this, select the option _<mark style="color:purple;">**buildFullSignature**</mark>_
+
+![](<../../.gitbook/assets/image (29).png>)
+
+Paste all 4 partial signatures and IDs
+
+![](<../../.gitbook/assets/image (46).png>)
+
+Now, having such a signature, the network will be able to verify it using the group's public key. And you can do it too - in the Apollo interface. To do this, select the _<mark style="color:purple;">**verify**</mark>_ option and paste the required
+
+![](<../../.gitbook/assets/image (33).png>)
+
+Verification
+
+![](<../../.gitbook/assets/image (24).png>)
+
+### <mark style="color:red;">**Importance for KLYNTAR in the future**</mark>
+
+Multi-signatures and threshold signatures are extremely important both in the initial stages and for future developments. In addition to the cryptographic beauty that they already allow to use in KLYNTAR right now (voting, aggregation that gives speedups + reduces N proofs to a single proof, some third-party applications), they are also of great interest for future developments.
+
+<mark style="color:yellow;">**Here's couple of ideas**</mark>
+
+* Quick state verification\
+  \
+  In the future, we plan to modify the state verification system so that for the block there is a single proof of its validity and the validity of transactions inside. This can be achieved by aggregating\
+
+* Building in-memory hash-tables with different aggregaed pubkeys variants\
+  \
+  Due to the nature of blockchains that not all validators can be online at the same time, it would be necessary to make more rational use of aggregation capabilities. So we can, for example, create a mapping where the key is some public key of the current set of validators, and the value is the set of missing validators. Thus, it is possible to achieve minimization of communication rounds and at the same time each of the nodes will know for sure on which of the blocks which validators did not sign it (being offline, for example). This way you can keep checking rates per block using O(1) accessibility mapping\
+
+* Various schemes that just come to mind\
+  \
+  This and homomorphic hiding, due to which some public key will actually be secretly controlled by several parties, these are various flexible options for staking, swaps, Unobtanium exchange, freezing rates for services and much more. Oh multi-signatures, thank you for being you 😃
+
+### <mark style="color:red;">Links</mark>
+
+{% embed url="https://asecuritysite.com/public/bls.pdf" %}
+
+{% embed url="https://hackmd.io/@benjaminion/bls12-381" %}
+
+{% embed url="https://medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716" %}
+
+{% embed url="https://medium.com/@VitalikButerin/exploring-elliptic-curve-pairings-c73c1864e627" %}

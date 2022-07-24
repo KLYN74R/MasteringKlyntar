@@ -126,7 +126,7 @@ Next, we skip the animations and move on to the important. Below you can see how
 
 At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
 
-![](<../../.gitbook/assets/image (5) (1) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
