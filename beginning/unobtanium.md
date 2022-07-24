@@ -38,7 +38,7 @@ Instead of sharing one resource and relying on a "well decentralized" distributi
 
 Below is an example of how your Bitcoin holdings can be converted to Unobtanium on KLYNTAR
 
-![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1) (1).png>)
 
 As noted in the NOTE section, there may be several options that will give you different amounts of Unobtanium.
 
@@ -54,4 +54,4 @@ Here is another example - this time Ethereum. Thanks to the capabilities of smar
 
 For example, here we can assume that we will offer some kind of token as part of an advertising campaign to some kind of symbiote
 
-![](<../.gitbook/assets/image (10) (1).png>)
+![](<../.gitbook/assets/image (10) (1) (1).png>)

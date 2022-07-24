@@ -91,7 +91,7 @@ VRF can be built on any curves, but it uses secp256k1 curve and ECDSA to generat
 
 Next comes the hash calculation and proof. Here the data is represented as bytes. The hash becomes public and is used as the very "random value", and the proof - as proof of the reliability of the calculation.
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 <mark style="color:yellow;">**Step 3 - Verification**</mark>
 

@@ -34,7 +34,7 @@ Today, WebAssembly is becoming popular all over the world and in various areas -
 
 Below is a list of languages that can already be used to compile to WASM and work safely on KLYNTAR symbiotes
 
-![](<../../.gitbook/assets/image (25) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (1).png>)
 
 {% embed url="https://github.com/appcypher/awesome-wasm-langs" %}
 
@@ -56,7 +56,7 @@ File _<mark style="color:red;">**add.wat**</mark>_
 
 Next, we use the _<mark style="color:purple;">**wat2wasm**</mark>_ tool that comes with the _<mark style="color:red;">**wat-wasm**</mark>_ package.
 
-![](<../../.gitbook/assets/image (23) (1).png>)
+![](<../../.gitbook/assets/image (23) (1) (1).png>)
 
 We compile (with the help of flags -O3z we compress as much as possible and carry out optimization)
 
@@ -100,11 +100,11 @@ We will just start using AssemblyScript as the first entry point for .wasm smart
 
 More will be added later. Here are some interesting themed repositories
 
-![](<../../.gitbook/assets/image (26) (1).png>)
+![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (18).png>)
 
-![](<../../.gitbook/assets/image (22) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1).png>)
 
 The KLYNTAR virtual machine is individual for each symbiote in terms of features and cost table. For its work, it uses a resource called _<mark style="color:red;">**energy**</mark>_. We decided to call the analogy with gas on Ethereum that way, but with the only difference that the concept of energy is more global.
 

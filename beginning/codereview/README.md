@@ -206,7 +206,7 @@ Contains plugins that are loaded separately by the node operator and serve to ex
 
 Contains code for runners that listen for new services and run further logic based on the configuration - what to run and what not to run, in which container, which script to execute, and so on. There will also be a default runner from Andromeda developers. You can see this by looking at the repository
 
-![](<../../.gitbook/assets/image (25) (1) (1).png>)
+![](<../../.gitbook/assets/image (25) (1) (1) (1).png>)
 
 {% hint style="warning" %}
 Don't forget that the development process is ongoing
@@ -224,7 +224,7 @@ Directory with individual units and other tests
 
 Contains algorithms and data structures. Again, it is at the top level due to the fact that the algorithms and useful functions here are common to all symbiotes. We can even look at it visually
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 <mark style="color:yellow;">**KLY\_KVM**</mark>
 

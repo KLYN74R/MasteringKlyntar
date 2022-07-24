@@ -63,7 +63,7 @@ If the limit is exceeded, the work stops and we catch exceptions. Although the E
 
 By the way, here is a detailed and good description on GitHub
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (1).png>)
 
 {% embed url="https://github.com/ewasm/design/blob/master/metering.md" %}
 

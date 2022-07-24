@@ -30,7 +30,7 @@ In the code, you might notice two types of blocks. This is defined at the level 
 
 During work, the controller collects all these blocks into a ControllerBlock and sends a commit to the host chains. This is what this stage looks like
 
-![](<../../.gitbook/assets/image (17) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
 
 At the connector level, a simple inclusion is defined (no additional logic). Also, the controller does not have the right to spend its stake between commits. A similar rule works for InstantGenerators - they can sign the only valid chain received from the controller and then check that it was included on the host chain.
 

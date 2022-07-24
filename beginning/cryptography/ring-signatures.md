@@ -22,7 +22,7 @@ LRS signatures have a linkability property, so you can establish a link between 
 P.S: A similar operation can be carried out even in Apollo
 {% endhint %}
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 We use ECDSA at the heart of the LRS, and addresses derived from public keys are compatible with Ethereum.
 
@@ -36,7 +36,7 @@ Please note that we will add support for using such addresses in the near future
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 ![](<../../.gitbook/assets/image (2).png>)
 

@@ -43,4 +43,4 @@ Here, for simplicity, the dispute regarding commissions on one of the symbiotes 
 
 As mentioned earlier, due to the greater decentralization, voting can also take place using the host chain. Thus, using smart contracts, it will also be possible to take part in the voting.
 
-![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1) (1).png>)

@@ -16,7 +16,7 @@ KLYNTAR uses Ed25519 as the most default pair. Key sizes (both private and publi
 
 By the way, KLYNTAR addresses are compatible with Solana (given the fact that their default addresses are just a public key in Base58). Moreover, the commit transaction _<mark style="color:red;">**useful.txt**</mark>_ on the Solana mainnet (with a program Memo call) was made by the KLYNTAR keys
 
-![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10) (1) (1).png>)
+![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
@@ -83,7 +83,7 @@ Here, as they say, coming soon. We will also add HD(hierarchical deterministic) 
 UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDohaeris supports HD addresses in KLYNTAR and also generates 12 mnemo words for you. However, the functionality for generating key pair chains and importing a phrase will be implemented soon
 {% endhint %}
 
-![](<../../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**A couple more words**</mark>
 

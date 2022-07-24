@@ -12,7 +12,7 @@ coverY: -181.33333333333334
 
 Each symbiote must have a name, and we want to help you with it too. First of all, we are preparing such console art for the most famous symbiotes.
 
-![](<../.gitbook/assets/image (16) (1) (1).png>)
+![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 We plan to sell them on a smart contract as a bonus or make them part of a bounty program. These shortcuts will replace the default ugly addresses with such beautiful and memorable symbiote names. They work as aliases and associations with some default address format. We will also mention symbiotes by their tags, write information about them by name, and browsers will display chain data by this tag. Mapping address ⇒ alias will be in our repository in releases, so each client can have such a mapping.
 
@@ -28,7 +28,7 @@ There are only 2 symbiotes whose names are already taken - these are kNULL and A
 
 We will be constantly updating the repository with new names, but you can create aliases yourself and associate them with any symbiote (although this is not recommended). For example, here is how it looks in configs:
 
-![](<../.gitbook/assets/image (17) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 ### <mark style="color:red;">Emission</mark>
 

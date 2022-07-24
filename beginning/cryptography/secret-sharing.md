@@ -12,7 +12,7 @@ Secret Sharing Schemes - A cryptographic primitive that allows some user to shar
 
 Depending on the algorithm, they can be verifiable (this is when the participants in the division will have cryptographic proof that their part is the real part of the shared secret)
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (23) (1).png>)
 
 ### <mark style="color:red;">**Significance for KLYNTAR**</mark>
 

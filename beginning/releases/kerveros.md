@@ -10,7 +10,7 @@ coverY: 0
 Status - <mark style="color:purple;">**Implemented**</mark>
 {% endhint %}
 
-![](<../../.gitbook/assets/image (16) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1).png>)
 
 In the first KLYNTAR document (_<mark style="color:red;">**Whitepaper v1**</mark>_), we promised to add only post-quantum signatures based on hashes.
 

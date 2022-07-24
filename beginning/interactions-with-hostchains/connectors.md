@@ -44,7 +44,7 @@ It is also worth noting that this pack contains not too "cool" connectors. This 
 
 Let's look at the code of the connectors to make it more clear to you. Here is the connector for Litecoin
 
-![](<../../.gitbook/assets/image (16) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (16) (1) (1) (1) (1).png>)
 
 Inside the function, you can see how the connector accesses its settings through the global <mark style="color:purple;">**CONFIG.SYMBIOTES\[**</mark><mark style="color:purple;"><mark style="color:yellow;">**\<symbiote>**<mark style="color:yellow;"></mark><mark style="color:purple;">**].HC\_CONFIGS**</mark> object. This is exactly the same object that we configured at the workflow configuration level.
 

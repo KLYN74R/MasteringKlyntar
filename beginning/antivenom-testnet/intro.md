@@ -101,11 +101,11 @@ As we said before,this setup is the most default way for quick start. In a nutsh
 
 The signal that the build is successful will be such messages in the console
 
-![](<../../.gitbook/assets/image (23) (1) (1).png>)
+![](<../../.gitbook/assets/image (23) (1) (1) (1).png>)
 
 #### ...and after building Go addons
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 #### **...One more thing**
 
@@ -225,7 +225,7 @@ klyntar
 
 ### You should see the following
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16) (1).png>)
 
 Since you are using default configuration, there is default keypair, workflow and so on. To continue decrypt your private key with the password `qwerty`
 
