@@ -8,7 +8,7 @@ coverY: -124.49869224062773
 
 ### <mark style="color:red;">**Other cryptographic algorithms**</mark>
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 We are committed to modifying and improving KLYNTAR and therefore expect Cryptoland updates. Updates will take place both on symbiotes and on individual services.
 

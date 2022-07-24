@@ -136,7 +136,7 @@ Finally, the previously imported second symbiote workflow function is called. We
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 
@@ -154,7 +154,7 @@ As mentioned earlier, there are a number of common elements for symbiotes
 
 <mark style="color:yellow;">**Server**</mark>
 
-![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
 
 {% embed url="https://github.com/uNetworking/uWebSockets.js" %}
 

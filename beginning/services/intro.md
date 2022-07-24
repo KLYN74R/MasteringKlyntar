@@ -36,7 +36,7 @@ Services are your separate projects that will run in parallel with symbiotes and
 
 You build and deploy your service to the network following certain rules. For example, Apollo has a service command that provides functionality for building service metadata, searching for services over the network (to download them locally and also become a node that supports the service), for scanning services for malware (encryptors, loaders, stagers for exploits, etc. .d.)
 
-![](<../../.gitbook/assets/image (7) (1) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1) (1).png>)
 
 So, after you create your service, you can deploy it to the network. The nodes accept an archive or links, and then a _<mark style="color:red;">**runner**</mark>_ comes into play - a service handler that decides whether it is worth launching the service in principle, whether you trust the author or whether he is included in your trust tree, whether enough anti-virus centers have checked this repository, what is the subject of this service (maybe you want to support only services that are aimed at privacy) and much more.
 
@@ -76,7 +76,7 @@ Services can communicate with each other, work on other chains, be an independen
 
 Below are examples of services that we took from our WhitePaper. Here is a service that analyzes exploits for some smart contract on Polygon. Such a service earns by analyzing samples and can be written by some company from this field. At the same time, services can support staking, have their own token, and so on. Unobtanium is used here as an example of staking. The bottom line is that if stakers link their unobtanium to the service, then when it is used by third-party users or smart contracts, part of the payments will go to the stakers. At the same time, if the service does not have users or its malicious behavior is noticed, then the service will not earn anything and will lose users or trust, and stakers’ stakes will simply “idle” all this time instead of receiving a percentage if they were placed on the other-honest service.
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
 Here is a second example of a service. Here again you can see the possibilities of KLYNTAR. So, for example, here the roles are divided between the nodes into:
 

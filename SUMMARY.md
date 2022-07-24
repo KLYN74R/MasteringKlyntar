@@ -30,7 +30,7 @@
 * [🏞 Native smart-contracts](beginning/native-smart-contracts/README.md)
   * [ℹ Intorduction](beginning/native-smart-contracts/intorduction.md)
   * [🤞 Сross-chain seamless smart contracts](beginning/native-smart-contracts/sross-chain-seamless-smart-contracts.md)
-  * [💪 Extended capabilities](beginning/native-smart-contracts/extended-capabilities.md)
+  * [💪 Advanced features](beginning/native-smart-contracts/advanced-features.md)
 * [🤖 Services](beginning/services/README.md)
   * [🤩 Intro](beginning/services/intro.md)
   * [🏭 Architecture](beginning/services/architecture.md)

@@ -39,7 +39,7 @@ So, in our example above, the interaction happens in a new block. Let these be b
 
 Suppose that all this happened for a block with an index of _<mark style="color:orange;">**100,000**</mark>_ and a hash _<mark style="color:orange;">**adcdef...**</mark>_. In this case, the nodes sign this data and publish their signatures.
 
-![](<../../.gitbook/assets/image (7) (1).png>)
+![](<../../.gitbook/assets/image (7) (1) (1).png>)
 
 We used multi-signatures here, which you will get acquainted with here, but for now let them be a kind of black box for you that will collect signatures and public keys of validators and aggregate them into a single proof.
 
@@ -66,7 +66,7 @@ In our example, it turns out that those who have frozen rates will not be able t
 
 Do not rush to throw away equipment 🧙‍♂️
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">Hivemind</mark>
 

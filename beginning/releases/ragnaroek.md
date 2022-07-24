@@ -10,4 +10,4 @@ coverY: 0
 
 We'll publish more details soon
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)

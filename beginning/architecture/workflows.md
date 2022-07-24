@@ -56,7 +56,7 @@ So, don't be surprised if there was just a 100,000 block, and 2 seconds later an
 
 Let's do a visualization. First, consider the verification and generation flows.
 
-![](<../../.gitbook/assets/image (15) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 Green ones are blocks that the node has already checked, dotted ones are those that were generated at a time, a couple of seconds after the previous batch.
 

@@ -24,7 +24,7 @@ Flexibility and depth of settings are determined by the creator of the connector
 
 Within certain standards, workflow provides an <mark style="color:yellow;">**HC\_CONFIGS**</mark> object which contains the necessary configs for the connector. In order to show in practice, for example, here is how the configuration of one of the workflows that uses a set of symbiotes looks like.
 
-![](<../../.gitbook/assets/image (15) (1).png>)
+![](<../../.gitbook/assets/image (15) (1) (1).png>)
 
 The set of custom parameters is defined in the connector. It all depends on how cool the connector is and how much it allows you to configure.
 

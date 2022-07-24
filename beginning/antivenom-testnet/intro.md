@@ -101,7 +101,7 @@ As we said before,this setup is the most default way for quick start. In a nutsh
 
 The signal that the build is successful will be such messages in the console
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (23) (1).png>)
 
 #### ...and after building Go addons
 
