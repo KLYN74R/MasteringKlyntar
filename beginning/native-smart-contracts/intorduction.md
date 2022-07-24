@@ -100,7 +100,7 @@ We will just start using AssemblyScript as the first entry point for .wasm smart
 
 More will be added later. Here are some interesting themed repositories
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 ![](<../../.gitbook/assets/image (18).png>)
 

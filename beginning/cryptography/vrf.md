@@ -97,7 +97,7 @@ Next comes the hash calculation and proof. Here the data is represented as bytes
 
 Anyone with the public key, the original input, and the proof can verify the validity of the computation by taking the hash and comparing it to the original.
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (24).png>)
 
 ### <mark style="color:red;">So what's the catch here?</mark>
 
