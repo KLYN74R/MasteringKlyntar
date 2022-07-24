@@ -6,7 +6,7 @@ coverY: 0
 
 # 🛑 Filters
 
-![](<../.gitbook/assets/image (14) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1).png>)
 
 ### <mark style="color:red;">Generally</mark>
 
@@ -32,7 +32,7 @@ This is an optional path because the workflow developer can change the position 
 
 As for the developers of KlyntarTeam, for simplicity, we put the filters right away. Here's what it looks like
 
-![Pretty simple hierarchy](<../.gitbook/assets/image (19) (1).png>)
+![Pretty simple hierarchy](<../.gitbook/assets/image (19) (1) (1).png>)
 
 ### <mark style="color:red;">What are filters on the code level</mark>
 

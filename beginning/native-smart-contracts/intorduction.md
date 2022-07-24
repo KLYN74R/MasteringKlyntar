@@ -9,7 +9,7 @@ coverY: 0
 
 ### <mark style="color:red;">**Start**</mark>
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (15) (1).png>)
 
 Today, the need for smart contracts in blockchains is actually mandatory, because it allows you to write custom logic in the form of contracts that then live and execute in a decentralized environment.
 
@@ -94,7 +94,7 @@ Of course, it is difficult to write in pure WAT and therefore you will most like
 
 We will just start using AssemblyScript as the first entry point for .wasm smart contracts on KLYNTAR.
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 {% embed url="https://github.com/AssemblyScript/assemblyscript" %}
 
@@ -102,7 +102,7 @@ More will be added later. Here are some interesting themed repositories
 
 ![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (1).png>)
 
 ![](<../../.gitbook/assets/image (22) (1) (1).png>)
 

@@ -12,7 +12,7 @@ Status - <mark style="color:purple;">**Almost completed**</mark> (not added to A
 
 {% embed url="https://github.com/KLYN74R/ValarDohaeris" %}
 
-![](<../../.gitbook/assets/image (15) (1).png>)
+![](<../../.gitbook/assets/image (15) (1) (1).png>)
 
 This release will support various address formats for leading crypto projects. Thus, you will be able to work with your BTC, ETH, XRP address formats. Since KLYNTAR provides interoperability with different networks, such features can be useful in case of interoperability and promotion programs.
 
@@ -32,4 +32,4 @@ And Cryptoland will soon be able to sign data
 
 ![](<../../.gitbook/assets/image (6).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)

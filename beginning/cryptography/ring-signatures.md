@@ -34,7 +34,7 @@ We have also added the ability to generate such a key pair in Apollo. Generate t
 Please note that we will add support for using such addresses in the near future! However, you can already receive coins and link unobtanium to such addresses
 {% endhint %}
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20) (1).png>)
 
 ![](<../../.gitbook/assets/image (26) (1).png>)
 

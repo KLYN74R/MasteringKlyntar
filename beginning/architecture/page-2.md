@@ -118,7 +118,7 @@ Next comes the definition of the main directories and the paths to them
 
 The core then loads the configuration into the global object and creates service links and directories
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
 
 Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
 
@@ -132,11 +132,11 @@ At the next stage, there is a definition of services that need to be launched at
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 
-![](<../../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
-![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 
@@ -146,7 +146,7 @@ Although this will happen in a random order, we still assume that the creation o
 
 This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
 
-![](<../../.gitbook/assets/image (13) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**Common components for symbiotes**</mark>
 

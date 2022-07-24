@@ -40,7 +40,7 @@ At the code level, the runner is a separate repository that lies in the _<mark s
 
 Here, for example, how it looks at the level of the code editor
 
-![](<../.gitbook/assets/image (11) (1).png>)
+![](<../.gitbook/assets/image (11) (1) (1).png>)
 
 You can update repositories independently. The KLYNTAR daemon, when it starts, looks at the _<mark style="color:orange;">**services.json**</mark>_ configuration file and the <mark style="color:orange;">**RUNNER**</mark> option where the path to the runner entry point is specified.
 
@@ -259,7 +259,7 @@ All this once again emphasizes the flexible possibilities of KLYNTAR and the pos
 
 By default, the standard runner from the KLYNTAR developers will be available to you. We named it after our neighboring galaxy Andromeda. This is symbolic since we are comparing conventional smart contracts with our relatively well-known Milky Way galaxy. But the services in the form in which they will be on KLYNTAR are something new, some kind of new galaxy - not so distant, but still - opens up new opportunities for us
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 {% hint style="info" %}
 Currently, all runners are under development and will not be available for the first time for use on the network.

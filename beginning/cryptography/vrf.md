@@ -85,7 +85,7 @@ Let's see what's going on here
 
 VRF can be built on any curves, but it uses secp256k1 curve and ECDSA to generate key pairs. In general, we took the same keys that we use to generate key pairs for ring signatures (that is, there will again be ETH compatibility).
 
-![Keys in bytes format](<../../.gitbook/assets/image (11).png>)
+![Keys in bytes format](<../../.gitbook/assets/image (11) (1).png>)
 
 <mark style="color:yellow;">**Step 2 - Computation**</mark>
 
@@ -97,7 +97,7 @@ Next comes the hash calculation and proof. Here the data is represented as bytes
 
 Anyone with the public key, the original input, and the proof can verify the validity of the computation by taking the hash and comparing it to the original.
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 ### <mark style="color:red;">So what's the catch here?</mark>
 
@@ -107,7 +107,7 @@ For those who have not yet understood, the point here is that even the owner of 
 
 Let's imagine that a group of people (2 people) are playing a game in which everyone receives the input string <mark style="color:purple;">**THIS IS A GAME**</mark> and generates 32 byte hashes using VRF. This continues 3 times and each time the input will be the hash obtained in the previous step. After that, they sum up the hash values. Whoever has the most amount wins. Each of them has a pair of keys and each knows the public key of the other. You can visualize it like this
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 At the same time, both Alice and Bob will be sure of the impossibility of obtaining other data and the fairness of this game.
 

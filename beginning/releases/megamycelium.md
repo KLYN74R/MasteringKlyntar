@@ -19,4 +19,4 @@ As part of this release, we plan to release an application (or in the form of ot
 
 It's too early to tell, but the implementation of the kernel client for different platforms will be an important milestone in the development of KLYNTAR. Working light clients that will perform simpler tasks than the nodes themselves, but nevertheless - all this will be a big plus for decentralization because your tablets, smartphones or even single-payers will be able to store files and data within Lokapala, conduct partial monitoring of host chains, validate services and much more
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (1).png>)

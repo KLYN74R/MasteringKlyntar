@@ -16,7 +16,7 @@ Status - <mark style="color:purple;">**Theoretical base developed + no need yet*
 
 One of the most important updates for KLYNTAR. In quantum mechanics, ghost action was named by Einstein to describe the interaction between entangled particles at a distance. Because of the correlation between particles (eg photons, positrons, etc.), he could not explain how information could be transmitted between them even across billions of light years instantly. Although this is impossible and scientists have found an explanation for this, we borrowed a few fundamental pillars - "at a distance" and "instantly".
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 <mark style="color:yellow;">**Instantly**</mark>
 

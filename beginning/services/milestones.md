@@ -12,13 +12,13 @@ On the one hand, the services are independent of each other, and on the other ha
 
 Let me give an example, let's say we have some kind of service that acts as a decentralized off-chain oracle.
 
-![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 Without the history and evidence of the "work" of this service, potential users will not be able to be convinced of its honesty and reputation.
 
 Let's imagine that other services use this oracle and the oracle decides to lie
 
-![](<../../.gitbook/assets/image (14) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1) (1) (1) (1) (1).png>)
 
 If there is no source where the oracle "attaches" its answers, then it will not be able to accumulate reputation and other services will not be able to know about its work.
 
