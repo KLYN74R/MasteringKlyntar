@@ -27,7 +27,7 @@ For example, in our workflow (workflows) it is planned to make sure that the val
 
 <mark style="color:yellow;">**Let's take an illustrative example**</mark>
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
 Suppose that the nodes of some symbiote (here highlighted in blue) have started an interaction session with their host chains and sent the necessary data to them (using the logic of connectors). Let this data get into and be processed in future blocks of the host chain. For various reasons, everyone takes the moment of finalization for himself (somewhere it is enough for you that the commit was included in Bitcoin, and somewhere that smart contracts worked out correctly).
 

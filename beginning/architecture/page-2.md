@@ -146,7 +146,7 @@ Although this will happen in a random order, we still assume that the creation o
 
 This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
 
-![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**Common components for symbiotes**</mark>
 
