@@ -59,15 +59,15 @@ Dive into the ecosystem of Klyntar plugins. We can say that the essence of plugi
 
 Required to filter incoming data from transaction events to service events. Thanks to the filters, you can set limits on calls to your infrastructure depending on your preferences, filter by IP addresses (for example, do not accept transactions if the IP belongs to TOR exit nodes). Quite a powerful thing - we recommend that you familiarize yourself
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Monitors</mark>](interactions-with-the-hostchains/monitors.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Monitors</mark>](monitors.md)<mark style="color:red;"></mark>
 
 Since we are working in a multi-space, it is necessary to monitor the situation in other symbiotes, host chains such as Ethereum, Solana, Tron, Bitcoin and so on. It's good that you will have the opportunity to visit the appropriate repository where community members and the main KlyntarTeam team will publish ready-made solutions that you will need for normal work
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Adapters</mark>](interactions-with-the-hostchains/adapters.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Adapters</mark>](adapters.md)<mark style="color:red;"></mark>
 
 Since the data will come from different sources, it is advisable to convert them to the format necessary for the nodes of your cluster: somewhere you need to cache the data or get only the desired field - adapters will do just fine with this
 
-### <mark style="color:red;"></mark>[<mark style="color:red;">Connectors</mark>](interactions-with-the-hostchains/connectors.md)<mark style="color:red;"></mark>
+### <mark style="color:red;"></mark>[<mark style="color:red;">Connectors</mark>](connectors.md)<mark style="color:red;"></mark>
 
 As you can see, Klyntar is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
 
