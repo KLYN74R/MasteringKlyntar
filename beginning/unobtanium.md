@@ -38,7 +38,7 @@ Instead of sharing one resource and relying on a "well decentralized" distributi
 
 Below is an example of how your Bitcoin holdings can be converted to Unobtanium on KLYNTAR
 
-![](<../.gitbook/assets/image (17) (1) (1).png>)
+![](<../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 As noted in the NOTE section, there may be several options that will give you different amounts of Unobtanium.
 

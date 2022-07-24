@@ -85,7 +85,7 @@ Here is a second example of a service. Here again you can see the possibilities 
 * Nodes scouts
 * Nodes coordinators
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Here is an example of a service that allows you to transfer NFTs, tokens and other resources between networks and at the same time, scout nodes bring certain additional functions. For example, he can see that if someone tries to sell your service tokens on Avalanche (we just called them WKLY, but you can have your own name) to the contract address, which is also some kind of token, then the scout nodes will see this event , scan the contract, find out the information, and if, for example, this is some kind of scam project, then the tokens after your sale to the attacker’s contract will be blocked and the scammer will not receive anything.
 

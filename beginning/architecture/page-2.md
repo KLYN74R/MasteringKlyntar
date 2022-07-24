@@ -80,7 +80,7 @@ We assume there will be several workflows, however, due to the concepts of "good
 
 <mark style="color:orange;">**Connectors**</mark>
 
-The second important component of symbiotes are connectors - modules for working with host chains. You'll get to know them in more detail in the [_<mark style="color:yellow;">**Connectors**</mark>_](../connectors.md) section, but for now let's just say that they define how your symbiote interacts with host chains. Connector developers, for example, create an interface for you, providing functions for working with a certain type of smart contracts on the host chain that supports them, or other methods of interaction. Workflow developers then take these connectors and insert them into their code at the right places. For example, send a state commit to Ethereum and Tron where there will be a multi-signature of validators as a payload, or generate a zero-knowledge proof and send it to the EVM for some contract of your symbiote.
+The second important component of symbiotes are connectors - modules for working with host chains. You'll get to know them in more detail in the [_<mark style="color:yellow;">**Connectors**</mark>_](../interactions-with-hostchains/connectors.md) section, but for now let's just say that they define how your symbiote interacts with host chains. Connector developers, for example, create an interface for you, providing functions for working with a certain type of smart contracts on the host chain that supports them, or other methods of interaction. Workflow developers then take these connectors and insert them into their code at the right places. For example, send a state commit to Ethereum and Tron where there will be a multi-signature of validators as a payload, or generate a zero-knowledge proof and send it to the EVM for some contract of your symbiote.
 
 ### <mark style="color:red;">So what's new you can create?</mark>
 
@@ -128,7 +128,7 @@ At the next stage, there is a definition of services that need to be launched at
 
 ![](<../../.gitbook/assets/image (5) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 

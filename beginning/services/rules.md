@@ -20,4 +20,4 @@ Due to the fact that everything is tracked and signed, it is possible to use it 
 
 With the development of the project, other Best Practices for writing services will appear. We recommend visiting the Best Practices page
 
-{% embed url="https://ru.mastering.klyntar.org/beginning/best-practices" %}
+{% embed url="https://mastering.klyntar.org/beginning/best-practices" %}
