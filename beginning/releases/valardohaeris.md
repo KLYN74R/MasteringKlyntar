@@ -26,7 +26,7 @@ In Apollo, you can generate addresses, as well as sign messages with a pair of k
 
 <mark style="color:yellow;">**Genarate via Apollo**</mark>
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (26).png>)
 
 And Cryptoland will soon be able to sign data
 

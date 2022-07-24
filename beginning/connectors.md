@@ -36,7 +36,7 @@ In this case, connectors for 3 host chains are used:
 
 They are all from the dev0 pack. Let's take a look inside
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 {% hint style="warning" %}
 It is also worth noting that this pack contains not too "cool" connectors. This group of connectors simply save the commit to the host chain and then check the commit asynchronously
