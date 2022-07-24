@@ -36,7 +36,7 @@ _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its 
 
 A similar structure resembles a chain-link grid
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 There are no weaknesses in such a structure, because everyone is connected to each other and all this with the participation of other networks.
 
@@ -110,7 +110,7 @@ By the way, this can be considered part of our analysis of the code. Although he
 
 The first step is to determine the full path and work with environment variables. The kernel also determines in which mode the daemon is running (testnet / mainnet)
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 Next comes the definition of the main directories and the paths to them
 

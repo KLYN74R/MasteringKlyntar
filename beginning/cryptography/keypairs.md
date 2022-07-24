@@ -31,7 +31,7 @@ Here is a typical example of a key pair generated via CLI or UI in Apollo
 }
 ```
 
-![](<../../.gitbook/assets/image (14) (1).png>)
+![](<../../.gitbook/assets/image (14) (1) (1).png>)
 
 <mark style="color:red;">**Node.js generates key pair in DER format**</mark>
 

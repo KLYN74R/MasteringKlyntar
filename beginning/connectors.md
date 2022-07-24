@@ -148,7 +148,7 @@ Since we want the maximum, both connector developers and workflow developers sho
 
 Again, the simplest workflow (dev\_controller) can be cited as an example. This is how he uses the connector in his code.
 
-![https://github.com/KLYN74R/KlyntarCore/blob/0cd166e7790e9ddeac9d3d3b8ce069689bdba13b/KLY\_Workflows/dev\_controller/life.js#L247](<../.gitbook/assets/image (14).png>)
+![https://github.com/KLYN74R/KlyntarCore/blob/0cd166e7790e9ddeac9d3d3b8ce069689bdba13b/KLY\_Workflows/dev\_controller/life.js#L247](<../.gitbook/assets/image (14) (1).png>)
 
 This is the block generation function. As part of the workflow, it is planned that a new commit cannot be added if the old one is not yet included in the host chain. In addition, the logic of periodic activation is defined at the connector level. So, for example, on Bitcoin and forks (due to the common API and similar data structures) you can set the CONFIRMATIONS parameter and thus the commits will be only at set intervals (due to the fact that on Bitcoin there is a difficulty correction and the network in any case mines a block approximately once in 10 minutes). But this is just an example, other connectors may be more functional and provide other cool features.
 
