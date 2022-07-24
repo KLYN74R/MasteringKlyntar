@@ -6,7 +6,7 @@ coverY: -243.34439283344392
 
 # 💪 Advanced features
 
-### <mark style="color:red;">How KLYNTAR calculates the energy to execute smart contracts</mark>
+### <mark style="color:red;">How KLYNTAR measure the energy to execute smart contracts</mark>
 
 The execution of smart contracts should be controlled - after all, we do not need our processor to burn out and the node to stop. It is necessary to take into account the fact that inside the bytecode an attacker will try to hide an infinite loop or otherwise affect the normal flow of work in some other way.
 
