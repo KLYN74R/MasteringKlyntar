@@ -76,7 +76,7 @@
   * [🛰 Pandora](beginning/releases/pandora.md)
   * [🍄 MegaMycelium](beginning/releases/megamycelium.md)
   * [🌪 Ragnarök](beginning/releases/ragnaroek.md)
-  * [🌐 Web1337](beginning/releases/web1337.md)
+  * [🌐 Web1337](beginning/releases/web23.md)
 * [📈 CIIPs](beginning/ciips.md)
 * [🚀 Running your infrastructure](beginning/running-your-infrastructure.md)
 * [💱 Information for exchanges](beginning/information-for-exchanges.md)
