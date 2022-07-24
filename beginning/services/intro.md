@@ -48,7 +48,7 @@ We'll get to know runners later in the [_<mark style="color:purple;">**Runners**
 
 Now we will present you with a picture-diagram that we stole from the page about runners, but here you can clearly see what's what
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
 
 Here, the nodes that work in the KLYNTAR network are marked in blue(for simplicity, we will not divide them into symbiotes here), and purple is the newly launched service.
 

@@ -19,7 +19,7 @@ Each symbiote will provide its own access to different networks. That is why, wh
 
 If one symbiote provides an API to work on less popular host chains than another, then the income of the nodes on this may be less and the symbiote will lose validators and nodes. Similarly, in the other direction - if the symbiote is too "expensive" to launch, then people will leave from here. And although this is not particularly critical due to [_<mark style="color:purple;">**Mutualism**</mark>_](../releases/mutualism.md), it is still recommended to maintain a balance.
 
-### <mark style="color:red;">**Пример**</mark>
+### <mark style="color:red;">**Example**</mark>
 
 Let's assume that you want to write an on-chain cross-chain smart contract on KLYNTAR between the networks that were already in the example - Polygon (EVM logic), KLYNTAR (main logic and cross-chain communication) and Litecoin.
 

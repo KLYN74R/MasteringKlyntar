@@ -24,7 +24,7 @@ The runner decides whether to run the service on this node or send it to others,
 
 Here's how you can schematically represent the runner
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 ### <mark style="color:red;">In a nutshell</mark>
 

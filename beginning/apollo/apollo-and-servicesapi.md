@@ -96,7 +96,7 @@ Finally, restart Apollo and go to the services section.
 
 ![](<../../.gitbook/assets/image (27).png>)
 
-![](<../../.gitbook/assets/image (22) (1).png>)
+![](<../../.gitbook/assets/image (22) (1) (1).png>)
 
 Buttons will appear on the side that will lead you to the main API page of your service
 

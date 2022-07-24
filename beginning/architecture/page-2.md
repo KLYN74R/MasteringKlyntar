@@ -32,7 +32,7 @@ What is a symbiote?
 _<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its own genesis, its own history of events, its own state, works following its own workflows and interacts with its own set of hostchains
 {% endhint %}
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png>)
 
 A similar structure resembles a chain-link grid
 

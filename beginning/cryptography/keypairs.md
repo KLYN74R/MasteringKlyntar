@@ -18,7 +18,7 @@ By the way, KLYNTAR addresses are compatible with Solana (given the fact that th
 
 ![You can view the transaction on the official Solana explorer](<../../.gitbook/assets/image (10) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (8) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 {% embed url="https://explorer.solana.com/tx/36cs4bjKZJNcTsMA8N6Bz8mm2yBUX5WvcT74oT3Pn2sD6cMGprRQvmYVdPGQJmrnHPDrypJYkT9Zg6UHw4vuPssT" %}
 

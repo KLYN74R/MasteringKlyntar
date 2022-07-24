@@ -39,7 +39,7 @@ We expect that in KLYNTAR, hostchain resources will also be taken into account w
 
 Here, for simplicity, the dispute regarding commissions on one of the symbiotes is resolved and only 2 miners take part. Of course, this is an abstraction and the number of sides will be greater. So, for example, here, for 100 blocks, conditional 100 unobtanium units were mined, while 2 voters mined only 4 units out of 100, while the "rest of the network" - 96. By linking your Litecoin addresses to BLS addresses on KLYNTAR, you can vote and confirm ownership of unobtanium.
 
-![](<../../.gitbook/assets/image (8) (1) (1).png>)
+![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 As mentioned earlier, due to the greater decentralization, voting can also take place using the host chain. Thus, using smart contracts, it will also be possible to take part in the voting.
 
