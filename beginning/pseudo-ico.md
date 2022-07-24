@@ -28,7 +28,7 @@ There are only 2 symbiotes whose names are already taken - these are kNULL and A
 
 We will be constantly updating the repository with new names, but you can create aliases yourself and associate them with any symbiote (although this is not recommended). For example, here is how it looks in configs:
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 ### <mark style="color:red;">Emission</mark>
 
