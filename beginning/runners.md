@@ -40,7 +40,7 @@ At the code level, the runner is a separate repository that lies in the _<mark s
 
 Here, for example, how it looks at the level of the code editor
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 You can update repositories independently. The KLYNTAR daemon, when it starts, looks at the _<mark style="color:orange;">**services.json**</mark>_ configuration file and the <mark style="color:orange;">**RUNNER**</mark> option where the path to the runner entry point is specified.
 

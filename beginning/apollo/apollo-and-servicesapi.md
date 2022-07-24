@@ -94,7 +94,7 @@ Also specify <mark style="color:yellow;">**TYPE**</mark>=service as in the examp
 
 Finally, restart Apollo and go to the services section.
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 ![](<../../.gitbook/assets/image (22) (1) (1).png>)
 

@@ -70,7 +70,7 @@ To activate, make changes to the Apollo configuration
 
 In Apollo, you will see them in the SYMBIOTES section after connecting the module in the configuration file and restarting the server
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 {% hint style="info" %}
 This page will be updated over time.

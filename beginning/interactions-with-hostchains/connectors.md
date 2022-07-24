@@ -14,7 +14,7 @@ Since we have to adapt to the functionality of other chains, all you need to wri
 
 Here's how to schematically label the connector so that you have a better understanding of what is happening
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 ### <mark style="color:red;">Connector configuration and configurable parameters</mark>
 
@@ -36,7 +36,7 @@ In this case, connectors for 3 host chains are used:
 
 They are all from the dev0 pack. Let's take a look inside
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 {% hint style="warning" %}
 It is also worth noting that this pack contains not too "cool" connectors. This group of connectors simply save the commit to the host chain and then check the commit asynchronously

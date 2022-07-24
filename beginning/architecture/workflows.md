@@ -26,7 +26,7 @@ Here, it is clear that he is the main one. Don't worry, this won't affect decent
 
 In the code, you might notice two types of blocks. This is defined at the level of this workflow and is intended for the respective roles - the main validator Controller (and ControllerBlock) and nodes that can also generate InstantGenerators (for them - InstantBlocks).
 
-![](<../../.gitbook/assets/image (11) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 During work, the controller collects all these blocks into a ControllerBlock and sends a commit to the host chains. This is what this stage looks like
 

@@ -54,7 +54,7 @@ _<mark style="color:orange;">**Workflow**</mark>_ - a model of how some blockcha
 
 Workflow will be located in the KLY\_Workflows directory. Each subdirectory will be a repository for version tracking. You can see it on GitHub
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 Here you can see 2 workflows - _<mark style="color:red;">**dev\_controller**</mark> _ and _ <mark style="color:red;">**dev**</mark>_<mark style="color:red;">**\_**</mark>_<mark style="color:red;">**symbiland**</mark>_
 
@@ -118,7 +118,7 @@ Next comes the definition of the main directories and the paths to them
 
 The core then loads the configuration into the global object and creates service links and directories
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
 
@@ -132,7 +132,7 @@ At the next stage, there is a definition of services that need to be launched at
 
 Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
 
-![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1) (1).png>)
 
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 

@@ -14,7 +14,7 @@ The next important component are hash functions. For Klyntar we'll use set of fu
 
 ### BLAKE3
 
-![Read more https://github.com/BLAKE3-team/BLAKE3](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+![Read more https://github.com/BLAKE3-team/BLAKE3](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 BLAKE3 was choosen as main candidate to be used as lead hash function for getting block headers' hashes, hashes of workflows, services archives, quantum swaps(modification of atomic swaps) and so on. Superfast, supports **PRF**, **MAC**, **KDF**, and **XOF** modes,highly parallelizable and so on.
 

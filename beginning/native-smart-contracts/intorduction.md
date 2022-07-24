@@ -34,7 +34,7 @@ Today, WebAssembly is becoming popular all over the world and in various areas -
 
 Below is a list of languages that can already be used to compile to WASM and work safely on KLYNTAR symbiotes
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 {% embed url="https://github.com/appcypher/awesome-wasm-langs" %}
 
@@ -56,7 +56,7 @@ File _<mark style="color:red;">**add.wat**</mark>_
 
 Next, we use the _<mark style="color:purple;">**wat2wasm**</mark>_ tool that comes with the _<mark style="color:red;">**wat-wasm**</mark>_ package.
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (23) (1).png>)
 
 We compile (with the help of flags -O3z we compress as much as possible and carry out optimization)
 
@@ -118,7 +118,7 @@ However, in general, the essence of energy as a resource on KLYNTAR will be simi
 
 Through the principle of mutation, each symbiote individually assigns itself KLYNTAR VM capabilities and a spreadsheet. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on. This gives flexibility and allows you to evenly distribute the load between the symbiotes.
 
-### <mark style="color:red;">Calculation table</mark>
+### <mark style="color:red;">Measuring table</mark>
 
 Earlier we showed you a simple function in the add.wat file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much power each opcode will consume.
 
