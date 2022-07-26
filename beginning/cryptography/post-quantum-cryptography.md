@@ -71,7 +71,7 @@ The creators themselves recommend using the Dilithium3 parameter set, but we use
 
 
 
-| NIST security level |  Hack is so diffucult as...  |
+| NIST security level |  Hack is so difficult as...  |
 | :-----------------: | :--------------------------: |
 |          1          |   Bruteforcing AES-128 keys  |
 |          2          | Find a collision for SHA-256 |
