@@ -38,7 +38,7 @@ Please note that we will add support for using such addresses in the near future
 
 ![](<../../.gitbook/assets/image (26) (1).png>)
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (2).png>)
 
 ### <mark style="color:red;">Privacy on KLYNTAR</mark>
 

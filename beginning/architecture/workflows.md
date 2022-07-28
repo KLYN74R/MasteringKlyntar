@@ -6,6 +6,16 @@ coverY: 0
 
 # 📄 Workflows
 
+### <mark style="color:red;">Brief information</mark>
+
+Every blockchain project you know works according to the scenario described by the programmers. Some use PoW consensus (Bitcoin, Monero, ETC), some rely on BFT modifications (Avalanche, Fantom) or PoS (Ethereum 2.0, Cardano).
+
+In operation, some use VDF or multi-signatures, Pederson commitments, and zkSNARKs. All different. Everyone is good at something.
+
+In order not to constrain developers and users, we allow each symbiote to work following its own rules, commission policy and so on.
+
+This gives users the opportunity to use the symbiotes they need, depending on the necessary tasks, and allows developers to create real monsters in the world of blockchains.
+
 ### <mark style="color:red;">More about workflows</mark>
 
 Earlier we talked about how symbiotes can create or use ready-made workflow templates on their own.
@@ -107,6 +117,24 @@ Yes, the flexibility of this workflow can also be attributed to the configuratio
 {% embed url="https://github.com/KLYN74R/KlyntarCore/blob/main/ANTIVENOM/CONFIGS/symbiotes.json" %}
 
 Here you can flexibly configure the block generation time, stop and start block generation and verification flows, configure the polling time for new blocks, configure the TTL of the server, allocate separate endpoints for loading blocks from there (this can be some kind of CDN, for example, because blocks are static content) and much more. We recommend that workflow developers also make their configurations fairly detailed.
+
+### <mark style="color:red;">**Create your own workflow**</mark>
+
+Anyone on KLYNTAR will be able to create their own workflow if they have the necessary skills (programming, knowledge in the field of cryptography and understanding of the operation of blockchains).
+
+Since within the workflow you actually describe how everything works (block generation, selection / change of validators, use of resources from other networks, interaction with host chains), then the task of creating a really cool and necessary workflow falls on you - otherwise no one will use.
+
+We assume the presence of several demanded workflows. Some workflow will be good for its speed, some security, the third will use zero-knowledge mechanisms, another one will use some of its own chips.
+
+In this way, we allow new symbiotes to use the best available mechanisms for different needs. And users will be able to choose a symbiote for themselves, depending on what they need.
+
+To make it easier for you to create your own workflow, there is dev\_helloworld. This is a workflow created as a template. It does nothing but print _<mark style="color:orange;">**Hello World from dev\_helloworld !!!**</mark>_ within a given period of time.
+
+On GitHub in this repository is a README that includes the necessary hints to create your own workflow.
+
+![](<../../.gitbook/assets/image (2).png>)
+
+{% embed url="https://github.com/KLYN74R/KlyntarCore/tree/main/KLY_Workflows/dev_helloworld" %}
 
 ### <mark style="color:red;">Conclusion</mark>
 
