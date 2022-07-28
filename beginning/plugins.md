@@ -98,7 +98,7 @@ For convenience, we have created a separate repository for plugins where develop
 {% embed url="https://github.com/KLYN74R/Plugins" %}
 
 {% hint style="info" %}
-Мы вскоре опубликуем инструкцию как и что заливать в этот репозиторий
+We will soon publish instructions on how and what to upload to this repository
 {% endhint %}
 
 ### <mark style="color:red;">**Conclusion**</mark>
