@@ -6,13 +6,13 @@ coverY: 326.6321243523316
 
 # #⃣ Hash functions
 
-The next important component are hash functions. For Klyntar we'll use set of functions in our inner processes.Here's the list:
+The next important component are hash functions. For KLYNTAR we'll use set of functions in our inner processes.Here's the list:
 
 * BLAKE3 (256 bits with further potential extending to 512 bits)
 * SHA-256
 * SHA3
 
-### BLAKE3
+### <mark style="color:red;">BLAKE3</mark>
 
 ![Read more https://github.com/BLAKE3-team/BLAKE3](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
@@ -40,7 +40,7 @@ _<mark style="color:yellow;">**Use to identify services and smart contracts**</m
 
 Unique IDs for unique contracts and services. For smart contracts, we are talking about the hash of the WASM module, for the service - the hash of the archive.
 
-### _<mark style="color:red;">**SHA-256**</mark>_
+### <mark style="color:red;">**SHA-256**</mark>
 
 Good and reliable, as well as a super popular hash function that has stood the test of time. In KLYNTAR, it is used selectively in certain places of the type to obtain seed when decrypting keys or for reliability in service repositories (instead of the obsolete SHA-1).
 
