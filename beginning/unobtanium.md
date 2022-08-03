@@ -10,7 +10,7 @@ coverY: 278.5492227979274
 
 One of the greatest films in history, James Cameron's Avatar gives us an idea for the name of our next invention for KLYNTAR.
 
-> _<mark style="color:red;">**Unobtanium**</mark>_ is a fantastic mineral, an extremely rare and valuable superconductor mined on Pandora and which will be the main driving force for KLYNTAR and the crypto industry.
+> _<mark style="color:red;">**Unobtanium**</mark>_ is a fantastic mineral, an extremely rare and valuable superconductor mined on the planet Pandora. For us, it is also a valuable resource mined on other blockchains to ensure the life of KLYNTAR. We need unobtanium to provide the maximum security budget for KLYNTAR, as well as for the highest possible decentralized distribution of resources.
 
 First of all, this is not gas on the EVM or some kind of asset. You can get it from anywhere, but you can also lose it everywhere - literally. When I started this document, I told you that a symbiotic relationship will help us exploit all available crypto spaces.
 
@@ -52,6 +52,10 @@ It is also worth mentioning that in new versions you will not even need to make 
 
 Here is another example - this time Ethereum. Thanks to the capabilities of smart contracts, it is possible to build even more flexible schemes.
 
-For example, here we can assume that we will offer some kind of token as part of an advertising campaign to some kind of symbiote
+For example, here we can assume that some token, as part of an advertising campaign, offered some kind of symbiote, when recruiting validators, to demand to deposit several ethers into their liquidity pool. Of course, it is worth translating something only when you are convinced of the safety of this contract and after studying the project. If everything turns out to be normal, then in addition to the fact that you will earn on KLYNTAR as a validator (due to the fact that your ethers will be frozen on contracts, which means that your resource is not infinite and you, as a validator, will be forced to play honestly on KLYNTAR), you will also receive interest or some nice bonuses according to the functionality of the contract of this token. The project will receive users or the necessary volumes of Ethereum (if it is a liquidity pool). All this demonstrates the potential and power of KLYNTAR.
+
+Also, you can demand to deposit several ethers on the smart contract of the symbiote for freezing - this will protect this KLYNTAR symbiote from the malicious action of the validator.
+
+Here's what it might look like
 
 ![](<../.gitbook/assets/image (10) (1) (1).png>)
