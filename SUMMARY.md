@@ -28,7 +28,7 @@
   * [🕵 VRF](beginning/cryptography/vrf.md)
   * [🎁 Other](beginning/cryptography/other.md)
 * [🏞 Native smart-contracts](beginning/native-smart-contracts/README.md)
-  * [ℹ Intorduction](beginning/native-smart-contracts/intorduction.md)
+  * [ℹ Introduction](beginning/native-smart-contracts/introduction.md)
   * [🤞 Сrosschain seamless smart contracts](beginning/native-smart-contracts/srosschain-seamless-smart-contracts.md)
   * [💪 Advanced features](beginning/native-smart-contracts/advanced-features.md)
 * [🤖 Services](beginning/services/README.md)
