@@ -13,6 +13,7 @@
   * [👽 Symbiotes](beginning/architecture/page-2.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows.md)
+  * [🫀 Tachyon](beginning/architecture/tachyon.md)
   * [🏛 Social consensus](beginning/architecture/social-consensus.md)
 * [🔑 Cryptography](beginning/cryptography/README.md)
   * [🎢 Cryptoland](beginning/cryptography/cryptoland.md)
