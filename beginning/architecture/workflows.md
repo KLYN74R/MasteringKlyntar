@@ -32,7 +32,7 @@ Let's take the initial workflow [_<mark style="color:red;">**dev\_controller**</
 
 ![](<../../.gitbook/assets/image (6) (1).png>)
 
-Here, it is clear that he is the main one(big black server). Don't worry, this won't affect decentralization even for this workflow in any way, although we will have other variations(e.g. decentralized _<mark style="color:red;">**dev\_bft**</mark>_ based on BFT).
+Here, it is clear that he is the main one(big black server). Don't worry, this won't affect decentralization even for this workflow in any way, although we will have other variations(e.g. super decentralized _<mark style="color:red;">**dev\_tachyon**</mark>_ based on BFT).
 
 In the code, you might notice two types of blocks. This is defined at the level of this workflow and is intended for the respective roles - the main validator Controller (and ControllerBlock) and nodes that can also generate InstantGenerators (for them - InstantBlocks).
 
