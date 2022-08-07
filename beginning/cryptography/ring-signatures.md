@@ -44,7 +44,7 @@ Please note that we will add support for using such addresses in the near future
 
 In the early stages, KLYNTAR will not be private like Monero with its triad of algorithms for confidential transactions, or ZCash with the brand new zkSNARKs. However, we understand the importance of working in this direction and will implement privacy mechanisms for staking and on-chain mechanisms (transactions, freezing, working with unobtanium, and so on).
 
-However, due to the capabilities of services, WASM contracts and bridges to other networks, you can use them in your implementations.
+Howsoever, due to the power of services, WASM contracts, and bridges to other networks, you can use privacy elements in your implementations.
 
 In terms of core improvements, you should immediately decide which base to use - follow the SNARK / STARK path like Zcash / PIVX / Horizon or use Pederson + bulletproof obligations like in Monero. Will have to work in this direction.
 
