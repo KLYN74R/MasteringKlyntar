@@ -74,9 +74,32 @@ Services can communicate with each other, work on other chains, be an independen
 
 ### <mark style="color:red;">Service examples</mark>
 
-Below are examples of services that we took from our WhitePaper. Here is a service that analyzes exploits for some smart contract on Polygon. Such a service earns by analyzing samples and can be written by some company from this field. At the same time, services can support staking, have their own token, and so on. Unobtanium is used here as an example of staking. The bottom line is that if stakers link their unobtanium to the service, then when it is used by third-party users or smart contracts, part of the payments will go to the stakers. At the same time, if the service does not have users or its malicious behavior is noticed, then the service will not earn anything and will lose users or trust, and stakers’ stakes will simply “idle” all this time instead of receiving a percentage if they were placed on the other-honest service.
+Below are examples of services that we took from our WhitePaper. Here is the following situation:
+
+Suppose you have some kind of smart contract on Polygon that should determine the authors of the best exploits (no matter for which platform or software - we will skip these details for simplicity) depending on the severity level of the exploited vulnerability according to CVSS metrics.
+
+This is a very real situation - such events can be held by some organization or company + the results may be necessary for some other blockchain logic (for example, transfer 10 units of some token to the winners or something like that).
+
+Since it is impossible to do this at Polygon, you can contact KLYNTAR Services. The image below just describes the mechanism of operation of such a service. The service makes money by analyzing samples and can be written by some cybersecurity company.
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png>)
+
+The following mechanism is described here:
+
+1. You are preparing a smart contract if it has not yet been published on the Polygon network. Here you can specify time limits for the contest, specify the ETH address of the service that is allowed to write to your contract (for example, to record results), specify the condition for the severity level of the exploit (for example, issue higher rewards for more dangerous exploits) and the link that you get from the service so that exploit authors can upload their code there for analysis.
+2. Then you find the right service. We will create a separate resource for you, or you can independently find the services you need through social networks or advertising. For example, you go to services.klyntar.org and get what you need by category or keyword.
+3. Next, you need to conclude something like a public contract - you pay the cost of the service in KLY coins or following other terms of the service. For example, for greater flexibility, the service may allow you to pay for your services in Bitcoin, Monero, interact with you through a smart contract, and so on.\
+   \
+   In any case, we need this step for your own safety - after all, if the service does not behave as it should, it will lose trust, and hence the potential earnings and stakers (more on that later)\
+
+4. After all the procedures, the service will give you a URL where exploit authors can upload their work. The service will process the samples and then publish the results in a Polygon contract where the corresponding logic will be executed (for example, for the first place, the author with the address 0xaaa... will receive 1 ETH, for the second place - 50 some tokens, and so on). , the author of the exploit can first publish the hash on the contract to prove his authorship in the future.
+5. Since the results are public (the result of work in Polygon, the results of the service), anyone can check the authenticity of what is happening and the "honesty" of the service. Stakers for the service receive their share of the payment for the operation of the service, as they have tied their KLYNTAR coins or unobtanium (their resources) to the service.
+
+Yes, services can support staking, have their own token, and so on. Unobtanium is used here as an example of staking. The bottom line is that if stakers link their unobtanium to the service, then when it is used by third-party users or smart contracts, part of the payments will go to the stakers.
+
+At the same time, if the service does not have users or its malicious behavior is noticed, then the service will not earn anything and will lose users or trust, and stakers’ stakes will simply “idle” all this time instead of receiving a percentage if they were placed on the other-honest service.
+
+<mark style="color:yellow;">**Next example**</mark>
 
 Here is a second example of a service. Here again you can see the possibilities of KLYNTAR. So, for example, here the roles are divided between the nodes into:
 
