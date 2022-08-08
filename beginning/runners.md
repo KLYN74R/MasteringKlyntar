@@ -8,7 +8,7 @@ coverY: 355.6476683937824
 
 ### <mark style="color:red;">Where it all starts</mark>
 
-After you have managed to get acquainted with the capabilities of the service, it is time to tell in more detail how they will be performed, what and where they will be launched, and how it works in general.
+After you have managed to get acquainted with the capabilities of the services, it is time to tell in more detail how they will be performed, what and where they will be launched, and how it works in general.
 
 On KLYNTAR, all services will somehow go through the runner and its rules. A runner is like a middleware that receives a service from the network and, based on its settings, makes decisions like
 
@@ -44,7 +44,7 @@ Here, for example, how it looks at the level of the code editor
 
 You can update repositories independently. The KLYNTAR daemon, when it starts, looks at the _<mark style="color:orange;">**services.json**</mark>_ configuration file and the <mark style="color:orange;">**RUNNER**</mark> option where the path to the runner entry point is specified.
 
-Here's what it looks like. Сonfiguration file services.json
+Here's what it looks like. Сonfiguration file _<mark style="color:red;">**services.json**</mark>_
 
 ```json
 {
@@ -65,7 +65,7 @@ Here's what it looks like. Сonfiguration file services.json
 }
 ```
 
-runner.js is the entry point of a runner that exports an unnamed function that receives an object of a standard structure as input and is taken to process it.
+_<mark style="color:red;">**runner.js**</mark>_ is the entry point of a runner that exports an unnamed function that receives an object of a standard structure as input and is taken to process it.
 
 Here's what it looks like
 
