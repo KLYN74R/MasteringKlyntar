@@ -251,7 +251,7 @@ Then your 5 friends repeat the same thing in their wallets. They only need to in
 
 <mark style="color:yellow;">**Friend with ID=2**</mark>
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (2).png>)
 
 <mark style="color:yellow;">**Friend with ID=3**</mark>
 
