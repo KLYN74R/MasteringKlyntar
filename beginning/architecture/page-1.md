@@ -9,11 +9,13 @@ coverY: 596.8911917098445
 
 ### <mark style="color:red;">**Let's talk about the structure**</mark>
 
-Working on KLYNTAR, we tried to make the project so powerful that it would surprise you, like at the age of 8 when you found out that Santa Claus does not exist. We want to resurrect the time of useful projects by creating cool stuff for our industry like Unobtanium, KLYNTAR Services, Hivemind, SpookyAction, symbiotes and more! Symbiosis with other projects (chains) will give you the opportunity to use the best and much-loved features of other cryptocurrencies. The point is to combine both new blockchains and old ones into one super organism and revolutionize the crypto industry! Shared resources, different consensuses, BTC miners, ETH token holders, Solana validators, maximum security based on the security of the entire crypto industry - this is all about KLYNTAR :)
+Working on KLYNTAR, we tried to make the project so powerful that it would surprise you, like when you were 8 years old when you found out that Santa Claus does not exist. We want to resurrect the time of useful projects by creating cool things for our industry, such as Unobtanium (so you can use your bitcoins, ethers, etc. to stake on KLYNTAR), KLYNTAR Services (so you write off-chain logic for KLYNTAR, other blockchains and the entire Internet and run them on millions of nodes at once relying on the security of KLYNTAR), Hivemind (to optimize the operation of symbiotes), SpookyAction (to launch contracts and execute transactions on any chain with the theoretically fastest speed in the industry), symbiotes and much more!
+
+Symbiosis with other projects (chains) will give you the opportunity to use the best and much-loved features of other cryptocurrencies, as well as expand the capabilities of existing blockchains and your new ones that you will create on KLYNTAR. The point is to combine both new blockchains and old ones into one super organism and revolutionize the crypto industry! Shared resources, different consensuses, BTC miners, ETH token holders, Solana validators, maximum security based on the security of the entire crypto industry - this is all about KLYNTAR :)
 
 ![](<../../.gitbook/assets/image (1) (2).png>)
 
-Above you see the general scheme taken from our whitepaper of the first version. Unlike other crypto projects, KLYNTAR does not have some kind of main chain, beacon chain or something like that that synchronizes and interleaves work in shards or coordinates blockchains (like Polkadot or Cosmos). We consider the entire blockchain space as a single reliable homogeneous environment.
+Above you see the general scheme taken from our whitepaper of the first version. Unlike other crypto projects, KLYNTAR does not have some kind of main chain, beacon chain or something like that that synchronizes and interleaves work in shards or coordinates blockchains (like Polkadot or Cosmos). We consider the entire blockchain space as a single reliable homogeneous environment and each blockchain is like a certain reliable container.
 
 KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow;">**symbiotes**</mark>_(they are represented in the diagram as parallel multi-colored rectangles). They got this name because they enter into a symbiotic relationship with other entities - _<mark style="color:yellow;">**hostchains**</mark>_(from the words host-carrier and chain-chain, shown at the top of the diagram). This connection is necessary for many reasons:
 
@@ -35,8 +37,7 @@ KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow
 
 * _<mark style="color:orange;">**Sharding-by-default**</mark>_\
   \
-  Fundamental concept that allows symbiotes to work in parallel and independently of each other\
-
+  A fundamental concept that allows symbiotes to work in parallel and independently of each other. Also, the default concept of sharding (with many symbiotes) allows you to share the load of interaction with other chains. Thus, one symbiote will be able to interact with your contracts on Cosmos, Solana and Polygon, and the other one will be able to read data from the Bitcoin chain and change the state, for example, on Ethereum contracts.
 
 ### <mark style="color:red;">**More about hostchains**</mark>
 
@@ -55,6 +56,8 @@ This process will be repeated indefinitely, and along with it, opportunities, se
 <mark style="color:purple;">**Scalability**</mark> - due to the parallel operation of symbiotes
 
 <mark style="color:purple;">**Opportunities**</mark> - due to the fact that the new symbiote will attract new stakers, developers, and so on
+
+Anyone can create their own new blockchain and attach it to the rest of the symbiotes. At the same time, your blockchain (symbiote) will immediately receive the security of KLYNTAR, will be supported by KLYNTAR nodes, and so on.
 
 ### <mark style="color:red;">Modularity</mark>
 
