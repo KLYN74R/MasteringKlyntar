@@ -8,7 +8,7 @@ coverY: 0
 
 ### <mark style="color:red;">What is considered a hostchain?</mark>
 
-A hostchain is a chain (blockchain) whose security symbiotes rely on. It can be said that this is a carrier chain (host). Depending on the host chain and its capabilities (consensus, the presence of smart contracts, security), symbiotes enter into a variety of relationships with them - from simple storage of commits (roughly speaking, the height + hash of the symbiote) to interactive through smart contracts, following the logic of which it will be impossible to crank malicious actions. The best host chains are those that have smart contracts. This means that you can write an advanced connector for them that will use this smart contract and execute the necessary logic. However, since any chain is public and open (permissionless), you can use its SDK to build connectors of any complexity and functionality.
+A _<mark style="color:purple;">**hostchain**</mark>_ is a chain (blockchain) whose security symbiotes rely on. It can be said that this is a carrier chain (host). Depending on the host chain and its capabilities (consensus, the presence of smart contracts, security), symbiotes enter into a variety of relationships with them - from simple storage of commits (roughly speaking, the height + hash of the symbiote) to interactive through smart contracts, following the logic of which it will be impossible to crank malicious actions. The best host chains are those that have smart contracts. This means that you can write an advanced connector for them that will use this smart contract and execute the necessary logic. However, since any chain is public and open (permissionless), you can use its SDK to build connectors of any complexity and functionality.
 
 ### <mark style="color:red;">**PoW and PoS host chains. Advantages and disadvantages**</mark>
 
@@ -17,7 +17,7 @@ We have moved on to an important topic. Since all hostchains are different, they
 * Those who spend real resources (through mining, wasting memory, time)
 * Those who rely on the intrinsic value of their coins (PoS and modifications, various BFTs, etc.)
 
-Some of them offer probabilistic finality, some guarantee instant finalization. Also, often PoS proponents don't like to mention all sorts of long range attacks (when old validators fork and you can't now know which one is valid), although mining also has its own problems. Some (Zilliqa and others) are proposing a hybrid approach where PoW and PoS work together.
+Some of them offer probabilistic finality, some guarantee instant finalization. In addition, often PoS proponents do not like to mention all sorts of long range attacks (when old validators create a fork from some earlier blockchain height and you now cannot know which one is valid. At the same time, slashing does not work, because old validators won't lose anything), although mining also has its own problems. Some (Zilliqa and others) are proposing a hybrid approach where PoW and PoS work together.
 
 Whatever it was, the symbiote needs to choose a set of host chains so that all the risks are taken into account and the disadvantages of both groups of consensus overlap with the advantages of each other. For fast finalization, you should choose fast BFT-based hostchains, and for long-term security, you should choose something from heavy artillery - Bitcoin, mining capacities of other projects, use a combination of Proof-of-Space crypto projects, and so on.
 
@@ -64,7 +64,7 @@ In our example, it turns out that those who have frozen rates will not be able t
 
 ### <mark style="color:red;">Also an important appeal to the miners of current PoW projects</mark>
 
-Do not rush to throw away equipment 🧙‍♂️
+Do not rush to throw away the equipment. KLYNTAR will provide you with new opportunities️ 🧙‍♂️
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
