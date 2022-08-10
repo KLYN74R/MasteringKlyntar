@@ -111,6 +111,10 @@ Due to the fact that symmetric encryption is faster than asymmetric encryption, 
 
 Since we are talking about post-quantum mechanisms, here we have chosen several candidates. So, Kyber, SIKE, SIDH and CSIDH will be available on KLYNTAR.
 
+{% hint style="danger" %}
+According to the latest reports, the NIST candidate SIKE has [_<mark style="color:red;">**been hacked**</mark>_](https://eprint.iacr.org/2022/975.pdf). We recommend that you refrain from using it. Closer to the launch of KLYNTAR Services, we will release more meaningful recommendations on general security and on the use of post-quantum algorithms when interacting between services.
+{% endhint %}
+
 Each of them is either a current NIST candidate (Kyber) or alternatives (super isogeny algorithms).
 
 We use the CloufFlare CIRCL implementation as addons from Go to Node.js. Also, since the full path is <mark style="color:purple;">**Go**</mark>** => **<mark style="color:purple;">**C**</mark>** => **<mark style="color:purple;">**Node.js**</mark>, you can use our repository with a simple API in any language
