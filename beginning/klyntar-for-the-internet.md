@@ -1,7 +1,6 @@
 ---
-cover: >-
-  https://images.wallpapersden.com/image/download/sci-fi-men-4k-art-2021_bWVtbW2UmZqaraWkpJRobWllrWdma2U.jpg
-coverY: 0
+cover: ../.gitbook/assets/wallpapersden.com_futuristic-city-hd-alone_1280x720.jpg
+coverY: -40.769741207697415
 ---
 
 # 🗺 KLYNTAR for the Internet
