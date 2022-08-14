@@ -56,7 +56,7 @@ Addresses
 
 <mark style="color:orange;">**Stellar**</mark> - GDC322H7RGO3UCOSW5HCPH4YFJFOSXJD6TDHGRQLJKUGZIG4OXAJFIH5
 
-<mark style="color:orange;">**TON**</mark> - EQAnhIKJwatZ8F\_8d9Meqym1erWmjlxPyigplKmAbUKR0cAB
+<mark style="color:orange;">**TON**</mark> - EQA79cVRLnOdPe6BLQtX7kH0zke\_qaRTNahKZ5BAcnHLbfEw
 
 <mark style="color:orange;">**Cosmos**</mark> - cosmos17sqzjefls3hxgmzr9r2lepvmckf6swcknnl563
 
