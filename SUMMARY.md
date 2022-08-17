@@ -50,7 +50,7 @@
   * [🎩 Hostchains](beginning/codereview/hostchains.md)
   * [🎆 Workflow](beginning/codereview/workflow.md)
 * [🛸 Unobtanium](beginning/unobtanium/README.md)
-  * [📨 How to get unobtanium if i have resources on other chains](beginning/unobtanium/how-to-get-unobtanium-if-i-have-resources-on-other-chains.md)
+  * [📨 How to get unobtanium if you have resources on other chains](beginning/unobtanium/how-to-get-unobtanium-if-you-have-resources-on-other-chains.md)
 * [🌚 Apollo](beginning/apollo/README.md)
   * [🥵 Apollo and WorkflowsAPI](beginning/apollo/apollo-and-workflowsapi.md)
   * [🥶 Apollo and ServicesAPI](beginning/apollo/apollo-and-servicesapi.md)
