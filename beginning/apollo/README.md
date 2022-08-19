@@ -51,8 +51,6 @@ Docker version 20.10.14, build a224086
 
 #### **Download the image**
 
-![](http://dockeri.co/image/klyntar/all\_in\_one)
-
 We present you our first image [klyntar/all\_in\_one](https://hub.docker.com/repository/docker/klyntar/all\_in\_one). This is universal image with preinstalled Node.js, Go , Python and some tools like `pnpm` , `node-gyp`, `git` and so on. We've created it to save your time and nervous system. This is the base layer for all our Dockerfiles(at least for core and Apollo). The aproximate compressed size is 606M. Also, in our repository [KlyntarBaseImages](https://github.com/KLYN74R/KlyntarBaseImage) you can find the sources of all base-layer Dockerfiles, so you can clone and build it yourself or find the bash build script and so through the process to install requirements to your host machine. But anyway,we recomend you to use containers.
 
 ![](https://user-images.githubusercontent.com/53381472/174490998-2041af0d-6cd5-4873-ad64-fa810cda02df.jpg)
