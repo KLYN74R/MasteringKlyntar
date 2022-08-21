@@ -46,7 +46,7 @@ In the early stages, KLYNTAR will not be private like Monero with its triad of a
 
 Howsoever, due to the power of services, WASM contracts, and bridges to other networks, you can use privacy elements in your implementations.
 
-In terms of core improvements, you should immediately decide which base to use - follow the SNARK / STARK path like Zcash / PIVX / Horizon or use Pederson + bulletproof obligations like in Monero. Will have to work in this direction.
+In terms of core improvements, we should immediately decide which base to use - follow the SNARK / STARK path like Zcash / PIVX / Horizon or use Pederson commitments + bulletproofs like in Monero. Will have to work in this direction.
 
 ### <mark style="color:red;">Links</mark>
 
