@@ -77,13 +77,17 @@ The signature is standard and takes 64 bytes. On KLYNTAR we use it in Base64.
 
 ### <mark style="color:red;">Why not to use the seed phrase</mark>
 
-Here, as they say, coming soon. We will also add HD(hierarchical deterministic) features to the wallet later, but for now, this is the way.
+Coming soon. We will also add HD(hierarchical deterministic) features to the wallet later, but for now, this is the way.
 
 {% hint style="success" %}
 UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDohaeris supports HD addresses in KLYNTAR and also generates 12 mnemo words for you. However, the functionality for generating key pair chains and importing a phrase will be implemented soon
 {% endhint %}
 
 ![](<../../.gitbook/assets/image (16) (1) (1) (1) (1) (1).png>)
+
+{% hint style="success" %}
+Also, starting from _<mark style="color:red;">**v19.4.0**</mark>_, KLYNTAR received an implementation of the BIP-44 standard and currently included in the official BIP-44 list with an identifier of 7331 (1337 in the opposite direction). [_<mark style="color:red;">**Here**</mark>_](https://github.com/satoshilabs/slips/pull/1388) you can see the merge to the main branch of the register
+{% endhint %}
 
 ### <mark style="color:red;">**A couple more words**</mark>
 
