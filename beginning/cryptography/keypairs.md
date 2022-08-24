@@ -75,7 +75,7 @@ It remains only to convert the public key to byte form, remove the first 12 byte
 
 The signature is standard and takes 64 bytes. On KLYNTAR we use it in Base64.
 
-### <mark style="color:red;">Why not to use the seed phrase</mark>
+### <mark style="color:red;">Why not to use the mnemonic phrase</mark>
 
 Coming soon. We will also add HD(hierarchical deterministic) features to the wallet later, but for now, this is the way.
 
