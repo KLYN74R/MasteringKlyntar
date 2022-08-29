@@ -3,8 +3,9 @@ description: >-
   A monstrously fast, multi-threaded, deterministic, totally asynchronous
   consensus mechanism with multi-million TPS, no limits on validators and other
   interesting features
-cover: ../../.gitbook/assets/kgT3BL.jpg
-coverY: 1750.5507631055075
+cover: >-
+  ../../.gitbook/assets/zakat-solntse-gorod-neboskreby-zdaniia-city-art-fantastika-2.jpg
+coverY: 0
 ---
 
 # 🫀 Tachyon
