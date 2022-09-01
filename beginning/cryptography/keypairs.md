@@ -89,6 +89,10 @@ UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDo
 Also, starting from _<mark style="color:red;">**v19.4.0**</mark>_, KLYNTAR received an implementation of the BIP-44 standard and currently included in the official BIP-44 list with an identifier of 7331 (1337 in the opposite direction). [_<mark style="color:red;">**Here**</mark>_](https://github.com/satoshilabs/slips/pull/1388) you can see the merge to the main branch of the register
 {% endhint %}
 
+{% hint style="info" %}
+In future releases and updates, we will also create an implementation of BIP-44 for other types of keys that will be available on KLYNTAR - for multisig addresses and post-quantum key pairs
+{% endhint %}
+
 ### <mark style="color:red;">**A couple more words**</mark>
 
 We also decided not to follow the path of generating some checksums, certain prefixes, and so on. Also, we did not separate addresses into mainnet / testnet formats due to uselessness and inconvenience (considering the experience with Bitcoin and forks).
