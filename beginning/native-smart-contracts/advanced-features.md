@@ -61,10 +61,10 @@ const instance = WebAssembly.Instance(mod, {
 })
 
 const result = instance.exports.fac(6)
-console.log(`Result:${result}, energy used ${gasUsed * 1e-4}`) // Result:720, energy used 0.4177
+console.log(`Result:${result}, energy used ${energyUsed * 1e-4}`) // Result:720, energy used 0.4177
 ```
 
-This defines the global variable gasUsed and the gas limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**usegas**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
+This defines the global variable _<mark style="color:purple;">**energyUsed**</mark>_ and the energy limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**energyUse**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
 
 If the limit is exceeded, the work stops and we catch exceptions. Although the EWASM documentation describes the principle of operation, we will still not only hear, but also see how it works.
 
@@ -111,7 +111,8 @@ import fs from 'fs'
 const wasm = fs.readFileSync('test.wasm')
 
 const meteredWasm = metering.meterWASM(wasm,{
-    meterType: 'i32'
+    meterType: 'i32',
+    fieldStr:'energyUse'
 })
 
 fs.writeFileSync('metered.wasm',meteredWasm)
@@ -137,21 +138,27 @@ import fs from 'fs'
 const wasm = fs.readFileSync('test.wasm')
 
 const meteredWasm = metering.meterWASM(wasm,{
-    meterType: 'i32'
+    meterType: 'i32',
+    fieldStr:'energyUse'
 })
 
 const energyLimit = 2000000
 let energyUsed = 0
 
 let wasmMetered = await loader.instantiate(meteredWasm,{
+    
     'metering': {
-      'usegas': (energy) => {
-        energyUsed += energy
-        if (energyUsed > energyLimit) {
-          throw new Error('No more energy!')
+
+        'energyUse': energy => {
+    
+            energyUsed += energy
+          
+            if (energyUsed > limit) throw new Error('No more energy for contract!')
+        
         }
-      }
+          
     }
+    
 });
 
 const result = wasmMetered.exports.testAdding(8,20);
@@ -175,7 +182,7 @@ And check the file
 (module
  (type $i32_=>_none (func (param i32)))
  (type $i32_i32_=>_i32 (func (param i32 i32) (result i32)))
- (import "metering" "usegas" (func $fimport$0 (param i32)))
+ (import "metering" "energyUse" (func $fimport$0 (param i32)))
  (memory $0 0)
  (export "testAdding" (func $0))
  (export "memory" (memory $0))
@@ -225,10 +232,10 @@ And check the file
 We can see our function for measuring
 
 ```wasm
- (import "metering" "usegas" (func $fimport$0 (param i32)))
+ (import "metering" "energyUse" (func $fimport$0 (param i32)))
 ```
 
-Thus, everywhere in the code where this function will be called, we will understand that there is a gas (energy) count. So you can see that the function is called when entering the main _<mark style="color:purple;">**testAdding**</mark>_ function, at the beginning of the loop, when returning from the function, and so on.
+Thus, everywhere in the code where this function will be called, we will understand that there is an energy count. So you can see that the function is called when entering the main _<mark style="color:purple;">**testAdding**</mark>_ function, at the beginning of the loop, when returning from the function, and so on.
 
 With the help of these tools you can play and test the mechanics of work yourself
 
