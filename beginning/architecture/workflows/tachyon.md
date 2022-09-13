@@ -4,7 +4,7 @@ description: >-
   consensus mechanism with multi-million TPS, no limits on validators and other
   interesting features
 cover: >-
-  ../../.gitbook/assets/zakat-solntse-gorod-neboskreby-zdaniia-city-art-fantastika-2.jpg
+  ../../../.gitbook/assets/zakat-solntse-gorod-neboskreby-zdaniia-city-art-fantastika-2.jpg
 coverY: 0
 ---
 

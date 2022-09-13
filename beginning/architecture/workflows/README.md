@@ -1,6 +1,6 @@
 ---
 description: The heart of any symbiote
-cover: ../../.gitbook/assets/951080b614db5517e5d24e55c46dca05.gif
+cover: ../../../.gitbook/assets/951080b614db5517e5d24e55c46dca05.gif
 coverY: 0
 ---
 
@@ -24,23 +24,23 @@ Flexibility allows you to set up all sorts of necessary interactions inside the 
 
 Use whatever you can think of )
 
-![](<../../.gitbook/assets/image (5) (1) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1) (1).png>)
 
 ### <mark style="color:red;">More about dev\_controller</mark>
 
-Let's take the initial workflow [_<mark style="color:red;">**dev\_controller**</mark>_](https://github.com/KLYN74R/KlyntarCore/tree/main/KLY\_Workflows/dev\_controller) as an example. At the level of its code, it is determined that it has a main validator and at the same time, allows you to bet on other nodes that can also generate blocks. This workflow is presented in the image examples earlier. You may have seen it on the [_<mark style="color:red;">**Symbiotes**</mark>_](page-2.md) page
+Let's take the initial workflow [_<mark style="color:red;">**dev\_controller**</mark>_](https://github.com/KLYN74R/KlyntarCore/tree/main/KLY\_Workflows/dev\_controller) as an example. At the level of its code, it is determined that it has a main validator and at the same time, allows you to bet on other nodes that can also generate blocks. This workflow is presented in the image examples earlier. You may have seen it on the [_<mark style="color:red;">**Symbiotes**</mark>_](../page-2.md) page
 
-![](<../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 Here, it is clear that he is the main one(big black server). Don't worry, this won't affect decentralization even for this workflow in any way, although we will have other variations(e.g. super decentralized _<mark style="color:red;">**dev\_tachyon**</mark>_ based on BFT).
 
 In the code, you might notice two types of blocks. This is defined at the level of this workflow and is intended for the respective roles - the main validator Controller (and ControllerBlock) and nodes that can also generate InstantGenerators (for them - InstantBlocks).
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 During work, the controller collects all these blocks(which contains of txs, contract calls and so on) into a ControllerBlock and sends a commit to the hostchains or perform other logic via connectors(e.g. change some contract's state). This is what this stage looks like
 
-![](<../../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
 
 At the connector level, a simple inclusion is defined (no additional logic). Also, the controller does not have the right to spend its stake between commits. A similar rule works for InstantGenerators - they can sign the only valid chain received from the controller and then check that it was included on the host chain.
 
@@ -66,7 +66,7 @@ So, don't be surprised if there was just a 100,000 block, and 2 seconds later an
 
 Let's do a visualization. First, consider the verification and generation flows.
 
-![](<../../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
 
 Green ones are blocks that the node has already checked, dotted ones are those that were generated at a time, a couple of seconds after the previous batch.
 
@@ -132,7 +132,7 @@ To make it easier for you to create your own workflow, there is dev\_helloworld.
 
 On GitHub in this repository is a README that includes the necessary hints to create your own workflow.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2).png>)
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore/tree/main/KLY_Workflows/dev_helloworld" %}
 

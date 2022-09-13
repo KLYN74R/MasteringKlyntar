@@ -22,7 +22,7 @@ Insofar as BLAKE3 supports XOF mode i.e. output length of hash might be variable
 
 _<mark style="color:yellow;">**Using on symbiotes**</mark>_
 
-BLAKE3 will be used on kNULL symbiote by [_<mark style="color:red;">**dev\_controller**</mark>_](../architecture/workflows.md) workflow. However, thanksfully to mutation mechanisms <mark style="color:red;"></mark> developers of other workflows,operators of nodes in other symbiotes will have ability to use any function they want which will be presented in official repository or developed/distributed by 3rd parties via alternative channels.
+BLAKE3 will be used on kNULL symbiote by [_<mark style="color:red;">**dev\_controller**</mark>_](../architecture/workflows/) workflow. However, thanksfully to mutation mechanisms <mark style="color:red;"></mark> developers of other workflows,operators of nodes in other symbiotes will have ability to use any function they want which will be presented in official repository or developed/distributed by 3rd parties via alternative channels.
 
 _<mark style="color:yellow;">**Using to generate addresses**</mark>_
 
