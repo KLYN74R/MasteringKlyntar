@@ -298,7 +298,7 @@ Verify
 Great, the friend with ID=4 didn't let us down or deceive us. Also go through the rest and do a similar check.
 
 {% hint style="danger" %}
-Если где-то вы увидите false - процедура может быть остановлена. Это значит что соответствующий друг пытается вас обмануть. Чтобы убедится что вы все храните шары для одинакового верификационного вектора сравните полученные векторы с другими друзьями. У всех у вас должны быть одинаковые векторы от каждого из друзей
+If somewhere you see false - the procedure can be stopped. This means that the corresponding friend is trying to deceive you. To make sure you are all storing balls for the same verification vector, compare the received vectors with other friends. You must all have the same vectors from each of your friends
 {% endhint %}
 
 ### <mark style="color:yellow;">Stage 4 - group key generation</mark>
