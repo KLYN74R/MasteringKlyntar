@@ -144,7 +144,7 @@ The last point, a server is created that creates a global variable for access fr
 
 ### <mark style="color:red;">**How new symbiotes are created**</mark>
 
-We will start with a single chain - the first symbiote. The initial emission will be generated and distributed on it, and other symbiotes will be generated from it. Our initial symbiote will be called kNULL (which you will also learn about later) after the god of symbiotes in Marvel. Also, _<mark style="color:red;">**dev\_tachyon**</mark>_ will be chosen as the main workflow for the first symbiote. Read more about the Tachyon consensus mechanism [_<mark style="color:red;">**here**</mark>_](workflows/tachyon.md).
+We will start with a single chain - the first symbiote. The initial emission will be generated and distributed on it, and other symbiotes will be generated from it. Our initial symbiote will be called kNULL (which you will also learn about later) after the god of symbiotes in Marvel. Also, _<mark style="color:red;">**dev\_tachyon**</mark>_ will be chosen as the main workflow for the first symbiote. Read more about the Tachyon consensus mechanism [_<mark style="color:red;">**here**</mark>_](workflows/tachyon/).
 
 Although this will happen in a random order, we still assume that the creation of a new symbiote will be an important event such as a halving or a difficulty bomb.
 
