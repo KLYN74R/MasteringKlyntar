@@ -1,7 +1,7 @@
 ---
 description: The mechanism of permanent and partial changes on KLYNTAR
 cover: ../.gitbook/assets/venom-neon-art-h4.jpg
-coverY: 179.63298791018997
+coverY: 292.63298791018997
 ---
 
 # 🧬 Mutations

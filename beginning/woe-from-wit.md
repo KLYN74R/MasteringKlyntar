@@ -1,7 +1,7 @@
 ---
 description: Some of our thoughts before we start
 cover: ../.gitbook/assets/533240_cWTTOpjP0V_wrench.jpeg
-coverY: 138.54231433506044
+coverY: 139.54231433506044
 ---
 
 # 🧠 Woe from Wit

@@ -1,6 +1,6 @@
 ---
 cover: ../.gitbook/assets/wallpapersden.com_sci-fi-men-4k-art-2021_3840x2160.jpg
-coverY: -247.16655607166555
+coverY: -112.64764432647644
 ---
 
 # 🦾 Running your blockchain on KLYNTAR

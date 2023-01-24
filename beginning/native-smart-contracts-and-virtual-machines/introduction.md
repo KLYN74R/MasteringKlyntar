@@ -2,10 +2,10 @@
 description: A few words about KLYNTAR VM
 cover: >-
   https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FpFJEMjfSiciMrbEzPlyQ%2Fvaporwave_artwork_science_fiction_concept_art_original_4k_hd.jpg?alt=media&token=b163cdca-d00d-4867-8511-a171a14cc266
-coverY: -39
+coverY: 0
 ---
 
-# ℹ Introduction
+# ℹ Intorduction
 
 ### <mark style="color:red;">**Start**</mark>
 
