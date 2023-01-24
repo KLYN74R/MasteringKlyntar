@@ -1,7 +1,7 @@
 ---
 description: Perhaps the simplest
 cover: ../../.gitbook/assets/3092916.jpg
-coverY: 0
+coverY: -190
 ---
 
 # 🔐 Keypairs
