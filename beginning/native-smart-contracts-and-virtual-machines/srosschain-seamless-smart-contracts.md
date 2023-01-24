@@ -2,10 +2,10 @@
 description: An important feature of KLYNTAR VM
 cover: >-
   https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FbKmFlTTJpfNRamMnbzai%2Fwp7083319.jpg?alt=media&token=8b81194d-abc6-4371-b254-3b1205f8b407
-coverY: -313.06127946127947
+coverY: -191.06127946127947
 ---
 
-# 🤞 Сross-chain seamless smart contracts
+# 🤞 Сrosschain seamless smart contracts
 
 ### <mark style="color:red;">Cross-chain smart contracts with KLYNTAR VM</mark>
 

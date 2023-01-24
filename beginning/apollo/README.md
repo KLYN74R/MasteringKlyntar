@@ -1,5 +1,7 @@
 ---
 description: The detailed overview of our CLI & UI tool to control your KLY empire🪐
+cover: ../../.gitbook/assets/wallpapersden.com_76925-2932x2932.jpg
+coverY: 277
 ---
 
 # 🌚 Apollo
@@ -88,17 +90,14 @@ cd ~
 
 Clone Apollo repository
 
-```shell
-
-git clone https://github.com/KLYN74R/Apollo.git
-
+<pre class="language-shell"><code class="lang-shell"><strong>git clone https://github.com/KLYN74R/Apollo.git
+</strong>
 cd Apollo
-```
+</code></pre>
 
 Finally,run the only one command
 
 ```shell
-
 pnpm run build
 ```
 
@@ -146,10 +145,8 @@ In CLI extra modules looks like ordinary commands. To allow your users to differ
 
 If module also has a UI part(which is often the case), then you'll have ability to visit:
 
-```shell
-
-http(s)://<your_interface>:<port>/modules
-```
+<pre class="language-shell"><code class="lang-shell"><strong>http(s)://&#x3C;your_interface>:&#x3C;port>/modules
+</strong></code></pre>
 
 to find there the entry point to your module.
 
@@ -214,7 +211,6 @@ To update the repository with module go to appropriate directory **KLY\_Modules/
 The same principle works for the services API. Each subdirectory - it's a repository. To check available services API go to
 
 ```shell
-
 http(s)://<your_interface>:<port>/services
 ```
 
@@ -230,7 +226,6 @@ http(s)://<your_interface>:<port>/services
 The same principle as for services API. Each subdirectory - it's a repository in this directory. To check your symbiotes and how to interact with them go to
 
 ```shell
-
 http(s)://<your_interface>:<port>/symbiotes
 ```
 

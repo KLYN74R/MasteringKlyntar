@@ -1,7 +1,7 @@
 ---
 description: Critical important component of KLYNTAR
 cover: ../../.gitbook/assets/lizardcover.jpg
-coverY: 50.40414507772021
+coverY: 130.40414507772022
 ---
 
 # 🔏 Multi/Threshold/Aggregated signatures
