@@ -36,6 +36,7 @@
   * [💪 Advanced features](beginning/native-smart-contracts-and-virtual-machines/advanced-features.md)
   * [🔮 KLYNTAR EVM](beginning/native-smart-contracts-and-virtual-machines/klyntar-evm.md)
   * [⚛ Cosmos compatibility](beginning/native-smart-contracts-and-virtual-machines/cosmos-compatibility.md)
+  * [💠 Polkadot ecosystem](beginning/native-smart-contracts-and-virtual-machines/polkadot-ecosystem.md)
   * [😱 Custom virtual machines](beginning/native-smart-contracts-and-virtual-machines/custom-virtual-machines.md)
 * [🤖 Services](beginning/services/README.md)
   * [🤩 Intro](beginning/services/intro.md)
