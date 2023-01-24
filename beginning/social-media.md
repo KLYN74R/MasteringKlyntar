@@ -92,13 +92,7 @@ By the way, almost all (because we haven't added everything yet) our addresses a
 
 {% embed url="https://www.reddit.com/r/KLYN74R/" %}
 
-{% embed url="https://twitter.com/KLYN74R" %}
-
 {% embed url="https://klyntar.medium.com/" %}
-
-{% embed url="https://www.tiktok.com/@klyn74r" %}
-
-{% embed url="https://www.pinterest.com/klyn74r/" %}
 
 {% embed url="https://dev.to/klyntar" %}
 
@@ -113,6 +107,12 @@ By the way, almost all (because we haven't added everything yet) our addresses a
 {% embed url="https://gitlab.com/KLYNTAR" %}
 
 {% embed url="https://klyn74r.tumblr.com/" %}
+
+{% embed url="https://twitter.com/KLYN74R" %}
+
+{% embed url="https://www.pinterest.com/klyn74r/" %}
+
+{% embed url="https://www.tiktok.com/@klyn74r" %}
 
 ### <mark style="color:red;">Other links</mark>
 
