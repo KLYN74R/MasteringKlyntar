@@ -87,7 +87,7 @@
   * [🌐 Web1337](beginning/releases/web23.md)
 * [📈 CIIPs](beginning/ciips.md)
 * [🗺 KLYNTAR for the Internet](beginning/klyntar-for-the-internet.md)
-* [⚖ Real life smart-contracts](beginning/real-life-smart-contracts.md)
+* [⚖ RWX contracts - real world eXecution smart contracts](beginning/rwx-contracts-real-world-execution-smart-contracts.md)
 * [🚀 Running your infrastructure](beginning/running-your-infrastructure.md)
 * [🦾 Running your blockchain on KLYNTAR](beginning/running-your-blockchain-on-klyntar.md)
 * [💱 Information for exchanges](beginning/information-for-exchanges.md)
