@@ -6,6 +6,10 @@ coverY: 0
 
 # 🌀 Ring Signatures
 
+{% hint style="warning" %}
+We decided to choose ZKP way instead of using LRS - read till the end
+{% endhint %}
+
 ### <mark style="color:red;">Linkable Ring Signatures on KLYNTAR</mark>
 
 Ring signatures are an interesting and useful cryptographic algorithm that allows you to generate signatures on behalf of a group and it is impossible to determine who exactly generated this signature.
