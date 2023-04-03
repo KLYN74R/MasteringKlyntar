@@ -6,7 +6,7 @@ coverY: 124.03108808290153
 
 # 🎯 Motivation
 
-<figure><img src="../.gitbook/assets/MOSHED-2022-1-1-22-30-23.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://cdn4.telegram-cdn.org/file/afPdDJAEgMdwCI6B5G_UXAkoDBwWFjJF9XrPrhCPPARut6BeoUARSkEjPw4qDMdAINIY3uNdUHsuIM--brMcGBrpMqZfDrntck1yLKW5iC-aq2iIU3Ka6jvf2d-3RDRvWrOzeB7giTRwKmrJsQ1l1tfOOtq0v-Tm5fMWtBOfNdYX_O0lf_TxKEoGrJCSYhEMUqqBbQ7y63ZEJenu1L1VRA6PKcAY9ccJd5E8JICTYDbgqsvlFlbgxqelPHUkqg99CJtcZgZ4qnRWu_OlnIC-xxFwEweigPWsK3mZ9uWh9OOErJhfNfW833HyDmqCf7F9bl_nAS-PiJOraQiSy30stQ.jpg" alt=""><figcaption></figcaption></figure>
 
 Since early ages I'm in love with crypto industry. Among tons of hustlers who are here only because of money & gambling, I(and our <mark style="color:purple;"></mark> [_<mark style="color:purple;">**@KlyntarTeam**</mark>_](https://github.com/klyntarteam)) really appreciate impact of valuable projects which brings improvements to our world. Instead of being 26899_th_ scam NFT or 5684_th_ we want to be useful by creating our project. We've started KLYNTAR with __ [_<mark style="color:purple;">**@ushkoff**</mark>_](https://github.com/ushkoff) at 16 as NewNews, but during development process everyone has been proposing a lot of improvements, so very soon we've decided to replan our initial intentions and create more general propose project.\
 \
