@@ -311,7 +311,7 @@ To do this, select the option deriveGroupPub
 
 Enter the verification vectors of all participants using a separator characterEnter the verification vectors of all participants using a separator character
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 {% hint style="info" %}
 Don't worry, in other wallets or Apollo modules the procedure will be easier and won't look so "scary"😃

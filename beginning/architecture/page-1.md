@@ -71,7 +71,7 @@ For example, the directory for interacting with hostchains looks like this:
 
 Directory with workflows:
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (3).png>)
 
 As you can see, they all include several packs. This modular structure allows one symbiote to work using some consensus script in controller mode, and another to follow the BFT consensus. Well, or, for example, choose a pack for working with hostchains.
 
