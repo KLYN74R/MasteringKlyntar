@@ -98,7 +98,7 @@ We will just start using AssemblyScript as the first entry point for .wasm smart
 
 {% embed url="https://github.com/AssemblyScript/assemblyscript" %}
 
-More will be added later. Here are some interesting themed repositories
+More will be added later. Here are some related repositories
 
 ![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
@@ -116,13 +116,13 @@ With this in mind, we continue to work on KLYNTAR VM. You can run a virtual mach
 
 However, in general, the essence of energy as a resource on KLYNTAR will be similar to the essence of gas in EVM machines - to provide a calculation of the cost of resources spent to perform a smart contract (its functions).
 
-Through the principle of mutation, each symbiote individually assigns itself KLYNTAR VM capabilities and a spreadsheet. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on. This gives flexibility and allows you to evenly distribute the load between the symbiotes.
+Through the principle of mutation, each symbiote individually assigns itself KLYNTAR VM capabilities and a spreadsheet. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on.
 
 ### <mark style="color:red;">Measuring table</mark>
 
 Earlier we showed you a simple function in the add.wat file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much power each opcode will consume.
 
-Here is an example **vmEnergyTable.json** from dev\_controller workflow.
+Here is an example **vmEnergyTable.json**.
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore/blob/main/KLY_Workflows/dev_controller/vmEnergyTable.json" %}
 
@@ -230,3 +230,5 @@ In more detail about the principles of measurement and such tables, we talk in t
 {% embed url="https://www.rust-lang.org/fr/what/wasm" %}
 
 {% embed url="https://wasmbook.com/" %}
+
+{% embed url="https://klyntar.medium.com/klyntar-virtual-machines-part-1-kly-vm-a-wasm-based-mutable-extendable-native-klyntar-vm-94aafe76ae0f" %}
