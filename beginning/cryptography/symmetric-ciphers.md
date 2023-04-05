@@ -11,9 +11,9 @@ Yes, it was not without the use of symmetric encryption algorithms on KLYNTAR. I
 
 Among symmetric algorithms, there is no more famous, stable and reliable than this one. Included in OpenSSL, GPG, used by ProtonMail, Google (for password encryption), malware developers, and other popular and widely used products and protocols. AES has been adopted as an official recommendation by the US government and no significant flaws or attacks have been found since.
 
-Currently considered as [_<mark style="color:red;">**quantum-resistant**</mark>_](https://cryptobook.nakov.com/quantum-safe-cryptography#quantum-safe-and-quantum-broken-crypto-algorithms) (given a key size of 256 bits).
+Currently, considered as [_<mark style="color:red;">**quantum-resistant**</mark>_](https://cryptobook.nakov.com/quantum-safe-cryptography#quantum-safe-and-quantum-broken-crypto-algorithms) (given a key size of 256 bits).
 
-We use just the same 256 bit key which is the SHA-256 hash of your password. AES is used in CBC mode, although this is subject to change based on usage.
+We use just the same 256-bit key which is the SHA-256 hash of your password. AES is used in CBC mode, although this is subject to change based on usage.
 
 To set up the daemon, you will need to encrypt all your private keys - both KLYNTAR private keys and hostchain private keys to integrate with them (create transactions, interact with contracts, and so on).
 
