@@ -23,7 +23,7 @@ Circom is a special language that can be used to write logic that will then be u
 
 SnarkJS can be used to perform a trusted configuration ceremony, generate a verifier Solidity contract, and much more.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 More information can be found on the official websites. Below you will see links to repositories that will help you create your own zero-knowledge project.
 
