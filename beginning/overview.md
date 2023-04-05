@@ -39,7 +39,7 @@ Here you will find a description of the Klyntar testnet, its capabilities and th
 
 The section contains some descriptions of the individual parts of the Klyntar core. It should be especially useful for potential developers of various workflows, infrastructure operators and just inquisitive minds who are interested in what was on our minds when we <mark style="color:purple;">"freaked something up again"</mark> and who would like to learn more about the kernel codebase. It is much more interesting to learn a detailed description from the developers themselves than to shovel thousands of lines of code yourself in an attempt to add 2 + 2. In addition, we fully admit that some of our logic could be wrong at some points, so with the help of the fact that you see our explanations, you will be able to more clearly understand what exactly we wanted to achieve and in case of our mistake, let us know and join active community!
 
-### [<mark style="color:red;">Unobtanium</mark>](unobtanium/)
+### [<mark style="color:red;">Unobtanium</mark>](multistaking-and-unobtanium/)
 
 Let's start to tell what is unobtanium on KLYNTAR. It is important for us that hodlers of other cryptocurrencies, token holders of different projects, miners of PoW projects, stakers and other members of the crypto-loyal audience understand how they can use ALL their potential and resources on KLYNTAR!
 
