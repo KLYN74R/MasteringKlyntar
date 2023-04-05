@@ -12,7 +12,9 @@ coverY: 0
 
 ## What these docs(book) about?
 
-MasteringKlyntar is a large book dedicated to the KLYNTAR ecosystem, a collection of useful explained code fragments, patterns, kernel mechanisms. Here you will get a deep understanding of how all the components of KLYNTAR work, how to use them to build whatever you want and make this world a better place. This is a kind of ELI5, so that you can step by step understand all potential capabilities of KLYNTAR. Please note that we are constantly updating this book, adding new interesting materials. Go from basics to detailed explanations.
+MasteringKlyntar is a large book dedicated to the KLY ecosystem, a collection of useful explained code fragments, patterns, kernel mechanisms. Here you will get a deep understanding of how all the components of KLYNTAR work, how to use them to build whatever you want and make this world a better place.
+
+This is a kind of ELI5, so that you can step by step understand all potential capabilities of KLYNTAR. Please note that we are constantly updating this book, adding new interesting materials. Go from basics to detailed explanations.
 
 As a CTO and CEO, I hope that this book will be useful to both beginners and experienced developers who will work together with us in our common great mission.
 
