@@ -30,7 +30,7 @@ $$
 е(Р, Q) → n
 $$
 
-We also require one important property from this function. If we have some secret number x and two points P and Q , we should get the same result no matter which point we multiply by this number:
+We also require one important property from this function. If we have some secret number x and two points P and Q, we should get the same result no matter which point we multiply by this number:
 
 $$
 е(х×Р, Q) = е(Р, х×Q)
@@ -68,7 +68,7 @@ $$
 e(G,S)=e(G,a×H(m))=e(a×G,H(m))=e(P,H(M))
 $$
 
-Visualisation
+Visualization
 
 ![/medium.com/cryptoadvance/bls-signatures-better-than-schnorr-5a7fe30ea716](<../../.gitbook/assets/image (47).png>)
 
@@ -78,7 +78,7 @@ Signature verification
 
 <mark style="color:yellow;">**Aggregation**</mark>
 
-Now let's combine all the signatures in the block! Imagine that we have 1000 validators and each of them must vote for the inclusion of some block in the blockchain. For each validator, a signature Si is obtained, a public key Pi and a message M (block metadata-hash, index, etc.) . Why store all signatures when they can be combined? In the end, we only care if all the signatures are valid. The aggregated signature will simply be the sum of all validator signatures:
+Now let's combine all the signatures in the block! Imagine that we have 1000 validators and each of them must vote for the inclusion of some block in the blockchain. For each validator, a signature Si is obtained, a public key Pi and a message M (block metadata-hash, index, etc.). Why store all signatures when they can be combined? In the end, we only care if all the signatures are valid. The aggregated signature will simply be the sum of all validator signatures:
 
 $$
 S = S1+S2+…+S1000
@@ -152,7 +152,7 @@ For the test, generate and save yourself a few pairs. Let's generate 3 pairs
 Don't forget to save your pairs. Autosave will be added in future versions of Apollo
 {% endhint %}
 
-Here's the pairs we have
+Here are the pairs we have
 
 ```json
 //1
@@ -309,7 +309,7 @@ To do this, select the option deriveGroupPub
 
 ![](<../../.gitbook/assets/image (43).png>)
 
-Enter the verification vectors of all participants using a separator characterEnter the verification vectors of all participants using a separator character
+Enter the verification vectors of all participants using a separator character. Enter the verification vectors of all participants using a separator character
 
 ![](<../../.gitbook/assets/image (5) (2).png>)
 
