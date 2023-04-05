@@ -21,6 +21,10 @@ When you start the KLYNTAR daemon, it will ask you to decrypt all your keys, as 
 
 ![Choose a strong password and make sure no one is watching you as you type. Do not disclose your password to anyone](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
+{% hint style="info" %}
+Daemon startup visualization subject to change prior to release
+{% endhint %}
+
 <mark style="color:red;">**Behind the scenes, the following process takes place**</mark>
 
 1. We get a 32 byte seed by hashing SHA-256\
