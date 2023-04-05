@@ -9,7 +9,7 @@ coverY: -177.3838383838384
 
 ### <mark style="color:red;">Importance for everyone</mark>
 
-Since we are planning to develop a large number of projects within our ecosystem, it becomes obvious that if all of them are somehow connected with KLYNTAR, then the use of various kinds of cryptographic primitives is expected.
+Since we are planning to develop numerous projects within our ecosystem, it becomes obvious that if all of them are somehow connected with KLYNTAR, then the use of various kinds of cryptographic primitives is expected.
 
 In order to separate cryptographic capabilities from specific implementations of KLYNTAR modules (for example, for workflow symbiotes or as part of service workflows), we decided to create a separate convenient repository where we collected various kinds of algorithms - from ordinary signatures to ring and multi-signatures. From post-quantum key exchange algorithms to post-quantum signatures (mostly current NIST candidates 1-5 security levels). In short, you can explore the repository yourself.
 
