@@ -9,15 +9,11 @@ coverY: -191.06127946127947
 
 ### <mark style="color:red;">Cross-chain smart contracts with KLYNTAR VM</mark>
 
-It would be great to write smart contracts with cross-chain logic. When part of your contract is executed on Polygon, part on KLYNTAR and one more on conditional Litecoin (yes, yes, we will make it possible to use even chains without smart contracts).
+It would be great to write smart contracts with cross-chain logic. When part of your contract is executed on Polygon, part on KLYNTAR and one more on conditional Litecoin (yes, we will make it possible to use even chains without smart contracts).
 
-Since KLYNTAR nodes in the framework of _<mark style="color:yellow;">**symbiote-hostchain**</mark>_ interactions somehow interact with hostchains, this connection could be used to perform cross-chain logic. In addition, nodes that work on a certain symbiote probably have nodes or at least APIs for working with host chains, which means that it will not be difficult to use them for smart contracts.
+Since KLYNTAR nodes in the framework of _<mark style="color:yellow;">**symbiote-hostchain**</mark>_ interactions somehow interact with hostchains, this connection could be used to perform cross-chain logic.
 
-### <mark style="color:red;">Another reference to the flexibility of the symbiotic structure</mark>
 
-Each symbiote will provide its own access to different networks. That is why, when choosing, you should check whether the symbiote supports the networks you need. The operators of the nodes of a certain symbiote themselves are allowed to choose the balance between the number of hostchains, their set, etc.
-
-If one symbiote provides an API to work on less popular host chains than another, then the income of the nodes on this may be less and the symbiote will lose validators and nodes. Similarly, in the other direction - if the symbiote is too "expensive" to launch, then people will leave from here. And although this is not particularly critical due to [_<mark style="color:purple;">**Mutualism**</mark>_](../releases/mutualism.md), it is still recommended to maintain a balance.
 
 ### <mark style="color:red;">**Example**</mark>
 
@@ -269,16 +265,14 @@ performLitecoinPolygonLogic(
 )
 ```
 
-Вот собственно и всё. Хоть мы и не затестили функцию для работы с Polygon, но в целом принцип такой же. Так же можно и усложнять и проводить более сложные операции.
-
 ### <mark style="color:red;">What else can be added</mark>
 
-The possibilities here are endless - it will be possible to build various kinds of adapters for data, set up your own commission policy, include many circuits in 1 call to the KLYNTAR contract, KLYNTAR nodes will be able not only to receive data and check, but also, if there is, for example, a balance on Polygon, conduct "paid" calls and so on. We will keep you updated on our developments and progress. Submit your ideas and help solve problems :thumbsup:
+The opportunities here are endless - it will be possible to build various kinds of adapters for data, set up your own commission policy, include many circuits in 1 call to the KLYNTAR contract, KLYNTAR nodes will be able not only to receive data and check, but also, if there is, for example, a balance on Polygon, conduct "paid" calls and so on. We will keep you updated on our developments and progress. Submit your ideas and help solve problems :thumbsup:
 
 ### <mark style="color:red;">Prospects</mark>
 
 Thanks to the symbiotic structure and the default sharding principle, KLYNTAR allows you to choose the symbiotes you need. Thanks to the release of Mutualism, you will be able to pay the nodes of other symbiotes, if necessary, so that they also check your contracts. You will be able to manually assign only select validators who will be allowed to fulfill your contracts, and due to the fact that KLYNTAR will be very social (this can be understood from the links even at the node configuration level where you can share your site, mail or a way to contact you) you will be able to easily untie the tasks you need.
 
-Now your tokens will rely on the security of KLYNTAR - which means the security of the entire industry, your users will have access to advanced cryptography, will use the maximum speeds of the entire industry thanks to SpookyAction, phantom blocks, total asynchrony and more.
+Now your tokens will rely on the security of KLYNTAR - which means the security of the entire industry, your users will have access to advanced cryptography, will use the maximum speeds of the entire industry thanks to SpookyAction, total async and more.
 
 Follow KLYNTAR and, if it's not difficult for you, help us by sending a donation to our [_<mark style="color:purple;">**addresses**</mark>_](../social-media.md)
