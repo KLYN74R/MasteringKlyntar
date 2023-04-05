@@ -21,3 +21,7 @@ Here is the repository
 The README has a detailed and step-by-step description of the steps. All you need to do is clone this repository and run a single script inside. This script will do all the work for you - it will take an example of configs for the required workflow, download all dependencies, run the necessary builds.
 
 Ultimately, you will have a working local version of the network that can be used for testing and personal needs.
+
+{% hint style="info" %}
+Note that default branch(main) has version without feature of subchain binding. It's imperceptibly for a single-node-setup, but you can notice the difference in multi-node-setup. To enable feature, switch the branch in AntiVenom repository to [bind\_to\_subchain\_with\_single\_evm](https://github.com/KLYN74R/AntiVenom/tree/bind\_to\_subchain\_with\_single\_evm)
+{% endhint %}
