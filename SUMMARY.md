@@ -33,7 +33,7 @@
 * [🏞 Native smart-contracts and virtual machines](beginning/native-smart-contracts-and-virtual-machines/README.md)
   * [ℹ Introduction](beginning/native-smart-contracts-and-virtual-machines/introduction.md)
   * [🤞 Сrosschain seamless smart contracts](beginning/native-smart-contracts-and-virtual-machines/srosschain-seamless-smart-contracts.md)
-  * [💪 Advanced features](beginning/native-smart-contracts-and-virtual-machines/advanced-features.md)
+  * [💪 Measuring details](beginning/native-smart-contracts-and-virtual-machines/measuring-details.md)
   * [🔮 KLYNTAR EVM](beginning/native-smart-contracts-and-virtual-machines/klyntar-evm.md)
   * [⚛ Cosmos compatibility](beginning/native-smart-contracts-and-virtual-machines/cosmos-compatibility.md)
   * [💠 Polkadot ecosystem](beginning/native-smart-contracts-and-virtual-machines/polkadot-ecosystem.md)
