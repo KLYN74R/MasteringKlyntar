@@ -1,4 +1,5 @@
 ---
+description: True randomness for KLY
 cover: ../../.gitbook/assets/43310060263553.5a4f4c443dce3.gif
 coverY: -104.62074978204011
 ---
@@ -113,11 +114,11 @@ At the same time, both Alice and Bob will be sure of the impossibility of obtain
 
 ### <mark style="color:red;">Where can it be useful and where is it applied?</mark>
 
-Here we explained the VRF mechanism in a simplified way, but Algorand consensus works in a similar way.
+Here we explained the VRF mechanism in a simplified way, but Algorand consensus works similarly.
 
 {% embed url="https://medium.com/algorand/algorand-releases-first-open-source-code-of-verifiable-random-function-93c2960abd61" %}
 
-We assume the use of VRF in smart contracts and services on KLYNTAR
+We assume the use of VRF in smart contracts and services on KLYNTAR. Also, it's a great method for MEV-resistance.
 
 ### <mark style="color:red;">Links</mark>
 
