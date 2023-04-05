@@ -160,11 +160,7 @@ Directory with virtual machines available to be used. Currently, it's WASM-based
 
 <mark style="color:yellow;">**KLY\_Workflows**</mark>
 
-Contains symbiote workflow repositories
-
-<mark style="color:yellow;">**MAINNET**</mark>
-
-Absolutely the same structure as ANTIVENOM
+Contains workflows implementations for symbiotes
 
 ### <mark style="color:red;">Conclusion</mark>
 
