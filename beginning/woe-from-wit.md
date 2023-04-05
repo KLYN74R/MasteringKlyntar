@@ -30,17 +30,21 @@ However, before starting reading serious docks further, I will still clarify
 
 * _<mark style="color:yellow;">**A project that relies on the security of the entire crypto industry**</mark>_\
   _<mark style="color:yellow;">****</mark>_\
-  _<mark style="color:yellow;">****</mark>_KLYNTAR has a symbiotic architecture consisting of parallel and perpendicular blockchains, due to which it is not a single monochain, but many different micro chains (so-called _<mark style="color:red;">**symbiotes**</mark>_) that do not rely on some central "main" chain (commonly called a beacon chain (ETH 2.0 ), relay-chain (Polkadot), master chain, and so on), but rely on the overall security of other blockchains (the so-called _<mark style="color:red;">**hostchains**</mark>_) - on the PoW power of Bitcoin and forks, Ethereum (until they switched to PoS), Zilliqa, ZCash, Monero and many others, on the total value of all assets of the crypto industry, and therefore on stakes in Polkadot, Solana, Avalanche, Algorand and others, on storage volumes of Filecoin, Arweave, Chia, Spectrum and so on.\
+  _<mark style="color:yellow;">****</mark>_KLYNTAR has a symbiotic architecture with multisharding consisting of parallel independent blockchains(1st level of sharding) which can be shardable too(2nd level of sharding), due to which it is not a single monochain, but many micro chains (so-called _<mark style="color:red;">**symbiotes**</mark>_) that do not rely on some central "main" chain (commonly called a beacon chain (ETH 2.0), relay-chain (Polkadot), master chain, and so on), but rely on the overall security of other blockchains (the so-called _<mark style="color:red;">**hostchains**</mark>_) - on the PoW power of Bitcoin and forks, Ethereum (until they switched to PoS), Zilliqa, ZCash, Monero and many others, on the total value of all assets of the crypto industry, and therefore on stakes in Polkadot, Solana, Avalanche, Algorand and others, on storage volumes of Filecoin, Arweave, Chia, Spectrum and so on.\
 
-* _<mark style="color:yellow;">**A project that has the maximum theoretically possible speed and relies on the speed of all blockchains (yes, more than Solana or TON)**</mark>_\
+* _<mark style="color:yellow;">**A project that has the maximum theoretically possible speed(yes, more than Solana or TON) and relies on the speed of all blockchains**</mark>_\
   \
   _<mark style="color:red;">**Sounds like an overstatement, but read please)**</mark>_\
   \
-  Scaling is one of the key problems that many projects are trying to solve. Everyone's path is different, but the essence is the same. We decided to go further and reach the potential maximum computing capabilities of the industry. Imagine if ETH smart contracts could run on Solana. If Solana went down again (which happened several times over the past year), then its programs would be running on Polygon and Tron. Sounds strange, but theoretically achievable. How? Well, I had to use some loopholes and substitution of concepts, so I think you should read. In addition, you will learn about other methods of scaling at the consensus level (fast BFT), cryptography (using BLS multi-signature aggregation, separate chains for "heavy calculations"), learn about phantom blocks and much more).\
+  Scaling is one of the key problems that many projects are trying to solve. Everyone's path is different, but the essence is the same. We decided to go further and reach the potential maximum computing capabilities of the industry.\
+  \
+  Imagine if ETH smart contracts could run on Solana. If Solana went down again (which happened several times over the past year), then its programs would be running on Polygon and Tron. Sounds strange, but theoretically achievable. How? Well, I had to use some loopholes and substitution of concepts, so I think you should read. In addition, you will learn about other methods of scaling at the consensus level (fast BFT), cryptography (using BLS multi-signature aggregation, learn about phantom blocks and much more).\
 
 * _<mark style="color:yellow;">**The project with the maximum level of parallelism**</mark>_\
   \
-  Symbiotes work in parallel to each other, and KLYNTAR's dimensions increase not only vertically, but also horizontally. With this structure, you can reduce the weight of the circuit, which means that synchronization will be faster. _<mark style="color:red;">**Services**</mark>_ (this is how we call next-generation smart contracts that work off-chain (in addition to the usual WASM contracts that work on-chain), have access to advanced logic and features, such as choosing a database, opening ports and using network resources) are also parallel and, moreover, optional because they work "outside the chain". This gives amazing opportunities for all sorts of activities to speed up work and add new features (after all, parallelism according to Amdahl's law is maximum at 0% of dependent components. So instead of waiting for the mono-chain to vote for some changes, you can add something then new in one symbiote and start testing).\
+  Symbiotes work in parallel to each other as a separate projects and depending on workflow they can be sharded inside a single symbiote to set of subchains. Pool-per-subchain scheme gives us ability to set a single authority to subchain in secure way without any risk of fault/denile of service.\
+  \
+  _<mark style="color:red;">**Services**</mark>_ (this is how we call next-generation smart contracts that work off-chain (in addition to the usual EVM / WASM contracts that work on-chain), have access to advanced logic and features, such as choosing a database, opening ports and using network resources) are also parallel and, moreover, optional because they work "outside the chain". This gives amazing opportunities for all sorts of activities to speed up work and add new features (after all, parallelism according to Amdahl's law is maximum at 0% of dependent components. So instead of waiting for the mono-chain to vote for some changes, you can add something then new in one symbiote and start testing).\
 
 * _<mark style="color:yellow;">**A project that has a "crypto" prefix for a reason**</mark>_\
   \
@@ -48,19 +52,19 @@ However, before starting reading serious docks further, I will still clarify
 
 > ### **Any sufficiently advanced technology is indistinguishable from magic**
 
-Many different crypto algorithms will be used in KLYNTAR workflows - from fast hash functions to post-quantum key exchange, from verifiable secret sharing schemes to threshold and ring signatures, from primitive zero-knowledge proofs to advanced mechanisms like zkSNARK / zkSTARK, blind signatures , VDF & VRF and much more that comes to mind.
+Many crypto algorithms will be used in KLYNTAR workflows - from fast hash functions to post-quantum key exchange, from verifiable secret sharing schemes to threshold- and multisignatures, from primitive zero-knowledge proofs to advanced mechanisms like zkSNARK / zkSTARK, blind signatures, VDF & VRF and much more that comes to mind.\
 
-In addition, through integration with other projects, paralleling the nature of KLYNTAR and mutualism (easy tracking and verification of other symbiotes), anyone will be able to run a bridge in [_<mark style="color:purple;">**StarkNet's**</mark>_](https://starkware.co/starknet/) zkSTARK rollup, for example, and use the power of Zero Knowledge Proofs.
 
-*   _<mark style="color:yellow;">**A project that supports a multi-chain future and multi-chain logic**</mark>_\
+*   _<mark style="color:yellow;">**A project that supports a multichain future and multichain logic**</mark>_\
     \
-    Our strength is in unity! A deep understanding that the future of the crypto industry will be multi-chain in many ways and influenced many inventions, including unobtanium, services (new generation smart contracts), EVM and other virtual machines available on symbiotes (in the future).
+    Our strength is in unity! A deep understanding that the future of the crypto industry will be multichain in many ways and influenced many inventions, including unobtanium, services (new generation smart contracts), EVM and other virtual machines available on symbiotes(in the future).\
 
-    You will be useful on KLYNTAR if you are already a Bitcoin miner, own Cardano assets, have Brave tokens, have purchased storage space for Chia. If you play staking, then on a large scale) If decentralization is only maximum)\
+
+    You will be useful on KLYNTAR if you are already a Bitcoin miner, own Cardano assets, have Brave tokens, have purchased storage space for Chia. If you play staking, then on a large scale). If decentralization is only maximum)\
 
 * _<mark style="color:yellow;">**Benefit from any device**</mark>_\
   \
-  Support for network state staking and snapshots, use of zero-knowledge proofs (in the future) will help you get up and running light nodes on phones, single board computers, etc. which will be able to work only on selective symbiotes, check only certain services and smart contracts and at the same time be confident in the provable validity of the chain, store the content of smart contracts and services in a more advanced way than IPFS, and much more\
+  Support for network state staking and snapshots, use of zero-knowledge proofs (in the future) and removable blockchain will help you get up and running light nodes on phones, single board computers, etc. which will be able to work only on selective symbiotes, check only certain services and smart contracts and at the same time be confident in the provable validity of the chain, store the content of smart contracts and services in a more advanced way than IPFS, and much more\
 
 *   _<mark style="color:yellow;">**Science and technologies is the foundation of KLYNTAR**</mark>_\
     \
@@ -69,7 +73,7 @@ In addition, through integration with other projects, paralleling the nature of 
     _<mark style="color:red;">**Cybersecurity companies**</mark>_ will also be able to help KLYNTAR by monitoring the state of the network and analyzing service repositories for the presence of malware wipers, miners, C2 infrastructure beacons and preventing their launch by network nodes
 
     \
-    _<mark style="color:red;">**AI software companies**</mark>_ will be able to offer their services as oracles for smart contracts
+    _<mark style="color:red;">**AI software companies**</mark>_ will be able to offer their services as oracles for smart contracts or will be useful for RWX smart-contracts
 
     \
     _<mark style="color:red;">**Mining pools**</mark>_ will be able to continue their work in Bitcoin or other crypto that their equipment is configured for and at the same time receive rewards and have "weight" on KLYNTAR to ensure the security of our network\
