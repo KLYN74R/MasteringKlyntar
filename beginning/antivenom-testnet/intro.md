@@ -15,7 +15,7 @@ This page is basically a copy of our testnet launch README. However, there are a
 As you've seen, KLYNTAR is in symbiotic relationship with other blockchains. By running different nodes of other projects, working with tools required by them, the most auful & irritating problem was problem with initial setup - misconfigs, old docs, semver mistakes, nightly versions and so on. That's why, we've prepared docker images to allow you to be sure that you'll have 100% succesful setup. Recommended to be used to run KLY nodes & clusters, Apollo and so on.It's for better experience not to force you to waste time for finding misconfigs, dependencies problems and so on. Build & run quickly and let's start 🚀
 
 {% hint style="warning" %}
-We assume that you already have Docker installed on your machine. If not, you can install it for Linux & Windows & Mac [_<mark style="color:red;">**here**</mark>_](https://docs.docker.com/engine/install/)_<mark style="color:red;">****</mark>_
+We assume that you already have Docker installed on your machine. If not, you can install it for Linux & Windows & Mac [_<mark style="color:red;">**here**</mark>_](https://docs.docker.com/engine/install/)
 {% endhint %}
 
 <mark style="color:yellow;">**Check if Docker is installed**</mark>

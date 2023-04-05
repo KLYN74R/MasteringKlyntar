@@ -26,11 +26,11 @@ Here you will learn how to get started with Apollo, some basic guidelines and he
 
 Since this is a fairly powerful tool (and not just a CLI with a preliminary list of hardcoded commands), we will try to give you the most important thing - a basic understanding of how it works, how everything is interconnected. It is worth saying that Apollo differs from other similar tools like Metamask, Phantom and the like in that all kinds of service developers on KLYNTAR will be included in the work here to create personalized interfaces directly for each service, symbiote or group of services. This is equivalent to the fact that the developers of smart contracts of EVM-compatible chains that you use in the same Metamask would offer a unique interface for each smart contract.
 
-So, for example, if this is a DeFi service operating in the KLY ecosystem, then in the interface you will see the necessary data, fields, the latest news from the Twitter feed of this project, and so on, if this is the main menu of Apollo, then you will also find ads in the running line on offers of staking your unobtanium to some new services where you can decide what is more profitable for you - stake your unobtanium mined by the BTC miner and get a place as a service validator or confirm the amount of reserved storage in Filecoin and leave unobtanium for future voting for the most useful plugins for KLYNTAR as part of the social consensus procedures, and by going to [<mark style="color:purple;">wikipedia.org</mark>](https://www.wikipedia.org/) or reading some article on <mark style="color:red;"></mark> [<mark style="color:purple;">Medium</mark>](https://medium.com/), you can thank the authors and get some exclusive content from them. And all this in one black box called Apollo. I think my mouth is already flowing, so let's go 🤤
+So, for example, if this is a DeFi service operating in the KLY ecosystem, then in the interface you will see the necessary data, fields, the latest news from the Twitter feed of this project, and so on, if this is the main menu of Apollo, then you will also find ads in the running line on offers of staking your unobtanium to some new services where you can decide what is more profitable for you - stake your unobtanium mined by the BTC miner and get a place as a service validator or confirm the amount of reserved storage in Filecoin and leave unobtanium for future voting for the most useful plugins for KLYNTAR as part of the social consensus procedures, and by going to [<mark style="color:purple;">wikipedia.org</mark>](https://www.wikipedia.org/) or reading some article on [<mark style="color:purple;">Medium</mark>](https://medium.com/), you can thank the authors and get some exclusive content from them. And all this in one black box called Apollo. I think my mouth is already flowing, so let's go 🤤
 
 
 
-### 🏗️ <mark style="color:red;"></mark> <mark style="color:red;"></mark><mark style="color:red;">**How to build**</mark>
+### 🏗️ <mark style="color:red;">**How to build**</mark>
 
 It is better to show once than to say 100 times. With this attitude, we proceed to the launch. As you have probably read before, KLYNTAR is in a symbiotic relationship with other blockchains, both existing ones like Bitcoin, Avalanche, XRP, Solana, and those that will only be invented in the future.
 
@@ -41,7 +41,7 @@ Starting various nodes of other projects, working with the tools they needed, th
 {% hint style="warning" %}
 **NOTE**
 
-Before starting the installation, make sure you have Docker installed. If not, you can download it for Linux & Windows & Mac [_<mark style="color:purple;">here</mark>_](https://docs.docker.com/engine/install/)_<mark style="color:purple;"></mark>_
+Before starting the installation, make sure you have Docker installed. If not, you can download it for Linux & Windows & Mac [_<mark style="color:purple;">here</mark>_](https://docs.docker.com/engine/install/)
 {% endhint %}
 
 To check if Docker is installed type
@@ -214,7 +214,7 @@ The same principle works for the services API. Each subdirectory - it's a reposi
 http(s)://<your_interface>:<port>/services
 ```
 
-****
+
 
 **KLY\_WorkflowsAPI**
 

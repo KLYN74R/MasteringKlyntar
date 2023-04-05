@@ -110,9 +110,9 @@ ANTIVENOM
 {% hint style="info" %}
 You may have noticed the intermediate directory
 
-_<mark style="color:orange;">****</mark>_\
-_<mark style="color:orange;">****</mark>_<mark style="color:orange;">**FASj1powx5qF1J6MRmx1PB7NQp5mENYEukhyfaWoqzL9**</mark>\
-_<mark style="color:orange;">****</mark>_
+\
+<mark style="color:orange;">**FASj1powx5qF1J6MRmx1PB7NQp5mENYEukhyfaWoqzL9**</mark>\
+
 
 This is the address that created this symbiote and the ID of the symbiote (similar to the address of a smart contract in EVM-compatible chains). When working with other chains, you will have different addresses. It is also an "unnecessary" directory due to the fact that a different design and placement of directories was originally planned. We will fix this in the future
 {% endhint %}
@@ -200,7 +200,7 @@ KLY_Hostchains
 
 <mark style="color:yellow;">**KLY\_Plugins**</mark>
 
-Contains plugins that are loaded separately by the node operator and serve to extend the capabilities of the kernel, workflows, and so on. More about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)_<mark style="color:red;">****</mark>_
+Contains plugins that are loaded separately by the node operator and serve to extend the capabilities of the kernel, workflows, and so on. More about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)
 
 <mark style="color:yellow;">**KLY\_Runners**</mark>
 

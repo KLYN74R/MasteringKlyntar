@@ -21,7 +21,7 @@
   * [🎢 Cryptoland](beginning/cryptography/cryptoland.md)
   * [🛡 Symmetric ciphers](beginning/cryptography/symmetric-ciphers.md)
   * [#⃣ Hash functions](beginning/cryptography/hash-functions.md)
-  * [🔐 Keypairs](beginning/cryptography/keypairs.md)
+  * [🔐 Key pairs](beginning/cryptography/key-pairs.md)
   * [🔏 Multi/Threshold/Aggregated signatures](beginning/cryptography/multi-threshold-aggregated-signatures.md)
   * [🤫 Secret sharing](beginning/cryptography/secret-sharing.md)
   * [⚡ Post quantum cryptography](beginning/cryptography/post-quantum-cryptography.md)

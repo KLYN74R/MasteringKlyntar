@@ -4,7 +4,7 @@ cover: ../../.gitbook/assets/3092916.jpg
 coverY: -190
 ---
 
-# 🔐 Keypairs
+# 🔐 Key pairs
 
 ### <mark style="color:red;">Ed25519</mark>
 
@@ -43,7 +43,7 @@ All keys of this type have a common 12 bytes that there is no need to store publ
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
-2.Private PKCS8 type. Similarly, all privates share 16 bytes, but since they are not published, there is no need to change their size. We just apply Base64 to such a key and it looks like this
+2.Private PKCS8 type. Similarly, all privates share 16 bytes, but since they are not published, there is no need to change their size. We just apply Base64 to such a key, so it looks like this
 
 `MC4CAQAwBQYDK2VwBCIEIKiJ1JIhmP4NelCCV5IAgQdOSfS/t3+9EjiL4zgG1HA0`
 

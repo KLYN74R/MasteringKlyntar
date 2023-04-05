@@ -54,7 +54,9 @@ Here, the nodes that work in the KLYNTAR network are marked in blue(for simplici
 
 Consider step by step:
 
-1. <mark style="color:red;">**Deploying the service to the network**</mark>\ <mark style="color:red;">****</mark>\ <mark style="color:red;">****</mark>Sending an archive in a special format - with signatures, hashes and additional metadata (signatures of antivirus services that checked the repository, signatures of some addresses trusted by the nodes in order for the service to launch as many nodes, your personal rate so that in case of violations you can deprive you of your share , the subject of the service, keywords, links in social networks - the Telegram channel of the service, TOR mirror, and so on.\
+1. <mark style="color:red;">**Deploying the service to the network**</mark>\
+   \
+   Sending an archive in a special format - with signatures, hashes and additional metadata (signatures of antivirus services that checked the repository, signatures of some addresses trusted by the nodes in order for the service to launch as many nodes, your personal rate so that in case of violations you can deprive you of your share , the subject of the service, keywords, links in social networks - the Telegram channel of the service, TOR mirror, and so on.\
 
 2. <mark style="color:red;">**Nodes take this special format and pass it to the runner for further processing**</mark>\
    \

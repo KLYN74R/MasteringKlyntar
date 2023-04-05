@@ -281,4 +281,4 @@ Thanks to the symbiotic structure and the default sharding principle, KLYNTAR al
 
 Now your tokens will rely on the security of KLYNTAR - which means the security of the entire industry, your users will have access to advanced cryptography, will use the maximum speeds of the entire industry thanks to SpookyAction, phantom blocks, total asynchrony and more.
 
-Follow KLYNTAR and, if it's not difficult for you, help us by sending a donation to our [_<mark style="color:purple;">**addresses**</mark>_](../social-media.md)_<mark style="color:purple;">****</mark>_
+Follow KLYNTAR and, if it's not difficult for you, help us by sending a donation to our [_<mark style="color:purple;">**addresses**</mark>_](../social-media.md)

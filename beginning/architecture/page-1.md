@@ -79,4 +79,4 @@ KLYNTAR will also be available for expansion with a wide ecosystem of plugins - 
 
 ![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
-Learn more about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)_<mark style="color:red;">****</mark>_
+Learn more about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)

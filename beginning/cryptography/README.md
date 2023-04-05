@@ -16,8 +16,8 @@ We especially present them step by step to substantiate their role on KLYNTAR. W
 Traditionally, all we know the most important postulate of cryptography:\
 \
 &#x20;                                                   _<mark style="color:purple;">**Don't use your custom algorithms**</mark>_\
-_<mark style="color:purple;">****</mark>_\
-_<mark style="color:purple;">****</mark>_All crypto algorithms on KLYNTAR are:
+\
+All crypto algorithms on KLYNTAR are:
 
 * Open source(obviously)
 * Taken from official builds(e.g. native modules, libs and so on)

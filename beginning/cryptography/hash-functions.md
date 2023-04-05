@@ -22,7 +22,7 @@ Since BLAKE3 supports XOF mode i.e. output length of a hash might be variable(li
 
 _<mark style="color:yellow;">**Using on symbiotes**</mark>_
 
-BLAKE3 will be used in workflow implementations. However, thanks to mutation mechanisms <mark style="color:red;"></mark> developers of other workflows,  operators of nodes in other symbiotes will have ability to use any function they want which will be presented in the official repository or developed/distributed by 3rd parties via alternative channels.
+BLAKE3 will be used in workflow implementations. However, thanks to mutation mechanisms developers of other workflows,  operators of nodes in other symbiotes will have ability to use any function they want which will be presented in the official repository or developed/distributed by 3rd parties via alternative channels.
 
 _<mark style="color:yellow;">**Using to generate addresses**</mark>_
 
@@ -42,7 +42,7 @@ Good and reliable, as well as a super popular hash function that has stood the t
 
 ### <mark style="color:red;">**SHA3**</mark>
 
-256-bit SHA-3 (also known as Keccak-256) based __ [_<mark style="color:purple;">**sponge function**</mark>_](https://en.wikipedia.org/wiki/Sponge\_function) is a NIST standard. It is used as the main one in Ethereum (although there is [_<mark style="color:purple;">**some confusion**</mark>_](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use) between correspondences) and in other cryptocurrencies. Will be used by KLY-EVM.
+256-bit SHA-3 (also known as Keccak-256) based [_<mark style="color:purple;">**sponge function**</mark>_](https://en.wikipedia.org/wiki/Sponge\_function) is a NIST standard. It is used as the main one in Ethereum (although there is [_<mark style="color:purple;">**some confusion**</mark>_](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use) between correspondences) and in other cryptocurrencies. Will be used by KLY-EVM.
 
 ### <mark style="color:red;">The quantum threat and the concept of RippedHashes</mark>
 
