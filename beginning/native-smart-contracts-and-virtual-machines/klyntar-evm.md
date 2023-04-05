@@ -45,3 +45,9 @@ A flexible configuration tree is available here in which you can configure the c
 We invite all projects that currently exist in EVM-compatible chains to launch on KLYNTAR as well. Here you will get the fastest, safest and the most decentralized version of EVM with advanced functionality, lower (or even zero) gas prices and many other features!
 
 If you are a DEX project, oracle network, NFT marketplace or any other project - welcome!
+
+
+
+### <mark style="color:red;">Links</mark>
+
+{% embed url="https://klyntar.medium.com/klyntar-virtual-machines-part-0-kly-evm-shardable-low-level-managed-mutable-and-wasm-improved-5b5c653965d7" %}
