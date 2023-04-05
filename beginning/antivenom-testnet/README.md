@@ -14,7 +14,7 @@ Testnets can be classified by scale:
 
 * <mark style="color:yellow;">**Local**</mark>\
   \
-  Usually a small network of 1 node on your local network. It usually runs on the same host from where it interacts with it. Key feature - small, for local testing\
+  Usually a small network of 1 node on your local network. It typically runs on the same host from where it interacts with it. Key feature - small, for local testing.\
 
 * <mark style="color:yellow;">**Semi-private**</mark>\
   \
@@ -22,7 +22,7 @@ Testnets can be classified by scale:
 
 * <mark style="color:yellow;">**Public**</mark>\
   \
-  Public nodes that form a common network (in this case, a symbiote) and provide access to the API for working with the network. Usually launched by developers or a group of enthusiasts
+  Public nodes that form a common network (in this case, a symbiote) and provide access to the API for working with the network. Usually launched by developers or a group of enthusiasts.
 
 We want to give you easy access to the entire powerful KLYNTAR arsenal. That is why you can easily set up testnets of any access level and apply various features - your own workflow, integration with hostchain testnets, access to service test environments, and so on.
 
