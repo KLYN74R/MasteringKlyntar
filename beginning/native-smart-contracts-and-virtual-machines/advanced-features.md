@@ -5,7 +5,7 @@ cover: >-
 coverY: -179.34439283344392
 ---
 
-# 💪 Advanced features
+# 💪 Measuring details
 
 ### <mark style="color:red;">How KLYNTAR measure the energy to execute smart contracts</mark>
 
