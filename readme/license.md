@@ -1,4 +1,5 @@
 ---
+description: Protection from patent trolls
 cover: ../.gitbook/assets/Venom.jpg
 coverY: -0.7772020725388601
 ---
