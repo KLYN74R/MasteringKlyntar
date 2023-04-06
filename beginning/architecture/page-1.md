@@ -37,25 +37,15 @@ KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow
 
 * _<mark style="color:orange;">**Sharding-by-default**</mark>_\
   \
-  A fundamental concept that allows symbiotes to work in parallel and independently of each other. Also, the default concept of sharding (with many symbiotes) allows you to share the load of interaction with other chains. Thus, one symbiote will be able to interact with your contracts on Cosmos, Solana and Polygon, and the other one will be able to read data from the Bitcoin chain and change the state, for example, on Ethereum contracts.
+  A fundamental concept that allows symbiotes to work in parallel and independently of each other. Also, the default concept of sharding (with many symbiotes) allows you to share the load of interaction with other chains. Thus, one symbiote will be able to interact with your contracts on Cosmos, Solana and Polygon, and the other one will be able to read data from the Bitcoin chain and change the state, for example, on Ethereum contracts
 
 ### <mark style="color:red;">**More about hostchains**</mark>
 
 Why tie yourself to one circuit if you can immediately secure it to the maximum using various flexible circuits. With this thought, we sat when we planned the architecture and studied the documentation of other projects. We also know about the principle of operation of Polygon, various L2 projects on Ethereum, about RSK and even about Stacks, but KLYNTAR is about something else.&#x20;
 
-By communicating with many chains, KLYNTAR brings security for them too due to the fact that KLYNTAR node and cluster operators can also run hostchain nodes and due to the fact that we rely on the security of hostchains( which means we are interested in their market value and development). We will talk about the trust market further and believe me, even if you now have a running infrastructure of other cryptocurrencies, you will already be useful on KLYNTAR and will be able to get what you need here.
+By communicating with many chains, KLYNTAR brings security for them too due to the fact that KLYNTAR node and cluster operators can also run hostchain nodes and due to the fact that we rely on the security of hostchains(which means we are interested in their market value and development). We will talk about the trust market further and believe me, even if you now have a running infrastructure of other cryptocurrencies, you will already be useful on KLYNTAR and will be able to get what you need here.
 
 ### <mark style="color:red;">**More about symbiotes**</mark>
-
-If you haven't figured it out yet, we've managed to build a project with the highest level of parallelism thanks to the symbiote architecture. The advantage here is that after the initial kNULL symbiote that our team launches, which will be the starting point for KLYNTAR, we will continue to launch other symbiotes. Thus, if the initial symbiote had a high load and completely clogged blocks, then the opening of a new parallel symbiote will transfer some of the transactions and load to the second chain. Due to the fact that the new chain will also require a security budget, it will be beneficial for the validators of the first symbiote to move there. As an analogy, you can imagine the discoverers of some continents - new lands, new opportunities. Also, it motivates some users to transfer their assets to a parallel chain.
-
-This process will be repeated indefinitely, and along with it, opportunities, security and scalability will grow.
-
-<mark style="color:purple;">**Security**</mark> - by increasing the number of hostchains where the KLYNTAR state will be saved&#x20;
-
-<mark style="color:purple;">**Scalability**</mark> - due to the parallel operation of symbiotes
-
-<mark style="color:purple;">**Opportunities**</mark> - due to the fact that the new symbiote will attract new stakers, developers, and so on
 
 Anyone can create their own new blockchain and attach it to the rest of the symbiotes. At the same time, your blockchain (symbiote) will immediately receive the security of KLYNTAR, will be supported by KLYNTAR nodes, and so on.
 
