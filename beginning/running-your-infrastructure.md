@@ -1,4 +1,7 @@
 ---
+description: >-
+  Set of pages with advices to build, scale and get maximum efficiency from your
+  KLY infrastructure
 cover: ../.gitbook/assets/f41bfffea7349d7a537c8a2c2ab28408.gif
 coverY: 54.402789886660855
 ---

@@ -1,4 +1,5 @@
 ---
+description: Useful information for everyone who want to improve KLY
 cover: ../.gitbook/assets/JzkswAdkC_uNUj7AySII3I8gjE6U3NlRRTUMPKqSK38.gif
 coverY: 166.21648365167067
 ---
