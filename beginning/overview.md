@@ -95,7 +95,7 @@ As part of the roadmap, of course, important updates are planned. We decided to 
 
 KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving Klyntar. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 
-### [<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges-and-infrastructure-providers.md)
+### [<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges.md)
 
 In this section, exchanges and other large providers can get all the necessary information regarding setting up their infrastructures
 

@@ -90,7 +90,7 @@
 * [⚖ RWX contracts - real world eXecution smart contracts](beginning/rwx-contracts-real-world-execution-smart-contracts.md)
 * [🚀 Running your infrastructure](beginning/running-your-infrastructure.md)
 * [🦾 Running your blockchain on KLYNTAR](beginning/running-your-blockchain-on-klyntar.md)
-* [💱 Information for exchanges and infrastructure providers](beginning/information-for-exchanges-and-infrastructure-providers.md)
+* [💱 Information for exchanges and infrastructure providers](beginning/information-for-exchanges.md)
 * [✨ Quantum stuff](beginning/quantum-stuff.md)
 * [🍕 Contributions](beginning/contributions.md)
 * [👮 Basic Security](beginning/basic-security.md)

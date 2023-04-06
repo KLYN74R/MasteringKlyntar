@@ -17,3 +17,11 @@ We undertake to transfer part of the commissions to developers and active users.
 {% hint style="info" %}
 Stay tuned for updates and more information on this. The page will be updated as the project grows
 {% endhint %}
+
+### <mark style="color:red;">CIIP-X and mutations</mark>
+
+In previous parts you learn more about Mutations principle. Mutations allow KLY ecosystem to implement features and improvements instantly, even they are in conflict.
+
+The CIIP-X is a special improvement proposal which propose to use mutations for improvement proposals. For this you can use containerization technologies like Docker to propose your feature to network and make available instantly to be used by all the products/services in KLY ecosystem.
+
+Details soon
