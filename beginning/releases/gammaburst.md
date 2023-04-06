@@ -6,7 +6,7 @@ coverY: 0
 # 🧑🚀 GammaBurst
 
 {% hint style="success" %}
-Status - <mark style="color:purple;">**80% ready**</mark>
+Status - <mark style="color:purple;">**90% ready**</mark>
 {% endhint %}
 
 Gamma-ray bursts are the brightest, strongest and most powerful phenomena in the universe. We need the same effect for our first release with the same name
