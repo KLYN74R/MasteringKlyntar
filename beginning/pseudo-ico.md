@@ -10,11 +10,11 @@ coverY: 91
 Everything described below is subject to change prior to release
 {% endhint %}
 
-### <mark style="color:red;">Primary resources distribution</mark>
+### <mark style="color:red;">Initial distribution</mark>
 
 <mark style="color:yellow;">**Aliases**</mark>
 
-Each symbiote must have a name, and we want to help you with it too. First of all, we are preparing such console art for the most famous symbiotes.
+Each symbiote must have a name, and we want to help you with it too. First, we are preparing such console art for the most famous symbiotes.
 
 ![](<../.gitbook/assets/image (16) (1) (1) (1).png>)
 
