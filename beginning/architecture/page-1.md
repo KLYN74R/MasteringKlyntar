@@ -9,23 +9,23 @@ coverY: 213.89119170984452
 
 ### <mark style="color:red;">**Let's talk about the structure**</mark>
 
-Working on KLYNTAR, we tried to make the project so powerful that it would surprise you, like when you were 8 years old when you found out that Santa Claus does not exist. We want to resurrect the time of useful projects by creating cool things for our industry, such as Unobtanium (so you can use your bitcoins, ethers, etc. to stake on KLYNTAR), KLYNTAR Services (so you write off-chain logic for KLYNTAR, other blockchains and the entire Internet and run them on millions of nodes at once relying on the security of KLYNTAR), Hivemind (to optimize the operation of symbiotes), SpookyAction (to launch contracts and execute transactions on any chain with the theoretically fastest speed in the industry), symbiotes and much more!
+Working on KLYNTAR, we tried to make the project so powerful that it would surprise you, like when you were 8 years old when you found out that Santa Claus does not exist. We want to resurrect the time of useful projects by creating cool things for our industry, such as Unobtanium (so you can use your bitcoins, ethers, etc. to stake on KLYNTAR), KLYNTAR Services (so you write off-chain logic for KLYNTAR, other blockchains and the entire Internet and run them on millions of nodes at once relying on the security of KLYNTAR), Hivemind (to optimize the operation of symbiotes), SpookyAction (to launch contracts and execute transactions on any chain with the theoretically the fastest speed in the industry), symbiotes and much more!
 
 Symbiosis with other projects (chains) will give you the opportunity to use the best and much-loved features of other cryptocurrencies, as well as expand the capabilities of existing blockchains and your new ones that you will create on KLYNTAR. The point is to combine both new blockchains and old ones into one super organism and revolutionize the crypto industry! Shared resources, different consensuses, BTC miners, ETH token holders, Solana validators, maximum security based on the security of the entire crypto industry - this is all about KLYNTAR :)
 
-![](<../../.gitbook/assets/image (1) (2).png>)
+![The old logo is used here](<../../.gitbook/assets/image (1) (2).png>)
 
 Above you see the general scheme taken from our whitepaper of the first version. Unlike other crypto projects, KLYNTAR does not have some kind of main chain, beacon chain or something like that that synchronizes and interleaves work in shards or coordinates blockchains (like Polkadot or Cosmos). We consider the entire blockchain space as a single reliable homogeneous environment and each blockchain is like a certain reliable container.
 
-KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow;">**symbiotes**</mark>_(they are represented in the diagram as parallel multi-colored rectangles). They got this name because they enter into a symbiotic relationship with other entities - _<mark style="color:yellow;">**hostchains**</mark>_(from the words host-carrier and chain-chain, shown at the top of the diagram). This connection is necessary for many reasons:
+KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow;">**symbiotes**</mark>_(they are represented in the diagram as parallel multicolored rectangles). They got this name because they enter into a symbiotic relationship with other entities - _<mark style="color:yellow;">**hostchains**</mark>_(from the words host-carrier and chain-chain, shown at the top of the diagram). This connection is necessary for many reasons:
 
 * _<mark style="color:orange;">**Maximum theoretical safety**</mark>_\
   \
-  What could be safer than all crypto projects put together? By including its state commits in the host chains, KLYNTAR guarantees maximum security in terms of non-reverting and finalizing the updated state. To hack, the enemy now needs to buy back all the assets of PoS projects, cooperate the entire mining power of PoW projects, and get validator positions in different chains where delegation is practiced. We do not rely only on Bitcoin or only Ethereum. We do not rely on 21 validators and are not afraid of 5 mining pools. And also we are not tied to one chain, being completely dependent on it\
+  What could be safer than all crypto projects put together? By including its state commits in the hostchains, KLYNTAR guarantees maximum security in terms of non-reverting and finalizing the updated state. To hack, the enemy now needs to buy back all the assets of PoS projects, cooperate the entire mining power of PoW projects, and get validator positions in different chains where delegation is practiced. We do not rely only on Bitcoin or only Ethereum. We do not rely on 21 validators and are not afraid of 5 mining pools. And also we are not tied to one chain, being completely dependent on it\
 
 * _<mark style="color:orange;">**Movement flexibility**</mark>_\
   \
-  If it becomes expensive to make commits on one chain or contact validators to execute a smart contract, then the mutation mechanism makes it easy to change the set of host chains or workflow\
+  If it becomes expensive to make commits on one chain or contact validators to execute a smart contract, then the mutation mechanism makes it easy to change the set of hostchains or workflow\
 
 *   _<mark style="color:orange;">**Rationality**</mark>_\
     \
@@ -33,7 +33,7 @@ KLYNTAR consists of many parallel chains that we call _<mark style="color:yellow
 
     However, due to the fact that we have an infinite number of parallel symbiotes, you can choose to run a node or cluster with one, two or more symbiotes to track and work on it. Symbiotes interact with each other to include commits of their states in more networks.
 
-    So one symbiote can commit to Bitcoin, Polygon, and Solana, and the other can commit to XRP, Litecoin, and Cardano. They include each other's commits in their set of host chains, and each of them pays a fee on only three networks, but in reality, there are now 6 host chains guarding their security. This was the simplest example\
+    So one symbiote can commit to Bitcoin, Polygon, and Solana, and the other can commit to XRP, Litecoin, and Cardano. They include each other's commits in their set of hostchains, and each of them pays a fee on only three networks, but in reality, there are now 6 hostchains guarding their security. This was the simplest example\
 
 * _<mark style="color:orange;">**Sharding-by-default**</mark>_\
   \
@@ -51,7 +51,7 @@ If you haven't figured it out yet, we've managed to build a project with the hig
 
 This process will be repeated indefinitely, and along with it, opportunities, security and scalability will grow.
 
-<mark style="color:purple;">**Security**</mark> - by increasing the number of host chains where the KLYNTAR state will be saved&#x20;
+<mark style="color:purple;">**Security**</mark> - by increasing the number of hostchains where the KLYNTAR state will be saved&#x20;
 
 <mark style="color:purple;">**Scalability**</mark> - due to the parallel operation of symbiotes
 
