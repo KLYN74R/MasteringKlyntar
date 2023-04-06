@@ -9,13 +9,13 @@ coverY: 137.9124579124579
 
 ### <mark style="color:red;">Short intro</mark>
 
-KLYNTAR has a high degree of parallelization due to its architecture. In this regard, interaction with host chains fits perfectly into this paradigm. We tried to divide the functionality into units, the separate existence of which would seem justified.
+KLYNTAR has a high degree of parallelization due to its architecture. In this regard, interaction with hostchains fits perfectly into this paradigm. We tried to divide the functionality into units, the separate existence of which would seem justified.
 
 ## <mark style="color:red;">Components</mark>
 
 ### <mark style="color:red;">Connectors</mark>
 
-_<mark style="color:orange;">**Connectors**</mark>_ are the first and main component. Thanks to them, the symbiote interacts with the hostchains. A connector is essentially a module that exports the functions necessary to work with the host chain.
+_<mark style="color:orange;">**Connectors**</mark>_ are the first and main component. Thanks to them, the symbiote interacts with the hostchains. A connector is essentially a module that exports the functions necessary to work with the hostchain.
 
 For example, one connector allows you to commit a symbiote to some EVM chain using the smart contract's _<mark style="color:yellow;">**.makeCommit(symbiote\_hash,block\_index)**</mark>_ function and then check the inclusion using the _<mark style="color:yellow;">**.checkCommit(symbiote\_hash,block\_index)**</mark>_ function.
 

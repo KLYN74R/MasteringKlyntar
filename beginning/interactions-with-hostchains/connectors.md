@@ -8,9 +8,9 @@ coverY: -187.08477521327262
 
 ### <mark style="color:red;">**Role on KLYNTAR**</mark>
 
-Connectors are modules that encapsulate work with host chains. They export functions for a wide variety of interactions, from simply storing commits on host chains, to more advanced logic like using zkSNARKs and executing contracts. These functions are then used at the workflow level to interact with host chains. Connectors are usually distributed in packs for greater convenience and classification.
+Connectors are modules that encapsulate work with hostchains. They export functions for a wide variety of interactions, from simply storing commits on hostchains, to more advanced logic like using zkSNARKs and executing contracts. These functions are then used at the workflow level to interact with hostchains. Connectors are usually distributed in packs for greater convenience and classification.
 
-Since we have to adapt to the functionality of other chains, all you need to write your own connector is to study the API, SDK or documentation of the host chain for which the connector is intended (or groups of host chains if there is a common interface like that of EVM compatible blockchains.
+Since we have to adapt to the functionality of other chains, all you need to write your own connector is to study the API, SDK or documentation of the hostchain for which the connector is intended (or groups of hostchains if there is a common interface like that of EVM compatible blockchains.
 
 Here's how to schematically label the connector so that you have a better understanding of what is happening
 
@@ -18,7 +18,7 @@ Here's how to schematically label the connector so that you have a better unders
 
 ### <mark style="color:red;">Connector configuration and configurable parameters</mark>
 
-The connectors also have a set of necessary configurable parameters - a pair of keys to work on the host chain, an endpoint URL (this can be your node, a node from your pool, or even a Node-as-a-Service decentralized service on KLYNTAR) and some more settings.
+The connectors also have a set of necessary configurable parameters - a pair of keys to work on the hostchain, an endpoint URL (this can be your node, a node from your pool, or even a Node-as-a-Service decentralized service on KLYNTAR) and some more settings.
 
 Flexibility and depth of settings are determined by the creator of the connector.
 
@@ -28,7 +28,7 @@ Within certain standards, workflow provides an <mark style="color:yellow;">**HC\
 
 The set of custom parameters is defined in the connector. It all depends on how cool the connector is and how much it allows you to configure.
 
-In this case, connectors for 3 host chains are used:
+In this case, connectors for 3 hostchains are used:
 
 * Litecoin
 * Ethereum
@@ -39,7 +39,7 @@ They are all from the dev0 pack. Let's take a look inside
 ![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 {% hint style="warning" %}
-It is also worth noting that this pack contains not too "cool" connectors. This group of connectors simply save the commit to the host chain and then check the commit asynchronously
+It is also worth noting that this pack contains not too "cool" connectors. This group of connectors simply save the commit to the hostchain and then check the commit asynchronously
 {% endhint %}
 
 Let's look at the code of the connectors to make it more clear to you. Here is the connector for Litecoin
@@ -150,7 +150,7 @@ Again, the simplest workflow (dev\_controller) can be cited as an example. This 
 
 ![https://github.com/KLYN74R/KlyntarCore/blob/0cd166e7790e9ddeac9d3d3b8ce069689bdba13b/KLY\_Workflows/dev\_controller/life.js#L247](<../../.gitbook/assets/image (14) (1) (1) (1).png>)
 
-This is the block generation function. As part of the workflow, it is planned that a new commit cannot be added if the old one is not yet included in the host chain. In addition, the logic of periodic activation is defined at the connector level. So, for example, on Bitcoin and forks (due to the common API and similar data structures) you can set the CONFIRMATIONS parameter and thus the commits will be only at set intervals (due to the fact that on Bitcoin there is a difficulty correction and the network in any case mines a block approximately once in 10 minutes). But this is just an example, other connectors may be more functional and provide other cool features.
+This is the block generation function. As part of the workflow, it is planned that a new commit cannot be added if the old one is not yet included in the hostchain. In addition, the logic of periodic activation is defined at the connector level. So, for example, on Bitcoin and forks (due to the common API and similar data structures) you can set the CONFIRMATIONS parameter and thus the commits will be only at set intervals (due to the fact that on Bitcoin there is a difficulty correction and the network in any case mines a block approximately once in 10 minutes). But this is just an example, other connectors may be more functional and provide other cool features.
 
 Function entry poin[\
 <mark style="color:red;">**https://github.com/KLYN74R/KlyntarCore/blob/0cd166e7790e9ddeac9d3d3b8ce069689bdba13b/KLY\_Workflows/dev\_controller/life.js#L137**</mark>](https://github.com/KLYN74R/KlyntarCore/blob/0cd166e7790e9ddeac9d3d3b8ce069689bdba13b/KLY\_Workflows/dev\_controller/life.js#L137)

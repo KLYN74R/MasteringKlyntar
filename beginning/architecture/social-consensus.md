@@ -19,11 +19,11 @@ In KLYNTAR, using the Apollo interface or through third-party services, you can 
 
 * <mark style="color:orange;">**Global**</mark>\
   \
-  General voting of all interested parties in KLYNTAR - KLY hodlers and tokens, validators, unobtanium holders, host chain miners and validators, representatives of KLYNTAR Services. Here the most important and global issues concerning the entire platform will be resolved\
+  General voting of all interested parties in KLYNTAR - KLY hodlers and tokens, validators, unobtanium holders, hostchain miners and validators, representatives of KLYNTAR Services. Here the most important and global issues concerning the entire platform will be resolved\
 
 * <mark style="color:orange;">**Symbiote/Symbiote Group Level**</mark>\
   \
-  Only those who have interests and resources at the symbiote level make decisions and have a voice here. These can be some more mundane issues, such as redirecting part of the commission to finance something (charity, supporting an organization), changing a workflow or a set of host chains, and so on.\
+  Only those who have interests and resources at the symbiote level make decisions and have a voice here. These can be some more mundane issues, such as redirecting part of the commission to finance something (charity, supporting an organization), changing a workflow or a set of hostchains, and so on.\
 
 * <mark style="color:orange;">**Service/smart contract level**</mark>\
   \

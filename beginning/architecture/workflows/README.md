@@ -42,9 +42,9 @@ During work, the controller collects all these blocks(which contains of txs, con
 
 ![](<../../../.gitbook/assets/image (17) (1) (1) (1) (1) (1).png>)
 
-At the connector level, a simple inclusion is defined (no additional logic). Also, the controller does not have the right to spend its stake between commits. A similar rule works for InstantGenerators - they can sign the only valid chain received from the controller and then check that it was included on the host chain.
+At the connector level, a simple inclusion is defined (no additional logic). Also, the controller does not have the right to spend its stake between commits. A similar rule works for InstantGenerators - they can sign the only valid chain received from the controller and then check that it was included on the hostchain.
 
-If not, then you can provide proof to other symbiotes and the controller will lose the bet. At the same time, if your transaction got into a non-rollback block (with a green frame), then everything is in order - now host chains and other symbiotes are on guard against non-rollback.
+If not, then you can provide proof to other symbiotes and the controller will lose the bet. At the same time, if your transaction got into a non-rollback block (with a green frame), then everything is in order - now hostchains and other symbiotes are on guard against non-rollback.
 
 Only after the next commit it will be possible to collect the bet and you can make sure that your transaction was non-rollback
 
@@ -122,7 +122,7 @@ Here you can flexibly configure the block generation time, stop and start block 
 
 Anyone on KLYNTAR will be able to create their own workflow if they have the necessary skills (programming, knowledge in the field of cryptography and understanding of the operation of blockchains).
 
-Since within the workflow you actually describe how everything works (block generation, selection / change of validators, use of resources from other networks, interaction with host chains), then the task of creating a really cool and necessary workflow falls on you - otherwise no one will use.
+Since within the workflow you actually describe how everything works (block generation, selection / change of validators, use of resources from other networks, interaction with hostchains), then the task of creating a really cool and necessary workflow falls on you - otherwise no one will use.
 
 We assume the presence of several demanded workflows. Some workflow will be good for its speed, some security, the third will use zero-knowledge mechanisms, another one will use some of its own chips.
 

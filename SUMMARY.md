@@ -13,7 +13,6 @@
   * [👽 Symbiotes](beginning/architecture/page-2.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows/README.md)
-    * [🛂 Controller](beginning/architecture/workflows/controller.md)
     * [🫀 Tachyon](beginning/architecture/workflows/tachyon/README.md)
       * [💎 The most advanced staking system](beginning/architecture/workflows/tachyon/the-most-advanced-staking-system.md)
   * [🏛 Social consensus](beginning/architecture/social-consensus.md)
