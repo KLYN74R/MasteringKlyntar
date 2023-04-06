@@ -44,6 +44,10 @@ We also talked about the growth of the state of the network and the redistributi
 
 At the same time, the state of the network (actual data) and their history (actually the blockchain itself) do not add up to a large and heavy chain. In Bitcoin or other networks, you can usually only be sure of the validity of the state of the network and its security if you yourself become a full node, store the entire blockchain, and so on. In KLYNTAR, for example, if you have a 256 GB SSD, then you can support, for example, 1 symbiote, if you have more, you can support more, and so on. Requirements for you are not static, they say "you need storage for 1000 terabytes" and servers for 100 000 cores. You will be able to synchronize and start working faster, and this has a very positive effect on the decentralization of the network and ease of entry. The same principle applies to services (KLYNTAR Services) with which you will get acquainted in the following sections.
 
+Also, KLY will store only a state, but not the full blockchain(due to the high speed of blocks generation). Nodes will store it for a period of time to allow everyone to verify the changes from state S1 to state S2.
+
+Anyway state changes should be accepted by millions of validators(stakers) and commited on many hostchains, so you can be sure of the state validity.
+
 ### <mark style="color:red;">What is a symbiote made of?</mark>
 
 <mark style="color:orange;">**Workflow**</mark>
@@ -141,16 +145,6 @@ Finally, the previously imported second symbiote workflow function is called. We
 The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png>)
-
-### <mark style="color:red;">**How new symbiotes are created**</mark>
-
-We will start with a single chain - the first symbiote. The initial emission will be generated and distributed on it, and other symbiotes will be generated from it. Our initial symbiote will be called kNULL (which you will also learn about later) after the god of symbiotes in Marvel. Also, _<mark style="color:red;">**dev\_tachyon**</mark>_ will be chosen as the main workflow for the first symbiote. Read more about the Tachyon consensus mechanism [_<mark style="color:red;">**here**</mark>_](workflows/tachyon/).
-
-Although this will happen in a random order, we still assume that the creation of a new symbiote will be an important event such as a halving or a difficulty bomb.
-
-This is necessary in order for the new symbiote to attract users, reducing some of the load on other symbiotes.Also, potential validators or users should be given some time to prepare and decide whether they should populate a new symbiote. Well, it will be necessary to carry out other procedures, such as adding such a symbiote to browsers, popularization, setting up secondary dependencies, and much more.
-
-![](<../../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**Common components for symbiotes**</mark>
 
