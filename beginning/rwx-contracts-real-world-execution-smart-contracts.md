@@ -1,5 +1,7 @@
 ---
-description: KLY killer feature that will be used by all the services in ecosystem
+description: >-
+  Codeless smart-contracts - KLY killer feature that will be used by all the
+  services in ecosystem
 cover: https://wallpaperaccess.com/full/2099813.jpg
 coverY: 0
 ---

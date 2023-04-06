@@ -28,7 +28,7 @@ By storing part of the data or commits in symbiotes, it will be possible to trac
 
 ### <mark style="color:red;">**Why commits to the symbiote**</mark>
 
-Thanks to our architecture, you get a cheap and reliable source of storage. In addition, since other services will do the same, the value of the symbiote will increase according to Metclough's law of network utility.
+Thanks to our architecture, you get a cheap and reliable source of storage. In addition, since other services will do the same, the value of the symbiote will increase according to Metcalfe's law of network utility.
 
 {% embed url="https://en.wikipedia.org/wiki/Metcalfe's_law" %}
 
