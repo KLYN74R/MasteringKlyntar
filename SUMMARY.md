@@ -65,8 +65,6 @@
 * [🛑 Filters](beginning/filters.md)
 * [⛓ Interactions with hostchains](beginning/interactions-with-hostchains/README.md)
   * [🖖 Connectors](beginning/interactions-with-hostchains/connectors.md)
-  * [👓 Monitors](beginning/interactions-with-hostchains/monitors.md)
-  * [🤝 Adapters](beginning/interactions-with-hostchains/adapters.md)
 * [🏅 Best practices](beginning/best-practices.md)
 * [👍 KLYNTAR ecosystem(coming soon)](beginning/klyntar-ecosystem-coming-soon.md)
 * [🪙 Pseudo ICO](beginning/pseudo-ico.md)

@@ -6,6 +6,10 @@ coverY: 91
 
 # 🪙 Pseudo ICO
 
+{% hint style="info" %}
+Everything described below is subject to change prior to release
+{% endhint %}
+
 ### <mark style="color:red;">Primary resources distribution</mark>
 
 <mark style="color:yellow;">**Aliases**</mark>

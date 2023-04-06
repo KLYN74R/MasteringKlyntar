@@ -5,11 +5,9 @@ cover: >-
 coverY: 137.9124579124579
 ---
 
-# ⛓ Interactions with the hostchains
+# ⛓ Interactions with hostchains
 
 ### <mark style="color:red;">Short intro</mark>
-
-KLYNTAR is more than just a cross-chain bridge, L2 network, side chain or something like that. And although its capabilities go far beyond the blockchain, this chapter will focus on three important components that describe interaction with host chains.
 
 KLYNTAR has a high degree of parallelization due to its architecture. In this regard, interaction with host chains fits perfectly into this paradigm. We tried to divide the functionality into units, the separate existence of which would seem justified.
 
@@ -17,7 +15,7 @@ KLYNTAR has a high degree of parallelization due to its architecture. In this re
 
 ### <mark style="color:red;">Connectors</mark>
 
-_<mark style="color:orange;">**Connectors**</mark>_ are the first and main component. Thanks to them, the symbiote interacts with the host chain. A connector is essentially a module that exports the functions necessary to work with the host chain.
+_<mark style="color:orange;">**Connectors**</mark>_ are the first and main component. Thanks to them, the symbiote interacts with the hostchains. A connector is essentially a module that exports the functions necessary to work with the host chain.
 
 For example, one connector allows you to commit a symbiote to some EVM chain using the smart contract's _<mark style="color:yellow;">**.makeCommit(symbiote\_hash,block\_index)**</mark>_ function and then check the inclusion using the _<mark style="color:yellow;">**.checkCommit(symbiote\_hash,block\_index)**</mark>_ function.
 
@@ -27,6 +25,6 @@ The other connector provides functions for working with Solana and an API for wo
 
 Monitors are the second component. Monitors are your eyes in hostchains and symbiotes. Again, they work in parallel with the core (it can be a separate process, or you can even run the monitor on another machine or container) and monitor the events of other blockchains.
 
-### <mark style="color:red;">**Adapters**</mark>
-
-The least important component. Represents middleware for converting data into the format you need received from various APIs.
+{% hint style="info" %}
+Technically, no sense to split functionality. You can write a single module to interact with hostchain and it can be used by appropriate workflows
+{% endhint %}
