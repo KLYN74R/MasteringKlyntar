@@ -33,11 +33,11 @@ Learn about the principle of mutations at KLYNTAR. Just as they work in nature, 
 
 ### [<mark style="color:red;">Antivenom</mark>](antivenom-testnet/)
 
-Here you will find a description of the Klyntar testnet, its capabilities and the widest possible functionality. Believe me, the usual testnets that you could meet in the framework of other crypto projects are not even close!
+Here you will find a description of the KLY testnet, its capabilities and the widest possible functionality. Believe me, the usual testnets that you could meet in the framework of other crypto projects are not even close!
 
 ### [<mark style="color:red;">Code review</mark>](codereview/)
 
-The section contains some descriptions of the individual parts of the Klyntar core. It should be especially useful for potential developers of various workflows, infrastructure operators and just inquisitive minds who are interested in what was on our minds when we <mark style="color:purple;">"freaked something up again"</mark> and who would like to learn more about the kernel codebase. It is much more interesting to learn a detailed description from the developers themselves than to shovel thousands of lines of code yourself in an attempt to add 2 + 2. In addition, we fully admit that some of our logic could be wrong at some points, so with the help of the fact that you see our explanations, you will be able to more clearly understand what exactly we wanted to achieve and in case of our mistake, let us know and join active community!
+The section contains some descriptions of the individual parts of the KLYNTAR core. It should be especially useful for potential developers of various workflows, infrastructure operators and just inquisitive minds who are interested in what was on our minds when we <mark style="color:purple;">"freaked something up again"</mark> and who would like to learn more about the kernel codebase. It is much more interesting to learn a detailed description from the developers themselves than to shovel thousands of lines of code yourself in an attempt to add 2 + 2. In addition, we fully admit that some of our logic could be wrong at some points, so with the help of the fact that you see our explanations, you will be able to more clearly understand what exactly we wanted to achieve and in case of our mistake, let us know and join active community!
 
 ### [<mark style="color:red;">Unobtanium</mark>](multistaking-and-unobtanium/)
 
@@ -53,7 +53,7 @@ Learn more about the processes from the moment your service is deployed to the n
 
 ### [<mark style="color:red;">Plugins</mark>](plugins.md)
 
-Dive into the ecosystem of Klyntar plugins. We can say that the essence of plugins is one of the most useful and important components of the core. Start simple - for example, run custom event logging right at the kernel runtime when your node is running. Then move on to something more complicated - let, for example, the bot catches the most interesting services from the network and, depending on your preferences, sends you a notification in Telegram (or your favorite messenger). And finally, high level - run a complex system of creating snapshots of the symbiotes you track in your cluster in such a way as to use memory as efficiently as possible. Interesting?) Then follow the link)
+Dive into the ecosystem of KLYNTAR plugins. We can say that the essence of plugins is one of the most useful and important components of the core. Start simple - for example, run custom event logging right at the kernel runtime when your node is running. Then move on to something more complicated - let, for example, the bot catches the most interesting services from the network and, depending on your preferences, sends you a notification in Telegram (or your favorite messenger). And finally, high level - run a complex system of creating snapshots of the symbiotes you track in your cluster in such a way as to use memory as efficiently as possible. Interesting?) Then follow the link)
 
 ### [<mark style="color:red;">Filters</mark>](filters.md)
 
@@ -69,7 +69,7 @@ Since the data will come from different sources, it is advisable to convert them
 
 ### [<mark style="color:red;">Connectors</mark>](interactions-with-hostchains/connectors.md)
 
-As you can see, Klyntar is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
+As you can see, KLYNTAR is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
 
 ![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png>)
 
@@ -89,11 +89,11 @@ Learn more about how we decided to do the initial giveaway. No, this is not just
 
 ### [<mark style="color:red;">Releases</mark>](releases.md)
 
-As part of the roadmap, of course, important updates are planned. We decided to give some information about the nearest of them. Each of the releases represents an important milestone in the development of the capabilities of Klyntar and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
+As part of the roadmap, of course, important updates are planned. We decided to give some information about the nearest of them. Each of the releases represents an important milestone in the development of the capabilities of KLYNTAR and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
 
 ### [<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](ciips.md)
 
-KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving Klyntar. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
+KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving KLY. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 
 ### [<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges.md)
 
@@ -105,7 +105,7 @@ One of my hobbies and passions is the wonderful world of quantum mechanics. In t
 
 ### [<mark style="color:red;">Info for contributors</mark>](contributions.md)
 
-A little guidance and information for those who are going to become a Klyntar contributor
+A little guidance and information for those who are going to become a KLY contributor
 
 ### [<mark style="color:red;">Basic security</mark>](basic-security.md)
 
