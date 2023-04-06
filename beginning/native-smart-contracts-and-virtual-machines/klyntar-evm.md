@@ -12,7 +12,7 @@ coverY: -79
 
 ### <mark style="color:red;">**KLYNTAR-EVM**</mark>
 
-Well, yes, what did you think?!) KLYNTAR will allow symbiotes to use the EVM, write their own additional functions before running the EVM logic, make free calls (sandbox calls), make calls between virtual machines (cross-VM-calls), use free oracles from KLYNTAR and use heavy duty functionality. In addition, thanks to the post-quantum capabilities of KLYNTAR, this functionality will also be extrapolated to the EVM!
+Well, yes, what did you think?!) KLYNTAR will allow symbiotes to use the EVM, write their own additional functions before running the EVM logic, make free calls (sandbox calls), make calls between virtual machines (cross-VM-calls), use free oracles from KLYNTAR and use heavy-duty functionality. In addition, thanks to the post-quantum capabilities of KLYNTAR, this functionality will also be extrapolated to the EVM!
 
 ### <mark style="color:red;">Separate repository for general updates and improvements</mark>
 
