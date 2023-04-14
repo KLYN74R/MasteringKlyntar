@@ -15,7 +15,7 @@ Since KLYNTAR has a modular architecture and support for both WASM and EVM compa
 
 ## <mark style="color:red;">**Circom**</mark>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://github.com/iden3/circom">https://github.com/iden3/circom</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p><a href="https://github.com/iden3/circom">https://github.com/iden3/circom</a></p></figcaption></figure>
 
 Circom is a special language that can be used to write logic that will then be used to build R1CS, verification keys and more. The new version of the compiler is written in Rust. The documentation has a sufficient number of examples and step-by-step explanations of what needs to be done to create zero-knowledge logic.
 

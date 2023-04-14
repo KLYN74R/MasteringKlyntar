@@ -71,7 +71,7 @@ Workflows typical for blockchain projects are based on them: transactions and th
 
 Here you will learn how to properly use the repository with best practices when building your own infrastructure, configuring plugins, their combination, and so on
 
-### [<mark style="color:red;">Other projects</mark>](klyntar-ecosystem-coming-soon.md)
+### [<mark style="color:red;">Other projects</mark>](kly-ecosystem-coming-soon.md)
 
 Find out more about other upcoming projects and projects already in development
 

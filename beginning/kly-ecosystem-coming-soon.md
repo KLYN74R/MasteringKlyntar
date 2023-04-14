@@ -4,7 +4,7 @@ cover: ../.gitbook/assets/tumblr_ob8ncffffR1rldv4go1_1280.webp
 coverY: -52.72885789014821
 ---
 
-# 👍 Other amazing projects(coming soon)
+# 👍 KLY ecosystem(coming soon)
 
 ### <mark style="color:red;">**A little information**</mark>
 
@@ -17,3 +17,9 @@ We already have developments and most of them do not relate to the topic of cryp
 {% hint style="info" %}
 Keep for updates. This and other pages will be updated soon and will be supplemented as the project develops
 {% endhint %}
+
+### <mark style="color:red;">Current mindmap</mark>
+
+Currently, we built the minmap of future ecosystem. There are more 20+ products that will be open-source, mutable(extendable by everyone), decentralized. Moreover, we're not talking about ordinary "virtual" products. Thanks to ability of smart-contracts of real world(RWX contracts) we'll launch 2.0 versions of major of products.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

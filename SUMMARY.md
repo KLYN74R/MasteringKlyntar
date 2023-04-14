@@ -65,7 +65,7 @@
 * [⛓ Interactions with hostchains](beginning/interactions-with-hostchains/README.md)
   * [🖖 Connectors](beginning/interactions-with-hostchains/connectors.md)
 * [🏅 Best practices](beginning/best-practices.md)
-* [👍 KLYNTAR ecosystem(coming soon)](beginning/klyntar-ecosystem-coming-soon.md)
+* [👍 KLY ecosystem(coming soon)](beginning/kly-ecosystem-coming-soon.md)
 * [🪙 Pseudo ICO](beginning/pseudo-ico.md)
 * [🆕 Releases](beginning/releases.md)
   * [🧑🚀 GammaBurst](beginning/releases/gammaburst.md)
