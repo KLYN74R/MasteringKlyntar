@@ -46,33 +46,27 @@ Addresses
 
 <mark style="color:orange;">**EVM chains(ETH,AVAX,MATIC,BNB,etc.)**</mark> - 0x5E90833Bd09f9A9ccA4f1190cB92559e8A1E18aE
 
-<mark style="color:orange;">**Cardano**</mark> - addr1q9l8wws4qy97dt284pjqwz3fm7cdl6l8twegj7nymupy0ct7wuap2qgtu6k502ryqu9znhasml47wkaj39axfhczglssj2s078\
+<mark style="color:orange;">**Cardano**</mark> - addr1qy3g5wlawxecglmxxuwfq9r3yjarjd5hhrz04g5gevhzd6ez3gal6udns3lkvdcujq28zf968ymf0wxyl23g3jewym4sgj36ac\
 \
-<mark style="color:orange;">**Solana**</mark> - DmdF9SNUqJEyKBT6Quyj7rbAuYnR2jCKhqSndd53Y1jN
+<mark style="color:orange;">**Solana**</mark> - 3qxo4HR4jSJZoWegRBaYXcaW43oFMnWkZ4dYJ2GrtUbj
 
-<mark style="color:orange;">**Algorand**</mark> - DSQGU336BYG3POR6G6YKLQROU3KLLZYSSHAP7LSYBSUWC7ZG6LMG5W7DJI
+<mark style="color:orange;">**Algorand**</mark> - JUWVCOIOA2RIJW7J477N3ZMFMNKNCLR4XPNHLI7DMEHB5ZWE2NN6DBRAHE
 
-<mark style="color:orange;">**XRP**</mark> - rnkjFGZseo8PzGDPxcWZBnBx6XAKmmqowL
+<mark style="color:orange;">**XRP**</mark> - rKvnV5DsWutNya7tRUsN4SjjzT17nGV6jW
 
-<mark style="color:orange;">**Stellar**</mark> - GDC322H7RGO3UCOSW5HCPH4YFJFOSXJD6TDHGRQLJKUGZIG4OXAJFIH5
+<mark style="color:orange;">**Stellar**</mark> - GB7Y5B4PCUMT4443XXGY4QFO6O67CARP4P6ZDUAYZSZAYAXDTIFNZSXN
 
-<mark style="color:orange;">**TON**</mark> - EQA79cVRLnOdPe6BLQtX7kH0zke\_qaRTNahKZ5BAcnHLbfEw
-
-<mark style="color:orange;">**Cosmos**</mark> - cosmos17sqzjefls3hxgmzr9r2lepvmckf6swcknnl563
+<mark style="color:orange;">**Cosmos**</mark> - cosmos197xpcuqyrlcuqefnwsjhcnhurvms4qgap7y9ew
 
 <mark style="color:orange;">**NEO**</mark> - AQ5U8rR8YR8ckL62VyaW3e3eKS8oEhiPgW
 
 <mark style="color:orange;">**Decred**</mark> - DsVAX6AkDdvc5QAM5Ph6wSByMyXgrZqVYBA
 
-<mark style="color:orange;">**Terra**</mark> - terra1l8uzj3sfs6re9ss8wykn3phjv7z3wcp3r47qcq
+<mark style="color:orange;">**Terra**</mark> - terra1dp6svrz4qknmzhxwy5498a5fs0d6rdk9qrjy6e
 
 <mark style="color:orange;">**Tezos**</mark> - tz1do4HDTPyKpCZVFNaWQXpWZJsoZLHPSMsj
 
-<mark style="color:orange;">**Kusama**</mark> - FSWVQfX5XL7EtfmKCedKNS59oVdc96ic2nk1jFCWfMt4XBD
-
-<mark style="color:orange;">**Polkadot**</mark> - 13sByRaiJwaevmrqW8taZZuDrqD3VmqgE9gUnMxbaxAuVrBy
-
-<mark style="color:orange;">**Helium**</mark> - 14ixJ8Jc9xzfZtN4psTJ3BiGr9QduJK8EeZTMDR9ZtkWTKNhoxV
+<mark style="color:orange;">**Polkadot**</mark> - 12UdjDS3jov7AJBnW62tYVdy7HhUP5QYDVPvbMyryCXLL27N
 
 <mark style="color:orange;">**ZCash**</mark> - t1ZLSvPXoiswAVvzAJALFQdka4oSupgHC4V
 
