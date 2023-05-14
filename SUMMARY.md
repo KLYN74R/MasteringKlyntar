@@ -28,6 +28,7 @@
   * [🤔 Zero Knowledge Proofs](beginning/cryptography/zero-knowledge-proofs.md)
   * [🌀 Ring Signatures](beginning/cryptography/ring-signatures.md)
   * [🕵 VRF](beginning/cryptography/vrf.md)
+  * [🔑 Key evolving signatures](beginning/cryptography/key-evolving-signatures.md)
   * [🎁 Other](beginning/cryptography/other.md)
 * [🏞 Native smart-contracts and virtual machines](beginning/native-smart-contracts-and-virtual-machines/README.md)
   * [ℹ Introduction](beginning/native-smart-contracts-and-virtual-machines/introduction.md)
