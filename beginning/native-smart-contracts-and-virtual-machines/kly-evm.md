@@ -4,11 +4,9 @@ cover: https://wallpaperaccess.com/full/6223415.png
 coverY: -79
 ---
 
-# 🔮 KLYNTAR EVM
+# 🔮 KLY-EVM
 
-<figure><img src="../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KLY-EVM preview.gif" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:red;">**KLYNTAR-EVM**</mark>
 
