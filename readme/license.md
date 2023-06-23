@@ -1,12 +1,12 @@
 ---
 description: Protection from patent trolls
-cover: ../.gitbook/assets/Venom.jpg
-coverY: -0.7772020725388601
+cover: ../.gitbook/assets/imgonline-com-ua-AutoEnrich-g2NBLfpiJQVc4.jpg
+coverY: 95
 ---
 
 # 📃 The Apache-2.0 license
 
-Copyright © 2022, [<mark style="color:purple;">Vlad Chernenko@KLYNTAR</mark>](https://klyntar.org)<mark style="color:purple;"></mark>
+Copyright © 2022, [<mark style="color:purple;">Vlad Chernenko@KLYNTAR</mark>](https://klyntar.org)
 
 
 

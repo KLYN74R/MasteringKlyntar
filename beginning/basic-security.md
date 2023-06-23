@@ -15,7 +15,15 @@ This is some kind of report+maybe you can use this tips in your practise.But we 
 
 Here's how it looks like
 
-![](../.gitbook/assets/photo\_2022-05-18\_07-59-31.jpg) ![](../.gitbook/assets/photo\_2022-05-22\_11-06-00.jpg)
+<div align="center">
+
+<img src="../.gitbook/assets/photo_2022-05-18_07-59-31.jpg" alt="">
+
+ 
+
+<img src="../.gitbook/assets/photo_2022-05-22_11-06-00.jpg" alt="">
+
+</div>
 
 These are screenshots of the history of branches from GitHub and GitLab - there we will place all our code, projects, documents, and so on. All commits and any code posted by members of the KlyntarTeam will have a designation that will make it clear that no third party will be able to post anything even if they somehow gain access to the account. The same goes for the hosting platforms themselves. Although we have no reason to doubt GitHub (and its owner Microsoft in particular), node operators, users and all interested parties still need to be sure that the code is published by the KLYNTAR developers. You can locally import my public GPG key (and the keys of other team members) and verify each new pull via Apollo (_<mark style="color:purple;">checkrepo</mark>_ command in CLI) or _<mark style="color:purple;">git verify-commit</mark>_. The necessary links to set up the environment are also available below. Additionally, we also have a separate repository with other keys (Ed25519, post-quantum Dilithium, etc.) that you can also use for the necessary checks
 

@@ -71,13 +71,7 @@ The creators themselves recommend using the Dilithium3 parameter set, but we use
 
 
 
-| NIST security level |  Hack is so difficult as...  |
-| :-----------------: | :--------------------------: |
-|          1          |   Bruteforcing AES-128 key   |
-|          2          | Find a collision for SHA-256 |
-|          3          |   Bruteforcing AES-192 key   |
-|          4          | Find a collision for SHA-384 |
-|          5          |   Bruteforcing AES-256 key   |
+<table><thead><tr><th width="302.71790284058636" align="center">NIST security level</th><th width="267.9124899508415" align="center">Hack is so difficult as...</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Bruteforcing AES-128 key</td></tr><tr><td align="center">2</td><td align="center">Find a collision for SHA-256</td></tr><tr><td align="center">3</td><td align="center">Bruteforcing AES-192 key</td></tr><tr><td align="center">4</td><td align="center">Find a collision for SHA-384</td></tr><tr><td align="center">5</td><td align="center">Bruteforcing AES-256 key</td></tr></tbody></table>
 
 We also leave you a link to the implementation of the API for Node.js in the Cryptoland repository
 
