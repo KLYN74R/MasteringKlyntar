@@ -98,6 +98,5 @@
 ***
 
 * [MasteringKlyntar(RU version)](https://ru.mastering.klyntar.org/)
-* [KLYNTAR Services](https://services.docs.klyntar.org/)
-* [KLYNTAR Smart Contracts](https://smart-contracts.docs.klyntar.org/)
-* [KLYNTAR UsefulTips](https://useful-tips.docs.klyntar.org/)
+* [KLYNTAR Services](https://services.klyntar.org)
+* [KLYNTAR UsefulTips](https://docs.klyntar.org)
