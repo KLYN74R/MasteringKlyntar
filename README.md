@@ -6,11 +6,7 @@ coverY: 0
 
 # 👁🗨 MasteringKlyntar
 
-<div data-full-width="true">
-
-<img src=".gitbook/assets/KLY core preview.gif" alt="">
-
-</div>
+<figure><img src=".gitbook/assets/KLY core.gif" alt=""><figcaption></figcaption></figure>
 
 ![](https://readme-typing-svg.herokuapp.com/?font=Major+Mono+Display\&size=25\&color=00B594\&center=true\&vCenter=true\&lines=%F0%9F%91%BDWe+are+everywhere%F0%9F%91%BD)
 
