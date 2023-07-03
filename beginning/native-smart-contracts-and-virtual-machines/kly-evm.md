@@ -6,7 +6,7 @@ coverY: -79
 
 # 🔮 KLY-EVM
 
-<figure><img src="../../.gitbook/assets/KLY-EVM preview.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/KLY-EVM.gif" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:red;">**KLYNTAR-EVM**</mark>
 
