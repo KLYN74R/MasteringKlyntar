@@ -83,7 +83,7 @@ Learn more about how we decided to do the initial giveaway. No, this is not just
 
 As part of the roadmap, of course, important updates are planned. We decided to give some information about the nearest of them. Each of the releases represents an significant milestone in the development of the capabilities of KLYNTAR and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
 
-### [<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](ciips.md)
+### [<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](kips.md)
 
 KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving KLY. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 

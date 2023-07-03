@@ -84,7 +84,7 @@
   * [🍄 MegaMycelium](beginning/releases/megamycelium.md)
   * [🌪 Ragnarök](beginning/releases/ragnaroek.md)
   * [🌐 Web1337](beginning/releases/web23.md)
-* [📈 CIIPs](beginning/ciips.md)
+* [📈 KIPs](beginning/kips.md)
 * [🗺 KLYNTAR for the Internet](beginning/klyntar-for-the-internet.md)
 * [⚖ RWX contracts - real world eXecution smart contracts](beginning/rwx-contracts-real-world-execution-smart-contracts.md)
 * [🚀 Running your infrastructure](beginning/running-your-infrastructure.md)
