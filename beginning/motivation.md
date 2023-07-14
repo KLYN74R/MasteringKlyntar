@@ -10,7 +10,7 @@ Since early ages I'm in love with crypto industry. Among tons of hustlers who ar
 \
 At the beginning of our initial whitepaper, you can see some kind of disclaimer\
 \
-_<mark style="color:yellow;">**«...No, it’s not another DeFi shit token,10th generation of Doge clones, «amazing» cross-chain bridge or some scam NFT project»**</mark>_\
+_<mark style="color:red;">**«...No, it’s not another DeFi shit token,10th generation of Doge clones, «amazing» cross-chain bridge or some scam NFT project»**</mark>_\
 \
 The lack of really technically original projects in recent years has also served as a motivation for us to work and present an MVP version of the future Goliath. Our goal is not to sell 10 billion pre-mined coins to fools and become a 10,000th project at the CoinMarketCap rate. Our goal is to refresh the spirit of the times of geeks in the best traditions of the first crypto projects, when literally every month was the birthday of something new and interesting.
 
