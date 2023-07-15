@@ -27,7 +27,7 @@ SnarkJS can be used to perform a trusted configuration ceremony, generate a veri
 
 More information can be found on the official websites. Below you will see links to repositories that will help you create your own zero-knowledge project.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * [https://github.com/iden3/circom](https://github.com/iden3/circom)
 * [https://docs.circom.io/](https://docs.circom.io/)

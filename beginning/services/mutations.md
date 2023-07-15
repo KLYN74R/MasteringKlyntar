@@ -1,6 +1,6 @@
 ---
 description: The mechanism of changes & improvements on KLYNTAR
-cover: ../.gitbook/assets/venom-neon-art-h4.jpg
+cover: ../../.gitbook/assets/venom-neon-art-h4.jpg
 coverY: 179.63298791018997
 ---
 

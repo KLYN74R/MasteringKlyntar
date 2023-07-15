@@ -13,33 +13,29 @@ The encyclopedia includes many sections:\
 
 ### [<mark style="color:red;">Architecture</mark>](architecture/)
 
-Includes a description of the KLYNTAR architecture. Here we will talk about the main components - about symbiotes and hostchains, about how sharding will be provided (the _<mark style="color:purple;">**sharding-by-default**</mark>_ scheme mentioned in our _<mark style="color:purple;">**WhitePaper v1**</mark>_), cross-symbiote and cross-chain one-way quantum swaps, workflows, thanks to which each symbiote will work according to its own scenario , total parallelization (asynchronous flows of verification and block generation), mental transactions and many other basic things
+Includes a description of the KLYNTAR architecture. Here we will talk about the main components - about symbiotes and hostchains, about how sharding will be provided (the _<mark style="color:purple;">**sharding-by-default**</mark>_ scheme mentioned in our _<mark style="color:purple;">**WhitePaper v1**</mark>_), cross-symbiote and cross-subchain interaction works, workflows, thanks to which each symbiote will work according to its own scenario , total parallelization (asynchronous flows of verification and block generation) and many other basic things
 
 ### [<mark style="color:red;">**Cryptography**</mark>](cryptography/)
 
 Includes information about the crypto algorithms that will be used on KLYNTAR. Here you will learn about the reasons for the choice, about where and by whom it will be used and what their role is within the KLYNTAR processes. You will learn about use cases of various kinds of cryptographic primitives - from symmetric encryption to multi-signature aggregation, the use of ring signatures and post-quantum schemes (PKE in off-chain service processes, NIST candidate signatures of different security levels, etc.), the use of Zero- Knowledge-Proofs mechanisms and much more. No wonder we combined it all under the name _<mark style="color:purple;">**Cryptoland**</mark>_
 
-### <mark style="color:red;">**Native smart-contracts**</mark>
+### [<mark style="color:red;">**Smart-contracts and virtual machines**</mark>](smart-contracts-and-virtual-machines/)
 
-The section is devoted to the description of the work of smart contracts on KLYNTAR. You will learn how to write typical smart contracts, how to use advanced features for your contracts such as API calls and Internet access, cross-chain logic, off-chain computing, and more. And considering that our smart contracts are WASM running in a secure sandbox and widely supported by a large community of developers, you will not have any problems since you can write _<mark style="color:purple;">**.wasm**</mark>_ modules in any language that is compiled into WASM and used within the kernel processes KLYNTAR (which is also written in Node.js)
+The section is devoted to the description of the work of smart contracts on KLYNTAR. You will learn how to write typical smart contracts, how to use advanced features for your contracts such as API calls and Internet access, cross-chain logic, off-chain computing, cross-VM interaction and more
 
 ### [<mark style="color:red;">Services</mark>](services/)
 
-It contains a description of the mechanisms of services: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn how to use the capabilities of different blockchains to create new generation smart contracts. For a long time after all, I wanted to create a contract that would use the speed of Solana when necessary, and then, for example, the capabilities of zkSNARK (or in the future zkSTARK) in Polygon rollups? And so that all this is checked not only on native chains, but also has a security layer that would protect the interaction between them and some off-chain features. Or maybe it would be cool to create decentralized applications in any language that you know well (and this is not just about compiling in WASM) + use network calls, choose a storage for data among Filecoin, Arweave or similar services based on KLYNTAR. Access APIs in TOR / I2P networks, use third-party libraries, install validators and executors of your contract yourself, and much more. Well, if you are interested, then we advise you to familiarize yourself)
+It contains a description of the mechanisms of services: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn how to use the capabilities of different blockchains to create new generation smart contracts. Also, we'll talk about mutations
 
-### [<mark style="color:red;">Mutations</mark>](mutations.md)
+### [<mark style="color:red;">Testnets</mark>](testnets/)
 
-Learn about the principle of mutations at KLYNTAR. Just as they work in nature, at KLYNTAR they bring constant improvement and positive change. For example, one symbiote could work using one set of asymmetric cryptography algorithms that is fast but takes up more memory, and another set of algorithms with a smaller signature but slower. But this is a simple example. In fact, the mutation mechanism is more complex, but at the same time an extremely useful thing that will be ahead of all other platforms precisely due to its multiplicity
-
-### [<mark style="color:red;">Antivenom</mark>](antivenom-testnet/)
-
-Here you will find a description of the KLY testnet, its capabilities and the widest possible functionality. Believe me, the usual testnets that you could meet in the framework of other crypto projects are not even close!
+Here you will find a description of the KLY testnets - AntiVenom(public) and how to set up your private testnet
 
 ### [<mark style="color:red;">Code review</mark>](codereview/)
 
 The section contains some descriptions of the individual parts of the KLYNTAR core. It should be especially useful for potential developers of various workflows, infrastructure operators and just inquisitive minds who are interested in what was on our minds when we <mark style="color:purple;">"freaked something up again"</mark> and who would like to learn more about the kernel codebase. It is much more interesting to learn a detailed description from the developers themselves than to shovel thousands of lines of code yourself in an attempt to add 2 + 2. In addition, we fully admit that some of our logic could be wrong at some points, so with the help of the fact that you see our explanations, you will be able to more clearly understand what exactly we wanted to achieve and in case of our mistake, let us know and join active community!
 
-### [<mark style="color:red;">Unobtanium</mark>](multistaking-and-unobtanium/)
+### [<mark style="color:red;">Multistaking and unobtanium</mark>](multistaking-and-unobtanium/)
 
 Let's start to tell what is unobtanium on KLYNTAR. It is important for us that hodlers of other cryptocurrencies, token holders of different projects, miners of PoW projects, stakers and other members of the crypto-loyal audience understand how they can use ALL their potential and resources on KLYNTAR!
 
@@ -55,23 +51,11 @@ Learn more about the processes from the moment your service is deployed to the n
 
 Dive into the ecosystem of KLYNTAR plugins. We can say that the essence of plugins is one of the most useful and important components of the core. Start simple - for example, run custom event logging right at the kernel runtime when your node is running. Then move on to something more complicated - let, for example, the bot catches the most interesting services from the network and, depending on your preferences, sends you a notification in Telegram (or your favorite messenger). And finally, high level - run a complex system of creating snapshots of the symbiotes you track in your cluster in such a way as to use memory as efficiently as possible. Interesting?) Then follow the link)
 
-### [<mark style="color:red;">Filters</mark>](filters.md)
-
-Required to filter incoming data from transaction events to service events. Thanks to the filters, you can set limits on calls to your infrastructure depending on your preferences, filter by IP addresses (for example, do not accept transactions if the IP belongs to TOR exit nodes). Quite a powerful thing - we recommend that you familiarize yourself
-
-### [<mark style="color:red;">Connectors</mark>](interactions-with-hostchains/connectors.md)
-
-As you can see, KLYNTAR is very flexible and modular in terms of architecture. As you will be able to find out further, symbiotes and hostchains are the basis, I would even say BASE
-
-![](<../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png>)
-
-Workflows typical for blockchain projects are based on them: transactions and their non-rollback are fixed, stakes are burned and frozen, and other on-chain events are held. Soon you will learn how it all works, but for now it is important to know that the interaction between these two components works thanks to connectors that determine the logic of the blockchain events - somewhere you have to wait for 2 Bitcoin blocks and finalization on Solana, somewhere one Litecoin block and several ledgers are enough on XRP. I hope you are interested, so run to read)
-
 ### [<mark style="color:red;">Best practices</mark>](best-practices.md)
 
 Here you will learn how to properly use the repository with best practices when building your own infrastructure, configuring plugins, their combination, and so on
 
-### [<mark style="color:red;">Other projects</mark>](kly-ecosystem-coming-soon.md)
+### [<mark style="color:red;">KLY ecosystem</mark>](kly-ecosystem-coming-soon.md)
 
 Find out more about other upcoming projects and projects already in development
 
@@ -81,9 +65,9 @@ Learn more about how we decided to do the initial giveaway. No, this is not just
 
 ### [<mark style="color:red;">Releases</mark>](releases.md)
 
-As part of the roadmap, of course, important updates are planned. We decided to give some information about the nearest of them. Each of the releases represents an significant milestone in the development of the capabilities of KLYNTAR and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
+As part of the roadmap, of course, important updates are planned. We decided to give some information about the future releases & updates. Each of the releases represents an significant milestone in the development of the capabilities of KLYNTAR and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
 
-### [<mark style="color:red;">CIIPs(Crypto industry improvements proposals)</mark>](kips.md)
+### [<mark style="color:red;">KIPs(KLY improvements proposals)</mark>](kips.md)
 
 KLYNTAR is a total open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving KLY. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 

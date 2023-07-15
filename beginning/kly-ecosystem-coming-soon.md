@@ -22,4 +22,4 @@ Keep for updates. This and other pages will be updated soon and will be suppleme
 
 Currently, we built the minmap of future ecosystem. There are more 20+ products that will be open-source, mutable(extendable by everyone), decentralized. Moreover, we're not talking about ordinary "virtual" products. Thanks to ability of smart-contracts of real world(RWX contracts) we'll launch 2.0 versions of major of products.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
