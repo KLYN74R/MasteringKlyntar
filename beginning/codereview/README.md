@@ -26,7 +26,7 @@ For further reading and analysis, we recommend that you open the KLYNTAR kernel 
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore" %}
 
-### <mark style="color:yellow;">**Directory tree**</mark>
+### <mark style="color:red;">**Directory tree**</mark>
 
 Before starting to deal with the code, it is worth paying attention to the structure of the kernel directories. It has the following form
 
@@ -51,7 +51,7 @@ Depth limit of 1 used
 |
 |-- KLY_Utils
 |
-|-- KLY_VMs
+|-- KLY_VirtualMachines
 |
 |-- KLY_Workflows
 
@@ -59,78 +59,23 @@ Depth limit of 1 used
 
 
 
-<mark style="color:yellow;">**KLY\_Addons**</mark>
+<mark style="color:purple;">**KLY\_Addons**</mark>
 
-A directory with various kinds of code in other languages. There are sources in Go, Rust and C ++ that require certain manipulations such as compiling into a library and converting to addons. So it will be enough to go to 1 directory and run the build. It is located at the top level of the kernel, as it contains mainly algorithms that will be common to different worker processes.
+A directory with various kinds of code in other languages. There are sources in Go, Rust and C ++ that require certain manipulations such as compiling into a library and converting to addons. So it will be enough to go to 1 directory and run the build. It is located at the top level of the kernel, as it contains mainly algorithms that will be common to different worker processes
 
+<mark style="color:purple;">**KLY\_Hostchains**</mark>
 
+A large and critical directory that used to interact with hostchains
 
-<mark style="color:yellow;">**KLY\_Hostchains**</mark>
-
-A large and critical directory that has this structure
-
-```
-KLY_Hostchains
-│
-│   
-└───adapters
-│   │   
-│   │   README.md
-│   │   
-│   └───custom_MY_OWN_COLLECTION(kind of root directory for this pack)
-│   │    │   
-│   │    │───Solana(all files together)
-│   │    │   └───configs.json
-│   │    │   └───server.js
-│   │    │   └───routes.js
-│   │    │   └───...
-│   │    │
-│   │    │───XRP   
-│   │    │   └───listener.rs(use different languages)
-│   │    │   └───bot.js
-│   │    │   └───Cargo.toml
-│   │    │   └───...
-│   │    │ 
-│   │    │───RSK
-│   │         └───...
-│   │
-│   └───dev0(developers' examples of adapters)
-│        └───...
-│
-└───connectors
-│   │ 
-│   │  README.md
-│   │   
-│   └───dev0
-│   │    │   
-│   │    │───Solana(all files together)
-│   │    │   └───configs.json
-│   │    │   └───server.js
-│   │    │   └───routes.js
-│   │    │   └───...
-│   │    │
-│   │    │───XRP   
-│   │    │   └───listener.rs(use different languages)
-│   │    │   └───bot.js
-│   │    │   └───Cargo.toml
-│   │    │   └───...
-│   │    │ 
-│   │    │───RSK
-│   │         └───...
-│   │
-│   └───dev0(developers' examples of adapters)
-│        └───...
-```
-
-<mark style="color:yellow;">**KLY\_Mutualism**</mark>
+<mark style="color:purple;">**KLY\_Mutualism**</mark>
 
 Directory with functionality for cross-symbiotic interaction
 
-<mark style="color:yellow;">**KLY\_Plugins**</mark>
+<mark style="color:purple;">**KLY\_Plugins**</mark>
 
 Contains plugins that are loaded separately by the node operator and serve to extend the capabilities of the kernel, workflows, and so on. More about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)
 
-<mark style="color:yellow;">**KLY\_Runners**</mark>
+<mark style="color:purple;">**KLY\_Runners**</mark>
 
 Contains code for runners that listen for new services and run further logic based on the configuration - what to run and what not to run, in which container, which script to execute, and so on. There will also be a default runner from Andromeda developers. You can see this by looking at the repository
 
@@ -140,28 +85,28 @@ Contains code for runners that listen for new services and run further logic bas
 Don't forget that the development process is ongoing
 {% endhint %}
 
-<mark style="color:yellow;">**KLY\_Services**</mark>
+<mark style="color:purple;">**KLY\_Services**</mark>
 
-Storage for your services. Structure similar KLY\_ExternalServices except that the services here are your own
+Storage for services
 
-<mark style="color:yellow;">**KLY\_Tests**</mark>
+<mark style="color:purple;">**KLY\_Tests**</mark>
 
 Directory with individual units and other tests
 
-<mark style="color:yellow;">**KLY\_Utils**</mark>
+<mark style="color:purple;">**KLY\_Utils**</mark>
 
 Contains algorithms and data structures. Again, it is at the top level due to the fact that the algorithms and useful functions here are common to all symbiotes. We can even look at it visually
 
 ![](<../../.gitbook/assets/image (10) (1).png>)
 
-<mark style="color:yellow;">**KLY\_VMs**</mark>
+<mark style="color:purple;">**KLY\_VirtualMachines**</mark>
 
-Directory with virtual machines available to be used. Currently, it's WASM-based KLY-VM and EVM-based KLY-EVM
+Directory with virtual machines available to be used. Currently, it's WASM-based KLY-WVM and EVM-based KLY-EVM. Also, the abstract VM - UVM is a universal VM that allow interaction between EVM and WASM + other interesting and useful features like oracles, offchain abilities, etc.
 
-<mark style="color:yellow;">**KLY\_Workflows**</mark>
+<mark style="color:purple;">**KLY\_Workflows**</mark>
 
 Contains workflows implementations for symbiotes
 
 ### <mark style="color:red;">Conclusion</mark>
 
-This was an introductory explanation of the kernel. We started with the structure and will continue to disassemble in more detail and clearly. We believe that such a manual will be useful and give a deep understanding of KLYNTAR
+This was an introductory explanation of the core. We started with the structure and will continue to disassemble in more detail and clearly. We believe that such a manual will be useful and give a deep understanding of KLYNTAR
