@@ -22,41 +22,41 @@ A _<mark style="color:red;">**KLYNTAR plugin**</mark>_ is a separately downloada
 
 Speaking about the importance of plugins, it is enough to simply list the potential number of use cases for which they are suitable. Here are "just" "a few" examples:
 
-<mark style="color:yellow;">**For bots**</mark>
+<mark style="color:purple;">**For bots**</mark>
 
 Launch a server for a bot (Telegram, Discord) that will inform you about events on the symbiotes on which your nodes work, which will allow you to make payments in Telegram without leaving your favorite messenger. Well, or at all - give your bot more privileges for maximum opportunities
 
-<mark style="color:yellow;">**For custom logging mechanisms**</mark>
+<mark style="color:purple;">**For custom logging mechanisms**</mark>
 
 Getting detailed information about what is happening is an extremely important element. With the help of plugins, you can flexibly and dynamically change and receive logs that will be necessary for you
 
-<mark style="color:yellow;">**To extend available APIs**</mark>
+<mark style="color:purple;">**To extend available APIs**</mark>
 
 Of course, we will also constantly improve and supplement the existing set, but here you will also get great opportunities for control
 
-<mark style="color:yellow;">**For dynamic removal of telemetry, launching your explorers, etc.**</mark>
+<mark style="color:purple;">**For dynamic removal of telemetry, launching your explorers, etc.**</mark>
 
 Convenient when you get the actual explorer out of the box
 
-<mark style="color:yellow;">**To run snapshot validation, compression, and transfer**</mark>
+<mark style="color:purple;">**To run snapshot validation, compression, and transfer**</mark>
 
 We previously wrote about betting on fortunes. It can also be used for faster snapshot loading, various checks using cryptographic magic and much more.
 
-<mark style="color:yellow;">**To dynamically generate a list of connected nodes**</mark>
+<mark style="color:purple;">**To dynamically generate a list of connected nodes**</mark>
 
 Blockchains usually work in a P2P environment and each node has a list of other nodes connected to it. Through plugins, it will be possible to add logic for adding or removing them from your list
 
-<mark style="color:yellow;">**To set listeners for DB events**</mark>
+<mark style="color:purple;">**To set listeners for DB events**</mark>
 
 The first implementation of the KLYNTAR core uses LevelDB which supports handling of interaction events with the database
 
-<mark style="color:yellow;">**To install gateways in the**</mark>** **<mark style="color:red;">**TOR**</mark>** **<mark style="color:yellow;">**/**</mark>** **<mark style="color:red;">**I2P**</mark>** **<mark style="color:yellow;">**/**</mark>** **<mark style="color:red;">**ZeroNet**</mark>** **<mark style="color:yellow;">**network and others**</mark>
+<mark style="color:purple;">**To install gateways in the**</mark> <mark style="color:red;">**TOR**</mark> <mark style="color:purple;">**/**</mark>** **<mark style="color:red;">**I2P**</mark> <mark style="color:purple;">**/**</mark> <mark style="color:red;">**ZeroNet**</mark> <mark style="color:purple;">**network and others**</mark>
 
 Yes Yes Yes. KLYNTAR will keep in touch with them. Here we have indicated only the most used and popular. Using such bridges, you will be able to run KLYNTAR nodes in TOR (as a hidden service) or I2P and at the same time interact with them as if they were in a normal network.
 
 You can also use this gateway as a SOCKS proxy for Apollo to interact with KLYNTAR through the mentioned TOR
 
-<mark style="color:yellow;">**For cache managers**</mark>
+<mark style="color:purple;">**For cache managers**</mark>
 
 Delete, add, rotate. Get creative, create efficient managers for faster performance
 
