@@ -23,9 +23,9 @@ Includes information about the crypto algorithms that will be used on KLYNTAR. H
 
 The section is devoted to the description of the work of smart contracts on KLYNTAR. You will learn how to write typical smart contracts, how to use advanced features for your contracts such as API calls and Internet access, cross-chain logic, off-chain computing, cross-VM interaction and more
 
-### [<mark style="color:red;">Services</mark>](dapps-2.0/)
+### <mark style="color:red;">Dapps 2.0</mark>
 
-It contains a description of the mechanisms of services: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn how to use the capabilities of different blockchains to create new generation smart contracts. Also, we'll talk about mutations
+It contains a description of the mechanisms of next-gen Dapps: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn how to use the capabilities of different blockchains to create new generation smart contracts. Also, we'll talk about mutations
 
 ### [<mark style="color:red;">Testnets</mark>](testnets/)
 
