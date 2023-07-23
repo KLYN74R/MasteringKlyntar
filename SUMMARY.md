@@ -15,6 +15,7 @@
   * [📄 Workflows](beginning/architecture/workflows/README.md)
     * [🫀 Tachyon](beginning/architecture/workflows/tachyon/README.md)
       * [💎 The most advanced staking system](beginning/architecture/workflows/tachyon/the-most-advanced-staking-system.md)
+      * [👥 Trust me bro - a O(1) instant finalization mechanism](beginning/architecture/workflows/tachyon/trust-me-bro-a-o-1-instant-finalization-mechanism.md)
   * [🏛 Social consensus](beginning/architecture/social-consensus.md)
 * [🔑 Cryptography](beginning/cryptography/README.md)
   * [🎢 Cryptoland](beginning/cryptography/cryptoland.md)

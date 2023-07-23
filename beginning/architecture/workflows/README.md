@@ -40,7 +40,7 @@ To make it easier for you to create your own workflow, there is dev\_helloworld.
 
 On GitHub in this repository is a README that includes the necessary hints to create your own workflow.
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (3).png>)
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore/tree/main/KLY_Workflows/dev_helloworld" %}
 
