@@ -52,7 +52,7 @@ The _**Tachyon**_ consensus creates conditions where you can be sure in finaliza
 **\[For step 2]**: Finally, our software [_**Savitar**_](https://github.com/KLYN74R/Savitar) was created to grab the range proofs for subchains - instead of voting per block, quorum votes for the ranges of blocks on subchain(for example, from 0-112, 778-1337, etc.).\
 
 
-## <mark style="color:red;">The universal project which created to be used and improved</mark>
+## <mark style="color:red;">The universal project which was created to be used and improved</mark>
 
 As developers, we understand the needs of users and... other developers :relaxed:. That's why we propose various useful use-cases for our cryptography, libraries, network & genesis configurations, abilities of VMs(EVM & WASM & UVM) and so on. With KLY you can create EVM contract and use post-quantum cryptography in it, create WASM contract and call EVM from it, write extra-functionality for EVM on Rust, use built-in powerful oracles, create Docker container to implement your improvement proposal in a forkless way or even create your own blockchain and run it on KLY!\
 \
@@ -83,11 +83,11 @@ You will be useful on KLYNTAR if you are already a Bitcoin miner, own Cardano as
 Support for network state staking and snapshots, use of zero-knowledge proofs (in the future) and removable blockchain will help you get up and running light nodes on phones, single board computers, etc. which will be able to work only on selective symbiotes, check only certain services and smart contracts and at the same time be confident in the provable validity of the chain, store the content of smart contracts and services in a more advanced way than IPFS, and much more\
 
 
-## <mark style="color:red;">Science and technologies is the foundation of KLYNTAR</mark>
+## <mark style="color:red;">Science and technology are the foundation of KLYNTAR</mark>
 
 KLYNTAR will use not only cryptography. For example:\
 \
-_<mark style="color:purple;">**Cybersecurity companies**</mark>_ will also be able to help KLYNTAR by monitoring the state of the network and analyzing service repositories for the presence of malware wipers, miners, C2 infrastructure beacons and preventing their launch by network nodes
+_<mark style="color:purple;">**Cybersecurity companies**</mark>_ will also be able to help KLYNTAR by monitoring the state of the network and analyzing Dapps 2.0 repositories for the presence of malware wipers, miners, C2 infrastructure beacons and preventing their launch by network nodes
 
 \
 _<mark style="color:purple;">**AI software companies**</mark>_ will be able to offer their services as oracles for smart contracts or will be useful for RWX(real-world execution) codeless smart-contracts
@@ -101,6 +101,6 @@ And these are just a few examples ✨\
 
 ## <mark style="color:red;">Web3 took a wrong turn</mark>
 
-Our task is to improve the current Internet, and not to build some new and separate one. In KLYNTAR you will be able to use KLY bots and use them in Telegram to get paid subscriptions, service payments and so on. You can redirect the fees of your services or symbiotes (if there is a consensus on this matter) to fund Wikipedia or Telegram (an old dream of _<mark style="color:purple;">**@KlyntarTeam**</mark>_). You can store your articles from Medium, look for business partners, launch your own decentralized companies from people from all over the world, use staking and reputation, the influence of your social networks ... in short, the potential is limitless and you can continue indefinitely. KLYNTAR will definitely become an integral part of the global Internet.
+Our task is to improve the current Internet, and not to build some new and separate one. In KLYNTAR you will be able to use KLY bots and use them in Telegram to get paid subscriptions, service payments and so on. You can redirect the fees of your services or symbiotes (if there is a consensus on this matter) to fund Wikipedia or Telegram (an old dream of _<mark style="color:purple;">**@KlyntarTeam**</mark>_). You can store your articles from Medium, look for business partners, launch your own decentralized companies from people from all over the world, use staking and reputation, the influence of your social networks... in short, the potential is limitless and you can continue indefinitely. KLYNTAR will definitely become an integral part of the global Internet.
 
-### 👨‍🚀Well, let's move on, there is still a lot of interesting things ahead 🤖
+### 👨‍🚀Well, let's move on, there are still a lot of interesting things ahead 🤖
