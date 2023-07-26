@@ -12,7 +12,7 @@ Working on KLYNTAR, we tried to make the project so powerful that it would surpr
 
 Symbiosis with other projects (chains) will give you the opportunity to use the best and much-loved features of other cryptocurrencies, as well as expand the capabilities of existing blockchains and your new ones that you will create on KLYNTAR. The point is to combine both new blockchains and old ones into one super organism and revolutionize the crypto industry! Shared resources, different consensuses, BTC miners, ETH token holders, Solana validators, maximum security based on the security of the entire crypto industry - this is all about KLYNTAR :)
 
-<figure><img src="../../.gitbook/assets/General_KLY_Structure_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/General_KLY_Structure (2).png" alt=""><figcaption></figcaption></figure>
 
 Above you see the general scheme taken from our whitepaper of the first version. Unlike other crypto projects, KLYNTAR does not have some kind of main chain, beacon chain or something like that that synchronizes and interleaves work in shards or coordinates blockchains (like Polkadot or Cosmos). We consider the entire blockchain space as a single reliable homogeneous environment and each blockchain is like a certain reliable container.
 
