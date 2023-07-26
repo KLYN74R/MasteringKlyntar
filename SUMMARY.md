@@ -99,4 +99,4 @@
 
 * [MasteringKlyntar(RU version)](https://ru.mastering.klyntar.org/)
 * [KLYNTAR Services](https://services.klyntar.org)
-* [KLYNTAR UsefulTips](https://docs.klyntar.org)
+* [KLYNTAR Docs - Web1337, RWX contracts, VMs usage and more!](https://docs.klyntar.org)
