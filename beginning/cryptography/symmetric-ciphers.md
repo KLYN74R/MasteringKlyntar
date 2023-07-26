@@ -19,7 +19,7 @@ To set up the daemon, you will need to encrypt all your private keys - both KLYN
 
 When you start the KLYNTAR daemon, it will ask you to decrypt all your keys, as you can see in the image below
 
-![Choose a strong password and make sure no one is watching you as you type. Do not disclose your password to anyone](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Daemon startup visualization subject to change prior to release
