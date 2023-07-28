@@ -29,7 +29,7 @@ Daemon startup visualization subject to change prior to release
 
 1. We get a 32 byte seed by hashing SHA-256\
    \
-   HEXSEED = SHA256(<mark style="color:yellow;">**YOU\_PASSWORD**</mark>)
+   HEXSEED = SHA256(<mark style="color:red;">**YOU\_PASSWORD**</mark>)
 2. Next, we divide it into parts of 16 bytes. The first 16 bytes are the password, the second are the initialization vector
 3. After that, your keys are placed in the memory of the process in which the KLYNTAR daemon is running.
 
@@ -45,7 +45,7 @@ Due to the fact that the scope is rather narrow, and private keys are not such l
 
 In services, you can use anything, even use custom algorithms in smart contracts.
 
-As already mentioned, 256 bits is enough against Grover's attack to obtain a quadratic speedup in key selection (O(√N)) and against the BHT algorithm (O(N^1/3 complexity) however requires more entangled qubits). You can also visit the so-called _<mark style="color:yellow;">**Quantum Zoo**</mark>_ for more resources.
+As already mentioned, 256 bits is enough against Grover's attack to obtain a quadratic speedup in key selection (O(√N)) and against the BHT algorithm (O(N^1/3 complexity) however requires more entangled qubits). You can also visit the so-called _<mark style="color:purple;">**Quantum Zoo**</mark>_ for more resources.
 
 {% embed url="https://quantumalgorithmzoo.org/" %}
 
