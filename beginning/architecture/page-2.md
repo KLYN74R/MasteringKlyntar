@@ -1,5 +1,5 @@
 ---
-description: Bits in the world of blockchains
+description: Separate blockchains in KLY ecosystem
 cover: >-
   ../../.gitbook/assets/tumblr_b800eb940c93611ad96334db121b1cf4_2323ada7_1280.webp
 coverY: -4.750653879686155
