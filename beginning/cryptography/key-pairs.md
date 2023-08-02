@@ -8,7 +8,7 @@ coverY: -190
 
 ### <mark style="color:red;">Ed25519</mark>
 
-Ed25519 was introduced in OpenSSH version 6.5. This is an implementation of EdDSA using the [<mark style="color:yellow;">Twisted Edwards curve</mark>](https://en.wikipedia.org/wiki/Twisted\_Edwards\_curve). It uses elliptic curve cryptography which provides better security and higher performance compared to DSA or ECDSA.
+Ed25519 was introduced in OpenSSH version 6.5. This is an implementation of EdDSA using the [<mark style="color:purple;">Twisted Edwards curve</mark>](https://en.wikipedia.org/wiki/Twisted\_Edwards\_curve). It uses elliptic curve cryptography which provides better security and higher performance compared to DSA or ECDSA.
 
 For any type of interaction with KLYNTAR, you must have a pair of keys. You use the private key to sign the data, while the public key is used to verify the signature. In general, the principle is familiar to everyone.
 
@@ -56,7 +56,7 @@ openssl genpkey -algorithm ed25519 -outform DER -out ed25519_private
 
 cat ed25519_private | base64
 
-//...что то типа MC4CAQAwBQYDK2VwBCIEIDNfdnUlKdo4fYCG+NzoEQRyanCphYKZUA9XX8uFI7nV
+//...something like MC4CAQAwBQYDK2VwBCIEIDNfdnUlKdo4fYCG+NzoEQRyanCphYKZUA9XX8uFI7nV
 ```
 
 Generate public key
@@ -100,6 +100,8 @@ We also decided not to follow the path of generating some checksums, certain pre
 Ed25519 was selected as the best candidate available to be universal for symbiotes, services, smart contracts and other projects in the ecosystem.
 
 ### <mark style="color:red;">**Links**</mark>
+
+{% embed url="https://docs.klyntar.org/web1337/send-transactions/default-ed25519-transactions" %}
 
 {% embed url="https://ed25519.cr.yp.to/" %}
 

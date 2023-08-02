@@ -20,11 +20,11 @@ BLAKE3 was chosen as the main candidate to be used as the lead hash function for
 
 Since BLAKE3 supports XOF mode i.e. output length of a hash might be variable(like in SHAKE hashing scheme). This is important in case of using them as a quantum secure alternative to 128 or 256 bits schemes which can be abused by Grover or BHT algorithms in case of collision found(read more at [quantum-stuff.md](../quantum-stuff.md "mention")).
 
-_<mark style="color:yellow;">**Using on symbiotes**</mark>_
+_<mark style="color:purple;">**Using on symbiotes**</mark>_
 
 BLAKE3 will be used in workflow implementations. However, thanks to mutation mechanisms developers of other workflows,  operators of nodes in other symbiotes will have ability to use any function they want which will be presented in the official repository or developed/distributed by 3rd parties via alternative channels.
 
-_<mark style="color:yellow;">**Using to generate addresses**</mark>_
+_<mark style="color:purple;">**Using to generate addresses**</mark>_
 
 As for the application at the level of algorithms, we use BLAKE3 to generate addresses in post-quantum signature schemes due to the large size of the public key. Obviously, the address will be _<mark style="color:purple;">**BLAKE3(**</mark><mark style="color:red;">**PublicKe**</mark>_<mark style="color:red;">**y**</mark><mark style="color:purple;">**)**</mark>
 
@@ -32,9 +32,9 @@ This can be seen even in console
 
 ![This is what a key pair and address looks like for a post-quantum Dilithium](<../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
-_<mark style="color:yellow;">**Used to identify services and smart contracts**</mark>_
+_<mark style="color:purple;">**Used to identify smart contracts**</mark>_
 
-Unique IDs for unique contracts and services. For smart contracts, we are talking about the hash of the WASM module, for the service - the hash of the archive.
+Unique IDs for unique contracts. For smart contracts, we are talking about the hash of the WASM module.
 
 ### <mark style="color:red;">**SHA-256**</mark>
 
@@ -54,15 +54,15 @@ One way or another, we will face a very real problem that threatens all blockcha
 
 However, since this section is dedicated specifically to hashes, they will be discussed.
 
-<mark style="color:yellow;">**Hash size**</mark>
+_<mark style="color:purple;">**Hash size**</mark>_
 
 The mentioned BLAKE3 can be extended to 512 bytes or more. It will also be possible to consider the option of using other XOF functions.
 
-<mark style="color:yellow;">**Signature Algorithms**</mark>
+_<mark style="color:purple;">**Signature Algorithms**</mark>_
 
 KLYNTAR also includes hash-based signature algorithms. These are Winternitz and HORS, both are used with a Merkle tree (because they are not stateless, but require storage of "used" expanded hashes). They can also be converted to 512-bit hashes if needed without significant cost. Currently, they are included in the repository, but we do not plan to use them yet due to the availability of more efficient post-quantum signature algorithms - Dilithium (NIST candidate) and BLISS.
 
-<mark style="color:yellow;">**RippedHashes**</mark>
+_<mark style="color:purple;">**RippedHashes**</mark>_
 
 Now we will talk about another method of protection. A cryptographically strong hash function is essentially needed so that we can be sure that <mark style="color:purple;">**hash**</mark>=<mark style="color:green;">**H**</mark>(<mark style="color:red;">**x**</mark>) corresponds to some <mark style="color:red;">**x**</mark> and at the same time the function is resistant to attacks of the first and second kind.
 

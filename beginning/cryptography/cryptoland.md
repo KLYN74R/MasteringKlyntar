@@ -7,7 +7,7 @@ coverY: -177.3838383838384
 
 # 🎢 Cryptoland
 
-### <mark style="color:red;">Importance for everyone</mark>
+## <mark style="color:red;">Importance for everyone</mark>
 
 Since we are planning to develop numerous projects within our ecosystem, it becomes obvious that if all of them are somehow connected with KLYNTAR, then the use of various kinds of cryptographic primitives is expected.
 
@@ -21,9 +21,11 @@ It can also be added that during the development of KLYNTAR we ourselves encount
 
 Here, in _<mark style="color:purple;">**Cryptoland**</mark>_, we assume that the authors will fork the repository, add their directory inside the categories of algorithms and add there both files of their work and a clear description of how and where it can be used.
 
-<mark style="color:red;">**Examples**</mark>
 
-<mark style="color:yellow;">**You add some new signature algorithm**</mark>
+
+### <mark style="color:red;">**Examples**</mark>
+
+<mark style="color:purple;">**You add some new signature algorithm**</mark>
 
 First, build the right project structure, whether it's a JS ESM module, a Rust crate, or a Go library. Provide clear external interfaces so that a third-party developer can easily notice the typical "sign", "verify", "generateKeypair" and so on functions without even going deep. Please provide some usage examples in the README as in the example below
 
@@ -45,7 +47,7 @@ let isVerified = verify(keypair.publicKey,"YOU DATA TO SIGN",signature)
 
 This will speed up the work of other programmers who, based on these algorithms, will create new wallets or interfaces for Apollo, new services on KLYNTAR, and so on.
 
-<mark style="color:yellow;">**You add some new algorithm from the realm of**</mark>** **<mark style="color:red;">**Zero-Knowledge-Proofs**</mark>
+<mark style="color:purple;">**You add some new algorithm from the realm of**</mark>** **<mark style="color:red;">**Zero-Knowledge-Proofs**</mark>
 
 Explain the cryptographic base, provide links and/or names to make it easier to look for alternatives. Again, provide something like a directory with examples where the process of use will be described in simple language to people. Also, in view of the fact that you are a developer and clearly understand what you are writing about, offer interesting use cases.
 
@@ -91,9 +93,9 @@ console.log('Is ok => ',await VD.verify(data,signature,keys.address),'(should be
 console.log('Address in another format: ',VD.toPUB_K1(keys.address))
 ```
 
-### <mark style="color:red;">Developer Awards</mark>
+### <mark style="color:red;">Benefits for developers</mark>
 
-Of course, the work for the benefit of KLYNTAR cannot go unnoticed. You can find out more in the [_<mark style="color:yellow;">**Contributions**</mark>_](../contributions.md) section, but now I will just briefly mention that within the framework of social consensus, right in the interface of Apollo (or other 3rd party tools), users will be able to vote for the most useful contributions to KLYNTAR. It does not matter if you are a plugin developer, created several packs with connectors or added many algorithms (as in this case we are talking about this) - all this will be taken into account at the level of metrics such as the number of clones, personal preferences of users and developers, the number of services and / or smart contracts using these algorithms (and their activity) and so on.
+Of course, the work for the benefit of KLYNTAR cannot go unnoticed. You can find out more in the [_<mark style="color:red;">**Contributions**</mark>_](../contributions.md) section, but now I will just briefly mention that within the framework of social consensus, right in the interface of Apollo (or other 3rd party tools), users will be able to vote for the most useful contributions to KLYNTAR. It does not matter if you are a plugin developer, created several packs with connectors or added many algorithms (as in this case we are talking about this) - all this will be taken into account at the level of metrics such as the number of clones, personal preferences of users and developers, the number of services and / or smart contracts using these algorithms (and their activity) and so on.
 
 In view of this, we assume that the fund formed on the basis of commissions will be distributed among development teams or single developers.
 
