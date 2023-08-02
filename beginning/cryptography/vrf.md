@@ -6,17 +6,17 @@ coverY: -104.62074978204011
 
 # 🕵 VRF
 
-### <mark style="color:red;">Briefly</mark>
+## <mark style="color:red;">Briefly</mark>
 
-A verifiable random function (VRF) is a cryptographic primitive that uses a pair of keys and, based on some input data, can generate pseudo-random values ​​while also creating a proof that it was calculated correctly.
+A verifiable random function (VRF) is a cryptographic primitive that uses a pair of keys and, based on some input data, can generate pseudo-random values ​​while also creating proof that it was calculated correctly.
 
 This "testable randomness" can be extremely important for special use cases within services or workflows.
 
 Only the owner of the private key can calculate the hash and proof, but anyone with the public key can verify the hash is correct and the proof is valid.
 
-Some code
+<mark style="color:red;">**Some code**</mark>
 
-You can see a small example right in the kernel repository. And although VRF is not yet included in our developments, it is nevertheless available for use and application in your developments.
+You can see a small example right in the core repository. And although VRF is not yet included in our developments, it is nevertheless available for use and application in your developments.
 
 You can see this example here
 
@@ -25,7 +25,7 @@ You can see this example here
 Let's clarify it with code example
 
 ```javascript
-import { Evaluate, ProofHoHash } from '@idena/vrf-js'
+import { Evaluate, ProofHoHash } from '@idena/vrf-js';
 
 
 import('module').then(
@@ -35,9 +35,9 @@ import('module').then(
 ).then(require=>{
 
     //ECDSA keypair
-    let {Wallet} = require('../signatures/ringsig/lrs-ecdsa/export.js')
+    let {Wallet} = require('../signatures/ringsig/lrs-ecdsa/export.js');
 
-    const w = Wallet.createRandom()
+    const w = Wallet.createRandom();
        
     // let PUB=new Uint8Array(Buffer.from(w.signingKey.publicKey.slice(2),'hex'))
     // let PRV=new Uint8Array(Buffer.from(w.privateKey.slice(2),'hex'))
@@ -49,52 +49,53 @@ import('module').then(
        92,  96, 204,  86, 140, 161,  44,  88, 175, 154, 101,
       228, 220,  16, 145,  21,  41, 164,  39, 234,   8, 213,
       132, 131, 228,  19,  94,  72,  78,  56,  57, 102
-    ]
+    ];
+    
     let PRV = [
       221, 183, 155, 169,  12,  42, 157, 125,
        84, 174, 228,  11,  75, 134, 107,  43,
       106,  54, 210,   5, 223,  70, 215, 124,
        29, 210,  64, 253, 142, 170, 233,  16
-    ]
+    ];
   
-    console.log('PUB ',PUB)
-    console.log('PRV ',PRV)
+    console.log('PUB ',PUB);
+    console.log('PRV ',PRV);
 
     
 
     // evaluate VRF proof from private key
 
-    const data = [1, 2, 3, 4, 5] // data
-    const [hash, proof] = Evaluate(PRV,data)
+    const data = [1, 2, 3, 4, 5]; // data
+    const [hash, proof] = Evaluate(PRV,data);
 
-    console.log('Hash is ',hash)
-    console.log('Proof is ',proof)
+    console.log('Hash is ',hash);
+    console.log('Proof is ',proof);
 
     // check VRF proof with public key
     // throws exception if proof is invalid
-    const hashCheck = ProofHoHash(PUB, data, proof)
+    const hashCheck = ProofHoHash(PUB, data, proof);
 
 
-    console.log(hashCheck)
+    console.log(hashCheck);
 
 })
 ```
 
 Let's see what's going on here
 
-<mark style="color:yellow;">**Initially you generate a key pair**</mark>
+<mark style="color:red;">**Initially you generate a key pair**</mark>
 
 VRF can be built on any curves, but it uses secp256k1 curve and ECDSA to generate key pairs. In general, we took the same keys that we use to generate key pairs for ring signatures (that is, there will again be ETH compatibility).
 
-![Keys in bytes format](<../../.gitbook/assets/image (11) (1).png>)
+![Keys in raw format](<../../.gitbook/assets/image (11) (1).png>)
 
-<mark style="color:yellow;">**Step 2 - Computation**</mark>
+<mark style="color:red;">**Step 2 - Computation**</mark>
 
 Next comes the hash calculation and proof. Here the data is represented as bytes. The hash becomes public and is used as the very "random value", and the proof - as proof of the reliability of the calculation.
 
 ![](<../../.gitbook/assets/image (27) (1).png>)
 
-<mark style="color:yellow;">**Step 3 - Verification**</mark>
+<mark style="color:red;">**Step 3 - Verification**</mark>
 
 Anyone with the public key, the original input, and the proof can verify the validity of the computation by taking the hash and comparing it to the original.
 
@@ -102,7 +103,7 @@ Anyone with the public key, the original input, and the proof can verify the val
 
 ### <mark style="color:red;">So what's the catch here?</mark>
 
-For those who have not yet understood, the point here is that even the owner of the private key cannot specifically choose the right hash value. No one can manipulate or deliberately select a random value. It is also of interest that before the publication of the hash and proof, no one can guess this random value that was generated by some address.
+For those who have not yet understood, the point here is that even the owner of the private key cannot specifically choose the right hash value. No one can manipulate or deliberately select a random value. It is also of interest that before the publication of the hash and proof, no one could guess this random value that was generated by some address.
 
 ### <mark style="color:red;">Usecase</mark>
 
@@ -118,7 +119,7 @@ Here we explained the VRF mechanism in a simplified way, but Algorand consensus 
 
 {% embed url="https://medium.com/algorand/algorand-releases-first-open-source-code-of-verifiable-random-function-93c2960abd61" %}
 
-We assume the use of VRF in smart contracts and services on KLYNTAR. Also, it's a great method for MEV-resistance.
+We assume the use of VRF in smart contracts and services on KLYNTAR. Also, it's a great method for MEV-resistance or other stuff in workflows which require randomness.
 
 ### <mark style="color:red;">Links</mark>
 
