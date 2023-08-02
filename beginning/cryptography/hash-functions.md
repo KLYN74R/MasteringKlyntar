@@ -12,7 +12,7 @@ The next important component is hash functions. For KLYNTAR we'll use a set of f
 * SHA-256
 * SHA3
 
-### <mark style="color:red;">BLAKE3</mark>
+## <mark style="color:red;">BLAKE3</mark>
 
 ![Read more at https://github.com/BLAKE3-team/BLAKE3](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
@@ -36,15 +36,15 @@ _<mark style="color:purple;">**Used to identify smart contracts**</mark>_
 
 Unique IDs for unique contracts. For smart contracts, we are talking about the hash of the WASM module.
 
-### <mark style="color:red;">**SHA-256**</mark>
+## <mark style="color:red;">**SHA-256**</mark>
 
 Good and reliable, as well as a super popular hash function that has stood the test of time. In KLYNTAR, it is used selectively in certain places of the type to obtain seed when decrypting keys or for reliability in service repositories (instead of the obsolete SHA-1).
 
-### <mark style="color:red;">**SHA3**</mark>
+## <mark style="color:red;">**SHA3**</mark>
 
 256-bit SHA-3 (also known as Keccak-256) based [_<mark style="color:purple;">**sponge function**</mark>_](https://en.wikipedia.org/wiki/Sponge\_function) is a NIST standard. It is used as the main one in Ethereum (although there is [_<mark style="color:purple;">**some confusion**</mark>_](https://ethereum.stackexchange.com/questions/550/which-cryptographic-hash-function-does-ethereum-use) between correspondences) and in other cryptocurrencies. Will be used by KLY-EVM.
 
-### <mark style="color:red;">The quantum threat and the concept of RippedHashes</mark>
+## <mark style="color:red;">The quantum threat and the concept of RippedHashes</mark>
 
 What is currently considered quantum-resistant tomorrow may fall into the category of vulnerable algorithms for quantum computers.
 

@@ -22,7 +22,7 @@ _<mark style="color:purple;">**BLS(Barreto-Lynn-Scott)**</mark>_ curve which is 
 
 The Bonet-Lynn-Shaham (BLS) signature method is considered reliable for signature generation. It uses a bilinear pair with an elliptic curve group and provides some protection against index calculus attacks. The BLS also produces short signatures and has proven to be secure. While Schnorr signatures require random numbers to generate multiple signers, BLS does not rely on them.
 
-### <mark style="color:red;">**Curve pairing**</mark>
+## <mark style="color:red;">**Curve pairing**</mark>
 
 We'll need a very special function that takes two points P and Q on a curve (or two different curves) and maps them to a number:
 

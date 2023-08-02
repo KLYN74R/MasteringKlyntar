@@ -5,7 +5,7 @@ coverY: 555.440414507772
 
 # 🛡 Symmetric ciphers
 
-### <mark style="color:red;">AES-256</mark>
+## <mark style="color:red;">AES-256</mark>
 
 Yes, it was not without the use of symmetric encryption algorithms on KLYNTAR. Initially, the scope of their application was rather narrow (due to locality), but still there are many options for use, so now we will tell you in more detail.
 
@@ -33,13 +33,13 @@ Daemon startup visualization subject to change prior to release
 2. Next, we divide it into parts of 16 bytes. The first 16 bytes are the password, the second are the initialization vector
 3. After that, your keys are placed in the memory of the process in which the KLYNTAR daemon is running.
 
-### <mark style="color:red;">**Be careful**</mark>
+## <mark style="color:red;">**Be careful**</mark>
 
 Even though the private keys will be stored encrypted on the machine, they will still be available at the runtime of the running kernel. Thus, an attacker who has enough rights (for example, he is under root or exploited your old Apache) can dump the process memory and extract passwords from there.
 
 For this reason, we recommend that you harden your system responsibly. Ideally, of course, the daemon should be a separate user and no one else would have access to its resources.
 
-### <mark style="color:red;">Alternatives</mark>
+## <mark style="color:red;">Alternatives</mark>
 
 Due to the fact that the scope is rather narrow, and private keys are not such large volumes to worry about speed, we are not yet considering other alternatives.
 
@@ -49,6 +49,6 @@ As already mentioned, 256 bits is enough against Grover's attack to obtain a qua
 
 {% embed url="https://quantumalgorithmzoo.org/" %}
 
-### <mark style="color:red;">**Some info for the future**</mark>
+## <mark style="color:red;">**Some info for the future**</mark>
 
 In the future, we also plan to implement Remote signing technology, thanks to which you will not have to store keys on "working machines". The nodes of your infrastructure will simply send you the necessary data for signature, and you will automatically produce valid signatures in a secure environment.

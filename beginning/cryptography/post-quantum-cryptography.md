@@ -6,11 +6,11 @@ coverY: -28.739205526770295
 
 # ⚡ Post quantum cryptography
 
-### <mark style="color:red;">**Introduction**</mark>
+## <mark style="color:red;">**Introduction**</mark>
 
 Thanks to cryptography, we live in a secure world. This, at first glance, invisible to the layman, component of the Internet allows us to safely surf the sites, use cryptocurrency, conduct transactions, sign various kinds of agreements, and so on. Behind all this is the reliability of various mathematical schemes, elliptic curves, discrete logarithm, modular arithmetic, key exchange protocols, hashing algorithms, and much more. Yes, yes - not just beautiful buttons and smooth menus.
 
-Generally speaking, the most popular and used algorithms can be counted on the fingers literally in every category
+Generally speaking, the most popular and used algorithms can be counted on the fingers literally in every category:
 
 * Hashes - SHA families, old MD, BLAKE hashes
 * Signatures - RSA, ECDSA, EdDSA, Ed25519
@@ -31,21 +31,21 @@ If earlier, within the framework of classical attacks on algorithms, a mathemati
 
 Taking advantage of such benefits of quantum mechanical properties as interference, wave-particle duality, entanglement, nondeterminism, we eventually get the opportunity to build schemes that allow us to perform fast factorization (and thus threaten RSA and similar algorithms), search with quadratic acceleration (threatening symmetric algorithms and hashes) and much more.
 
-### <mark style="color:red;">Problems of quantum algorithms</mark>
+## <mark style="color:red;">Problems of quantum algorithms</mark>
 
 Mathematical attacks on algorithms were previously limited to mathematics. These are various meet-in-the-middle attacks, hijacking and oracle attacks (CPA/CCA), reuse, rainbow tables and other ways.
 
-Since the quantum threat relies on both mathematics and physics, then the problems here are both mathematical (create an algorithm, build gates and select matrices) and physical (difficulty of maintaining entanglement, environmental influences, natural restrictions through energy loss).
+Since the quantum threat relies on both mathematics and physics, then the problems here are both mathematical (create an algorithm, building gates and selecting matrices) and physical (difficulty of maintaining entanglement, environmental influences, natural restrictions through energy loss).
 
 These two types of problems do not allow for the time being to create a wunderwaffe in the world of cryptography. However, one should not treat this negligently - one must be prepared for anything.
 
-### <mark style="color:red;">KLYNTAR and that's all of the above. Types of Algorithms</mark>
+## <mark style="color:red;">KLYNTAR and that's all of the above. Types of Algorithms</mark>
 
 Therefore, we have a very specific need for the use of post-quantum security mechanisms at KLYNTAR. We need to secure everything from signatures to architectural concepts due to the fact that we rely on the security of other chains, so if they are vulnerable, then this could threaten us (it could, because it does not threaten now).
 
 We have identified several areas that need to be secured
 
-### <mark style="color:red;">**Key Pairs / Signatures**</mark>
+## <mark style="color:red;">**Key Pairs / Signatures**</mark>
 
 ![Groups of post-quantum algorithms](<../../.gitbook/assets/image (10).png>)
 
@@ -55,7 +55,7 @@ _<mark style="color:purple;">**Dilithium**</mark>_
 
 ![](<../../.gitbook/assets/image (38).png>)
 
-This algorithm is a NIST candidate and provides the ability to generate key pairs and signatures. Widely popular, studied at the highest levels. It is included in the post-quantum implementation of _<mark style="color:yellow;">**OpenSSL**</mark>_, is being studied by CloudFlare, and is included in their CIRCL repository.
+This algorithm is a NIST candidate and provides the ability to generate key pairs and signatures. Widely popular, studied at the highest levels. It is included in the post-quantum implementation of _<mark style="color:red;">**OpenSSL**</mark>_, is being studied by CloudFlare, and is included in their CIRCL repository.
 
 ![](<../../.gitbook/assets/image (36).png>)
 
@@ -93,7 +93,7 @@ You can already generate a BLISS key pair and an address. The address is the BLA
 
 {% embed url="https://asecuritysite.com/signatures/go_bliss" %}
 
-### <mark style="color:red;">**Comparison**</mark>
+## <mark style="color:red;">**Comparison**</mark>
 
 Some of our algorithms are missing from the table
 
@@ -119,27 +119,27 @@ We use the CloufFlare CIRCL implementation as addons from Go to Node.js. Also, s
 
 Here are some comparison tables
 
-![s://blog.cloudflare.com/nist-post-quantum-surprise/](<../../.gitbook/assets/image (28).png>)
+![https://blog.cloudflare.com/nist-post-quantum-surprise/](<../../.gitbook/assets/image (28).png>)
 
 ![](<../../.gitbook/assets/image (23).png>)
 
 {% embed url="https://pq-crystals.org/kyber/index.shtml" %}
 
-### <mark style="color:red;">Assymetric encryption</mark>
+## <mark style="color:red;">Asymmetric encryption</mark>
 
 We will also provide you with asymmetric encryption. Asymmetric encryption allows one party to have a pair of keys $$(PubKey,PrivateKey)$$ and receive messages encrypted with a public key from other parties and decrypt them using private ones.
 
-In this regard, we decided not to add much and limited ourselves to Kyber PKE. KLYNTAR provides CloudFlare's implementation of Kyber1024 PKE, although again this is variant and is solved by changing one line of code.
+In this regard, we decided not to add much and limited ourselves to Kyber PKE. KLYNTAR provides CloudFlare's implementation of Kyber1024 PKE, although again this is a variant and is solved by changing one line of code.
 
 {% embed url="https://github.com/KLYN74R/Cryptoland/blob/main/kyber_pke.go" %}
 
-### <mark style="color:red;">Alternatives</mark>
+## <mark style="color:red;">Alternatives</mark>
 
-In view of the principle of mutations, we allow the use of alternative methods of post-quantum cryptography. Such for example can be used on services. You are free to choose different kinds of algorithms, but in any case, test and do not use untested implementations
+In view of the principle of mutations, we allow the usage of alternative methods of post-quantum cryptography. Such, for example, can be used by DApps 2.0. You are free to choose different kinds of algorithms, but in any case, test and do not use untested implementations
 
-Additional links
 
-### <mark style="color:red;">Links</mark>
+
+## <mark style="color:red;">Links</mark>
 
 {% embed url="https://www.nist.gov/news-events/news/2022/07/nist-announces-first-four-quantum-resistant-cryptographic-algorithms" %}
 

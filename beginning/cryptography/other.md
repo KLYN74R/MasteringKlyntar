@@ -6,7 +6,7 @@ coverY: -124.49869224062773
 
 # 🎁 Other
 
-### <mark style="color:red;">**Other cryptography algorithms**</mark>
+## <mark style="color:red;">**Other cryptography algorithms**</mark>
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1).png>)
 

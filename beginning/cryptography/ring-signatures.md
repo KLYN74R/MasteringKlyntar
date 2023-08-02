@@ -10,7 +10,7 @@ coverY: 0
 We decided to choose ZKP instead of using LRS - read till the end
 {% endhint %}
 
-### <mark style="color:red;">Linkable Ring Signatures on KLYNTAR</mark>
+## <mark style="color:red;">Linkable Ring Signatures on KLYNTAR</mark>
 
 Ring signatures are an interesting and useful cryptographic algorithm that allows you to generate signatures on behalf of a group and it is impossible to determine who exactly generated this signature.
 
@@ -30,7 +30,7 @@ A similar operation could have been carried out even in Apollo
 
 We use ECDSA at the heart of the LRS, and addresses derived from public keys are compatible with Ethereum.
 
-### <mark style="color:red;">Generate ring signature key pair using Apollo</mark>
+## <mark style="color:red;">Generate ring signature key pair using Apollo</mark>
 
 We have also added the ability to generate such a key pair in Apollo. Generate them via CLI or web version
 
@@ -44,7 +44,7 @@ Please note that we will add support for using such addresses shortly! However, 
 
 ![](<../../.gitbook/assets/image (2) (2).png>)
 
-### <mark style="color:red;">Privacy on KLYNTAR</mark>
+## <mark style="color:red;">Privacy on KLYNTAR</mark>
 
 In the early stages, KLYNTAR will not be private like Monero with its triad of algorithms for confidential transactions, or ZCash with the brand new zkSNARKs. However, we understand the importance of working in this direction and will implement privacy mechanisms for staking and on-chain mechanisms (transactions, freezing, working with unobtanium, and so on).
 
@@ -52,6 +52,6 @@ However, due to the power of services, WASM contracts, and bridges to other netw
 
 For core improvements, we should immediately decide which base to use - follow the SNARK / STARK path like Zcash / PIVX / Horizon or use Pederson commitments + bulletproofs like in Monero. Will have to work in this direction.
 
-### <mark style="color:red;">Links</mark>
+## <mark style="color:red;">Links</mark>
 
 {% embed url="https://www.getmonero.org/resources/moneropedia/ringsignatures.html" %}

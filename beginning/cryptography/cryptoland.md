@@ -23,7 +23,7 @@ Here, in _<mark style="color:purple;">**Cryptoland**</mark>_, we assume that the
 
 
 
-### <mark style="color:red;">**Examples**</mark>
+## <mark style="color:red;">**Examples**</mark>
 
 <mark style="color:purple;">**You add some new signature algorithm**</mark>
 
@@ -53,7 +53,7 @@ Explain the cryptographic base, provide links and/or names to make it easier to 
 
 {% embed url="https://github.com/KLYN74R/Cryptoland" %}
 
-### <mark style="color:red;">**Reference to ValarDohaeris**</mark>
+## <mark style="color:red;">**Reference to ValarDohaeris**</mark>
 
 Also, in addition to Cryptoland, we have another repository - ValarDohaeris
 
@@ -93,7 +93,9 @@ console.log('Is ok => ',await VD.verify(data,signature,keys.address),'(should be
 console.log('Address in another format: ',VD.toPUB_K1(keys.address))
 ```
 
-### <mark style="color:red;">Benefits for developers</mark>
+
+
+## <mark style="color:red;">Benefits for developers</mark>
 
 Of course, the work for the benefit of KLYNTAR cannot go unnoticed. You can find out more in the [_<mark style="color:red;">**Contributions**</mark>_](../contributions.md) section, but now I will just briefly mention that within the framework of social consensus, right in the interface of Apollo (or other 3rd party tools), users will be able to vote for the most useful contributions to KLYNTAR. It does not matter if you are a plugin developer, created several packs with connectors or added many algorithms (as in this case we are talking about this) - all this will be taken into account at the level of metrics such as the number of clones, personal preferences of users and developers, the number of services and / or smart contracts using these algorithms (and their activity) and so on.
 

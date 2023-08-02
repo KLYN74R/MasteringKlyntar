@@ -6,7 +6,7 @@ coverY: -190
 
 # 🔐 Key pairs
 
-### <mark style="color:red;">Ed25519</mark>
+## <mark style="color:red;">Ed25519</mark>
 
 Ed25519 was introduced in OpenSSH version 6.5. This is an implementation of EdDSA using the [<mark style="color:purple;">Twisted Edwards curve</mark>](https://en.wikipedia.org/wiki/Twisted\_Edwards\_curve). It uses elliptic curve cryptography which provides better security and higher performance compared to DSA or ECDSA.
 
@@ -47,7 +47,7 @@ All keys of this type have a common 12 bytes that there is no need to store publ
 
 `MC4CAQAwBQYDK2VwBCIEIKiJ1JIhmP4NelCCV5IAgQdOSfS/t3+9EjiL4zgG1HA0`
 
-### <mark style="color:red;">Generation via OpenSSL</mark>
+## <mark style="color:red;">Generation via OpenSSL</mark>
 
 You can also repeat all this through OpenSSL
 
@@ -71,13 +71,11 @@ cat ed25519_pub | base64
 
 It remains only to convert the public key to byte form, remove the first 12 bytes and convert to Base58.
 
-### <mark style="color:red;">**Signature**</mark>
+## <mark style="color:red;">**Signature**</mark>
 
 The signature is standard and takes 64 bytes. On KLYNTAR we use it in Base64.
 
-### <mark style="color:red;">Why not to use the mnemonic phrase</mark>
-
-Coming soon. We will also add HD(hierarchical deterministic) features to the wallet later, but for now, this is the way.
+## <mark style="color:red;">Why not to use the mnemonic phrase</mark>
 
 {% hint style="success" %}
 UPD: Starting from version _<mark style="color:red;">**v17.1.0**</mark>_ ValarDohaeris supports HD addresses in KLYNTAR and also generates 12 mnemo words for you. However, the functionality for generating key pair chains and importing a phrase will be implemented soon
@@ -93,13 +91,13 @@ Also, starting from _<mark style="color:red;">**v19.4.0**</mark>_, KLYNTAR recei
 In future releases and updates, we will also create an implementation of BIP-44 for other types of keys that will be available on KLYNTAR - for multisig addresses and post-quantum key pairs
 {% endhint %}
 
-### <mark style="color:red;">**A couple more words**</mark>
+## <mark style="color:red;">**A couple more words**</mark>
 
 We also decided not to follow the path of generating some checksums, certain prefixes, and so on. Also, we did not separate addresses into mainnet / testnet formats due to uselessness and inconvenience (considering the experience with Bitcoin and forks).
 
 Ed25519 was selected as the best candidate available to be universal for symbiotes, services, smart contracts and other projects in the ecosystem.
 
-### <mark style="color:red;">**Links**</mark>
+## <mark style="color:red;">**Links**</mark>
 
 {% embed url="https://docs.klyntar.org/web1337/send-transactions/default-ed25519-transactions" %}
 
