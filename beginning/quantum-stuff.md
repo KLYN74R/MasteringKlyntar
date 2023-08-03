@@ -5,6 +5,6 @@ coverY: 0
 
 # ✨ Quantum stuff
 
-### <mark style="color:red;">**Coming soon**</mark> 👻
+## <mark style="color:red;">**Coming soon**</mark> 👻
 
 We will share thoughts and ideas later

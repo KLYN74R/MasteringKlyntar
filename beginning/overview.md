@@ -23,7 +23,7 @@ Includes information about the crypto algorithms that will be used on KLYNTAR. H
 
 The section is devoted to the description of the work of smart contracts on KLYNTAR. You will learn how to write typical smart contracts, how to use advanced features for your contracts such as API calls and Internet access, cross-chain logic, off-chain computing, cross-VM interaction and more
 
-### <mark style="color:red;">DApps 2.0</mark>
+### [<mark style="color:red;">DApps 2.0</mark>](dapps-2.0/)
 
 It contains a description of the mechanisms of next-gen DApps: from what they are in general, why they are better than typical smart contracts and how their application will affect the industry, to how they can be created and made part of the network. You will also learn how to use the capabilities of different blockchains to create a new generation smart contracts. Also, we'll talk about mutations
 
@@ -55,7 +55,7 @@ Dive into the ecosystem of KLYNTAR plugins. We can say that the essence of plugi
 
 Here you will learn how to properly use the repository with best practices when building your own infrastructure, configuring plugins, their combination, and so on
 
-### [<mark style="color:red;">KLY ecosystem</mark>](kly-ecosystem-coming-soon.md)
+### [<mark style="color:red;">KLY ecosystem</mark>](kly-ecosystem-and-importance-for-the-world.md)
 
 Find out more about other upcoming projects and projects already in development
 
@@ -71,9 +71,9 @@ As part of the roadmap, of course, important updates are planned. We decided to 
 
 KLYNTAR is a completely open source and "controlled by community" story. Already at least from the descriptions of the previous chapters, we can conclude how we make sure that the community is maximally involved in the process of developing and improving KLY. At the same time, the country must know its heroes, which means that the contribution of each must be appreciated. Read more about it in this chapter
 
-### [<mark style="color:red;">Information for exchanges</mark>](information-for-exchanges.md)
+### [<mark style="color:red;">RWX contracts</mark>](rwx-contracts-real-world-execution-smart-contracts.md)
 
-In this section, exchanges and other large providers can get all the necessary information regarding setting up their infrastructures
+Learn about a new stage in the world of smart contracts. Codeless contracts for real world use and audited by KLY. Must have for **KLY Services**.
 
 ### [<mark style="color:red;">Quantum stuff</mark>](quantum-stuff.md)
 

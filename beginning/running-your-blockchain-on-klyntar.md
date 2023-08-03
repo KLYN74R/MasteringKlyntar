@@ -6,6 +6,6 @@ coverY: -112.64764432647644
 
 # 🦾 Running your blockchain on KLYNTAR
 
-### <mark style="color:red;">**Coming soon**</mark> 👻
+## <mark style="color:red;">**Coming soon**</mark> 👻
 
 Will be published when the community appears and the developers need it
