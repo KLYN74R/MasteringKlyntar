@@ -8,12 +8,12 @@ coverY: 0
 
 # 🇸🇴 Social media
 
-### <mark style="color:red;">**Support KLYNTAR**</mark>&#x20;
+## <mark style="color:red;">**Support KLYNTAR**</mark>&#x20;
 
 We are at an early stage of development. Support the project if KLYNTAR seemed interesting to you. Donators will also be able to receive pleasant surprises from us.
 
 {% hint style="info" %}
-Thanks to cryptography, we can contact you👻. So for example, if you support the project for example $100, then we will contact you and send our merch. We will announce this event, and you will sign your mail or other method of communication with your private key. We will check that a donation was received from this address and show our gratitude)
+Thanks to cryptography, we can contact you👻. So, for example, if you support the project for example $100, then we will contact you and send our merch. We will announce this event, and you will sign your mail or other method of communication with your private key. We will check that a donation was received from this address and show our gratitude)
 {% endhint %}
 
 Addresses
@@ -72,13 +72,9 @@ Addresses
 
 <mark style="color:orange;">**Monero**</mark> - 46dytBPWaJaD83KShYHiTRZPTm6TdrmzYFYt6rVNcTYUMBzoLziL9Ay76AFNeZgoonAqf72EE734F9EoCV9Y6zs49hv2GG7
 
-{% hint style="info" %}
-By the way, almost all (because we haven't added everything yet) our addresses are generated using ValarDohaeris. You can also use the repository in your projects
-{% endhint %}
 
-{% embed url="https://github.com/KLYN74R/ValarDohaeris" %}
 
-### <mark style="color:red;">**Social media links**</mark>
+## <mark style="color:red;">**Social media links**</mark>
 
 {% embed url="https://www.instagram.com/klyn74r" %}
 
@@ -108,6 +104,6 @@ By the way, almost all (because we haven't added everything yet) our addresses a
 
 {% embed url="https://www.tiktok.com/@klyn74r" %}
 
-### <mark style="color:red;">Other links</mark>
+## <mark style="color:red;">Other links</mark>
 
-{% embed url="https://ru.mastering.klyntar.org/" %}
+{% embed url="https://docs.klyntar.org/" %}

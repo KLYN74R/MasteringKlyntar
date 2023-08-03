@@ -6,6 +6,8 @@ coverY: 0
 
 # 💱 Information for exchanges and infrastructure providers
 
-### <mark style="color:red;">**Coming soon**</mark> 👻
+## <mark style="color:red;">**Web1337**</mark>
 
-Will be published when the community appears and the developers need it
+All the required instructions of how to become validator, staker, how to run node and other interesting answers for questions available in KLY Docs
+
+{% embed url="https://docs.klyntar.org/" %}
