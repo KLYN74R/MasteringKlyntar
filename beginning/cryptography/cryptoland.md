@@ -53,46 +53,6 @@ Explain the cryptographic base, provide links and/or names to make it easier to 
 
 {% embed url="https://github.com/KLYN74R/Cryptoland" %}
 
-## <mark style="color:red;">**Reference to ValarDohaeris**</mark>
-
-Also, in addition to Cryptoland, we have another repository - ValarDohaeris
-
-{% embed url="https://github.com/KLYN74R/ValarDohaeris" %}
-
-The purpose of creating such a repository was to prepare for the release of _<mark style="color:purple;">**ValarDohaeris**</mark>_, within which we worked to ensure that the owners of private keys of other blockchain projects could easily interact with KLYNTAR. For example, in Apollo you can confirm ownership of your private keys so that KLYNTAR nodes recognize the amount of unobtanium in your wallets and can understand how many blocks you have generated in Filecoin or how many tokens you have in your BSC account. Looking at it, you can understand what we meant when we talked about usability - a good and understandable README and a structure of the same type, and now anyone can use it.
-
-```javascript
-//CRYPTO is klyntar,algorand,arweave,eos,eth_like,filecoin,harmony,helium,mina,polkadot,ripple,solana,stellar,zilliqa(unimplemented)
-//TIP: Check the directories of package to get available formats or https://github.com/KLYN74R/ValarDohaeris
-
-import VD from '@klyntar/valardohaeris/<CRYPTO>/vd.js'
-
-
-//_______________________________ USE DEFAULT SETS OF FUNCTIONS _______________________________
-
-
-let keys=await VD.generate()
-
-console.log(keys)//Make sure format is OK
-
-//Sign data in the string format
-let data='SIGN ME',
-
-    signature=await VD.sign(data,keys.privateKey)
-
-console.log('Your signature in transportable format => ',signature)
-
-console.log('Is ok => ',await VD.verify('ANOTHER DATA',signature,keys.address),` (should be ❌)`)
-
-console.log('Is ok => ',await VD.verify(data,signature,keys.address),'(should be ✔️)')
-
-
-
-//_______________________________ AND EXPLORE SPECIFIC FUNCTIONS _______________________________
-
-console.log('Address in another format: ',VD.toPUB_K1(keys.address))
-```
-
 
 
 ## <mark style="color:red;">Benefits for developers</mark>
