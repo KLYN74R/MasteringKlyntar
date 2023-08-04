@@ -5,13 +5,21 @@ cover: >-
 coverY: -4.750653879686155
 ---
 
-# 👽 Symbiotes
+# 👽 Symbiotic chains
 
-### <mark style="color:red;">**Why abstraction matters?**</mark>
+### <mark style="color:red;">**What is a symbiotic chain?**</mark>
+
+{% hint style="info" %}
+_<mark style="color:red;">**Symbiote(symbiotic chain)**</mark>_ is a separate chain in KLY ecosystem that has its own genesis, own history, state, works following its own workflows and interacts with its own set of hostchains
+{% endhint %}
+
+
+
+<figure><img src="../../.gitbook/assets/Symbiote_General.drawio.png" alt=""><figcaption></figcaption></figure>
 
 We built KLYNTAR with the way the modern world works. Container shipping, USB standards, traffic routing - all this is interchangeable in the world and the same everywhere. When developing KLYNTAR, we did not try to "hardcode" a consensus there, which would then have to be changed for 8 years, we did not try to bind a fixed number of validators or impose any hard restrictions.
 
-That is why the architecture is based on the principle of modularity when each individual symbiote can be built as a constructor, independently choosing a consensus (generally in KLYNTAR called _<mark style="color:yellow;">**workflows**</mark>_), a set of hostchains, the type of interaction with them, its own fees policy, and so on. That is why the architecture is based on the principle of modularity when each individual symbiote can be built as a constructor, independently choosing a consensus (generally in KLYNTAR called workflows), a set of hostchains, the type of interaction with them, its own fees policy, and so on.
+That is why the architecture is based on the principle of modularity when each individual symbiote can be built as a constructor, independently choosing a consensus (generally in KLYNTAR called _**workflows**_), a set of hostchains, the type of interaction with them, its own fees policy, and so on.
 
 In fact, KLYNTAR is also a framework for creating your own blockchains for your needs, and having KLYNTAR Services will help you run them in parallel with the main symbiotes and get the security and capabilities of KLYNTAR right out of the box - only now the game will be by your rules.
 
@@ -27,10 +35,6 @@ Despite this, there are a number of "standard" and "general" components of each 
 Everything else is modular and symbiote dependent. We will talk about this in more detail later on this page.
 
 What is a symbiote?
-
-{% hint style="info" %}
-_<mark style="color:red;">**Symbiote**</mark>_ is a separate chain that has its own genesis, its own history of events, its own state, works following its own workflows and interacts with its own set of hostchains
-{% endhint %}
 
 ![](<../../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png>)
 

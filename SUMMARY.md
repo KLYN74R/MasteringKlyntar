@@ -10,7 +10,7 @@
 * [👁 Overview](beginning/overview.md)
 * [🏗 Architecture](beginning/architecture/README.md)
   * [☕ General](beginning/architecture/page-1.md)
-  * [👽 Symbiotes](beginning/architecture/page-2.md)
+  * [👽 Symbiotic chains](beginning/architecture/symbiotic-chains.md)
   * [👨👩👦 Hostchains](beginning/architecture/hostchains.md)
   * [📄 Workflows](beginning/architecture/workflows/README.md)
     * [🫀 Tachyon](beginning/architecture/workflows/tachyon/README.md)

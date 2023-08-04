@@ -12,7 +12,7 @@ coverY: -226
 
 Above you see the general scheme taken from our whitepaper of the first version. Unlike other crypto projects, KLYNTAR does not have some kind of main chain, beacon chain or something like that which synchronizes and interleave work in shards or separate blockchains (like Polkadot or Cosmos). We consider the entire blockchain space as a single, reliable, homogeneous environment and each blockchain is like a certain reliable container.
 
-KLYNTAR consists of many parallel chains that we call _<mark style="color:red;">**symbiotes**</mark>_(they are represented in the diagram as parallel black rectangles). They got this name because they enter into a symbiotic relationship with other entities - _<mark style="color:red;">**hostchains**</mark>_(from the words _**host**_-carrier and _**chain**_-chain, shown at the top of the diagram). This connection is necessary for many reasons:
+KLYNTAR consists of many parallel chains that we call _<mark style="color:red;">**symbiotes**</mark>_ or _<mark style="color:red;">**symbiotic chains**</mark>_(they are represented in the diagram as parallel black rectangles). They got this name because they enter into a symbiotic relationship with other entities - _<mark style="color:red;">**hostchains**</mark>_(from the words _**host**_-carrier and _**chain**_-chain, shown at the top of the diagram) and other symbiotes(for cross-chain messaging). This connection is necessary for many reasons:
 
 ### <mark style="color:purple;">**Maximum theoretical safety**</mark>
 
@@ -38,7 +38,9 @@ However, due to the fact that we have an infinite number of parallel symbiotes, 
 
 So one symbiote can commit to Bitcoin, Polygon, and Solana, and the other can commit to XRP, Litecoin, and Cardano. They include each other's commits in their set of hostchains, and each of them pays a fee on only three networks, but in reality, there are now 6 hostchains guarding their security. This was the simplest example
 
+### <mark style="color:purple;">**Ecosystem of blockchains**</mark>
 
+It's a nice idea to set the messaging protocol for easy interaction between pairs _**symbiote <-> symbiote**_
 
 ## <mark style="color:red;">**More about hostchains**</mark>
 
