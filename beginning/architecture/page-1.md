@@ -51,27 +51,3 @@ By communicating with many chains, KLYNTAR brings security for them too, due to 
 ## <mark style="color:red;">**More about symbiotes**</mark>
 
 Anyone can create their own new blockchain and attach it to the rest of the symbiotes. At the same time, your blockchain (symbiote) will immediately receive the security of KLYNTAR, will be supported by KLYNTAR nodes, and so on.
-
-## <mark style="color:red;">Modularity</mark>
-
-{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2F2me78ElgBRbButusA65K%2Fthoughtworks-gif_dribbble.gif?alt=media&token=7516ff53-82b8-4683-9aea-0c1634767590" %}
-
-By reading the documentation further or looking at the code on GitHub, you will notice that many of the directories contain subsections
-
-For example, the directory with VMs looks like this:
-
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
-
-Directory with workflows:
-
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
-
-As you can see, they all include several packs. This modular structure allows developers of other symbiotes to use some components in their codebase.
-
-KLYNTAR will also be available for expansion with a wide ecosystem of plugins - from a websocket servers to custom logging mechanisms, from a reverse proxy server with filters to a Telegram bot. By the way, one more proof of modularity and independence (the directory with plugins contains separate repositories)
-
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Learn more about plugins [_<mark style="color:red;">**here**</mark>_](../plugins.md)
-{% endhint %}
