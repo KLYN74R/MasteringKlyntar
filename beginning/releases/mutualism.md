@@ -10,7 +10,7 @@ coverY: -155.60592850915432
 Status - <mark style="color:purple;">**Planning and development**</mark>
 {% endhint %}
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (5) (1) (2).png>)
 
 This release will provide an opportunity for symbiotes to interact with each other at various levels - from quantum swaps to partial checks. Critical release with multiple symbiotes. More details will be discussed in the future in the form of a separate article on our resources.
 

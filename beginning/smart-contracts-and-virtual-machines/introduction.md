@@ -1,5 +1,5 @@
 ---
-description: A few words about KLYNTAR VM
+description: A few words about virtual machines available on KLY
 cover: >-
   https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FpFJEMjfSiciMrbEzPlyQ%2Fvaporwave_artwork_science_fiction_concept_art_original_4k_hd.jpg?alt=media&token=b163cdca-d00d-4867-8511-a171a14cc266
 coverY: -39
@@ -7,104 +7,19 @@ coverY: -39
 
 # ℹ Introduction
 
-### <mark style="color:red;">**Start**</mark>
+## <mark style="color:red;">**Start**</mark>
 
-![](<../../.gitbook/assets/image (15) (1).png>)
+<figure><img src="../../.gitbook/assets/KLY Virtual Machines.png" alt=""><figcaption></figcaption></figure>
 
-Today, the need for smart contracts in blockchains is actually mandatory, because it allows you to write custom logic in the form of contracts that then live and execute in a decentralized environment.
+Today, the need for smart contracts in blockchains is actually mandatory, because it allows you to write custom logic in the form of contracts that then live and executed in a decentralized environment.
 
-At KLYNTAR we tried to be as versatile as possible in order to allow you to quickly and easily start writing anything for KLYNTAR. You will be able to write in any language that you know well and that compiles into WASM modules, as well as use advanced features such as requests to the network or storage of big data "off the block" symbiote that can be requested to perform some function and much more.
+At KLY we try to be as versatile as possible to allow you to quickly and easily start writing anything for KLYNTAR. That is why we provide developers with the opportunity to create smart contracts with amazing features that are available exclusively on KLY.
 
-KLYNTAR VM is based on WebAssembly which allows you to write in any language, then compile it into .wasm bytecode and run it in a secure environment.
+So, on KLY there will be such opportunities for creating decentralized logic:
 
-WebAssembly is secure thanks to
-
-* Lack of network access
-* Lack of access to the file system
-* Lack of access to the random number generator
-* Other stuff
-
-Thus, it is possible to locally (in your development environment, if you are a developer) create compressed and compiled .wasm files, and then publish them to the KLYNTAR network for execution
-
-![](<../../.gitbook/assets/image (7).png>)
-
-### <mark style="color:red;">More about WebAssembly</mark>
-
-Today, WebAssembly is becoming popular all over the world and in various areas - from small modules for working in the browser to cloud FaaS services and blockchains (Cosmos, Near, etc.).
-
-Below is a list of languages that can already be used to compile to WASM and work safely on KLYNTAR symbiotes
-
-![](<../../.gitbook/assets/image (25) (1) (1).png>)
-
-{% embed url="https://github.com/appcypher/awesome-wasm-langs" %}
-
-WebAssembly is not exactly a language, it's more of a low-level bytecode that executes quickly and safely. For an illustrative example, we can consider the .wat file format - these are the files of the so-called WebAssemblyText. It can also be compiled to wasm and vice versa. So for example you can repeat this procedure using the tools wat2wasm (obviously <mark style="color:purple;">**.wat**</mark> => <mark style="color:purple;">**.wasm**</mark>) and wasm2wat (vice versa). Just the same, .wat files allow us to see WASM opcodes, understand that there is work with the stack like low-level languages, and so on. For example, here is the implementation of a simple function that takes 2 parameters and returns their sum
-
-File _<mark style="color:red;">**add.wat**</mark>_
-
-```wasm
-(module
- (func (export "calculate")
- (param $value_1 i32) (param $value_2 i32)
- (result i32)
-    local.get $value_1
-    local.get $value_2
-    i32.add
-    )
- )
-```
-
-Next, we use the _<mark style="color:purple;">**wat2wasm**</mark>_ tool that comes with the _<mark style="color:red;">**wat-wasm**</mark>_ package.
-
-![](<../../.gitbook/assets/image (23) (1) (1).png>)
-
-We compile (with the help of flags -O3z we compress as much as possible and carry out optimization)
-
-```
-wat2wasm add.wat -o add.wasm -O3z
-```
-
-And use in Node.js
-
-```javascript
-import fs from 'fs';
-const bytes = fs.readFileSync (__dirname+'/add.wasm');
-
-let value_1 = parseInt (process.argv[2]);
-let value_2 = parseInt (process.argv[3]);
-
-let obj = await WebAssembly.instantiate(new Uint8Array(bytes));
-
-let add_value = obj.instance.exports.calculate(value_1,value_2);
-
-console.log(`${value_1}+${value_2}=${add_value}`);
-```
-
-```bash
-node test.js 11 33
-```
-
-```bash
-11+33=44
-```
-
-This was a simple use case and you learned a little more about its format by looking at the code of the .wat file.
-
-Of course, it is difficult to write in pure WAT and therefore you will most likely use high-level languages such as AssemblyScript (an add-on on TypeScript), Rust, C ++, Python and others.
-
-We will just start using AssemblyScript as the first entry point for .wasm smart contracts on KLYNTAR.
-
-![](<../../.gitbook/assets/image (9) (1).png>)
-
-{% embed url="https://github.com/AssemblyScript/assemblyscript" %}
-
-More will be added later. Here are some related repositories
-
-![](<../../.gitbook/assets/image (26) (1) (1).png>)
-
-![](<../../.gitbook/assets/image (18) (1).png>)
-
-![](<../../.gitbook/assets/image (22) (1) (1).png>)
+* <mark style="color:red;">**KLY-WVM**</mark> - WASM-based virtual machine with wide support of several languages, tons of extensions, cross-VM calls to KLY-EVM, etc.
+* <mark style="color:red;">**KLY-EVM**</mark> - EVM compatible VM with tons of features like sharding, storage-by-subscription model, fees in tokens, improved opcodes logic, cross-VM calls to KLY-WVM, etc.
+* <mark style="color:red;">**UVM**</mark> - Universal Virtual Machine. Absctract VM which allow you to create DApps 2.0, interact with network, call inbuild oracles system, create & use Docker containers, create codeless smart-contracts with real-world execution and much more!
 
 The KLYNTAR virtual machine is individual for each symbiote in terms of features and cost table. For its work, it uses a resource called _<mark style="color:red;">**energy**</mark>_. We decided to call the analogy with gas on Ethereum that way, but with the only difference that the concept of energy is more global.
 

@@ -52,7 +52,7 @@ Likewise with other functions. You can explore the repository yourself for a bet
 
 And here is an example of an EVM compatible connector. This is another proof of KLYNTAR's flexibility - because thanks to 1 connector, symbiotes can communicate with all EVM compatible blockchains.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 Here you can see how the connector uses standard parameters to work with EVM compatible blockchains. There are familiar terms like _<mark style="color:red;">**GAS\_LIMIT**</mark>_ and _<mark style="color:red;">**GAS\_PRICE**</mark>_, you can choose CHAIN\_ID according to this resource (to work with different networks) and much more.
 

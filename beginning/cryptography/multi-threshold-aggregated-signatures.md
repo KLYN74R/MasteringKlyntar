@@ -223,7 +223,7 @@ Let's simulate the situation - let you and 5 other friends want to create such a
 
 Let's enter our threshold 4, our ID (let it be 1) and the ID of other friends. You can choose anything as an ID, but it's easier to use numeric identifiers. Since the number of sides is 6, then there should be 6 identifiers (including yours)
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 You will get such a big output
 

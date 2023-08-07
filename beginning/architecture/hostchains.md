@@ -80,7 +80,7 @@ No, don't worry, everything is cooler and more interesting here. Yes, in order t
 
 Here is an example connector for EVM chains
 
-![](<../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1) (2).png>)
 
 {% embed url="https://github.com/KLYN74R/KlyntarCore/blob/main/KLY_Hostchains/connectors/dev0/evm.js" %}
 

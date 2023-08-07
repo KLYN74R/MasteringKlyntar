@@ -30,6 +30,6 @@ In Apollo, you can generate addresses, as well as sign messages with a pair of k
 
 And Cryptoland will soon be able to sign data
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (2).png>)
 
 ![](<../../.gitbook/assets/image (13) (1).png>)
