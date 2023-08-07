@@ -77,3 +77,5 @@ Powerful feature of KLY
 ## <mark style="color:red;">Links</mark>
 
 {% embed url="https://klyntar.medium.com/klyntar-virtual-machines-part-0-kly-evm-shardable-low-level-managed-mutable-and-wasm-improved-5b5c653965d7" %}
+
+{% embed url="https://docs.klyntar.org/smart-contracts/kly-evm" %}
