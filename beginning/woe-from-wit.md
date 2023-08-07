@@ -8,7 +8,7 @@ coverY: 138.54231433506044
 
 ![Thinking about a new feature](../.gitbook/assets/cb0586c52d9c39c873e43de91c59c39c.jpg)
 
-## <mark style="color:red;">Crypto in 2k22, hustle culture and 1001 ideas</mark>
+## <mark style="color:red;">Crypto in 2k23, hustle culture and 1001 ideas</mark>
 
 I'm sure if you're reading this, it means that you're probably interested in the latest in our field in one way or another. We do not care if you are a developer, an investor, a crypto enthusiast or an SEC agent. I think we will be able to convey to you the beauty of the decisions and developments made and the "gigantism" of thoughts.
 

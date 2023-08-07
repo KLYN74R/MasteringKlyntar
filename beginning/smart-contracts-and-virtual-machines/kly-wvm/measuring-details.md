@@ -15,13 +15,13 @@ In addition, it is necessary to control how many resources will be spent during 
 
 In KLYNTAR VM, we will use the project from EWASM to measure the performance of smart contracts. Here is their GitHub
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 {% embed url="https://github.com/ewasm" %}
 
 We need the _<mark style="color:red;">**wasm-metering**</mark>_ repository which provides a function that needs to be injected into the bytecode to measure its execution
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../../.gitbook/assets/image (21) (1).png>)
 
 At the output, we will get a bytecode similar in functionality, but now the execution of operations is controlled and the calculation of the resources expended is underway. Let's do a little research
 
@@ -70,7 +70,7 @@ If the limit is exceeded, the work stops and we catch exceptions. Although the E
 
 By the way, here is a detailed and good description on GitHub
 
-![](<../../.gitbook/assets/image (22) (1).png>)
+![](<../../../.gitbook/assets/image (22) (1).png>)
 
 {% embed url="https://github.com/ewasm/design/blob/master/metering.md" %}
 

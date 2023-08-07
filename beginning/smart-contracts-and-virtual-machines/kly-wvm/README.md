@@ -6,13 +6,13 @@ description: WASM-based amazing virtual machine by KLY
 
 ## <mark style="color:red;">Intro</mark>
 
-<figure><img src="../../.gitbook/assets/KLY-WVM preview.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/KLY-WVM preview.gif" alt=""><figcaption></figcaption></figure>
 
 You will be able to write in any language that you know well and compile into WASM modules, as well as use advanced features such as requests to the network or external storage of big data and much more. You can use KLY-EVM for EVM compatibility and use powerful features and a solid codebase on Solidity for a quick start.
 
 KLYNTAR VM is based on WebAssembly which allows you to write in any language, then compile it into .wasm bytecode and run it in a secure environment.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 WebAssembly is secure thanks to
 
@@ -29,7 +29,7 @@ Today, WebAssembly is becoming popular all over the world and in various areas -
 
 Below is a list of languages that can already be used to compile to WASM and work safely on KLYNTAR symbiotes
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/appcypher/awesome-wasm-langs" %}
 
@@ -55,7 +55,7 @@ File _<mark style="color:red;">**add.wat**</mark>_
 
 Next, we use the _<mark style="color:purple;">**wat2wasm**</mark>_ tool that comes with the _<mark style="color:red;">**wat-wasm**</mark>_ package.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 We compile (with the help of flags **-O3z** we compress as much as possible and carry out optimization)
 
@@ -93,17 +93,17 @@ Of course, it is difficult to write in pure WAT and therefore you will most like
 
 We will just start using AssemblyScript as the first entry point for .wasm smart contracts on KLYNTAR.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/AssemblyScript/assemblyscript" %}
 
 TODO\
 
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
