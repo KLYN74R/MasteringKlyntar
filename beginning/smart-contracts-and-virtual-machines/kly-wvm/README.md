@@ -107,3 +107,11 @@ TODO\
 
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+## <mark style="color:red;">Links</mark>
+
+{% embed url="https://wasmbook.com/" %}
+
+{% embed url="https://www.rust-lang.org/fr/what/wasm" %}
+
+{% embed url="https://docs.klyntar.org/smart-contracts/kly-wvm" %}
