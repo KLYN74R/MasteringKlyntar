@@ -143,7 +143,7 @@ const metering = require('wasm-metering');
 const wasm = fs.readFileSync('fac.wasm');
 const meteredWasm = metering.meterWASM(wasm, {
   meterType: 'i32',
-  fieldStr:'energyUse'
+  fieldStr:'burnGas'
 });
 
 const limit = 90000000;
