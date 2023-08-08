@@ -70,6 +70,10 @@ It will be possible to use external storage when working with smart contracts
 
 Call WASM from EVM and vice versa! Write EVM logic using WASM and benefit from hybrid smart contracts
 
+{% hint style="info" %}
+Follow the link to learn about using the KLY-EVM magic address to access KLY-WVM and the native environment (Node.js)
+{% endhint %}
+
 #### In-build powerful oracles
 
 Call any internet API, use VRF and other powerful abilities of oracles. It will also be possible to modify existing oracles to suit your needs.

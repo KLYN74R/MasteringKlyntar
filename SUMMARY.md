@@ -35,6 +35,7 @@
   * [ℹ Introduction](beginning/smart-contracts-and-virtual-machines/introduction.md)
   * [💣 KLY-WVM](beginning/smart-contracts-and-virtual-machines/kly-wvm/README.md)
     * [💪 Measuring details](beginning/smart-contracts-and-virtual-machines/kly-wvm/measuring-details.md)
+    * [🪄 Features](beginning/smart-contracts-and-virtual-machines/kly-wvm/features.md)
   * [🔮 KLY-EVM](beginning/smart-contracts-and-virtual-machines/kly-evm.md)
   * [⚛ Cosmos compatibility](beginning/smart-contracts-and-virtual-machines/cosmos-compatibility.md)
   * [💠 Polkadot ecosystem](beginning/smart-contracts-and-virtual-machines/polkadot-ecosystem.md)
