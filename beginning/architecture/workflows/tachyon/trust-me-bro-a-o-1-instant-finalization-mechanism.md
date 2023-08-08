@@ -6,6 +6,6 @@ description: Don't trust - verify??? No, trust firstly
 
 <figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-## Intro
+## <mark style="color:red;">Intro</mark>
 
 TODO

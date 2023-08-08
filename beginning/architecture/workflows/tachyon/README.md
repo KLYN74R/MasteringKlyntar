@@ -10,6 +10,6 @@ coverY: 0
 
 # 🫀 Tachyon
 
-### <mark style="color:red;">**General description of the consensus mechanism**</mark>
+## <mark style="color:red;">**General description of the consensus mechanism**</mark>
 
-### <mark style="color:yellow;"><mark style="color:red;">Tachyon implementation in dev\_tachyon workflow<mark style="color:red;"></mark>
+## <mark style="color:red;">Tachyon implementation in dev\_tachyon workflow</mark>

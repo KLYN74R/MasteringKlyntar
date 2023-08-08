@@ -7,7 +7,7 @@ coverY: -4.750653879686155
 
 # 👽 Symbiotic chains
 
-### <mark style="color:red;">**What is a symbiotic chain?**</mark>
+## <mark style="color:red;">**What is a symbiotic chain?**</mark>
 
 {% hint style="info" %}
 _<mark style="color:red;">**Symbiote(symbiotic chain)**</mark>_ is a separate chain in KLY ecosystem that has its own genesis, own history, state, works following its own workflows and interacts with its own set of hostchains
@@ -21,13 +21,29 @@ In the image above, you can see an example of an ecosystem running 1 native bloc
 
 ## <mark style="color:red;">Symbiotic chain components</mark>
 
+<figure><img src="../../.gitbook/assets/SingleSymbiote.png" alt=""><figcaption></figcaption></figure>
+
 ### <mark style="color:orange;">**Workflow**</mark>
 
 The first and the main component of each symbiote is a workflow.
 
-_<mark style="color:orange;">**Workflow**</mark>_ - a model of how some blockchain works. Here the consensus is determined, the set of essences is determined (different transactions), the set of routes for the server is determined (for communication between nodes) and much more. Let's figure it out.
+_**Workflow**_ - a model of how some blockchain works. Here the consensus is determined, the set of essences is determined (different transactions), the set of routes for the server is determined (for communication between nodes) and much more. Let's figure it out.
 
 Workflows that will be used by KLY core are located in the **KLY\_Workflows** directory. Other workflows can be created as a separate repository and to sign other devs about your work you can open a pull request to add the link to your custom workflow . You can see it on GitHub
+
+### <mark style="color:orange;">**Workflow**</mark>
+
+<mark style="color:orange;">**TODO**</mark>
+
+### <mark style="color:orange;">**Genesis**</mark>
+
+<mark style="color:orange;">**TODO**</mark>
+
+### <mark style="color:orange;">**Configuration**</mark>
+
+<mark style="color:orange;">**TODO**</mark>
+
+### <mark style="color:orange;">**Set of hostchains**</mark>
 
 
 
@@ -107,62 +123,3 @@ Our GitHub has a corresponding repository where developers can publish their wor
 
 Soon after the start of the project, we will publish instructions on writing a workflow and how to publish it to the repository
 
-### <mark style="color:red;">Workflow entry point at the code level</mark>
-
-For a better understanding of the inner workings, let's talk about how the work of the demon begins when you start it.
-
-Let's go straight through the code so that you understand.
-
-{% hint style="info" %}
-By the way, this can be considered part of our analysis of the code. Although here we will consider superficially, there will be more and more detailed in the future. Demo version can also be viewed [<mark style="color:red;">**here**</mark>](../codereview/)
-{% endhint %}
-
-The first step is to determine the full path and work with environment variables. The kernel also determines in which mode the daemon is running (testnet / mainnet)
-
-![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
-
-Next comes the definition of the main directories and the paths to them
-
-![](<../../.gitbook/assets/image (6) (1) (1).png>)
-
-The core then loads the configuration into the global object and creates service links and directories
-
-![](<../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
-
-Next, we skip the animations and move on to the important. Below you can see how the core imports 2 functions from the workflow module and calls them
-
-![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
-
-At the next stage, there is a definition of services that need to be launched at runtime. If there are none, nothing will happen
-
-![](<../../.gitbook/assets/image (5) (1) (1) (1).png>)
-
-![](<../../.gitbook/assets/image (3) (1) (1) (1) (1).png>)
-
-Finally, the previously imported second symbiote workflow function is called. We saved a link to it in the previous step. Workflow developers themselves decide what to run in this function. The function is run in asynchronous mode
-
-![](<../../.gitbook/assets/image (12) (1) (1) (1) (1) (1).png>)
-
-The last point, a server is created that creates a global variable for access from under the workflow code. After that, import() is called which registers the routes that are described by your workflow
-
-![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png>)
-
-### <mark style="color:red;">**Common components for symbiotes**</mark>
-
-As mentioned earlier, there are a number of common elements for symbiotes
-
-<mark style="color:yellow;">**Server**</mark>
-
-![](<../../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
-
-{% embed url="https://github.com/uNetworking/uWebSockets.js" %}
-
-We use this server implementation. This is a popular, low-level and fast server that has proven itself well in private projects and tests. You can do more research.
-
-<mark style="color:yellow;">**Global variables**</mark>
-
-Symbiotes can also use a number of global variables like CONFIG to get configuration data, PRIVATE\_KEYS mapping to access private keys, variables that point to directories, and so on.
-
-{% hint style="info" %}
-Full list will be available soon
-{% endhint %}
