@@ -10,7 +10,7 @@ coverY: 0
 Status - <mark style="color:purple;">**Planning and development**</mark>
 {% endhint %}
 
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 Due to the fact that KLYNTAR is a serious project that works with many networks and requires a high level of security outside the network, we came up with this release in order to introduce security mechanisms for your nodes, clusters, gateway APIs and more.
 

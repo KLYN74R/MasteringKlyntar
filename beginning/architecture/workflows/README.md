@@ -24,7 +24,7 @@ Flexibility allows you to set up all sorts of necessary interactions inside the 
 
 Use whatever you can think of )
 
-![](<../../../.gitbook/assets/image (5) (1) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 ### <mark style="color:red;">**Create your own workflow**</mark>
 

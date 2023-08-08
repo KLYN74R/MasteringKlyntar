@@ -12,7 +12,7 @@ coverY: 97
 
 KLYNTAR WVM is based on WebAssembly which allows you to write in any language, then compile it into <mark style="color:purple;">**.wasm**</mark> bytecode and run it in a secure environment.
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 WebAssembly is secure thanks to
 
@@ -31,7 +31,7 @@ Today, WebAssembly is becoming popular all over the world and in various areas -
 
 Below is a list of languages that can already be used to compile to WASM and work safely on KLYNTAR symbiotes
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://github.com/appcypher/awesome-wasm-langs" %}
 
@@ -57,7 +57,7 @@ File _<mark style="color:red;">**add.wat**</mark>_
 
 Next, we use the _<mark style="color:purple;">**wat2wasm**</mark>_ tool that comes with the _<mark style="color:red;">**wat-wasm**</mark>_ package.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 We compile (with the help of flags **-O3z** we compress as much as possible and carry out optimization)
 
@@ -96,9 +96,9 @@ Of course, it is difficult to write in pure WAT and therefore you will most like
 Since there are several tools for turning source code into WASM modules, we will try to use the most popular, documented and convenient ones in order to create the best working conditions for users and developers on KLY\
 
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><mark style="color:red;"><strong>Build WASM modules with Rust</strong></mark></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><mark style="color:red;"><strong>Build WASM modules with Rust</strong></mark></p></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><mark style="color:red;"><strong>Ofiicial WASM builder for Go</strong></mark></p></figcaption></figure>
 
