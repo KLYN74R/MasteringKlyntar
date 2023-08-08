@@ -1,5 +1,7 @@
 ---
 description: WASM-based amazing virtual machine by KLY
+cover: ../../../.gitbook/assets/photo_2020-05-10_21-01-55.jpg
+coverY: 97
 ---
 
 # 💣 KLY-WVM

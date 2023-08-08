@@ -1,5 +1,7 @@
 ---
 description: Get to know about KLY-WVM features
+cover: ../../../.gitbook/assets/photo_2020-05-10_21-02-31.jpg
+coverY: 0
 ---
 
 # 🪄 Features

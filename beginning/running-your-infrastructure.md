@@ -12,4 +12,4 @@ coverY: 0
 
 All the required instructions of how to become validator, staker, how to run node and other interesting answers for questions available in KLY Docs
 
-{% embed url="https://docs.klyntar.org/" %}
+{% embed url="https://docs.klyntar.org/deep-dive-into-kly/run-simple-kly-node" %}
