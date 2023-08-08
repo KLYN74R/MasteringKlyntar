@@ -11,11 +11,11 @@ coverY: -179.34439283344392
 
 The WVM uses a resource called _<mark style="color:red;">**gas**</mark>_. In general, the role of gas in VM - to provide a calculation of the cost of resources spent to perform a smart contract (its functions).
 
-Through the principle of mutation, each symbiote individually assigns itself KLYNTAR VM capabilities and a spreadsheet. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on.
+Through the principle of mutation, each symbiote individually assigns itself KLY-WVM capabilities and a special table with opcodes prices. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on.
 
 ## <mark style="color:red;">Measuring table</mark>
 
-Earlier we showed you a simple function in the <mark style="color:purple;">**add.wat**</mark> file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much power each opcode will consume.
+Earlier we showed you a simple function in the <mark style="color:purple;">**add.wat**</mark> file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much gas each opcode will consume.
 
 Here is an example **vmGasTable.json**.
 
@@ -118,7 +118,7 @@ Here is an example **vmGasTable.json**.
 
 The execution of smart contracts should be controlled - after all, we do not need our processor to burn out and the node to stop. It is necessary to take into account the fact that inside the bytecode an attacker will try to hide an infinite loop or otherwise affect the normal flow of work in some other way.
 
-In addition, it is necessary to control how many resources will be spent during the operation of the node. After all, running a function that simply returns the sum of a + b obviously requires less than a loop with 10,000 iterations.
+In addition, it is necessary to control how many resources will be spent during the operation of the node. After all, running a function that simply returns the sum of **a + b** obviously requires less than a loop with 10,000 iterations.
 
 In KLY-WVM, we will use the project from EWASM to measure the performance of smart contracts. Here is their GitHub
 
@@ -132,7 +132,7 @@ We need the _<mark style="color:red;">**wasm-metering**</mark>_ repository which
 
 At the output, we will get a bytecode similar in functionality, but now the execution of operations is controlled and the calculation of the resources expended is underway. Let's do a little research
 
-## <mark style="color:red;">We understand in more detail</mark>
+## <mark style="color:red;">Deep dive</mark>
 
 For this, an example is provided in the README of the project:
 
@@ -146,7 +146,7 @@ const meteredWasm = metering.meterWASM(wasm, {
   fieldStr:'burnGas'
 });
 
-const limit = 90000000;
+const gasLimit = 90000000;
 let gasBurned = 0;
 
 const mod = WebAssembly.Module(meteredWasm.module);
@@ -159,7 +159,7 @@ const instance = WebAssembly.Instance(mod, {
     
             gasBurned += gasAmount;
           
-            if (gasBurned > limit) throw new Error('No more gas for contract!');
+            if (gasBurned > gasLimit) throw new Error('No more gas for contract!');
         
         }
           
@@ -171,7 +171,7 @@ const result = instance.exports.fac(6);
 console.log(`Result:${result}, gas used ${gasUsed * 1e-4}`); // Result:720, gas used 0.4177
 ```
 
-This defines the global variable _<mark style="color:purple;">**gasBurned**</mark>_ and the gas limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**gasUse**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
+This defines the global variable _<mark style="color:purple;">**gasBurned**</mark>_ and the gas limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**burnGas**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
 
 If the limit is exceeded, the work stops and we catch exceptions. Although the EWASM documentation describes the principle of operation, we will still not only hear, but also see how it works.
 
@@ -258,7 +258,7 @@ let wasmMetered = await loader.instantiate(meteredWasm,{
 
         'burnGas': gasAmount => {
     
-            gasBurned += gas;
+            gasBurned += gasAmount;
           
             if (gasBurned > gasLimit) throw new Error('No more gas for contract!')
         

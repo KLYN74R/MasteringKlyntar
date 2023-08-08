@@ -12,7 +12,7 @@ coverY: -79
 
 Well, yes, what did you think?!) KLYNTAR will allow symbiotes to use the EVM, write their own additional functions before running the EVM logic, make free calls (sandbox calls), make calls between virtual machines (cross-VM-calls), use free oracles from KLYNTAR and use heavy-duty functionality. In addition, thanks to the post-quantum capabilities of KLYNTAR, this functionality will also be extrapolated to the EVM!
 
-## <mark style="color:red;">Separate repository for general updates and improvements</mark>
+## <mark style="color:red;">A separate repository for general updates and improvements</mark>
 
 KLYNTAR EVM (KLY-EVM) will be available for everyone to use and improve. Here is a link to the repository we are working on
 
@@ -40,7 +40,7 @@ A flexible configuration tree is available here in which you can configure the c
 
 ## <mark style="color:red;">Additionally</mark>
 
-We invite all projects that currently exist in EVM-compatible chains to launch on KLYNTAR as well. Here you will get the fastest, safest and the most decentralized version of EVM with advanced functionality, lower (or even zero) gas prices and many other features!
+We invite all projects that now exist in EVM-compatible chains to launch on KLYNTAR as well. Here you will get the fastest, safest and the most decentralized version of EVM with advanced functionality, lower (or even zero) gas prices and many other features!
 
 If you are a DEX project, oracle network, NFT marketplace or any other project - welcome!
 
