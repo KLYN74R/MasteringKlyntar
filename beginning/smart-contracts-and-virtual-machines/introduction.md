@@ -19,5 +19,5 @@ So, on KLY there will be such opportunities for creating decentralized logic:
 
 * <mark style="color:red;">**KLY-WVM**</mark> - WASM-based virtual machine with wide support of several languages, tons of extensions, cross-VM calls to KLY-EVM, etc.
 * <mark style="color:red;">**KLY-EVM**</mark> - EVM compatible VM with tons of features like sharding, storage-by-subscription model, fees in tokens, improved opcodes logic, cross-VM calls to KLY-WVM, etc.
-* <mark style="color:red;">**UVM**</mark> - Universal Virtual Machine. Absctract VM which allow you to create DApps 2.0, interact with network, call inbuild oracles system, create & use Docker containers, create codeless smart-contracts with real-world execution and much more!
+* <mark style="color:red;">**UVM**</mark> - Universal Virtual Machine. Abstract VM which allow you to create DApps 2.0, interact with network, call inbuilt oracles system, create & use Docker containers, create codeless smart-contracts with real-world execution and much more!
 
