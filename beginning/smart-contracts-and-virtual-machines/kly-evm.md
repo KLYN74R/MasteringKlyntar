@@ -1,5 +1,5 @@
 ---
-description: Definitely we should have support of the most well-known VM
+description: Definitely, we should have the support of the most well-known VM
 cover: https://wallpaperaccess.com/full/6223415.png
 coverY: -79
 ---
@@ -46,33 +46,45 @@ If you are a DEX project, oracle network, NFT marketplace or any other project -
 
 ## <mark style="color:red;">Features</mark>
 
-#### TODO
-
 #### Sharded(low-level sharding implementation)
+
+Since the native KLY chain (kNULL) is sharded, all shards will have the same chainID, despite the fact that individual accounts that are linked to a particular subchain are stored in the same database
 
 #### Post-quantum secured
 
+Leverage the power of post-quantum cryptography from the JavaScript environment using a magic address in the EVM(details [<mark style="color:red;">**here**</mark>](https://docs.klyntar.org/smart-contracts/kly-evm/magic-address))
+
 #### Free EVM calls
+
+KLY will allow you to call EVM for free - from WASM contracts or directly. It will be possible to build advanced schemes such as several free calls per day, free EVM calls depending on the target contract, free calls based on your role on KLY and so on.
 
 #### Storage-by-subscription model
 
+We plan to introduce a subscription system on the EVM storage so that only those who really benefit from it can use the decentralized benefits of KLY. Very interesting innovation
+
 #### External storage
+
+It will be possible to use external storage when working with smart contracts
 
 #### WASM compatible
 
-Call WASM from EVM and vice versa!
+Call WASM from EVM and vice versa! Write EVM logic using WASM and benefit from hybrid smart contracts
 
 #### In-build powerful oracles
 
-Call any internet API, use VRF and other powerful abilities of oracles
+Call any internet API, use VRF and other powerful abilities of oracles. It will also be possible to modify existing oracles to suit your needs.
 
 #### Interact with codeless smart-contracts by UVM
 
-Powerful feature of KLY
+Powerful feature of KLY. Your EVM contract using oracles will be able to track RWX contracts whose work is being done in the real world
 
 #### Pay fees in tokens
 
+Advanced KLY-EVM will allow you to pay transaction fees not with native KLY coins, but with various stablecoins, NFTs, asset-wrapped coins, and so on!
+
 #### Choose fee payer
+
+The recipient, a third-party smart contract, and so on will be able to pay commissions for you!
 
 ## <mark style="color:red;">Links</mark>
 
