@@ -1,5 +1,5 @@
 ---
-description: Some more interesting information about KLYNTAR WVM
+description: Some more interesting information about KLY-WVM
 cover: >-
   https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FphIHWZY173DpNXBbDjVg%2Fuploads%2FW5NkohHP4l8QMUcsdKLt%2F4439981.jpg?alt=media&token=ce1c3747-342d-431d-938d-340f85842c1e
 coverY: -179.34439283344392
@@ -9,25 +9,15 @@ coverY: -179.34439283344392
 
 ## <mark style="color:red;">Intro</mark>
 
-The KLYNTAR virtual machine is individual for each symbiote in terms of features and cost table. For its work, it uses a resource called _<mark style="color:red;">**gas**</mark>_. We decided to call the analogy with gas on Ethereum that way, but with the only difference that the concept of energy is more global.
-
-As we know from physics
-
-> Energy does not come from anywhere and does not go anywhere, but only passes from one state to another
-
-With this in mind, we continue to work on KLYNTAR VM. You can run a virtual machine for tokens, for the level of utility of your service, for the amount of unobtanium, and much more.
-
-However, in general, the essence of energy as a resource on KLYNTAR will be similar to the essence of gas in EVM machines - to provide a calculation of the cost of resources spent to perform a smart contract (its functions).
+The WVM uses a resource called _<mark style="color:red;">**gas**</mark>_. In general, the role of gas in VM - to provide a calculation of the cost of resources spent to perform a smart contract (its functions).
 
 Through the principle of mutation, each symbiote individually assigns itself KLYNTAR VM capabilities and a spreadsheet. You can even make smart contracts run for free, build your own tree of who is allowed to run which smart contract for free, and so on.
 
-
-
 ## <mark style="color:red;">Measuring table</mark>
 
-Earlier we showed you a simple function in the add.wat file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much power each opcode will consume.
+Earlier we showed you a simple function in the <mark style="color:purple;">**add.wat**</mark> file and there you could see that WebAssembly uses bytecodes. For the symbiote, it will be possible to configure the virtual machine in such a way as to independently adjust how much power each opcode will consume.
 
-Here is an example **vmEnergyTable.json**.
+Here is an example **vmGasTable.json**.
 
 ```
 {
@@ -130,7 +120,7 @@ The execution of smart contracts should be controlled - after all, we do not nee
 
 In addition, it is necessary to control how many resources will be spent during the operation of the node. After all, running a function that simply returns the sum of a + b obviously requires less than a loop with 10,000 iterations.
 
-In KLYNTAR VM, we will use the project from EWASM to measure the performance of smart contracts. Here is their GitHub
+In KLY-WVM, we will use the project from EWASM to measure the performance of smart contracts. Here is their GitHub
 
 ![](<../../../.gitbook/assets/image (8).png>)
 
@@ -147,41 +137,41 @@ At the output, we will get a bytecode similar in functionality, but now the exec
 For this, an example is provided in the README of the project:
 
 ```javascript
-const fs = require('fs')
-const metering = require('wasm-metering')
+const fs = require('fs');
+const metering = require('wasm-metering');
 
-const wasm = fs.readFileSync('fac.wasm')
+const wasm = fs.readFileSync('fac.wasm');
 const meteredWasm = metering.meterWASM(wasm, {
   meterType: 'i32',
   fieldStr:'energyUse'
-})
+});
 
-const limit = 90000000
-let energyUsed = 0
+const limit = 90000000;
+let gasBurned = 0;
 
-const mod = WebAssembly.Module(meteredWasm.module)
+const mod = WebAssembly.Module(meteredWasm.module);
 
 const instance = WebAssembly.Instance(mod, {
   
     'metering': {
 
-        'energyUse': energy => {
+        'burnGas': gasAmount => {
     
-            energyUsed += energy
+            gasBurned += gasAmount;
           
-            if (energyUsed > limit) throw new Error('No more energy for contract!')
+            if (gasBurned > limit) throw new Error('No more gas for contract!');
         
         }
           
     }
 
-})
+});
 
-const result = instance.exports.fac(6)
-console.log(`Result:${result}, energy used ${energyUsed * 1e-4}`) // Result:720, energy used 0.4177
+const result = instance.exports.fac(6);
+console.log(`Result:${result}, gas used ${gasUsed * 1e-4}`); // Result:720, gas used 0.4177
 ```
 
-This defines the global variable _<mark style="color:purple;">**energyUsed**</mark>_ and the energy limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**energyUse**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
+This defines the global variable _<mark style="color:purple;">**gasBurned**</mark>_ and the gas limit. As you can see from these lines, the module takes the bare bytecode and returns the modified bytecode where it injects a function reference from the outside (in this case, the _<mark style="color:purple;">**gasUse**</mark>_ function from the imported _<mark style="color:red;">**metering**</mark>_ object).
 
 If the limit is exceeded, the work stops and we catch exceptions. Although the EWASM documentation describes the principle of operation, we will still not only hear, but also see how it works.
 
@@ -193,7 +183,7 @@ By the way, here is a detailed and good description on GitHub
 
 ## <mark style="color:red;">Check the modified WASM module</mark>
 
-After changes are made to our module, let's write this set of bytes to a .wasm file, and then decompile to .wat from where we can look at the insides The original AssemblyScript module. Let's choose something more complex, for example a loop
+After changes are made to our module, let's write this set of bytes to a <mark style="color:purple;">**.wasm**</mark> file, and then decompile to <mark style="color:purple;">**.wat**</mark> from where we can look at the insides The original AssemblyScript module. Let's choose something more complex, for example a loop
 
 ```javascript
 export function testAdding(a: i32, b: i32 ): i32 {
@@ -222,14 +212,14 @@ asc test.ts -o test.wasm -O3z
 Write modified bytecode to file
 
 ```javascript
-import metering from 'wasm-metering'
-import fs from 'fs'
+import metering from 'wasm-metering';
+import fs from 'fs';
 
-const wasm = fs.readFileSync('test.wasm')
+const wasm = fs.readFileSync('test.wasm');
 
 const meteredWasm = metering.meterWASM(wasm,{
     meterType: 'i32',
-    fieldStr:'energyUse'
+    fieldStr:'burnGas'
 })
 
 fs.writeFileSync('metered.wasm',meteredWasm)
@@ -248,29 +238,29 @@ After injection =>  <Buffer 00 61 73 6d 01 00 00 00 01 0b 02 60 02 7f 7f 01 7f 6
 It can be seen that the size has increased and now it will be seen why. First, let's test the work
 
 ```javascript
-import loader from '@assemblyscript/loader'
-import metering from 'wasm-metering'
-import fs from 'fs'
+import loader from '@assemblyscript/loader';
+import metering from 'wasm-metering';
+import fs from 'fs';
 
-const wasm = fs.readFileSync('test.wasm')
+const wasm = fs.readFileSync('test.wasm');
 
 const meteredWasm = metering.meterWASM(wasm,{
     meterType: 'i32',
-    fieldStr:'energyUse'
-})
+    fieldStr:'burnGas'
+});
 
-const energyLimit = 2000000
-let energyUsed = 0
+const gasLimit = 2000000;
+let gasBurned = 0;
 
 let wasmMetered = await loader.instantiate(meteredWasm,{
     
     'metering': {
 
-        'energyUse': energy => {
+        'burnGas': gasAmount => {
     
-            energyUsed += energy
+            gasBurned += gas;
           
-            if (energyUsed > limit) throw new Error('No more energy for contract!')
+            if (gasBurned > gasLimit) throw new Error('No more gas for contract!')
         
         }
           
@@ -280,14 +270,14 @@ let wasmMetered = await loader.instantiate(meteredWasm,{
 
 const result = wasmMetered.exports.testAdding(8,20);
 
-console.log(`Result:${result}, energy used ${energyUsed * 1e-4}`);
+console.log(`Result:${result}, gas used ${gasBurned * 1e-4}`);
 ```
 
 ```
-Result:160, energy used 1.0672000000000001
+Result:160, gas used 1.0672000000000001
 ```
 
-Decompile to .wat format
+Decompile to <mark style="color:purple;">**.wat**</mark> format
 
 ```
 wasm2wat metered.wasm
@@ -299,7 +289,7 @@ And check the file
 (module
  (type $i32_=>_none (func (param i32)))
  (type $i32_i32_=>_i32 (func (param i32 i32) (result i32)))
- (import "metering" "energyUse" (func $fimport$0 (param i32)))
+ (import "metering" "burnGas" (func $fimport$0 (param i32)))
  (memory $0 0)
  (export "testAdding" (func $0))
  (export "memory" (memory $0))
@@ -349,10 +339,10 @@ And check the file
 We can see our function for measuring
 
 ```wasm
- (import "metering" "energyUse" (func $fimport$0 (param i32)))
+ (import "metering" "burnGas" (func $fimport$0 (param i32)))
 ```
 
-Thus, everywhere in the code where this function will be called, we will understand that there is an energy count. So you can see that the function is called when entering the main _<mark style="color:purple;">**testAdding**</mark>_ function, at the beginning of the loop, when returning from the function, and so on.
+Thus, everywhere in the code where this function will be called, we will understand that there is an gas count. So you can see that the function is called when entering the main _<mark style="color:purple;">**testAdding**</mark>_ function, at the beginning of the loop, when returning from the function, and so on.
 
 With the help of these tools you can play and test the mechanics of work yourself
 

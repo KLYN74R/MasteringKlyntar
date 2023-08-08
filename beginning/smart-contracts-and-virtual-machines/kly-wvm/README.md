@@ -8,9 +8,7 @@ description: WASM-based amazing virtual machine by KLY
 
 <figure><img src="../../../.gitbook/assets/KLY-WVM preview.gif" alt=""><figcaption></figcaption></figure>
 
-You will be able to write in any language that you know well and compile into WASM modules, as well as use advanced features such as requests to the network or external storage of big data and much more. You can use KLY-EVM for EVM compatibility and use powerful features and a solid codebase on Solidity for a quick start.
-
-KLYNTAR VM is based on WebAssembly which allows you to write in any language, then compile it into .wasm bytecode and run it in a secure environment.
+KLYNTAR WVM is based on WebAssembly which allows you to write in any language, then compile it into <mark style="color:purple;">**.wasm**</mark> bytecode and run it in a secure environment.
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +19,9 @@ WebAssembly is secure thanks to
 * Lack of access to the random number generator
 * Other stuff
 
-Thus, it is possible to locally (in your development environment, if you are a developer) create compressed and compiled .wasm files, and then publish them to the KLYNTAR network for execution
+Thus, it is possible to locally (in your development environment, if you are a developer) create compressed and compiled .wasm files, and then publish them to the KLYNTAR network for execution.
+
+You will be able to write in any language that you know well and compile into WASM modules, as well as use advanced features such as requests to the network or external storage of big data and much more.
 
 ## <mark style="color:red;">More about WebAssembly</mark>
 
@@ -87,26 +87,18 @@ node test.js 11 33
 11+33=44
 ```
 
-This was a simple use case and you learned a little more about its format by looking at the code of the .wat file.
+This was a simple use case and you learned a little more about its format by looking at the code of the <mark style="color:purple;">**.wat**</mark> file.
 
-Of course, it is difficult to write in pure WAT and therefore you will most likely use high-level languages such as AssemblyScript (an add-on on TypeScript), Rust, C ++, Python and others.
+Of course, it is difficult to write in pure WAT and therefore you will most likely use high-level languages such as AssemblyScript (an add-on on TypeScript), Rust, C ++, Go and others.
 
-We will just start using AssemblyScript as the first entry point for .wasm smart contracts on KLYNTAR.
-
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-{% embed url="https://github.com/AssemblyScript/assemblyscript" %}
-
-TODO\
+Since there are several tools for turning source code into WASM modules, we will try to use the most popular, documented and convenient ones in order to create the best working conditions for users and developers on KLY\
 
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p><mark style="color:red;"><strong>Build WASM modules with Rust</strong></mark></p></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p><mark style="color:red;"><strong>Ofiicial WASM builder for Go</strong></mark></p></figcaption></figure>
 
 ## <mark style="color:red;">Links</mark>
 

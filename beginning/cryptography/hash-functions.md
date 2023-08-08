@@ -1,5 +1,5 @@
 ---
-description: Blake3,SHA-256 and some more explanations
+description: BLAKE3,SHA-256 and some more explanations
 cover: ../../.gitbook/assets/raijin-art-cyberpunk-girl-2-4khd.jpg
 coverY: 267.6321243523316
 ---
