@@ -49,3 +49,7 @@ Advanced KLY-EVM will allow you to pay transaction fees not with native KLY coin
 ## <mark style="color:red;">Choose fee payer</mark>
 
 The recipient, a third-party smart contract, and so on will be able to pay commissions for you!
+
+## <mark style="color:red;">**Many langs support**</mark>
+
+We plan to enable write and create in many languages that support compiling to WASM
