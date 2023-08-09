@@ -63,7 +63,7 @@ Find out more about other upcoming projects and projects already in development
 
 Learn more about how we decided to do the initial giveaway. No, this is not just a pre-sale in several stages. We guarantee a real decentralized distribution with the participation of other chains, Bitcoin & Ethereum miners, stakers of various projects, and so on, and the distribution itself will take place according to some quantum paradox - we will literally be able to influence the past. Recommended for reading at least for general acquaintance + understanding of who will become the first holders of our resources
 
-### [<mark style="color:red;">Releases</mark>](releases.md)
+### [<mark style="color:red;">Releases</mark>](broken-reference)
 
 As part of the roadmap, of course, important updates are planned. We decided to give some information about the future releases & updates. Each of the releases represents a significant milestone in the development of the capabilities of KLYNTAR and the rest of the chains. Some of them will already be included in the first release of GammaBurst, some we have yet to implement
 
