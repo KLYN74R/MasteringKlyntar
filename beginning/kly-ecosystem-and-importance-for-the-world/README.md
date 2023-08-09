@@ -1,10 +1,10 @@
 ---
 description: Find out what other projects will rely on KLYNTAR
-cover: ../.gitbook/assets/tumblr_ob8ncffffR1rldv4go1_1280.webp
+cover: ../../.gitbook/assets/tumblr_ob8ncffffR1rldv4go1_1280.webp
 coverY: -52.72885789014821
 ---
 
-# 👍 KLY ecosystem(coming soon)
+# 👍 KLY ecosystem and importance for the world
 
 ### <mark style="color:red;">**A little information**</mark>
 
@@ -22,4 +22,4 @@ Keep for updates. This and other pages will be updated soon and will be suppleme
 
 Currently, we built the minmap of future ecosystem. There are more 20+ products that will be open-source, mutable(extendable by everyone), decentralized. Moreover, we're not talking about ordinary "virtual" products. Thanks to ability of smart-contracts of real world(RWX contracts) we'll launch 2.0 versions of major of products.
 
-<figure><img src="../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>

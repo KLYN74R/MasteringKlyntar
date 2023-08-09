@@ -55,7 +55,7 @@ Dive into the ecosystem of KLYNTAR plugins. We can say that the essence of plugi
 
 Here you will learn how to properly use the repository with best practices when building your own infrastructure, configuring plugins, their combination, and so on
 
-### [<mark style="color:red;">KLY ecosystem</mark>](kly-ecosystem-and-importance-for-the-world.md)
+### [<mark style="color:red;">KLY ecosystem</mark>](kly-ecosystem-and-importance-for-the-world/)
 
 Find out more about other upcoming projects and projects already in development
 
