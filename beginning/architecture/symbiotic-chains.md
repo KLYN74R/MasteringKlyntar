@@ -350,7 +350,14 @@ Here is an example configs.json file for dev\_tachyon workflow
 
 ### <mark style="color:orange;">**Set of hostchains**</mark>
 
-Finally,
+Finally, each symbiote has its own set of hostchains that it will interact with for long-term security.
+
+This may include:
+
+1. Creating pre-commits to many host chains to provide maximum and long-term confidence in the finalization of the state
+2. Ensure network fault tolerance through the use of host chains. For example, to conduct part of the transactions through the Polygon or Solana blockchains if the native KLY chain or another symbiote is unavailable for one reason or another.
+
+Since today we have access to about 50 normal and reliable blockchains from the top 100 CoinMarketCap, we can assume that they will become the basis of the KLY host chains. Since interacting with all of them is irrational and expensive, each symbiote chooses a subset of host chains with which to interact. And already within Hivemind, other symbiotes in the ecosystem will transfer your interactions with your hostchain set to their hostchain set and thus extrapolate security to all hostchain chains
 
 ## <mark style="color:red;">Modularity</mark>
 
@@ -393,38 +400,3 @@ Or, KLY-WVM - WASM-based virtual machine by KLY with tons of features
 Or, separate repository for Savitar plugin
 
 {% embed url="https://github.com/KLYN74R/Savitar" %}
-
-
-
-_<mark style="color:red;">**dev\_tachyon**</mark>_ will be lightning-fast, asynchronous, with multi-million TPS, maximally parallel BFT blockchain using staking (including staking with unobtanium), BLS multi-signatures and other interesting features
-
-{% hint style="info" %}
-Currently, we're working on all of them
-{% endhint %}
-
-
-
-<mark style="color:orange;">**Connectors**</mark>
-
-The second important component of symbiotes are connectors - modules for working with hostchains. You'll get to know them in more detail in the [_<mark style="color:yellow;">**Connectors**</mark>_](../interactions-with-hostchains/connectors.md) section, but for now let's just say that they define how your symbiote interacts with hostchains.
-
-Connector developers, for example, create an interface for you, providing functions for working with a certain type of smart contracts on the hostchain that supports them, or other methods of interaction.
-
-Workflow developers then take these connectors and insert them into their code at the right places. For example, send a state commit to Ethereum and Tron where there will be a multi-signature of validators as a payload, or generate a zero-knowledge proof and send it to the EVM for some contract of your symbiote.
-
-### <mark style="color:red;">So what's new you can create?</mark>
-
-This is the power of modular workflows - you can come up with anything you want. For example, one symbiote will be launched by a group of enthusiasts where there will be BFT, and the conditional CoinBase will launch its own symbiote where it will represent the main validator.
-
-It is possible to build a hybrid scheme where there will be both a centralizing factor and conditional "votes" of the group of validators of this symbiote. You can move part of the logic to the hostchain. So, for example, your symbiote can be verified through the contracts of some EVM blockchain - following the example of a Polygon-Ethereum pair or other L2 networks.
-
-Build anything)
-
-### <mark style="color:red;">Repository with workflows</mark>
-
-Our GitHub has a corresponding repository where developers can publish their workflows
-
-{% embed url="https://github.com/KLYN74R/Workflows" %}
-
-Soon after the start of the project, we will publish instructions on writing a workflow and how to publish it to the repository
-
