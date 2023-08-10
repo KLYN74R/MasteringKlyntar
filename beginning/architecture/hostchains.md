@@ -30,13 +30,91 @@ Therefore, if you make a checkpoint for example in 10 blockchains, then you can 
 
 In fact, imagine if you want to run a node to work on some of the symbiotes in the KLY ecosystem, but you can’t figure out which of the states A or B is valid. To do this, you can look into the blockchains of Bitcoin, Solana, Avalanche, Aptos and others where you will see that the state of a certain symbiote is still A, not B.
 
-A little later, it was decided to implement **hivemind** - a mechanism for receiving checkpoints from other symbiotic chains in order to include it in your own checkpoint, and then in your set of hostchains. This allows you to pay less(after all, transactions on host chains cost money), but at the same time create a greater level of security.
+A little later, it was decided to implement **hivemind** - a mechanism for receiving checkpoints from other symbiotic chains in order to include it in your own checkpoint, and then in your set of hostchains. This allows you to pay less(after all, transactions on hostchains cost money), but at the same time create a greater level of security.
 
 <figure><img src="../../.gitbook/assets/HostchainsImage3 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## <mark style="color:red;">Security budget and how hostchains will help us</mark>
 
-TODO
+Classic blockchains that work on PoS or BFT modifications assume a standard security algorithm (which may vary depending on the project):
+
+1. Validators place bets and freeze some value of the project currency
+2. After a certain period of time (from the next era, for example), they can take part in creating blocks or voting for a certain fork (again, in different blockchains in different ways)
+3. If the validator wants to stop participating, then he can unstake and after a while his stake will be unfrozen, and he himself will lose his place in the quorum
+
+The frozen stakes of the validators are used as fraud protection and guarantee the network and participants that the validator will not vote for 2 versions of the chain (so that there are no forks), will not perform malicious actions against the network, and so on. Typically, the security threshold is N/3, meaning as long as less than N/3 validators are malicious or faulty, then the network will be secure.
+
+{% hint style="info" %}
+The total value of the assets that protect the chain at a given time _**T**_ in the period _**P**_(epoch) is called the _<mark style="color:red;">**security budget**</mark>_
+{% endhint %}
+
+The larger the security budget, the more expensive it is for the attacker to attack the network, because you need to buy more seats in the quorum to attack the chain.
+
+The process of interacting with hostchains described in the previous chapters is good for long distances. For example, we commit the state once a day, and the quorum changes every day after the checkpoint, using its hash as a pseudo-random seed to select a new quorum _**Q**_ from the total number of validators _**V**_ where _**Q\<V**_. So how is the network protected between checkpoints?
+
+All this time, what is described at the beginning of this chapter is happening - the network (native KLY chain) is protected by the stakes of the participants in the current quorum. Let's visualize this process
+
+<figure><img src="../../.gitbook/assets/HostchainsImage4.png" alt=""><figcaption></figcaption></figure>
+
+And now let's move on to something interesting. Imagine that the _<mark style="color:purple;">**Q1**</mark>_ quorum security budget is 1 million KLY coins. As long as less than a million has been spent within the current epoch (from checkpoint to checkpoint), the network will behave 100% honestly, because from the point of view of the attacker it will be irrational to carry out an attack if the risk of losses is greater.
+
+For example, let's imagine that the past epoch ended on block _**X**_ and this block was added to the hostchains as part of a checkpoint. Now consider a window of 100 blocks within a new epoch.
+
+Suppose that in blocks _**X+1**_ , _**X+2**_ ..., _**X+100**_, users receive 27 000 KLY, 50 KLY and 100 KLY, and so on. Suppose that the total amount of funds sent in the interval _<mark style="color:red;">**X+1**</mark>_ <mark style="color:red;"></mark><mark style="color:red;">-</mark> <mark style="color:red;"></mark>_<mark style="color:red;">**X+100**</mark>_ is 500,000 KLY. This is half the security budget of 1 million. So, recipients of transactions on this interval can be sure that there will be no fork up to this height.
+
+<figure><img src="../../.gitbook/assets/HostChainsImage5.png" alt=""><figcaption></figcaption></figure>
+
+Otherwise, if quorum _<mark style="color:purple;">**Q1**</mark>_ decides to fork the network, then they can be slashed, take 1 million of them and return to affected users.
+
+But what happens if the security budget is spent? Let's say that before block _**X+100**_, senders sent **999,999 KLY** in total (which is still less than 1M), but in block **X+101**, a fork attack becomes possible:
+
+
+
+1\. You receive 100 KLY in some block X+101 with hash H\_101 and you want to get proof of finalization from the network (2 step agreement from 2/3N+1 quorum participants) to make sure that the funds reach you
+
+2\. Some attacker manages to bribe more than N/3 members of the quorum (the minimum required threshold). Suppose he made a transaction for 2M KLY in block X+101. Let it be the purchase of some expensive goods on the Internet
+
+
+
+**This is what happens next:**
+
+The attacker promises N/3 networks a reward of _**1M+10,000 KLY**_ (not everyone) for N/3 voting for 2 different block versions at height _**X+101**_. Because _**1M < 1M + 10,000 KLY**_, N/3 quorum members agree. If at _**X+101**_ a block is created by an attacker, then he creates 2 blocks:
+
+
+
+1\. Block X+101 with hash H101\_1 and transactions where it sends 1M + 10,000 KLY to validators
+
+2\. Block X + 101 with hash H101\_2 where there will be your transaction for 100 KLY that you expect and a transaction where the attacker buys something for 2M
+
+
+
+Then 2 block versions are sent to quorum members for signature.
+
+If N=10 and decision threshold 7(2/3N+1) then
+
+1\. 3 honest validators will receive a block with hash H101\_1&#x20;
+
+2\. 3 honest validators will receive a block with hash H101\_2
+
+3\. Malicious 4 validators receive 2 blocks and sign 2 versions
+
+As a result, we have a fork where there are 7 votes for 2 different versions of the chain. If you receive proof of finalization on your block at this moment, you will consider that you received 100 KLY. Similarly, the seller of the goods will think that he received his 2M KLY from the attacker.
+
+\<IMAGE>
+
+However, the network will later decide to choose another fork - the one where the attacker sends 1M + 10,000 KLY to the malicious validators. Even if you complain about them, you will still receive a maximum of 1M KLY which is frozen as a bet.
+
+<mark style="color:red;">**Attackers (leader) will receive:**</mark>
+
+_Goods for 2M - 1M 10 000 KLY(for validators-attackers) = 900K KLY profit_
+
+<mark style="color:red;">**And N/3 malicious validators) will receive:**</mark>
+
+_1M+10000 KLY(from attacker-leader) - 1M(slashed) = 10 000 KLY profit_
+
+
+
+So, when the security budget is not enough, you can turn to host chains. As part of our situation, you see that at block _**X+101**_ your transaction will no longer be protected by the security budget, so you should commit to the host chains. You take the block finalization proof _**X+101**_ with the hash H101\_2 and send it to the host chains. When you see that there are no conflicts in 2/3N+1 hostchains and your block is uniquely defined as block X+101, you can be 1000000000% sure that this is forever and there will be no other fork.
 
 ## <mark style="color:red;">**PoW and PoS hostchains. Advantages and disadvantages**</mark>
 
