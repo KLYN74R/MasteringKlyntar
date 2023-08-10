@@ -30,7 +30,13 @@ Therefore, if you make a checkpoint for example in 10 blockchains, then you can 
 
 In fact, imagine if you want to run a node to work on some of the symbiotes in the KLY ecosystem, but you can’t figure out which of the states A or B is valid. To do this, you can look into the blockchains of Bitcoin, Solana, Avalanche, Aptos and others where you will see that the state of a certain symbiote is still A, not B.
 
+A little later, it was decided to implement **hivemind** - a mechanism for receiving checkpoints from other symbiotic chains in order to include it in your own checkpoint, and then in your set of hostchains. This allows you to pay less(after all, transactions on host chains cost money), but at the same time create a greater level of security.
 
+<figure><img src="../../.gitbook/assets/HostchainsImage3 (1).png" alt=""><figcaption></figcaption></figure>
+
+## <mark style="color:red;">Security budget and how hostchains will help us</mark>
+
+TODO
 
 ## <mark style="color:red;">**PoW and PoS hostchains. Advantages and disadvantages**</mark>
 
