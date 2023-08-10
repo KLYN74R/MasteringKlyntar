@@ -6,11 +6,33 @@ coverY: 0
 
 # 👨👩👦 Hostchains
 
-### <mark style="color:red;">What is considered a hostchain?</mark>
+## <mark style="color:red;">What is considered a hostchain?</mark>
 
-A _<mark style="color:purple;">**hostchain**</mark>_ is a chain (blockchain) whose security symbiotes rely on. It can be said that this is a carrier chain (host). Depending on the hostchain and its capabilities (consensus, the presence of smart contracts, security), symbiotes enter into a variety of relationships with them - from simple storage of commits (roughly speaking, the height + hash of the symbiote) to interactive through smart contracts, following the logic of which it will be impossible to crank malicious actions. The best hostchains are those that have smart contracts. This means that you can write an advanced connector for them that will use this smart contract and execute the necessary logic. However, since any chain is public and open (permissionless), you can use its SDK to build connectors of any complexity and functionality.
+A **hostchain** is a chain (blockchain) whose security symbiotes rely on. It can be said that this is a carrier chain (host). Depending on the hostchain and its capabilities symbiotes enter into a variety of relationships with them - from simple commits of state to advance usage like protection from unavailability, transactions over hostchains(when you interact with Solana or Tron, for example, to call some contract on symbiotic chain) and so on
 
-### <mark style="color:red;">**PoW and PoS hostchains. Advantages and disadvantages**</mark>
+Hostchains in KLY will be various reliable networks such as Bitcoin, Ethereum, Solana, Near, TON, Cardano, BNB, XRP, and so on. It is on their general decentralization, fault tolerance and security that the symbiotes in the KLY ecosystem will rely
+
+## <mark style="color:red;">Standard process for interacting with hostchains</mark>
+
+This was originally planned - each of the symbiotic chains just makes a checkpoint of its state into the hostchains from time to time for the purpose of long-term security. The idea was to provide the only possible state of the symbiote in the long run.
+
+{% hint style="info" %}
+The maximum security threshold in the industry is the total resources that need to be spent on an attack on all blockchains such as PoW power to attack Bitcoin, Ethereum Classic, Monero, etc., the cost of stakes in order to become a validator on Ethereum, Solana or Avalanche, etc.
+{% endhint %}
+
+Therefore, if you make a checkpoint for example in 10 blockchains, then you can be sure that even if in the future one of them ceases to exist or undergoes a state rollback attack or ceases to be decentralized enough, the state of the symbiote will still remain safe. This is the perfect defense against long-range attacks, Sybil attacks (because you have many decentralized data sources in the form of nodes of other blockchains that have their own economic interest in maintaining the integrity of their hostchain) and so on.
+
+<figure><img src="../../.gitbook/assets/HostchainsImage1.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/HostchainsImage2 (1).png" alt=""><figcaption></figcaption></figure>
+
+In fact, imagine if you want to run a node to work on some of the symbiotes in the KLY ecosystem, but you can’t figure out which of the states A or B is valid. To do this, you can look into the blockchains of Bitcoin, Solana, Avalanche, Aptos and others where you will see that the state of a certain symbiote is still A, not B.
+
+
+
+## <mark style="color:red;">**PoW and PoS hostchains. Advantages and disadvantages**</mark>
 
 We have moved on to an important topic. Since all hostchains are different, they all use different consensus algorithms. This is important for KLYNTAR, as it is about what is considered a finalization, whether this hostchain can be generally trusted, and so on. The dispute between PoS and PoW supporters has not faded away for a very long time, and each of them is right in its own way. But here we will rather not talk about classical PoW and PoS, but about two large groups of algorithms:
 
@@ -58,17 +80,17 @@ During the entire period between commits to the hostchains, the stakes of the si
 
 In our example, it turns out that those who have frozen rates will not be able to unfreeze them for 1 day. As soon as the time for a new interaction session comes, the set of validators can be changed. You, if necessary, unfreeze your bet and leave with the interest earned, and other signers can be appointed in your place.
 
-### <mark style="color:red;">Also an important appeal to the miners of current PoW projects</mark>
+## <mark style="color:red;">Also an important appeal to the miners of current PoW projects</mark>
 
 Do not rush to throw away the equipment. KLYNTAR will provide you with new opportunities️ 🧙‍♂️
 
 ![](<../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
-### <mark style="color:red;">Hivemind</mark>
+## <mark style="color:red;">Hivemind</mark>
 
 Hivemind is the future of KLYNTAR's hostchain enhancements. In short, the symbiotes will exchange data with each other and ensure their safety and the safety of other symbiotes by measuring the block generation time in different hostchains (for the fastest possible finalization). Also, it will favorably affect the fact that interactions with hostchains will become cheaper and faster.
 
-### <mark style="color:red;">Methods of interaction with hostchains</mark>
+## <mark style="color:red;">Methods of interaction with hostchains</mark>
 
 Symbiotes interact with hostchains using connectors or APIs. Such interaction occurs both at the workflow level and at the service level (KLYNTAR Services).
 
