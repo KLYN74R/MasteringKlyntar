@@ -111,7 +111,7 @@ According to the latest reports, the NIST candidate SIKE has [_<mark style="colo
 
 Each of them is either a current NIST candidate (Kyber) or alternatives (super isogeny algorithms).
 
-We use the CloufFlare CIRCL implementation as addons from Go to Node.js. Also, since the full path is <mark style="color:purple;">**Go**</mark>** => **<mark style="color:purple;">**C**</mark>** => **<mark style="color:purple;">**Node.js**</mark>, you can use our repository with a simple API in any language
+We use the CloufFlare CIRCL implementation. Also, since the full path is <mark style="color:purple;">**Go**</mark>** => **<mark style="color:purple;">**WASM**</mark>** => **<mark style="color:purple;">**Node.js**</mark>, you can use our repository with a simple API in any language
 
 {% embed url="https://github.com/KLYN74R/Cryptoland" %}
 
