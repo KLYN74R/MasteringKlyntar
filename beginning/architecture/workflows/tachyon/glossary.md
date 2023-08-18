@@ -24,7 +24,7 @@ TODO
 
 
 
-## Epoch Finalization Proof - EFP
+## EFP - Epoch Finalization Proof
 
 TODO
 
