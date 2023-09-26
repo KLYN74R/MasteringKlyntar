@@ -8,6 +8,10 @@ TODO
 
 TODO
 
+## Checkpoint Full ID / Epoch Full ID
+
+TODO
+
 ## Commitment
 
 TODO
